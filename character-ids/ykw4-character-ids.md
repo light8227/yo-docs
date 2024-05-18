@@ -4,11 +4,7 @@ layout: default
 parent: Character IDs
 ---
 
-# YKW4 Yo-kai IDs
-
-The list is in alphabetical order.
-
-
+# YKW4 Character IDs
 
  | Folder ID | JP Name | EN Name | Notes | ParamID |
  | --------- | ------- | ------- | ----- | ------- |
