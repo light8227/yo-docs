@@ -1,5 +1,5 @@
 ---
-title: YKW4 Yo-kai IDs
+title: YKW4 Character IDs
 layout: default
 parent: Character IDs
 ---
