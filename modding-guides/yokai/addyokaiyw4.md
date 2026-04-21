@@ -93,7 +93,7 @@ Once you're done, make sure to update the ChildCounts of each struct by clicking
 **Elements:** 1 - Fire, 2 - Water, 3 - Lightning, 4 - Earth, 5 - Ice, 6 - Wind, 7 - Light, 8 - Dark
 
 **Speed:** 0 - Normal, 2 - Slow, 3 - Fast
-# addmenber Edits
+# addmenber_text: TEXT_INFO
 Duplicate the entry of the Yo-kai you're recoloring.
 
 In the TextID section, put your new ParamID. They're the same.
