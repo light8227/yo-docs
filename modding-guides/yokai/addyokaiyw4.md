@@ -30,7 +30,7 @@ Open the file in CfgBinEditor after downloading the latest MyTags.
 
 Duplicate the entry of the Yo-kai you're recoloring, in this case, Present Noko, and change the string for their name.
 
-You'll want to make a new NounID here, which you can generate at https://emn178.github.io/online-tools/crc/. This NounID is just a CRC hash of 'name_<ModelName>'. So, for this guide, I'll be hashing 'name_y02210010'.
+You'll want to make a new NounID here, which you can generate at https://emn178.github.io/online-tools/crc/. This NounID is just a CRC hash of 'name_[ModelName]'. So, for this guide, I'll be hashing 'name_y02210010'.
 
 # chara_base: CHARA_BASE_INFO_LIST
 Open the file in CfgBinEditor after downloading the latest MyTags.
@@ -43,7 +43,7 @@ Next, make sure that the ModelID is set to your model name, which, for this guid
 
 In the NounID section, make sure it's set to the NounID you made previously for chara_text.
 
-You'll want to make a new CharaModelID. CharaModelIDs are just a CRC hash of 'mdl_<ModelName>'. So, for this guide, I'll be hashing 'mdl_y02210010'.
+You'll want to make a new CharaModelID. CharaModelIDs are just a CRC hash of 'mdl_[ModelName]'. So, for this guide, I'll be hashing 'mdl_y02210010'.
 
 In the CharaMotionID sections, set it to your new BaseID. They're the same.
 
@@ -65,7 +65,7 @@ Once you're done, make sure to update the ChildCounts of each struct by clicking
 # chara_param: CHARA_PARAM_INFO_LIST
 Duplicate the entry of the Yo-kai you're recoloring.
 
-Now, you'll need to create a new ParamID. ParamIDs are a CRC hash of 'para_<ModelName>'. So, for this guide, I'll be hashing 'para_y02210010'.
+Now, you'll need to create a new ParamID. ParamIDs are a CRC hash of 'para_[ModelName]'. So, for this guide, I'll be hashing 'para_y02210010'.
 
 Use the BaseID you made earlier for the BaseID section.
 
