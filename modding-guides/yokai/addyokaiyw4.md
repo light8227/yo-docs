@@ -79,6 +79,10 @@ CharaType should be set to 'yokai' already. If it isn't, change it.
 
 TransformsInto is only necessary if your Yo-kai is a Shadowside Yo-kai. If this is the case, put the ParamID of what they transform or revert into. Otherwise, leave it as 0 for them to undergo Great Change.
 
+**Elements:** 1 - Fire, 2 - Water, 3 - Lightning, 4 - Earth, 5 - Ice, 6 - Wind, 7 - Light, 8 - Dark
+
+**Speed:** 0 - Normal, 2 - Slow, 3 - Fast
+
 # chara_param: YOKAI_PARAM_INFO_LIST
 Duplicate the entry of the Yo-kai you're recoloring.
 
@@ -90,9 +94,6 @@ The XMoveUnlock variables refer to the level at which the Yo-kai will unlock tha
 
 Once you're done, make sure to update the ChildCounts of each struct by clicking the dropdown.
 
-**Elements:** 1 - Fire, 2 - Water, 3 - Lightning, 4 - Earth, 5 - Ice, 6 - Wind, 7 - Light, 8 - Dark
-
-**Speed:** 0 - Normal, 2 - Slow, 3 - Fast
 # addmenber_text: TEXT_INFO
 Duplicate the entry of the Yo-kai you're recoloring.
 
