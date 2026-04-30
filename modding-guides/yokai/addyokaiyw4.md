@@ -65,7 +65,7 @@ Once you're done, make sure to update the ChildCounts of each struct by clicking
 # chara_param: CHARA_PARAM_INFO_LIST
 Duplicate the entry of the Yo-kai you're recoloring.
 
-Now, you'll need to create a new ParamID. ParamIDs are a CRC hash of .
+Now, you'll need to create a new ParamID. ParamIDs are a CRC hash of 'para_<ModelName>'. So, for this guide, I'll be hashing 'para_y02210010'.
 
 Use the BaseID you made earlier for the BaseID section.
 
