@@ -30,7 +30,7 @@ Open the file in CfgBinEditor after downloading the latest MyTags.
 
 Duplicate the entry of the Yo-kai you're recoloring, in this case, Present Noko, and change the string for their name.
 
-You'll want to make a new NounID here, which you can generate at https://emn178.github.io/online-tools/crc/. This NounID is just a CRC hash of TODO.
+You'll want to make a new NounID here, which you can generate at https://emn178.github.io/online-tools/crc/. This NounID is just a CRC hash of 'name_<ModelName>'. So, for this guide, I'll be hashing 'name_y02210010'.
 
 # chara_base: CHARA_BASE_INFO_LIST
 Open the file in CfgBinEditor after downloading the latest MyTags.
