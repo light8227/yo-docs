@@ -5,7 +5,7 @@ grand_parent: Modding Guides
 parent: General Modding
 ---
 
-# Editing the Title Screen!
+# Editing the Title Screen
 **Original guide by @komazuraaa on discord. Slightly modified by @n123original. Tested with YW1 EUR in English.**
 
 * Open your FA file in Kuriimu2 and navigate to `data/menu`.
