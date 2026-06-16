@@ -1,10 +1,10 @@
 ---
-title: How to add wild Yokai spawns
+title: Adding Yo-kai Spawns
 layout: default
 grand_parent: Modding Guides
 parent: Yo-kai and Battles
 ---
-# Adding Yo-kai spawns (Dungeon and Search Points)
+# Adding Yo-kai Spawns (Dungeon and Search Points)
 **Guide by Light8227**
 
 This guide will show you how to add spawns for a Yo-kai in YW2. The process is slightly different for dungeons and search points, but there are a lot of same points. Dungeons will be covered first.
