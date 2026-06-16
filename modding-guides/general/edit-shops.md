@@ -1,11 +1,11 @@
 ---
-title: Shops (YW2)
+title: Editing YW2 Shops
 layout: default
 grand_parent: Modding Guides
 parent: General Modding
 ---
 
-# Editing Shops (YW2)
+# Editing Shops in YO-KAI WATCH 2
 > This tutorial is made for YW2, params *will* change between games so this won't accurately apply to other games.
 
 First, we need to find the shop you want to edit, navigate over to `data/res/shop` and open the correct `cfg.bin`. 
