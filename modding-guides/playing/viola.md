@@ -1,11 +1,11 @@
 ---
-title: Playing Viola Mods (YW4/Gakuen)
+title: Playing Viola Mods
 layout: default
 grand_parent: Modding Guides
 parent: Playing Mods
 ---
 
-# Playing Viola Mods (YO-KAI WATCH 4/Gakuen)
+# Playing Viola Mods
 
 ### Prerequisites
 
