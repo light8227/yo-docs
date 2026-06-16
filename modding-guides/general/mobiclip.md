@@ -1,12 +1,12 @@
 ---
-title: How to Convert MP4 to Moflex
+title: Convert MP4 to Moflex
 layout: default
 grand_parent: Modding Guides
 parent: General Modding
 ---
 
 
-# How to Convert MP4 to Moflex
+# Converting MP4 to Moflex
 > **Original guide by @komazuraaa on discord. Modified by @n123original. Make sure your video is exported to 480p before doing this!!!**
 
 * First, get Mobiclip Multicore Encoder.
