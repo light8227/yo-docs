@@ -1,11 +1,11 @@
 ---
-title: How to Import Models to Yo-kai Watch (VIDEO TUTORIAL)
+title: Porting YWW Models to YW2 (VIDEO TUTORIAL)
 layout: default
 parent: Models and Animations
 grand_parent: Modding Guides
 
 ---
-# How to Import Models to Yo-kai Watch (VIDEO TUTORIAL)
+# Porting YO-KAI WATCH WORLD Models to YO-KAI WATCH 2 (VIDEO TUTORIAL)
 
 # **NOTE: EXPORT TO XC INSTEAD OF PRM**
 
