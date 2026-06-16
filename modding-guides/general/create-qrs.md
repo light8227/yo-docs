@@ -1,5 +1,5 @@
 ---
-title: Adding Custom QR Codes!!
+title: Adding Custom QR Codes
 layout: default
 grand_parent: Modding Guides
 parent: General Modding
