@@ -1,12 +1,12 @@
 ---
-title: Adding Yo-kai (YW3) (CfgBinEditor method)
+title: Adding Yo-kai to YW3
 layout: default
 grand_parent: Modding Guides
-parent: Yo-kai and battles
+parent: Yo-kai and Battles
 ---
 
 
-# Adding Yo-kai (YW3) (CfgBinEditor method)
+# Adding Yo-kai to YO-KAI WATCH 3
 **original guide by wadi on discord**
 
 
