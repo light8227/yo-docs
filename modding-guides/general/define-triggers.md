@@ -44,9 +44,9 @@ Now that your trigger is defined, you now need to attach code that will execute 
   * If you defined a global trigger, decompile `seq/common_trigger*.xq`.
   * If you defined a map trigger, decompile `data/res/map/<MAP>/<MAP>.pck|<MAP>.xq`.
     * The `*` refers to versioning, so instead of just `common_trigger.xq` you might also see files such as `common_trigger_0.03c.xq`. Pick the one with the highest version.
-* Next, define a function called `RunCmd_Map<FunctionCallback>`. Take for instance, if you had a `FunctionCallback` of `100`:
+* Next, define a function called `RunCmd_<TYPE><FunctionCallback>` (replace `<TYPE>` with either `Map` or `Common`). Take for instance, if you had a `FunctionCallback` of `100`:
 ```php
-RunCmd_Map100()
+RunCmd_Map100() // or RunCmd_Common100()
 {
   // insert code here, for example:
   $local1 = return_title();
