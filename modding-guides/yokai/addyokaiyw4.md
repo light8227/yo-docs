@@ -11,7 +11,7 @@ parent: Yo-kai and Battles
 
 Before I begin this guide, note that **at this time, you must have a model already in the game's format.** There is no model importer, so you can only have existing Yo-kai or a texture edit of an existing Yo-kai.
 
-Furthermore, the **actual usability is very limited at this time.** It is currently unknown how animations and models fully work, so if you try to add a Yo-kai like Blizzie, what you'll get is a useless Yo-kai that just looks cool and can't do anything. The only properly working Yo-kai are already-playable Yo-kai.
+Furthermore, the **actual usability is very limited at this time.** It is currently unknown how to fully add Yo-kai properly, so right now, your Yo-kai is completely useless because it effectively doesn't exist. We don't know how to make the model appear, nor how to make the icons work properly.
 
 # Required Files
 
@@ -37,51 +37,115 @@ Open the file in CfgBinEditor after downloading the latest MyTags.
 
 Skip the CHARA_BASE_BATTLE_LIST struct and move on down to the CHARA_BASE_INFO_LIST struct.
 
-Duplicate the entry of the Yo-kai you're recoloring, and get ready to make a new BaseID. BaseIDs are just a CRC hash of the model name, and for this guide, I'll make my Noko recolor's model name y02210010.
+Duplicate the entry of the Yo-kai you want to base your new one off of, and make a new BaseID. BaseIDs are just a CRC hash of the model name, and for this guide, I'll make my Noko recolor's model name y02210010.
 
-Next, make sure that the ModelID is set to your model name, which, for this guide, is y02210010.
+The Filename should be pretty self-explanatory. It's the name used in the actual files. For this guide, y02210010.
 
-In the NounID section, make sure it's set to the NounID you made previously for chara_text.
+The NameID here will be the same as the NounID that you made previously for chara_text.
 
 You'll want to make a new CharaModelID. CharaModelIDs are just a CRC hash of 'mdl_[ModelName]'. So, for this guide, I'll be hashing 'mdl_y02210010'.
 
-In the CharaMotionID sections, set it to your new BaseID. They're the same.
+In the CharaMotionID section, set it to your new BaseID. They're the same.
 
-Next comes setting up a CHARA_BASE_INFO_REF_BATTLE entry. This lets the file know what to reference in another struct, CHARA_BASE_BATTLE_LIST, which contains data for Role, Rank, and Tribe. BATTLE_LISTRef refers to the entry number in the aformentioned struct that it will start looking in, and EntriesReferenced is how many entries from that point it will look at, which will always be 1 for this. Duplicate a REF_BATTLE entry and configure it so it references the correct entry.
+In the MenuResourceID section, set it to your new BaseID. They're the same.
+
+Next comes setting up a CHARA_BASE_INFO_REF_BATTLE entry. This lets the file know what to reference in the other struct in this file, CHARA_BASE_BATTLE_LIST, which contains data for Role, Rank, and Tribe. CharaBaseBattleStartPos refers to the entry number in the aforementioned struct that it will start looking in, and CharaBaseBattleLength is how many entries from that point it will look at, which will always be 1 for this. Duplicate a REF_BATTLE entry and configure it so it references the correct entry.
 
 # chara_base: CHARA_BASE_BATTLE_LIST
-For our last steps in this file, duplicate the BATTLE_LIST entry of the Yo-kai you're recoloring. Note the entry number in the list after doing so, as that will be the number you should be putting in for the BATTLE_LISTRef in the other struct.
+For our last steps in this file, duplicate the BATTLE_LIST entry of the Yo-kai you're basing your new one off of. Note the entry number in the list after doing so, as that will be the number you should be putting in for the CharaBaseBattleStartPos in the other struct.
 
-Role, Tribe, and Rank are pretty self-explanatory, as long as you know what number correlates to what. You can find a key below.
+Role, FavoriteFood, DislikedFood, Tribe, and Rank are pretty self-explanatory, as long as you know what number correlates to what. You can find a key below.
+
+**Food**:
+  - 0: No Food
+  - 1: Rice Balls
+  - 2: Bread
+  - 3: Candy
+  - 4: Milk
+  - 5: Juice
+  - 6: Burgers
+  - 7: Ramen
+  - 8: Sushi
+  - 9: Veggies
+  - 10: Fruit
+  - 11: Meat
+  - 12: Seafood
+  - 13: Curry
+  - 14: Sweets
+  - 15: Soba
+  - 16: Udon
+  - 17: Snacks
+  - 18: Chocobars
+  - 19: Ice Cream
+  - 20: Doughnuts
+  - 21: Tempura
+  - 22: Sukiyaki
+
+**Role:**
+  - 0: No Role
+  - 1: Attacker
+  - 2: Shooter
+  - 3: Tank
+  - 4: Healer
+  - 5: Watcher
+
+**Tribe:**
+  - 0: No Tribe
+  - 1: Goriki
+  - 2: Onnen
+  - 3: Mononoke
+  - 4: Tsukumono
+  - 5: Uwanosora
+  - 6: Omamori
+  - 7: Mikakunin
+  - 8: Mikado
+  - 9: Izana
+  - 10: Oni
+  - 11: Wicked
+  - 12: Shinma
+
+**Rank:**
+  - 0: No Rank
+  - 1: Rank E
+  - 2: Rank D
+  - 3: Rank C
+  - 4: Rank B
+  - 5: Rank A
+  - 6: Rank S
 
 Once you're done, make sure to update the ChildCounts of each struct by clicking the dropdown.
 
-**Role:** 1 - Attacker, 2 - Shooter, 3 - Tank, 4 - Healer, 5 - Watcher
-
-**Tribe:** 1- Goriki, 2 - Onnen, 3 - Mononoke, 4 - Tsukumono, 5 - Uwanosora, 6 - Omamori, 7 - Mikakunin, 8 - Mikado, 9 - Izana, 10 - Oni, 11 - Wicked, 12 - Shinma
-
-**Rank:** E-Rank - 1, D-Rank - 2, C-Rank - 3, B-Rank - 4, A-Rank - 5, S-Rank - 6
-
 # chara_param: CHARA_PARAM_INFO_LIST
-Duplicate the entry of the Yo-kai you're recoloring.
-
-Now, you'll need to create a new ParamID. ParamIDs are a CRC hash of 'para_[ModelName]'. So, for this guide, I'll be hashing 'para_y02210010'.
+Duplicate the entry of the Yo-kai you're basing your new one off of, and make a new ParamID. ParamIDs are a CRC hash of 'para_[ModelName]'. So, for this guide, I'll be hashing 'para_y02210010'.
 
 Use the BaseID you made earlier for the BaseID section.
 
-You'll see various stats prefixed with BaseA/B/C. BaseA/B correlate to stats around Lv1 and Lv99, while BaseC correlates to stats around Lv120.
+You'll see various stats prefixed with BaseA/B/C. BaseA/B correlate to base stats around Lv1 and Lv99, while BaseC correlates to base stats around Lv120.
 
 ElementResist and ElementWeak refer to which Elements the Yo-kai are strong or weak to. You can find a key for them below.
 
-Similarly, Speed also has a key below.
+Speed refers to the tier of speed that Yo-kai will have. You can find a key for it below.
 
 CharaType should be set to 'yokai' already. If it isn't, change it.
 
-TransformsInto is only necessary if your Yo-kai is a Shadowside Yo-kai. If this is the case, put the ParamID of what they transform or revert into. Otherwise, leave it as 0 for them to undergo Great Change.
+TransformsInto should only be necessary if you are making a Shadowside Yo-kai or assigning what a transformation should revert back into. If this is the case, put the ParamID of what they transform or revert into. Otherwise, leave it as 0 for them to undergo Great Change.
 
-**Elements:** 1 - Fire, 2 - Water, 3 - Lightning, 4 - Earth, 5 - Ice, 6 - Wind, 7 - Light, 8 - Dark
+**Elements:**
+  - 1: Fire
+  - 2: Water
+  - 3: Lightning
+  - 4: Earth
+  - 5: Ice
+  - 6: Wind
+  - 7: Light
+  - 8: Dark
 
 **Speed:** 0 - Normal, 2 - Slow, 3 - Fast
+  - 0: Normal
+  - 1: Very Slow
+  - 2: Slow
+  - 3: Fast
+  - 4: Very Fast
 
 # chara_param: YOKAI_PARAM_INFO_LIST
 Duplicate the entry of the Yo-kai you're recoloring.
@@ -99,7 +163,7 @@ Duplicate the entry of the Yo-kai you're recoloring.
 
 In the TextID section, put your new ParamID. They're the same.
 
-TextIndex refers to whether it's for the Crank-a-Kai or Konkatsu. 0 is for the Crank-a-Kai, and 1 for Soulmates.
+TextIndex refers to whether it's for the Crank-a-Kai or Konkatsu. 0 is for the Crank-a-Kai, and 1 for Konkatsu.
 
 TextString is obvious. Write what you want them to say.
 
