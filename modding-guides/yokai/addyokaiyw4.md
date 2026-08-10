@@ -25,6 +25,28 @@ The files you need may vary depending on what you are trying to do, ie whether y
 
 **chara_text.cfg.bin:** This is for assigning a name to your Yo-kai.
 
+# g4pkm
+
+In the header of the g4pkm, before the strings for the files inside of the g4pkm are listed, there are CRC hashes of said filenames. It is currently unknown if these are absolutely necessary to change.
+
+# objbin
+The objbin contains various parameters for the model itself to use.
+
+By clicking on the OBJ tree, you can find the string of the model name. It is currently unknown what the purpose of this string is.
+
+Inside the SETUP tree, in SETUP_PARAM_0, you can find the filepath for what skeleton to use, which will lead to a model file, a g4pkm.
+
+# g4pk
+
+In the header of the g4pk, before the strings for the files inside of the g4pk are listed, there are CRC hashes of said filenames. It is currently unknown if these are absolutely necessary to change.
+
+# mevbin
+This cfgbin type is older, and thus has no trees. Thankfully, the mevbins are also pretty simple to look at.
+
+The COUNT entry at the start details how many MOT_X entries and EVENT_X entries there are.
+
+The ID in the MOT_X entries are CRC hashes of names stored in that mevbin's g4mt counterpart, which is stored in the g4pk. (For example, a _p010.mevin's MOT_X ID names would be from the g4mt file inside of the _p010.g4pk file.) Seemingly, only the last names in the g4mt are used for this, ie if a mevbin has two MOT_X entries, then the last two names in the g4mt are the CRC hashes for them.
+
 # chara_text: NOUN_INFO
 Open the file in CfgBinEditor after downloading the latest MyTags.
 
