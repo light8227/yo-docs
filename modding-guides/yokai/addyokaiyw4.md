@@ -34,7 +34,29 @@ The objbin contains various parameters for the model itself to use.
 
 By clicking on the OBJ tree, you can find the string of the model name. It is currently unknown what the purpose of this string is.
 
-Inside the SETUP tree, in SETUP_PARAM_0, you can find the filepath for what skeleton to use, which will lead to a model file, a g4pkm.
+Inside the SETUP (gmdCObject) tree, in SETUP_PARAM_0, you can find the filepath for what skeleton to use, which will lead to a model file, a g4pkm. The value for NonUniformScale is 1.
+
+Inside the PROP_INFO_0 (CColCollection) tree, inside the PROP_PARAM_0 (m_ColPartInfo) tree, in PROP_PARAM_0, the ID for partNameCrc seems to be used in col_collection.cfg.bin as well. (data/common/property/chara) **The ID for nullNameCrc appears to be a CRC hash of a bone name, c_global_0_0.** It seemed to be used in chara_look_at.cfg.bin as well (data/common/property/chara), where the ID is noted as boneNameCrc. The value for shapeType is 1. The capsule_range is 0.4. The values for offsetPos are 0, 0.26, and -0.09.
+
+Inside the PROP_INFO_0 (CColCollection) tree, inside the PROP_PARAM_1 (m_aColGroup) tree, in PROP_PARAM_0, the ID for groupNameCrc seems to be used in cmd_effect_config_0.16.02.cfg.bin as well. (data/common/effect) It is also used in cmd_obj.cfg.bin (data/common/gamedata/battle), as well as col_collection. The partNameCrc is the same as in PROP_PARAM_0 (m_ColPartInfo).
+
+Inside the PROP_INFO_1 (CRenderCollision) tree, inside the PROP_PARAM_0 (m_ColPartInfo) tree, in PROP_PARAM_0, the ID for partNameCrc seems to be 'unique,' as in only other objbins use it. (data/common/effect) It is also used in cmd_obj.cfg.bin (data/common/gamedata/battle), as well as col_collection. The partNameCrc is the same as in PROP_INFO_0 (CColCollection)/PROP_PARAM_0 (m_ColPartInfo). **The ID for nullNameCrc appears to be a CRC hash of a bone name, c_c_1_0.** It seemed to be used in chara_ik.cfg.bin as well. (data/common/property/chara) The value for shapeType is 8. The values for offsetPos are 0, -0, and -0. The value for ellipse_width is 0.3. The value for ellipse_depth is 0.3. The value for ellipse_height is 0.3.
+
+Inside the PROP_INFO_1 (CRenderCollision) tree, inside the PROP_PARAM_1 (m_aColGroup) tree, in PROP_PARAM_0, the ID for groupNameCrc seems to be used in col_collection and render_collision.cfg.bin, both in the same folder. The partNameCrc is the same as in PROP_INFO_1 (CRenderCollision)/PROP_PARAM_0 (m_ColPartInfo).
+
+Inside the PROP_INFO_2 (CCharaParam_10) tree, the value for m_height is 0.55. The value for m_width is 0.36.
+
+Inside the PROP_INFO_3 (CCharaCollision) tree, the value for m_height is 0.1. The value for m_radius is 0.36.
+
+Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, the value for m_default_view_limit is 80. The value for m_ResInfo.JointNum is 4. **The ID for m_LookAtBaseBoneCrc appears to be a CRC hash of a bone name, c_head_1_0.** It seemed to be used in col_collection, chara_look_at, and chara_ctrl_action as well, all in the same folder. It is also used in chara_mot_sound. (data/common/sound)
+
+Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_1 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_head_1_0.** It seemed to be used in col_collection, chara_look_at, and chara_ctrl_action as well. It is also used in chara_mot_sound. The value for limit_p is 55. The value for limit_m is -55. The value for weight_p is 0.45000002. The value for weight_m is 0.45000002. The value for axis_type is 1. The value for rot_type is 2.
+
+Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_2 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_head_1_0.** It seemed to be used in col_collection, chara_look_at, and chara_ctrl_action as well, all in the same folder. It is also used in chara_mot_sound. (data/common/sound) The value for limit_p is 60. The value for limit_m is -60. The value for weight_p is 0.45000002. The value for weight_m is 0.45000002. The value for axis_type is 0. The value for rot_type is 1.
+
+Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_3 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_c_1_1.** It seemed to be used in chara_look_at and chara_mot_sound. The value for limit_p is 10. The value for limit_m is -10. The value for weight_p is 0.35000002. The value for weight_m is 0.35000002. The value for axis_type is 1. The value for rot_type is 2.
+
+Inside the PROP_INFO_4 (gmdCLookAtComponent) tree, inside the PROP_PARAM_4 (aJoint) tree, **the ID for boneNameCrc appears to be a CRC hash of a bone name, c_c_1_1.** It seemed to be used in chara_look_at and chara_mot_sound. The value for limit_p is 5. The value for limit_m is -5. The value for weight_p is 0.35000002. The value for weight_m is 0.35000002. The value for axis_type is 0. The value for rot_type is 1.
 
 # g4pk
 
