@@ -1,766 +1,1243 @@
 ---
-title: YW3 Param IDs
+title: YW4 Param IDs
 layout: default
 parent: Param IDs
 grand_parent: Modding Resources
 ---
 
-# YW3 Param IDs
+IDs are shown in hex format and sorted by the model name. English names used are ones from official English game localizations or the YW4 fan translation.
 
-The Below IDs are shown in hex format for convenience. Note that Boss Forms have their own IDs:
-
-| Yokai | ID (Hex) | Index |
-|---|---|---|
-| Sigh-Durr | 0xF0D747CE | 1 |
-| Flippit | 0x486B20AB | 2 |
-| Pandle | 0x79F3AA36 | 3 |
-| Undy | 0x6B4605D8 | 4 |
-| Tanbo | 0x725D3499 | 5 |
-| Cutta-nah | 0xE424928F | 6 |
-| Cutta-nah-nah | 0x5C98F5EA | 7 |
-| Slacka-slash | 0x4583C4AB | 8 |
-| Brushido | 0xAA720DA6 | 9 |
-| Washogun | 0x7D738AA7 | 10 |
-| Lie-in | 0xB8C7A248 | 11 |
-| Lie-in Heart | 0xB25B193D | 12 |
-| Hissfit | 0x12CE6AC3 | 13 |
-| Zerberker | 0x61F8DC5A | 14 |
-| Snartle | 0x78E3ED1B | 15 |
-| Brutle | 0xFA699E4C | 16 |
-| Mochismo | 0xF6913D61 | 17 |
-| Minochi | 0xEF8A0C20 | 18 |
-| Minimoto | 0x7FB5D099 | 19 |
-| Slumberhog | 0x8337F30E | 20 |
-| Snortlehog | 0x1EE0CBB7 | 21 |
-| Samureel | 0xC556459 | 22 |
-| Time Keeler | 0x5436740F | 23 |
-| Goofball | 0x6D007F77 | 24 |
-| Slugger | 0xE8DC31A2 | 25 |
-| Helmsman | 0x44938386 | 26 |
-| Reuknight | 0x56262C68 | 27 |
-| Corptain | 0x4F3D1D29 | 28 |
-| Slicenrice | 0x8F19527A | 29 |
-| Flamurice | 0xAE77E58 | 30 |
-| Tublappa | 0x37A5351F | 31 |
-| Lappinitup | 0x506056C7 | 32 |
-| El Gutso | 0xD5BC1812 | 33 |
-| Gutso Grande | 0x42D5F929 | 34 |
-| Mudmunch | 0x9DACFD94 | 35 |
-| BBQvil | 0x9F6AA7AA | 36 |
-| Liarbird | 0x27D6C0CF | 37 |
-| Benkei | 0xD944BB3F | 38 |
-| B3-NK1 | 0xC05F8A7E | 39 |
-| Blazion | 0xEE9A4B0D | 40 |
-| Quaken | 0xF7817A4C | 41 |
-| Siro | 0xDCAC298F | 42 |
-| Chansin | 0x4FBE5BC | 43 |
-| Sheen | 0xBC4782D9 | 44 |
-| Snee | 0xFC2FE4E3 | 45 |
-| Gleam | 0xA55CB398 | 46 |
-| Hovernyan | 0x25109AF1 | 47 |
-| Moximous N | 0xCB05747F | 48 |
-| Moximous K | 0x73B9131A | 49 |
-| Hot Air Buffoon | 0xE6E2C8B1 | 50 |
-| Sushiyama | 0x118656B8 | 51 |
-| Kapunki | 0x89D67F9 | 52 |
-| Beetler | 0x734D73B4 | 53 |
-| Beetall | 0xCBF114D1 | 54 |
-| Cruncha | 0xD2EA2590 | 55 |
-| Machonyan | 0xE4D0F221 | 56 |
-| Momonyan | 0xE1DEB4F5 | 57 |
-| Sir Nyansalot | 0xC4B5EB29 | 58 |
-| Sgt. Burly | 0xC5CFEDC2 | 59 |
-| Bison Burly | 0xBE75B849 | 60 |
-| Demuncher | 0x1852D1B6 | 61 |
-| Devourer | 0x149E0F7 | 62 |
-| Illuminoct | 0xB791E97A | 63 |
-| Arachnevil | 0x849948FD | 64 |
-| Shurikenny | 0xCDB76E7E | 65 |
-| Nunchucky | 0xD4AC5F3F | 66 |
-| Camellia | 0x57CEED34 | 67 |
-| Brokenbrella | 0xA0EEB6D3 | 68 |
-| Pittapatt | 0xF277BAE9 | 69 |
-| Zip Unlock | 0x1AB6E97F | 70 |
-| Slippup | 0x201EDC25 | 71 |
-| Snotsolong | 0x399BCC0C | 72 |
-| Duchoo | 0x2080FD4D | 73 |
-| D'wanna | 0xD3FA62BD | 74 |
-| N'more | 0x4E2D5A04 | 75 |
-| Q'wit | 0x57366B45 | 76 |
-| Wazzat | 0xBB8F9E33 | 77 |
-| Houzzat | 0x77EF31D2 | 78 |
-| Dummkap | 0xA294AF72 | 79 |
-| Who-Me | 0x98A2BB40 | 80 |
-| 2-Much-2-Take | 0xB7773D1E | 81 |
-| Why Naant | 0x8A1714AE | 82 |
-| Naandhi | 0xFCB5A7B | 83 |
-| Faysoff | 0x554C72E4 | 84 |
-| Snottle | 0x56D24CC6 | 85 |
-| Legsit | 0xC709B7FC | 86 |
-| Chukket | 0x32AB73CB | 87 |
-| Cornfused | 0xAF7C4B72 | 88 |
-| Unshelltered | 0xB43F0165 | 89 |
-| Lafalotta | 0x333F956 | 90 |
-| Blips | 0x1A28C817 | 91 |
-| Tattletell | 0x8C516E01 | 92 |
-| Tattlecast | 0x9EE4C1EF | 93 |
-| Skranny | 0x954A5F40 | 94 |
-| Cupistol | 0xA93A31DD | 95 |
-| Casanuva | 0x34ED0964 | 96 |
-| Casanono | 0x2DF63825 | 97 |
-| So-Sorree | 0x8585E90F | 98 |
-| Bowminos | 0x378757E8 | 99 |
-| Smogling | 0x3D398E6A | 100 |
-| Smogmella | 0xCF5356B7 | 101 |
-| Signibble | 0x7E3BB6DC | 102 |
-| Signiton | 0xC687D1B9 | 103 |
-| Master Oden | 0x8F3B308D | 104 |
-| Statiking | 0xDF9CE0F8 | 105 |
-| Failian | 0x2F8C2184 | 106 |
-| Apelican | 0xC1BBADFD | 107 |
-| Fuu 2 | 0xACC017A7 | 108 |
-| Shrillington | 0x67BEA6F5 | 109 |
-| House Partay | 0x17C02C17 | 110 |
-| Skulleidoscope | 0x57583F9 | 111 |
-| Lionguist | 0xC951E9F6 | 112 |
-| Illoo | 0x3E53D0E6 | 113 |
-| Elloo | 0x2748E1A7 | 114 |
-| Alloo | 0xC65B264 | 115 |
-| Espy | 0x8127AB69 | 116 |
-| Infour | 0x983C9A28 | 117 |
-| Mirapo | 0x86EFB783 | 118 |
-| Miradox | 0x2532F806 | 119 |
-| Mircle | 0x9FF486C2 | 120 |
-| Verygoodsir | 0xF6655DCF | 121 |
-| Statikid | 0xBDC9E49C | 122 |
-| Prof. Plumage | 0xE5AAF4CA | 123 |
-| Throne Wiper | 0x5D1693AF | 124 |
-| Imagenius | 0x1D7EF595 | 125 |
-| Miss Teri | 0xAFAA492B | 126 |
-| Maginyan | 0x9CD6FB7F | 127 |
-| Squandeer | 0xA5C292F0 | 128 |
-| Tengu | 0x6B64672F | 129 |
-| Flengu | 0x727F566E | 130 |
-| Kyubi | 0x98D20D4 | 131 |
-| Frostail | 0x10961195 | 132 |
-| Chymera | 0x9D8E9F63 | 133 |
-| Kingmera | 0x8495AE22 | 134 |
-| Toadal Demon | 0xE616A81F | 135 |
-| Thurston | 0x2AA005A7 | 136 |
-| Spect-hare | 0x3815AA49 | 137 |
-| Sn. Spect-hare | 0x210E9B08 | 138 |
-| Oh Wheel | 0x6076BA1F | 139 |
-| Dulluma | 0xB13147B1 | 140 |
-| Darumacho | 0xA384E85F | 141 |
-| Goruma | 0xBA9FD91E | 142 |
-| Wotchagot | 0xB8E5C0BF | 143 |
-| Pride Shrimp | 0xC89B4A5D | 144 |
-| No-Go Kart | 0x4A8F1862 | 145 |
-| Mistank | 0x70272D38 | 146 |
-| Terrorpotta | 0x59A7DA | 147 |
-| Blownhistoppa | 0xD256660F | 148 |
-| Noway | 0x34CF6B93 | 149 |
-| Impass | 0x8C730CF6 | 150 |
-| Walldin | 0x95683DB7 | 151 |
-| Roughraff | 0x8C37C918 | 152 |
-| Badude | 0xCC5FAF22 | 153 |
-| Bruff | 0xFE69CDA0 | 154 |
-| Roughgraff | 0xDBE44618 | 155 |
-| Chilled Cowcao | 0x80A9CD2C | 156 |
-| Stircrazy Stu | 0x2A826750 | 157 |
-| Nummskull | 0xD8CADD7A | 158 |
-| Skillskull | 0x3289113C | 159 |
-| Armsman | 0x267AC47D | 160 |
-| Mimikin | 0x973046E1 | 161 |
-| Oh Bah Gah! | 0xAF5E2985 | 162 |
-| Sp mountain | 0x17E24EE0 | 163 |
-| Blowkade | 0x9EC6A318 | 164 |
-| Ledballoon | 0x87DD9259 | 165 |
-| Sumodon | 0xBE57DABE | 166 |
-| Yokozudon | 0x2380E207 | 167 |
-| Whateverest | 0x9B3C8562 | 168 |
-| Whatuption | 0x89892A8C | 169 |
-| Fidgephant | 0xC16DAFA4 | 170 |
-| Touphant | 0xD8769EE5 | 171 |
-| Enduriphant | 0xFF45BA6F | 172 |
-| Zappary | 0x12EC0834 | 173 |
-| Frazzel | 0x47F9DD0A | 174 |
-| Ship. Sailor | 0x557E10E | 175 |
-| Adm. Admiral | 0x3837C8BE | 176 |
-| Swelton | 0xAA506F51 | 177 |
-| Sing Kong | 0xBDEB866B | 178 |
-| Slippy | 0x203CBED2 | 179 |
-| Repossessor | 0x9880D9B7 | 180 |
-| Mr. Blockhead | 0x8A357659 | 181 |
-| Mad Mountain | 0xBBADFCC4 | 182 |
-| Lava Lord | 0xA2B6CD85 | 183 |
-| Castelius III | 0xB003626B | 184 |
-| Castelius II | 0x9B2E31A8 | 185 |
-| Castelius I | 0xA918532A | 186 |
-| Castelius Max | 0x823500E9 | 187 |
-| Puppynyan | 0xF36B1B1B | 188 |
-| Rhinoggin | 0x3119BA1 | 189 |
-| Rhinormous | 0x11A4344F | 190 |
-| Hornaplenty | 0x8BF050E | 191 |
-| Kintaronyan | 0x6C9DF2C | 192 |
-| Steaking | 0x923E0035 | 193 |
-| Robonyan | 0x3E71B211 | 194 |
-| Robonyan F | 0x4ED93AAA | 195 |
-| Showbonyan | 0x5486D14F | 196 |
-| Goldenyan | 0x276A8350 | 197 |
-| Dromp | 0xF17B437C | 198 |
-| Swosh | 0xE860723D | 199 |
-| Toadal Dude | 0xEDF01581 | 200 |
-| Uber Geeko | 0xF4EB24C0 | 201 |
-| Gargaros | 0x3C799F8 | 202 |
-| Ogralus | 0xBB7BFE9D | 203 |
-| Orcanos | 0xA9CE5173 | 204 |
-| Kabuking | 0x5EAACF7A | 205 |
-| Jawsome Kid | 0x1D5C9762 | 206 |
-| El Sharkador | 0x447A623 | 207 |
-| Silver Lining | 0x808BAFDB | 208 |
-| Leggly | 0xB59305D7 | 209 |
-| Twirly Pie | 0xB7555FE9 | 210 |
-| Petty-Cake | 0xFE9388C | 211 |
-| Hoppy. | 0x31E34FB0 | 212 |
-| Dazzabel | 0x435B9F6C | 213 |
-| Rattelle | 0xFBE7F809 | 214 |
-| Skelebella | 0xE2FCC948 | 215 |
-| Cadin | 0x49C72419 | 216 |
-| Cadable | 0x9AF4223 | 217 |
-| Singcada | 0x10B47362 | 218 |
-| Buttered Blue | 0x578A28DA | 219 |
-| Pch. Baguette | 0x4849425C | 220 |
-| Pupsicle | 0xE406F078 | 221 |
-| Chilhuahua | 0x5CBA971D | 222 |
-| Swelterrier | 0x45A1A65C | 223 |
-| Unbelievaboy! | 0xA5E0F007 | 224 |
-| Unbearaboy! | 0x50423430 | 225 |
-| Inflammaboy! | 0x49590571 | 226 |
-| Jumbelina | 0x5FF2AB66 | 227 |
-| Boyclops | 0xD2F62B2 | 228 |
-| Krystal Fox | 0xE262E820 | 229 |
-| Runsure | 0xEF364FBF | 230 |
-| Kittylumbus | 0x6D221D80 | 231 |
-| Zest-a-Minute | 0x7F97B26E | 232 |
-| Baku | 0x2658A68A | 233 |
-| Whapir | 0x3F4397CB | 234 |
-| Bakulia | 0xE74ECC03 | 235 |
-| Panja Pupil | 0xA65CACD2 | 236 |
-| Panja Pro | 0xB4E9033C | 237 |
-| Cue-Tee | 0xD59E7AE5 | 238 |
-| Demandi | 0xF0F52539 | 239 |
-| Walkappa | 0x94787A9A | 240 |
-| Appak | 0xCC1B6ACC | 241 |
-| Supyo | 0xD5005B8D | 242 |
-| Jibanyan | 0xA3A68AA8 | 243 |
-| Jibanyan B | 0x6EBC23A2 | 244 |
-| Jibanyan S | 0xAC77B127 | 245 |
-| Jiban. Liu Bei | 0xEF728A51 | 246 |
-| Rudy | 0x246A9C1A | 247 |
-| Thornyan | 0x1B1AEDCD | 248 |
-| Baddinyan | 0x86CDD574 | 249 |
-| Buchinyan | 0x6BB26576 | 250 |
-| Komasan | 0x74A70DA9 | 251 |
-| Komane | 0x4E0F38F3 | 252 |
-| Komasan B | 0x7C098C4C | 253 |
-| Komasan S | 0x7B763626 | 254 |
-| Koma. Sun Ce | 0xA896356F | 255 |
-| Jibakoma | 0xBCB3E277 | 256 |
-| Komajiro | 0x6DBC3CE8 | 257 |
-| Komiger | 0x7C395A71 | 258 |
-| Komajiro S | 0x626D0767 | 259 |
-| Drizzelda | 0x4D470488 | 260 |
-| Nekidspeed | 0xF5FB63ED | 261 |
-| Stinkeye | 0xC72BD50B | 262 |
-| Slackoon | 0x5AFCEDB2 | 263 |
-| Puppiccino | 0xE2408AD7 | 264 |
-| Ballin | 0x102A520A | 265 |
-| Shmoopie | 0x44B1E171 | 266 |
-| Pinkipoo | 0x56044E9F | 267 |
-| Pookivil | 0x4F1F7FDE | 268 |
-| Harry Barry | 0x3E85D2BF | 269 |
-| Wondernyan | 0x4467E328 | 270 |
-| Jetnyan | 0x40F8512 | 271 |
-| Chimpanyan | 0x4BD77C7E | 272 |
-| Tomnyan | 0x13626E71 | 273 |
-| Koma Knomads | 0xEC3AB62A | 274 |
-| Frostina | 0x2CE67F08 | 275 |
-| Blizzaria | 0x945A186D | 276 |
-| Damona | 0x8D41292C | 277 |
-| Melonyan | 0xA37088F1 | 278 |
-| Oranyan | 0xBA6BB9B0 | 279 |
-| Kiwinyan | 0x9146EA73 | 280 |
-| Grapenyan | 0x885DDB32 | 281 |
-| Strawbnyan | 0xC71C4DF5 | 282 |
-| Watermelnyan | 0xDE077CB4 | 283 |
-| Sapphinyan | 0x35DF2CBE | 284 |
-| Emenyan | 0x1EF27F7D | 285 |
-| Rubinyan | 0x7E94E3C | 286 |
-| Topanyan | 0x48A8D8FB | 287 |
-| Dianyan | 0x2CC41DFF | 288 |
-| Robokapp | 0x861BD72D | 289 |
-| Robokoma | 0x94AE78C3 | 290 |
-| Sailornyan | 0x5C6C9544 | 291 |
-| Rubeus J | 0xA1F21721 | 292 |
-| Hardy Hound | 0x962CE713 | 293 |
-| Whirlweasel | 0x42F79BDE | 294 |
-| Chocobonyan | 0xC3EF3074 | 295 |
-| Mooglenyan | 0x5E3808CD | 296 |
-| Wobblenyan | 0xE6846FA8 | 297 |
-| Wibblekoma | 0xF431C046 | 298 |
-| Sushinyan | 0x96BE20A4 | 299 |
-| Tempurasan | 0x2E0247C1 | 300 |
-| Faux Kappa | 0x7A99F4BA | 301 |
-| Tigappa | 0x6382C5FB | 302 |
-| Master Nyada | 0xC22593DF | 303 |
-| Tenguriginal | 0xE8FE5355 | 304 |
-| Tengulightened | 0xF1E56214 | 305 |
-| Pallysol | 0x682C5B54 | 306 |
-| Bumblejack | 0x679CC402 | 307 |
-| In-Tune | 0xDF20A367 | 308 |
-| Wantston | 0xEDD27776 | 309 |
-| Grubsnitch | 0xF4C94637 | 310 |
-| Wiglin | 0xFC0D8614 | 311 |
-| Kelpacabana | 0x651E5BD2 | 312 |
-| Steppa | 0xE516B755 | 313 |
-| Rhyth | 0xCE3BE496 | 314 |
-| Seaweed Sns. | 0x194E7044 | 315 |
-| Hungramps | 0xD3D8004A | 316 |
-| Hungorge | 0x8BBB101C | 317 |
-| Grainpa | 0xCAC3310B | 318 |
-| Supersize G. | 0x6358217D | 319 |
-| Tongus | 0xD0903C31 | 320 |
-| Nurse Tongus | 0xF8C9636B | 321 |
-| Sandmeh | 0x304F4B02 | 322 |
-| Mr. Sandmeh | 0x4075040E | 323 |
-| Lil Blue Hood | 0xFA4BFCBB | 324 |
-| Bubble Beth | 0x4FC59B58 | 325 |
-| Afronaut | 0xCD950C89 | 326 |
-| Cereal Spiller | 0x75296BEC | 327 |
-| Tomorrow Gal | 0x2D4A7BBA | 328 |
-| Swaycorn | 0xE5CC53D3 | 329 |
-| Push Pup | 0xA6A8CC7C | 330 |
-| Happycane | 0x31354DE9 | 331 |
-| Starrycane | 0x69565DBF | 332 |
-| Lodo | 0x70054FCF | 333 |
-| Supoor Hero | 0xB21FDCD3 | 334 |
-| Chippa | 0x691E7E8E | 335 |
-| Gnomey | 0xCF179359 | 336 |
-| High Gnomey | 0xEA7CCC85 | 337 |
-| Enerfly | 0xD966D9C8 | 338 |
-| Enefly | 0xC07DE889 | 339 |
-| Betterfly | 0x61DABEAD | 340 |
-| Peppillon | 0x78C18FEC | 341 |
-| Predictabull | 0x77ABF43C | 342 |
-| Smashibull | 0xAA3BBB6 | 343 |
-| DON-CHAN | 0x88F32C67 | 344 |
-| Ray O'Light | 0xDDA23CB7 | 345 |
-| Ol' Saint Trick | 0xE675EC9 | 346 |
-| Ol' Fortune | 0x177C6F88 | 347 |
-| Ponderoo | 0xDF02C190 | 348 |
-| Tongue-Twister | 0x95F61CDF | 349 |
-| Lazy Sundae | 0x6AAEC484 | 350 |
-| Got It Maid | 0xD212A3E1 | 351 |
-| Greengramps | 0xC0A70C0F | 352 |
-| Right Brothers | 0x5996B33E | 353 |
-| Tattlecakes | 0x71ED8E93 | 354 |
-| Happierre | 0xEEB829FA | 355 |
-| Reversa | 0xB6DB39AC | 356 |
-| Reversette | 0xAFC008ED | 357 |
-| Pheasanyan | 0xD60044C7 | 358 |
-| Fundango | 0x781B6B6A | 359 |
-| Pearly White | 0x5D7034B6 | 360 |
-| Robogramps | 0x2C121FA6 | 361 |
-| Rollen | 0x79D1C8C1 | 362 |
-| Dubbles | 0x60CAF980 | 363 |
-| Scarasol | 0x52C0ABE0 | 364 |
-| Odysseynyan | 0x147C70C2 | 365 |
-| Ghostess | 0xF779FC3D | 366 |
-| Papa Bolt | 0x4983E1F7 | 367 |
-| Uncle Infinite | 0x5098D0B6 | 368 |
-| Mama Aura | 0xF13F8692 | 369 |
-| Auntie Heart | 0xE824B7D3 | 370 |
-| Kyryn | 0x4ACBDD8C | 371 |
-| Unikirin | 0x53D0ECCD | 372 |
-| Double Time | 0x17A68B0E | 373 |
-| Sonic Bam | 0xEBDBA4F | 374 |
-| Neggplant | 0x457B42DA | 375 |
-| Snitchin | 0xD8AC7A63 | 376 |
-| Messyrai | 0x60101D06 | 377 |
-| Leadoni | 0xD454D94E | 378 |
-| Mynimo | 0xCD4FE80F | 379 |
-| Ake | 0x5B364E19 | 380 |
-| Payn | 0xE38A297C | 381 |
-| Agon | 0xFA91183D | 382 |
-| Herbiboy | 0xC5A94ADB | 383 |
-| Carniboy | 0xDA2EE5B3 | 384 |
-| Wydeawake | 0xE0C21507 | 385 |
-| Allnyta | 0x343B0B3D | 386 |
-| Treetter | 0xFDC725BF | 387 |
-| Retreeter | 0xEB940DD9 | 388 |
-| Negatibuzz | 0x7E5D11C5 | 389 |
-| Moskevil | 0xC6E176A0 | 390 |
-| Scritchy | 0xDFFA47E1 | 391 |
-| Dimmy | 0x5188979B | 392 |
-| Blandon | 0x9EB87CD | 393 |
-| Nul | 0x10F0B68C | 394 |
-| Salty Bacon | 0x927AC5DB | 395 |
-| Suspicioni | 0xDA0C8744 | 396 |
-| Tantroni | 0xC317B605 | 397 |
-| Contrarioni | 0xE83AE5C6 | 398 |
-| Grumpus Khan | 0x293E3B85 | 399 |
-| Groupus Khan | 0x3B8B946B | 400 |
-| Hidabat | 0x556E1013 | 401 |
-| Abodabat | 0xC8B928AA | 402 |
-| Belfree | 0xD1A219EB | 403 |
-| Yoink | 0x587E7262 | 404 |
-| Gimme | 0xF2337F07 | 405 |
-| Indexter | 0x72A5B2E8 | 406 |
-| Hack King | 0x19FED504 | 407 |
-| Yoodooit | 0x6FA08250 | 408 |
-| Count Zapaway | 0xD71CE535 | 409 |
-| Tyrat | 0x7907CA98 | 410 |
-| DisliKing | 0x2AC6A2BE | 411 |
-| Crook-a-doodle | 0xDC4AFDEB | 412 |
-| Rocky Badboya | 0x64F69A8E | 413 |
-| Injurnalist | 0x76433560 | 414 |
-| Misterr Typoo | 0x419DC552 | 415 |
-| Tengloom | 0x62B0E021 | 416 |
-| Nird | 0x7BABD160 | 417 |
-| K'mon-K'mon | 0x7D152DBE | 418 |
-| Snobetty | 0x37C39206 | 419 |
-| Dracunyan | 0x8C876C58 | 420 |
-| Lil Kappa | 0xCEFF5205 | 421 |
-| Horizontail | 0xF921A237 | 422 |
-| Usapyon | 0xCA19D58D | 423 |
-| Usapyon | 0xD302E4CC | 424 |
-| Usapyon | 0xF82FB70F | 425 |
-| Usapyon | 0xE134864E | 426 |
-| Usapyon | 0xAE751089 | 427 |
-| Usapyon B | 0x9B1EE795 | 428 |
-| Usa. Zhongda | 0xCEDD30F2 | 429 |
-| Slimamander | 0x8F7FF563 | 430 |
-| Negasus | 0x74E3C847 | 431 |
-| Neighfarious | 0x6DF8F906 | 432 |
-| Gutsy Bones | 0xBFBDFAA | 433 |
-| Timidevil | 0x826F9712 | 434 |
-| Beelzebold | 0x3AD3F077 | 435 |
-| Count Cavity | 0x23C8C136 | 436 |
-| Eyesoar | 0x629282D6 | 437 |
-| Eyellure | 0x7B89B397 | 438 |
-| Greesel | 0x7ABB964D | 439 |
-| Awevil | 0x63A0A70C | 440 |
-| Wobblewok | 0x268EA4D3 | 441 |
-| Darkyubi | 0x3BBB4256 | 442 |
-| Dr. E. Raser | 0xA142B261 | 443 |
-| Dr. Nocturne | 0xB8598320 | 444 |
-| Tut 'n' K'mon | 0xE12AD45B | 445 |
-| Tie-red | 0x4B231CD0 | 446 |
-| Love-Torn | 0x6E48430C | 447 |
-| Shakey | 0xD6F42469 | 448 |
-| Quagmira | 0xDB82E101 | 449 |
-| Coughkoff | 0x1B388F3A | 450 |
-| Hurchin | 0x223BE7B | 451 |
-| Droplette | 0xB157E0A8 | 452 |
-| Drizzle | 0x47DBBFFD | 453 |
-| Slush | 0xA84CD1E9 | 454 |
-| Alhail | 0x5EC08EBC | 455 |
-| Gush | 0x8361822A | 456 |
-| Peckpocket | 0x6CE8BE2B | 457 |
-| Robbinyu | 0x493344B7 | 458 |
-| Rockabelly | 0x75F38F6A | 459 |
-| Squeeky | 0x2C307D51 | 460 |
-| Rawry | 0xB1E745E8 | 461 |
-| Buhu | 0xB1132546 | 462 |
-| Flumpy | 0xA8081407 | 463 |
-| Skreek | 0x832547C4 | 464 |
-| Manjimutt | 0x33077779 | 465 |
-| Multimutt | 0x736F1143 | 466 |
-| Sir Berus | 0x6A742002 | 467 |
-| Furgus | 0x9E32C3B6 | 468 |
-| Furdinand | 0x95B228D | 469 |
-| Pergushin | 0xF39F7BB5 | 470 |
-| Percrushionists | 0x91545EB9 | 471 |
-| Nosirs | 0x3E5FB0F | 472 |
-| Grubbles | 0xC4418B87 | 473 |
-| Nervous Rex | 0x7CFDECE2 | 474 |
-| Rinsin Repete | 0x249EFCB4 | 475 |
-| Chatalie | 0x348BAE7D | 476 |
-| Nagatha | 0x2D909F3C | 477 |
-| Dismarelda | 0xFF67D898 | 478 |
-| Drenchetta | 0xB347B8CF | 479 |
-| Danke Sand | 0x145E1235 | 480 |
-| No Sandkyu | 0x6EBBDDB | 481 |
-| Papa Windbag | 0xBB599C6A | 482 |
-| Ben Tover | 0x115054E1 | 483 |
-| Compunzer | 0xFB815F10 | 484 |
-| Lamedian | 0xE29A6E51 | 485 |
-| Soloman | 0x9C229BD1 | 486 |
-| Rhumbastiltskin | 0xA68AAE8B | 487 |
-| Slax | 0x1E36C9EE | 488 |
-| Cheeksqueek | 0x433D3875 | 489 |
-| Cuttincheez | 0x5A260934 | 490 |
-| Toiletta | 0xA9EC3384 | 491 |
-| Foiletta | 0x1BEE8D63 | 492 |
-| Robomutt | 0xB1C5271F | 493 |
-| Shedwin | 0x53286ABC | 494 |
-| Glumdango | 0xC836600 | 495 |
-| Spewart | 0x29E839DC | 496 |
-| Grumples | 0x665667A9 | 497 |
-| Everfore | 0xDEEA00CC | 498 |
-| Eterna | 0xC7F1318D | 499 |
-| Sproink | 0xF18F23D2 | 500 |
-| Darknyan | 0xD30E0213 | 501 |
-| Decidevible | 0x83E1F157 | 502 |
-| Hairum Scarum | 0x3B5D9632 | 503 |
-| Insomni | 0xE934F0FE | 504 |
-| Sandi | 0xF02FC1BF | 505 |
-| Arachnus | 0xA352EA06 | 506 |
-| Arachnia | 0xBA49DB47 | 507 |
-| Oridjinn | 0x633E8664 | 508 |
-| Horridjinn | 0x7A25B725 | 509 |
-| Little Charrmer | 0xBD1FE6C5 | 510 |
-| Cricky | 0x8639B5DA | 511 |
-| Humtea Jumtea | 0x2356E05E | 512 |
-| Snailspace | 0x895F28D5 | 513 |
-| Putasockinit | 0x9BEA873B | 514 |
-| Snidewinder | 0x91763C4E | 515 |
-| Noko | 0xC207F128 | 516 |
-| Bloominoko | 0xD0B25EC6 | 517 |
-| Pandanoko | 0xDB1CC069 | 518 |
-| Starry Noko | 0x2E908076 | 519 |
-| Snaggly | 0x948C1A34 | 520 |
-| Whinona | 0xD32C60E4 | 521 |
-| OMGator | 0x1488106C | 522 |
-| Nautaloss | 0xBE81D8E7 | 523 |
-| Shellebrity | 0x63DBF82 | 524 |
-| Heheheel | 0xCBD37626 | 525 |
-| Croonger | 0xD2C84767 | 526 |
-| Urnaconda | 0xF9E514A4 | 527 |
-| Takoyakid | 0xEC8A136A | 528 |
-| Takoyaking | 0xACE27550 | 529 |
-| Fishpicable | 0x4D65667F | 530 |
-| Rageon | 0x5FD0C991 | 531 |
-| Tunatic | 0x46CBF8D0 | 532 |
-| Flushback | 0x74536D07 | 533 |
-| Vacuumory | 0xC199CF0A | 534 |
-| Irewig | 0xF6473F38 | 535 |
-| Firewig | 0x7925A86F | 536 |
-| Draggie | 0x680E39A3 | 537 |
-| Dragon Lord | 0xF5D9011A | 538 |
-| Azure Dragon | 0xECC2305B | 539 |
-| Mermaidyn | 0x4EFB585D | 540 |
-| Mermadonna | 0x6B900781 | 541 |
-| Mermother | 0x728B36C0 | 542 |
-| T-Wrecks | 0xAC347709 | 543 |
-| D-Stroy | 0xCA104F7 | 544 |
-| Clodzilla | 0x15BA35B6 | 545 |
-| Lady Longnek | 0x5C4EF7B3 | 546 |
-| Whisper | 0xB2AF7993 | 547 |
-| Whispocrates | 0xBCBC282B | 548 |
-| Snippity Cricket | 0x5E5EAFD4 | 549 |
-| Flocktopus | 0x29CA5B2B | 550 |
-| Bitter Batter | 0x83C393A0 | 551 |
-| Daiz | 0xF6B35F96 | 552 |
-| Confuze | 0xEFA86ED7 | 553 |
-| Chummer | 0xE76CAEF4 | 554 |
-| Shrook | 0xFE779FB5 | 555 |
-| Spenp | 0xBF0FBEA2 | 556 |
-| Almi | 0xA6148FE3 | 557 |
-| Babblong | 0x7B3D9C7 | 558 |
-| Bananose | 0x1EA8E886 | 559 |
-| Cocobanana | 0xD15A9F9A | 560 |
-| Draaagin | 0xE4F290D6 | 561 |
-| Robonoko | 0x979407A | 562 |
-| Robodraggie | 0x1BCCEF94 | 563 |
-| Ooze Zat | 0x3B7FF4C5 | 564 |
-| Copperled | 0x3D1BEC9D | 565 |
-| Cynake | 0xF2D8E1F | 566 |
-| Slitheref | 0x2400DDDC | 567 |
-| SV Snaggerjag | 0xCCEF0A62 | 568 |
-| Mython | 0x1E14AB19 | 569 |
-| Venoct | 0x85A78BF8 | 570 |
-| Shadow Venoct | 0x9CBCBAB9 | 571 |
-| Frogetmenot | 0xB41D6392 | 572 |
-| Originyan | 0x2D1C4F3E | 573 |
-| Sighborg Y | 0x6AEA016A | 574 |
-| Unfairy | 0xFCF9E6BA | 575 |
-| Unkaind | 0xEE4C4954 | 576 |
-| Untidy | 0x56F02E31 | 577 |
-| Unpleasant | 0xE933E67 | 578 |
-| Unkeen | 0xB62F5902 | 579 |
-| Grublappa | 0x316EF7F4 | 580 |
-| Madmunch | 0x9B673F7F | 581 |
-| Badsmella | 0xC998945C | 582 |
-| Mad Kappa | 0x7C523651 | 583 |
-| Shamasol | 0x6EE799BF | 584 |
-| Gnomine | 0xC9DC51B2 | 585 |
-| Defectabull | 0x716036D7 | 586 |
-| Feargus | 0x98F9015D | 587 |
-| Scaremaiden | 0x48309AB6 | 588 |
-| Wrongnek | 0x5A853558 | 589 |
-| King Jibanyan | 0x5A381A0 | 590 |
-| Qn. Usapyon | 0x9874B919 | 591 |
-| Jackomasan | 0x20C8DE7C | 592 |
-| Komajiro Ten | 0x327D7192 | 593 |
-| Acenyan | 0x8AC116F7 | 594 |
-| Josper | 0xD2A206A1 | 595 |
-| Benzaiten | 0x92CA609B | 596 |
-| Hotei | 0x807FCF75 | 597 |
-| Daikokuten | 0xA51490A9 | 598 |
-| Ebisu | 0x38C3A810 | 599 |
-| Bishamonten | 0x1DA8F7CC | 600 |
-| Columbakat | 0x750B091B | 601 |
-| T. Energison | 0x921C62C2 | 602 |
-| Starwin | 0xAF1AEC6B | 603 |
-| Last Nyanmurai | 0xD6D6469E | 604 |
-| Koma Star | 0x7CDF8E15 | 605 |
-| Platinos | 0xC463E970 | 606 |
-| Flash T. Cash | 0xF3BD1942 | 607 |
-| Shogunyan | 0x97122416 | 608 |
-| Komashura | 0x2FAE4373 | 609 |
-| Gilgaros | 0x1870B341 | 610 |
-| Spoilerina | 0x8B4F70B2 | 611 |
-| Elder Bloom | 0xAC51CAF | 612 |
-| Poofessor | 0xCB271688 | 613 |
-| Dandoodle | 0xB2797BCA | 614 |
-| Slurpent | 0x739B71ED | 615 |
-| Re-Q-Perate | 0x14AA729B | 616 |
-| Princess Pearl | 0xEC7E73C4 | 617 |
-| Asura | 0x54C214A1 | 618 |
-| Terminyanator | 0x76615797 | 619 |
-| Supernyan | 0xD56A1A4B | 620 |
-| Hovernyan S | 0x2AC1A17E | 621 |
-| Hover. Cao Cao | 0xA20A8E1A | 622 |
-| Yoganalisten | 0x4203FB70 | 623 |
-| Judgebrick | 0x69E6F8FF | 624 |
-| Urnfulfilled | 0x10DE32A4 | 625 |
-| Sad 2 the Bone | 0x17344CB9 | 626 |
-| Venoctobot | 0x46337EA1 | 627 |
-| Orcanos Lu Bu | 0x48BD22F2 | 628 |
-| Kyubot | 0xFE8F19C4 | 629 |
-| Ult. Robonyan | 0x7F63D2C0 | 630 |
-| Molar Petite | 0xE2B4EA79 | 631 |
-| Life-is-Parfait | 0xE80A33FB | 632 |
-| Mee 2 | 0x581E357 | 633 |
-| Koalanyan | 0xEBB66F2E | 634 |
-| Jibanyan T | 0x14EEB775 | 635 |
-| Komasan T | 0xAC52D010 | 636 |
-| Eggcelency | 0x8AE37400 | 637 |
-| Deadcool | 0x325F1365 | 638 |
-| Sweattuce | 0x9132F9A0 | 639 |
-| Mr Blue-Shy | 0xFABF9C15 | 640 |
-| Amplifly | 0x7B535711 | 641 |
-| Ulteria | 0xDFD4C3C9 | 642 |
-| My-Baaad | 0x298E9EC5 | 643 |
-| Sunk'nsoul | 0x6768A4AC | 644 |
-| Crummy Mum. | 0xAF882BDC | 645 |
-| Kaped Koma. | 0xC7DFB5A5 | 646 |
-| Tofupyon | 0xA86255C1 | 647 |
-| Ed Zoff | 0x75DD0B42 | 648 |
-| Gorgeous Amb. | 0x6DD67D2E | 649 |
-| Hinozall | 0x9F9EC704 | 650 |
-| Zazel | 0x3C252F98 | 651 |
-| Procrastino. | 0x50B6549E | 652 |
-| Treasure Pest | 0xBD3D8432 | 653 |
-| J. Ne-Sais-Quoi | 0xCD616C27 | 654 |
-| Whi. Kongming | 0x5A088D1C | 655 |
-| Jurojin | 0xF1D5822 | 656 |
-| Fukurokuju | 0xB7A13F47 | 657 |
-| Sarchopha. | 0x5A2AEFEB | 658 |
-| King Deadward | 0x489F4005 | 659 |
-| Pandora | 0xF0232760 | 660 |
-| Comic Genieus | 0x6DF41FD9 | 661 |
-| Bastnetnyan | 0xD54878BC | 662 |
-| Komanubis | 0xC7FDD752 | 663 |
-| Gabby | 0xE108B6AC | 664 |
-| Teducator | 0x59B4D1C9 | 665 |
-| Gentlemutt | 0x4B017E27 | 666 |
-| City Licker | 0xABDE0914 | 667 |
-| Whyvern King | 0x20EABC8B | 668 |
-| Lord Enma | 0x31172F1E | 669 |
-| Rgt. Zazel | 0x2DBE1B14 | 670 |
-| Hinozall Awk. | 0xDFF6A13E | 671 |
-| Ancient Enma | 0x95027C71 | 672 |
-| Enma Awk. | 0xE296888E | 673 |
-| The Boracle | 0x7F41B037 | 674 |
-| Rampajah | 0x2722A061 | 675 |
-| Cymbalina | 0x2A546509 | 676 |
-| Mumbles | 0x92E8026C | 677 |
-| Roary | 0x805DAD82 | 678 |
-| Letsbifrenz | 0x38E1CAE7 | 679 |
-| Wack o' Lantern | 0x9FDA02EA | 680 |
-| Moolinda | 0x8D6FAD04 | 681 |
-| Neighthan | 0x35D3CA61 | 682 |
-| Big Fish | 0x6082DAB1 | 683 |
-| Alpina | 0xD83EBDD4 | 684 |
-| Lunie | 0x2766658F | 685 |
-| Blizzie | 0x9A4949D5 | 686 |
-| KJ | 0x73AEA575 | 687 |
-| Solar Enma | 0x1D8A953B | 688 |
-| Infinite Enma | 0xF3F3AD5 | 689 |
-| Umbral Enma | 0xB7835DB0 | 690 |
-| Indiana Jaws | 0x4C495410 | 691 |
-| Shovulcan | 0x5EFCFBFE | 692 |
-| Zomboy | 0xF4F53375 | 693 |
-| Nyanses II | 0x69220BCC | 694 |
-| Meopatra | 0xD19E6CA9 | 695 |
-| Fitwit | 0x23F4B474 | 696 |
-| El Dorago | 0x7B97A422 | 697 |
-| The Hinix | 0xC32BC347 | 698 |
-| Junkernaut | 0xC281913A | 901 |
-| Supermanager | 0xFFE1B88A | 902 |
-| Hoaxy-Coaxy | 0xB841C25A | 903 |
-| Agent X | 0x97944404 | 904 |
-| The Executor | 0x8521EBEA | 905 |
-| Slackerjack | 0x70A14D2A | 906 |
-| Meganyan | 0x23D0804C | 907 |
-| Dr. Maddiman | 0x50C45422 | 908 |
-| Yo-kaiju | 0x370137FA | 909 |
-| Yopple-Bot | 0xA611E4A | 910 |
-| No-Bot | 0x137A2F0B | 911 |
-| Beddy-Byes | 0x4DC1649A | 912 |
-| Rongo Swirll | 0xF2F1DAFB | 913 |
-| Ghoulfather | 0xCF91F34B | 914 |
-| Don Spiracy | 0x9DD429F | 915 |
-| Slackolyte | 0x69BA7C6B | 916 |
-| Duwheel | 0x5910D32C | 917 |
-| Duolyte | 0x400BE26D | 918 |
-| Chirpster | 0x6470FA9C | 919 |
-| Chirpolyte | 0x7D6BCBDD | 920 |
-| Torneyedo | 0x4CE1F58A | 921 |
-| Mass Mutterer | 0x3D69EC21 | 922 |
-| Hinozall | 0x7AC996F1 | 923 |
-| Hollow Guard | 0x49943AFD | 924 |
-| Skulk | 0x4E7D384F | 925 |
-| Gargaros | 0x7C383EFF | 926 |
-| Ogralus | 0x45B5023A | 927 |
-| Orcanos | 0x52CE1679 | 928 |
-| Orcalyte | 0x8CE7D82E | 929 |
-| Zenlightener | 0x34BD6B2F | 930 |
-| Plundros | 0x6E182147 | 931 |
-| Sproink | 0x8F5B7488 | 932 |
-| Hoggles | 0xB23B5D38 | 933 |
-| Tattleterror | 0xDA832AEC | 934 |
-| Hans Full | 0xE3885B73 | 935 |
-| Hans Galore | 0xDEE872C3 | 936 |
-| McKraken | 0x90146FA3 | 937 |
-| Hardy Hound | 0x4B433624 | 938 |
-| Rubeus J | 0x87E936BA | 939 |
-| Hinozall Awk. | 0x63D2A7B0 | 940 |
-| Robonyan 28 | 0x82595240 | 941 |
-| Yellskitchen | 0x2AD30FC6 | 942 |
-| Maiden Ruin | 0xE30E1629 | 943 |
-| The Woebra | 0xEF52C24D | 944 |
-| The Goldfather | 0x780B03F8 | 945 |
-| IcarOS | 0x2FA416B7 | 946 |
-| Narwail | 0xBBFD9E8F | 947 |
-| Whaleman | 0x869DB73F | 948 |
-| Soulcleaver | 0x89C12AD6 | 949 |
-| Cpt. Thunder | 0x56FD2B7E | 950 |
-| Cpt. Thunder | 0xD8722C9D | 951 |
-| Shogun King | 0x1523E31 | 952 |
-| Holey Moley | 0x23F8C2D3 | 953 |
-| Lastest Nyan. | 0x3C321781 | 954 |
-
+| Model Name           | Japanese                          | English                               | Form                                         | Notes                    | ParamID    | BaseID     |
+| -------------------- | --------------------------------- | ------------------------------------- | -------------------------------------------- | ------------------------ | ---------- | ---------- |
+| _shaderTest          |                                   | Sphere                                |                                              |                          |            |            |
+| c00000110            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000120            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000130            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000150            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000160            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000170            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000190            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000210            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000220            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000230            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000250            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000270            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000280            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00000290            |                                   |                                       |                                              | Only g4pk files          |            |            |
+| c00010000            | Touma Tsukinami                   | Touma Tsukinami                       | School Uniform                               |                          | 0x042184B4 | 0x1BADD215 |
+| c00010000            | Touma Tsukinami                   | Touma Tsukinami                       | School Uniform                               |                          | 0x284FB032 | 0x1BADD215 |
+| c00010010            | Touma Tsukinami                   | Touma Tsukinami                       | Casual Clothes                               |                          |            |            |
+| c00010030            | Touma Tsukinami                   | Touma Tsukinami                       | Rain Jacket                                  |                          |            |            |
+| c00010060            | Touma Tsukinami                   | Touma Tsukinami                       | Swimsuit                                     |                          |            |            |
+| c00020000            | Natsume Amano                     | Summer Adams                          | School Uniform                               |                          | 0x4381FE64 | 0x5C0DA8C5 |
+| c00020000            | Natsume Amano                     | Summer Adams                          | School Uniform                               |                          | 0xC3780B31 | 0x5C0DA8C5 |
+| c00020010            | Natsume Amano                     | Summer Adams                          | Casual Clothes                               |                          |            |            |
+| c00020030            | Natsume Amano                     | Summer Adams                          | Rain Jacket                                  |                          |            |            |
+| c00020040            | Natsume Amano                     | Summer Adams                          | Pajamas                                      |                          |            | 0x38616DC1 |
+| c00020060            | Natsume Amano                     | Summer Adams                          | Swimsuit                                     |                          |            |            |
+| c00020090            |                                   |                                       |                                              | Only objbin file         |            |            |
+| c00021000            | Oni-hime Natsume                  | Oni Princess Summer                   |                                              |                          | 0xFB3D9901 | 0xE4B1CFA0 |
+| c00030000            | Akinori Arihoshi                  | Akinori Arihoshi                      | Hakama                                       |                          | 0x7EE1D7D4 | 0x616D8175 |
+| c00030000            | Akinori Arihoshi                  | Akinori Arihoshi                      | Hakama                                       |                          | 0x2CBA600F | 0x616D8175 |
+| c00030060            | Akinori Arihoshi                  | Akinori Arihoshi                      | Swimsuit                                     |                          |            |            |
+| c00031000            | Akinori Arihoshi                  | Akinori Arihoshi                      | Slim Hakama                                  |                          | 0xC65DB0B1 | 0xD9D1E610 |
+| c00040000            | Shin Shimomachi                   | Shin Shimomachi                       | Casual Clothes                               |                          | 0xCCC10BC4 | 0xD34D5D65 |
+| c00040000            | Shin Shimomachi                   | Shin Shimomachi                       | Casual Clothes                               |                          | 0xCE667B76 | 0xD34D5D65 |
+| c00040010            | Shin Shimomachi                   | Shin Shimomachi                       | Winter Clothes                               |                          |            |            |
+| c00040060            | Shin Shimomachi                   | Shin Shimomachi                       | Swimsuit                                     |                          |            |            |
+| c00050000            | Keita Amano                       | Nate Adams                            | BBQ Clothes                                  |                          | 0xF1A12274 | 0xEE2D74D5 |
+| c00050000            | Keita Amano                       | Nate Adams                            | BBQ Clothes                                  |                          | 0x21A41048 | 0xEE2D74D5 |
+| c00050010            | Keita Amano                       | Nate Adams                            | Casual Clothes                               |                          |            |            |
+| c00050030            | Keita Amano                       | Nate Adams                            | Rain Jacket                                  |                          |            |            |
+| c00050040            | Keita Amano                       | Nate Adams                            | Pajamas                                      |                          |            | 0x8A41B1D1 |
+| c00050060            | Keita Amano                       | Nate Adams                            | Swimsuit                                     |                          |            |            |
+| c00080000            | Fumika Kodama                     | Katie Forester                        | Casual Clothes                               |                          | 0x0931E6C5 | 0x16BDB064 |
+| c00080000            | Fumika Kodama                     | Katie Forester                        | Casual Clothes                               |                          | 0xD45A9BF8 | 0x16BDB064 |
+| c00080030            | Fumika Kodama                     | Katie Forester                        | Rain Jacket                                  |                          |            |            |
+| c00080040            | Fumika Kodama                     | Katie Forester                        | Pajamas                                      |                          |            | 0x72D17560 |
+| c00080060            | Fumika Kodama                     | Katie Forester                        | Swimsuit                                     |                          |            |            |
+| c00510000            | Magurodon                         | Neptuna                               |                                              |                          | 0x59181C70 | 0x4B6043A6 |
+| c01030000            | Keita Amano                       | Nate Adams                            | Future Casual                                |                          |            | 0xC71A8AC1 |
+| c01030010            | Keita Amano                       | Nate Adams                            | Future Suit                                  |                          |            |            |
+| c01030040            | Keita Amano                       | Nate Adams                            | Future Pajamas                               |                          |            | 0xA3764FC5 |
+| c01040000            | Fumika Kodama                     | Katie Forester                        | Future Casual                                |                          |            | 0x753A56D1 |
+| c01040040            | Fumika Kodama                     | Katie Forester                        | Future Pajamas                               |                          |            | 0x115693D5 |
+| c01050000            | Keisuke Amano                     | Tate Adams                            | Casual Clothes                               |                          |            | 0x485A7F61 |
+| c01050010            | Keisuke Amano                     | Tate Adams                            | Winter Clothes                               |                          |            |            |
+| c01050040            | Keisuke Amano                     | Tate Adams                            | Pajamas                                      |                          |            | 0x2C36BA65 |
+| c01050090            |                                   |                                       |                                              | Only objbin file         |            | 0x9998C428 |
+| c01060000            | Mitsue Arihoshi/Obaba             | Mitsue Arihoshi/Grandma               |                                              |                          | 0x5136E724 | 0x0FFA05B1 |
+| c01070000            | Ganryu Shimanouchi                | Ganryu Shimanouchi                    |                                              |                          |            | 0x329A2C01 |
+| c01080000            | Tanku                             | Tank                                  |                                              |                          |            | 0xB0CABBD0 |
+| c01090000            | Koji                              | Archie                                |                                              |                          |            | 0x8DAA9260 |
+| c01100000            | Saki Machida                      | Saki Machida                          |                                              |                          |            | 0x4BE623B4 |
+| c01110000            | Haruya Sakami                     | Haruya Sakami                         |                                              |                          |            | 0x76860A04 |
+| c01120000            | Ayame Himeno                      | Ayame Himeno                          | Casual Clothes                               |                          |            | 0x312670D4 |
+| c01120010            | Ayame Himeno                      | Ayame Himeno                          | Jacket                                       |                          |            |            |
+| c01210000            | Itsuki Takashiro                  | Itsuki Takashiro                      |                                              |                          |            | 0xF01278AA |
+| c01220000            | Tae Arihoshi                      | Tae Arihoshi                          |                                              |                          |            | 0xB7B2027A |
+| c01230000            | Usuta-san                         | Usuta                                 |                                              |                          |            | 0x8AD22BCA |
+| c01240000            | Shin no Haha                      | Jack's Mom                            |                                              |                          |            | 0x38F2F7DA |
+| c01250000            | Itsuki no Onee-san                | Alistair's Sister                     |                                              |                          |            | 0x0592DE6A |
+| c01310000            | Kumashima Gorota                  | Barnaby Bernstein/Bear                |                                              |                          |            | 0x3B4EAB0F |
+| c01320000            | Imada Kanchi                      | Edward Archer/Eddie                   |                                              |                          |            | 0x7CEED1DF |
+| c01330000            | Keta no Chichi                    | Aaron Adams/Nate's Dad                | Casual Clothes                               |                          |            | 0x418EF86F |
+| c01330010            | Keta no Chichi                    | Aaron Adams/Nate's Dad                | Business Suit                                |                          |            | 0x5895C92E |
+| c01330040            | Keta no Chichi                    | Aaron Adams/Nate's Dad                | Pajamas                                      |                          |            | 0x25E23D6B |
+| c01340000            | Keta no Haha                      | Lily Adams/Nate's Mom                 | Casual Clothes                               |                          |            | 0xF3AE247F |
+| c01340040            | Keta no Haha                      | Lily Adams/Nate's Mom                 | Pajamas                                      |                          |            | 0x97C2E17B |
+| c01350000            | Fumi-chan no Chichi               | Jason Forester/Katie's Dad            | Business Suit                                |                          |            | 0xCECE0DCF |
+| c01350040            | Fumi-chan no Chichi               | Jason Forester/Katie's Dad            | Pajamas                                      |                          |            | 0xAAA2C8CB |
+| c01360000            | Fumi-chan no Haha                 | Rebecca Forester/Katie's Mom          | Casual Clothes                               |                          |            | 0x896E771F |
+| c01360040            | Fumi-chan no Haha                 | Rebecca Forester/Katie's Mom          | Pajamas                                      |                          |            | 0xED02B21B |
+| c01410000            | Inaho Misora                      | Hailey Anne Thomas                    |                                              |                          | 0x03338FDF | 0x264B9BB7 |
+| c01510000            | Jinpei Jiba                       | Jinpei Jiba                           |                                              |                          | 0xC2BD501F | 0xED174812 |
+| c02010000            | Manami Yoshina                    | Manami Yoshina                        |                                              |                          |            | 0x8C32C33C |
+| c03010000            |                                   | Everymart Staff Member                | Future                                       |                          |            | 0x2A45C888 |
+| c03020000            |                                   | Curry Shop Owner                      |                                              |                          |            | 0x6DE5B258 |
+| c03030000            |                                   | Granny Edna                           | Future                                       |                          |            | 0x50859BE8 |
+| c03040000            |                                   | Nom Burger Employee                   |                                              |                          |            | 0xE2A547F8 |
+| c03040010            |                                   | Nom Burger Employee                   | Swimsuit                                     |                          |            | 0xFBBE76B9 |
+| c03050000            |                                   | Everymart Staff Member                | Present                                      |                          |            | 0xDFC56E48 |
+| c03060000            |                                   | Banter Bakery Baker                   |                                              |                          |            | 0x98651498 |
+| c03070000            |                                   | Mr. Fischer                           |                                              |                          |            | 0xA5053D28 |
+| c03080000            | Obanyaki ya-san/Hanamura Tamako   | Obanyaki Clerk/Tamako Hanamura        |                                              |                          |            | 0x2755AAF9 |
+| c03100000            | Toreja Tanaka                     | Treasure Tanaka                       |                                              |                          | 0x719DD63C | 0xDC79329D |
+| c03110000            |                                   | Mortimer Goodsight                    |                                              |                          |            | 0xE1191B2D |
+| c03120000            | Shotenji Osho                     | Mr. Zen                               |                                              |                          | 0x75680601 | 0xA6B961FD |
+| c03130000            | Sentou no Oji-san                 | Hot Springs Old Man                   |                                              |                          | 0x9AAA6D3F | 0x9BD9484D |
+| c03140000            |                                   | Granny Edna                           | Present                                      |                          |            | 0x29F9945D |
+| c03210000            | Ma Touma                          | Horse Touma                           |                                              |                          | 0x07BDDB03 | 0x678D6983 |
+| c03220000            | Mashounen                         | Horse Boy                             | Red Shirt                                    |                          | 0xEC8A6000 | 0x202D1353 |
+| c03230000            | Mashounen                         | Horse Boy                             | Green Shirt                                  |                          | 0x03480B3E | 0x1D4D3AE3 |
+| c03240000            | Ma Fumika                         | Horse Katie                           |                                              |                          | 0xE1941047 | 0xAF6DE6F3 |
+| c05010000            |                                   | Businessman                           | Glasses, blue suit                           |                          |            | 0x4995FDB2 |
+| c05010010            |                                   | Businessman                           | Gray suit                                    |                          |            | 0x508ECCF3 |
+| c05020000            |                                   | Businessman                           | Glasses, moustache, brown suit               |                          |            | 0x0E358762 |
+| c05030000            |                                   | Young Man                             | White shirt, rolled-up pants                 |                          |            | 0x3355AED2 |
+| c05030010            |                                   | Young Man                             | Purple shirt, rolled-up pants                |                          |            | 0x2A4E9F93 |
+| c05040000            |                                   | Uncle Junk/Item Land Manager          |                                              |                          |            | 0x817572C2 |
+| c05040010            |                                   | Young Man                             | Rolled-up blue shirt, white shorts           |                          |            | 0x986E4383 |
+| c05060000            |                                   | Baker                                 |                                              |                          |            | 0xFBB521A2 |
+| c05090010            |                                   | Man                                   | Checkered white shirt, blue pants            |                          |            | 0x60FE8732 |
+| c05090020            |                                   | Man                                   | Princess Contest shirt, blue pants           |                          |            | 0x4BD3D4F1 |
+| c05100000            |                                   | Large Man                             | Yellow shirt, green apron                    |                          |            | 0xBFA907A7 |
+| c05110000            |                                   | Old Man                               | Striped white shirt, blue pants              |                          |            | 0x82C92E17 |
+| c05120010            |                                   | Fit Man                               | Black tank top, green plaid shorts           |                          |            | 0xDC726586 |
+| c05130000            |                                   | Fit Man                               | Shopkeeper outfit                            |                          |            | 0xF8097D77 |
+| c05210010            |                                   | Young Lady                            | Blue dress                                   |                          |            | 0x1D466DF8 |
+| c05220000            |                                   | Businesswoman                         | Gray, rolled-up suit                         |                          |            | 0x43FD2669 |
+| c05220010            |                                   | Businesswoman                         | Blue, rolled-up suit                         |                          |            | 0x5AE61728 |
+| c05230000            |                                   | Young Lady                            | Yellow shirt, orange skirt                   |                          |            | 0x7E9D0FD9 |
+| c05230010            |                                   | Young Lady                            | White shirt, green skirt                     |                          |            | 0x67863E98 |
+| c05240000            |                                   | Young Lady                            | Pink shirt, gray bell bottoms                |                          |            | 0xCCBDD3C9 |
+| c05250010            |                                   | Young Lady                            | Black jacket, red skirt                      |                          |            | 0xE8C6CB38 |
+| c05260000            |                                   | Young Lady                            | Baker                                        |                          |            | 0xB67D80A9 |
+| c05270000            |                                   | Young Lady                            | Red apron                                    |                          |            | 0x8B1DA919 |
+| c05300000            |                                   | Nom Burger Employee                   | Pink uniform                                 |                          |            | 0xF261A6AC |
+| c05310000            |                                   | Older Woman                           | Yellow shirt and skirt                       |                          |            | 0xCF018F1C |
+| c05310020            |                                   | Older Woman                           | Princess Contest shirt, blue skirt           |                          |            | 0xFD37ED9E |
+| c05310030            |                                   | Auntie Yo-Gunk                        |                                              |                          |            | 0xE42CDCDF |
+| c05320000            |                                   | Older Woman                           | Pink apron, brown bag                        |                          |            | 0x88A1F5CC |
+| c05410000            |                                   | Boy                                   | White shirt, purple pants                    |                          |            | 0xD204BFA4 |
+| c05410010            |                                   | Boy                                   | Pink shirt, gray pants                       |                          |            | 0xCB1F8EE5 |
+| c05420000            |                                   | Boy                                   | Tan shirt, white pants                       |                          |            | 0x95A4C574 |
+| c05420010            |                                   | Boy                                   | Glasses, blue shirt, black pants             |                          |            | 0x8CBFF435 |
+| c05430000            |                                   | Boy                                   | Pink jacket, blue shorts                     |                          |            | 0xA8C4ECC4 |
+| c05430010            |                                   | Boy                                   | Green striped jacket, white shorts           |                          |            | 0xB1DFDD85 |
+| c05440000            |                                   | Girl                                  | Blue dress                                   |                          |            | 0x1AE430D4 |
+| c05440010            |                                   | Girl                                  | Yellow dress                                 |                          |            | 0x03FF0195 |
+| c05450000            |                                   | Girl                                  | White hoodie, blue shorts                    |                          |            | 0x27841964 |
+| c05450010            |                                   | Girl                                  | Pink hoodie, white shorts                    |                          |            | 0x3E9F2825 |
+| c05460000            |                                   | Girl                                  | Pink tank top, white skirt                   |                          |            | 0x602463B4 |
+| c05460010            |                                   | Girl                                  | White tank top, blue skirt                   |                          |            | 0x793F52F5 |
+| c05470000            |                                   | Boy                                   | Yellow/green shirt, orange shorts            |                          |            | 0x5D444A04 |
+| c05470010            |                                   | Boy                                   | Glasses, black shirt, purple shorts          |                          |            | 0x445F7B45 |
+| c05510000            |                                   | Schoolboy                             | Short black hair                             |                          |            | 0x19586C01 |
+| c05510010            |                                   | Schoolboy                             | Brown curtain hair                           |                          |            | 0x00435D40 |
+| c05510020            |                                   | Schoolboy                             | Pointed black hair                           |                          |            | 0x2B6E0E83 |
+| c05540000            |                                   | Boy                                   | Green rolled-up shirt, green rolled-up pants |                          |            | 0xD1B8E371 |
+| c05540010            |                                   | Boy                                   | Gray rolled-up shirt, blue rolled-up pants   |                          |            | 0xC8A3D230 |
+| c05550000            |                                   | Schoolgirl                            | Parted purple hair                           |                          |            | 0xECD8CAC1 |
+| c05550010            |                                   | Schoolgirl                            | Swept black hair                             |                          |            | 0xF5C3FB80 |
+| c05550020            |                                   | Schoolgirl                            | Brown hair in a bun                          |                          |            | 0xDEEEA843 |
+| c05560000            |                                   | Girl                                  | Green striped jacket, blue rolled-up shorts  |                          |            | 0xAB78B011 |
+| c05560010            |                                   | Girl                                  | Blue jacket, yellow rolled-up shorts         |                          |            | 0xB2638150 |
+| c05590000            |                                   | Schoolboy                             | Fluffy brown hair                            |                          |            | 0x292827C0 |
+| c05600000            |                                   | Boy                                   | Blue shirt, gray striped shorts              |                          |            | 0xA2AC371F |
+| c05600010            |                                   | Boy                                   | White shirt, gray camo shorts                |                          |            | 0xBBB7065E |
+| c05710000            |                                   | Boy                                   | Green shirt, black rolled-up pants           |                          |            | 0x5490CD0A |
+| c05710010            |                                   | Boy                                   | White shirt, green rolled-up pants           |                          |            | 0x4D8BFC4B |
+| c05730000            |                                   | Boy                                   | Pink shirt, gray shorts                      |                          |            | 0x2E509E6A |
+| c05730010            |                                   | Boy                                   | Yellow/blue shirt, blue striped pants        |                          |            | 0x374BAF2B |
+| c05730020            |                                   | Boy                                   | Blue swim trunks                             |                          |            | 0x1C66FCE8 |
+| c05740000            |                                   | Girl                                  | Purple dress, blue shorts                    |                          |            | 0x9C70427A |
+| c05740010            |                                   | Girl                                  | White striped dress, pink shorts             |                          |            | 0x856B733B |
+| c05760000            |                                   | Girl                                  | White shirt, white skirt                     |                          |            | 0xE6B0111A |
+| c05760010            |                                   | Girl                                  | Purple shirt, purple skirt                   |                          |            | 0xFFAB205B |
+| c05810000            |                                   | Old Man                               | Blue jacket, black pants                     |                          |            | 0xA5C67FDF |
+| c05810010            |                                   | Old Man                               | Blue striped jacket, gray pants              |                          |            | 0xBCDD4E9E |
+| c05810020            |                                   | Old Man                               | Striped purple swim trunks                   |                          |            | 0x97F01D5D |
+| c05820000            |                                   | Old Man                               | Glasses, green shirt, gray pants             |                          |            | 0xE266050F |
+| c05820010            |                                   | Old Man                               | Blue shirt, white pants                      |                          |            | 0xFB7D344E |
+| c05850000            |                                   | Older Woman                           | Hat, green dress                             |                          |            | 0x5046D91F |
+| c05850010            |                                   | Older Woman                           | Plaid brown dress                            |                          |            | 0x495DE85E |
+| c05850020            |                                   | Older Woman                           | Blue bathing suit                            |                          |            | 0x6270BB9D |
+| c05860000            |                                   | Older Woman                           | Glasses, purple/pink jacket                  |                          |            | 0x17E6A3CF |
+| c05860010            |                                   | Older Woman                           | Dotted green jacket                          |                          |            | 0x0EFD928E |
+| c05910000            |                                   | Old Man                               | Hat, walking dog                             |                          |            | 0x6E9AAC7A |
+| c05910010            |                                   | Old Man                               | Hat, bag, walking dog                        |                          |            | 0x77819D3B |
+| c05920000            |                                   | Young Lady                            | Hat, bag, walking dog                        |                          |            | 0x293AD6AA |
+| c05930000            |                                   | Young Man                             | Hat, walking dog                             |                          |            | 0x145AFF1A |
+| c05930010            |                                   | Young Lady                            | Hat, purple bag, walking dog                 |                          |            | 0x0D41CE5B |
+| c06010000            |                                   | Boy                                   | Tan striped shirt, black pants               |                          |            | 0x787DE72F |
+| c06010010            |                                   | Boy                                   | Purple striped shirt, brown pants            |                          |            | 0x6166D66E |
+| c06020000            |                                   | Boy                                   | Glasses, yellow shirt, black shorts          |                          |            | 0x3FDD9DFF |
+| c06020010            |                                   | Boy                                   | Glasses, blue shirt, purple shorts           |                          |            | 0x26C6ACBE |
+| c06030000            |                                   | Girl                                  | White shirt, orange suspender skirt          |                          |            | 0x02BDB44F |
+| c06030010            |                                   | Girl                                  | White shirt, blue suspender skirt            |                          |            | 0x1BA6850E |
+| c06040000            |                                   | Girl                                  | Tan jacket, orange skirt                     |                          |            | 0xB09D685F |
+| c06040010            |                                   | Girl                                  | Pink jacket, pink skirt                      |                          |            | 0xA986591E |
+| c06050000            |                                   | Schoolboy                             | Black hat and uniform                        |                          |            | 0x8DFD41EF |
+| c06050010            |                                   | Schoolboy                             | Glasses, black hat and uniform               |                          |            | 0x94E670AE |
+| c06060000            |                                   | Schoolgirl                            | Black sailor uniform                         |                          |            | 0xCA5D3B3F |
+| c06060010            |                                   | Schoolgirl                            | Glasses, scarf, sailor uniform               |                          |            | 0xD3460A7E |
+| c06070000            |                                   | Man                                   | Tan shirt, brown suspenders                  |                          |            | 0xF73D128F |
+| c06070010            |                                   | Man                                   | Blue shirt, black suspenders                 |                          |            | 0xEE2623CE |
+| c06080000            |                                   | Man                                   | Blue shirt, black pants                      |                          |            | 0x756D855E |
+| c06090000            |                                   | Young Lady                            | Hat, red dress                               |                          |            | 0x480DACEE |
+| c06100000            |                                   | Young Lady                            | Green jacket, yellow plaid skirt             |                          |            | 0x8E411D3A |
+| c06100010            |                                   | Young Lady                            | Pink jacket, blue plaid skirt                |                          |            | 0x975A2C7B |
+| c06120000            |                                   | Businessman                           | Hat, glasses, tan suit                       |                          |            | 0xF4814E5A |
+| c06120010            |                                   | Businessman                           | Hat, glasses, black suit                     |                          |            | 0xED9A7F1B |
+| c06130000            |                                   | Older Woman                           | Brown striped shirt, white skirt             |                          |            | 0xC9E167EA |
+| c06130010            |                                   | Older Woman                           | Green striped shirt, purple skirt            |                          |            | 0xD0FA56AB |
+| c06140000            |                                   | Old Man                               | Green shirt, tan pants                       |                          |            | 0x7BC1BBFA |
+| c06140010            |                                   | Old Man                               | Purple shirt, black pants                    |                          |            | 0x62DA8ABB |
+| c06150000            |                                   | Older Woman                           | Glasses, green kimono                        |                          |            | 0x46A1924A |
+| c06150010            |                                   | Older Woman                           | Glasses, purple kimono                       |                          |            | 0x5FBAA30B |
+| c06160000            |                                   | Old Man                               | Walking dog                                  |                          |            | 0x0101E89A |
+| c09010000            |                                   | Dog                                   | Polka-dot red scarf                          |                          |            | 0x8E3597C6 |
+| c09010010            |                                   | Dog                                   | Black, white outfit                          |                          |            | 0x972EA687 |
+| c09020000            |                                   | Dog                                   | White labradoodle                            |                          |            | 0xC995ED16 |
+| c09030000            |                                   | Dog                                   | Shiba                                        |                          |            | 0xF4F5C4A6 |
+| c09030000_tori       |                                   |                                       |                                              |                          | 0xB1135A9E | 0x374750BC |
+| c09030010            |                                   | Dog                                   | Black shiba                                  |                          |            | 0xEDEEF5E7 |
+| c09030010_tori       |                                   |                                       |                                              |                          | 0x1764512A | 0x91305B08 |
+| c09040000            |                                   | Dog                                   | Shiba, red collar                            |                          |            | 0x46D518B6 |
+| c09040000_tori       |                                   |                                       |                                              |                          | 0x53CF41E7 | 0xD59B4BC5 |
+| c09110000            |                                   | Cat                                   | Striped                                      |                          |            | 0x45694463 |
+| c09110010            |                                   | Cat                                   | Black                                        |                          |            | 0x5C727522 |
+| c09120000            |                                   | Rooster                               |                                              |                          |            | 0x02C93EB3 |
+| c09130000            |                                   | Rabbit                                | Black and white                              |                          |            | 0x3FA91703 |
+| c09130010            |                                   | Rabbit                                | White, red eyes                              |                          |            | 0x26B22642 |
+| c09140000            |                                   | Duck                                  |                                              |                          |            | 0x8D89CB13 |
+| c09140010            |                                   | Duck                                  | Speckled brown                               |                          |            | 0x9492FA52 |
+| c09150000            |                                   | Stork                                 |                                              |                          |            | 0xB0E9E2A3 |
+| d00010000            |                                   | Car                                   |                                              |                          |            | 0x7FCCBFDC |
+| d00010010            |                                   | Car                                   |                                              |                          |            | 0x66D78E9D |
+| d00020000            |                                   | Car                                   |                                              |                          |            | 0x386CC50C |
+| d00030000            |                                   | Car                                   |                                              |                          |            | 0x050CECBC |
+| d00040000            |                                   | Car                                   |                                              |                          |            | 0xB72C30AC |
+| d01010000            |                                   | Car                                   |                                              |                          |            | 0xD9BBB468 |
+| d01010010            |                                   | Car                                   |                                              |                          |            | 0xC0A08529 |
+| d01020000            |                                   | Car                                   |                                              |                          |            | 0x9E1BCEB8 |
+| d01020010            |                                   | Car                                   |                                              |                          |            | 0x8700FFF9 |
+| d01050000            |                                   | Car                                   |                                              |                          |            | 0x2C3B12A8 |
+| d01060000            |                                   | Car                                   |                                              |                          |            | 0x6B9B6878 |
+| d01060010            |                                   | Car                                   |                                              |                          |            |            |
+| d02010000            |                                   | Car                                   |                                              |                          |            | 0xE853AEF5 |
+| d02010010            |                                   | Car                                   |                                              |                          |            | 0xF1489FB4 |
+| d02010020            |                                   | Car                                   |                                              |                          |            | 0xDA65CC77 |
+| d02020000            |                                   | Car                                   |                                              |                          |            | 0xAFF3D425 |
+| d02020010            |                                   | Car                                   |                                              |                          |            |            |
+| d02020020            |                                   | Car                                   |                                              |                          |            |            |
+| d02030000            |                                   | Car                                   |                                              |                          |            | 0x9293FD95 |
+| d02030010            |                                   | Car                                   |                                              |                          |            | 0x8B88CCD4 |
+| d02030020            |                                   | Car                                   |                                              |                          |            | 0xA0A59F17 |
+| d03010000            |                                   | Car                                   |                                              |                          |            | 0x4E24A541 |
+| d03010010            |                                   | Car                                   |                                              |                          |            | 0x573F9400 |
+| d03010020            |                                   | Car                                   |                                              |                          |            | 0x7C12C7C3 |
+| d03020000            |                                   | Car                                   |                                              |                          |            | 0x0984DF91 |
+| d03020010            |                                   | Car                                   |                                              |                          |            | 0x109FEED0 |
+| d03020020            |                                   | Car                                   |                                              |                          |            | 0x3BB2BD13 |
+| d03030000            |                                   | Car                                   |                                              |                          |            | 0x34E4F621 |
+| d03030010            |                                   | Car                                   |                                              |                          |            | 0x2DFFC760 |
+| d03030020            |                                   | Car                                   |                                              |                          |            | 0x06D294A3 |
+| e001g001             |                                   | Yo-kai Soulmates Map                  |                                              |                          |            | 0xC1735E9C |
+| ei000010             |                                   | Akinori's Mouse                       |                                              |                          |            | 0x7298ED84 |
+| ei000040             |                                   | White Yo-kai Watch                    |                                              |                          |            | 0x0FEF19C1 |
+| ei000050             |                                   | Yo-kai Watch Elder                    |                                              |                          |            | 0x16F42880 |
+| ei000055             |                                   | Yo-kai Watch Elder Zero               |                                              |                          |            | 0x669EDC0F |
+| ei000140             |                                   | Chair                                 |                                              |                          |            | 0x0E2D73F6 |
+| ei000141             |                                   | Chair                                 |                                              |                          |            | 0x792A4360 |
+| ei000200             |                                   | Microphone?                           |                                              |                          |            | 0x680708AB |
+| ei000210             |                                   | Regulation Axe                        |                                              |                          |            | 0x711C39EA |
+| ei000220             |                                   | Wildfire Brand                        |                                              |                          |            | 0x5A316A29 |
+| ei000230             |                                   | Tiger's Talon                         |                                              |                          |            | 0x432A5B68 |
+| ei000290             |                                   | Elder Zero Box                        |                                              |                          |            | 0xB9C5B3E2 |
+| ei80000100           |                                   | Ogu                                   |                                              |                          |            | 0x5389B355 |
+| ei80000110           |                                   | Togu                                  |                                              |                          |            | 0x4A928214 |
+| ei80000120           |                                   | Mogu                                  |                                              |                          |            | 0x61BFD1D7 |
+| g00010000            |                                   | Touma's Bike                          |                                              |                          |            | 0x46418319 |
+| g00020000            |                                   | Natsume's Bike                        |                                              |                          |            | 0x01E1F9C9 |
+| g00030000            |                                   | Akinori's Bike                        |                                              |                          |            | 0x3C81D079 |
+| g00040000            |                                   | Shin's Bike                           |                                              |                          |            | 0x8EA10C69 |
+| g00050000            |                                   | Nate's Bike                           |                                              |                          |            | 0xB3C125D9 |
+| g00080000            |                                   | Katie's Bike                          |                                              |                          |            | 0x4B51E168 |
+| i00040000            |                                   | Yo-kai Pad                            |                                              |                          |            |            |
+| i00110000            |                                   |                                       |                                              |                          |            |            |
+| i00140000            |                                   | Horse Mask (Touma)                    |                                              |                          |            |            |
+| i00150000            |                                   | Horse Mask                            |                                              |                          |            |            |
+| i00210000            |                                   | Watch Lock                            |                                              |                          |            | 0xC34BF980 |
+| i00310000            |                                   | Yellow Chest                          |                                              |                          |            | 0x08172A25 |
+| i00310010            |                                   | Red/White Chest                       |                                              |                          |            | 0x110C1B64 |
+| i00310020            |                                   | Black Chest                           |                                              |                          |            | 0x3A2148A7 |
+| i00510000            |                                   | World Door                            |                                              |                          |            | 0xDE4EC938 |
+| i00510010            |                                   | Soukenzan Door                        |                                              |                          |            | 0xC755F879 |
+| i00510020            |                                   | Houkendan Door                        |                                              |                          |            | 0xEC78ABBA |
+| i00510030            |                                   | Mystic Grove Door                     |                                              |                          |            | 0xF5639AFB |
+| i00510040            |                                   | Sumo Ring Door                        |                                              |                          |            | 0xBA220C3C |
+| i00510050            |                                   | Ark Door                              |                                              |                          |            | 0xA3393D7D |
+| i00510060            |                                   | World Door                            |                                              |                          |            | 0x88146EBE |
+| i00510070            |                                   | Boss Door                             |                                              |                          |            | 0x910F5FFF |
+| i00520000            |                                   | Busters Door                          |                                              |                          |            | 0x99EEB3E8 |
+| i00610000            |                                   | Capsule?                              |                                              |                          |            |            |
+| i00610010            |                                   | Capsule?                              |                                              |                          |            |            |
+| i00610020            |                                   | Capsule?                              |                                              |                          |            |            |
+| i00610030            |                                   | Gold Capsule                          |                                              |                          |            |            |
+| i00610040            |                                   | Capsule?                              |                                              |                          |            |            |
+| i00710000            |                                   | Horse Mask                            |                                              | Lying on ground          |            | 0x93866833 |
+| i00720000            |                                   | Black Abandoned Bike                  |                                              |                          |            | 0xD42612E3 |
+| i00730000            |                                   | Abandoned Bike with Basket            |                                              |                          |            | 0xE9463B53 |
+| i00740000            |                                   | Yo-kai Watch Animas                   |                                              | In pedestal              |            | 0x5B66E743 |
+| i00750000            |                                   |                                       |                                              |                          |            |            |
+| i00810000            |                                   | Juno Statue                           |                                              |                          |            | 0x62D0DAE6 |
+| i00820000            |                                   | Boreas Statue                         |                                              |                          |            | 0x2570A036 |
+| i00830000            |                                   | Eurus Statue                          |                                              |                          |            | 0x18108986 |
+| i00840000            |                                   | Tuna Lock                             |                                              |                          |            | 0xAA305596 |
+| i01010000            |                                   | Black Umbrella                        |                                              |                          |            |            |
+| i01010010            |                                   | Purple Umbrella                       |                                              |                          |            |            |
+| i01010020            |                                   | Red Umbrella                          |                                              |                          |            |            |
+| i01010030            |                                   | Green Umbrella                        |                                              |                          |            |            |
+| i01010040            |                                   | Blue Umbrella                         |                                              |                          |            |            |
+| i01010050            |                                   | Orange Umbrella                       |                                              |                          |            |            |
+| i01010060            |                                   | Patterned Black Umbrella              |                                              |                          |            |            |
+| i01010070            |                                   | Patterned Umbrella                    |                                              |                          |            |            |
+| i01020000            |                                   | Yellow Umbrella                       |                                              |                          |            |            |
+| i01020010            |                                   | Pink Umbrella                         |                                              |                          |            |            |
+| i01030000            |                                   | Bug Net                               |                                              |                          |            |            |
+| i01050000            |                                   | White Phone                           |                                              |                          |            |            |
+| i01050010            |                                   | Pink Phone                            |                                              |                          |            |            |
+| i01050020            |                                   | Yellow Phone                          |                                              |                          |            |            |
+| i01060000            |                                   | Soul Meter Flag?                      |                                              |                          |            |            |
+| i01070000            |                                   | Bed Covers                            |                                              |                          |            | 0xA7B4A69F |
+| i01080000            |                                   | Bed Covers                            |                                              |                          |            | 0x25E4314E |
+| i01090000            |                                   | Bed Covers                            |                                              |                          |            | 0x188418FE |
+| i01100000            |                                   | Bed Covers                            |                                              |                          |            | 0xDEC8A92A |
+| i01110000            |                                   | Bed Covers                            |                                              |                          |            | 0xE3A8809A |
+| i01120000            |                                   | Bed Covers                            |                                              |                          |            | 0xA408FA4A |
+| i01130000            |                                   | Bed Covers                            |                                              |                          |            | 0x9968D3FA |
+| i01140000            |                                   | Bed Covers                            |                                              |                          |            | 0x2B480FEA |
+| i01150000            |                                   | Bed Covers                            |                                              |                          |            | 0x1628265A |
+| i02010000            |                                   | Shrine Statue                         |                                              |                          |            |            |
+| i02020000            |                                   | Jizou?                                |                                              |                          | 0x413065D3 | 0x5EBC3372 |
+| i02030000            |                                   | Frog Statue                           |                                              |                          |            |            |
+| i02040000            |                                   | Drone                                 |                                              |                          |            | 0xD1FCC6D2 |
+| i02050000            |                                   | Battle Drone                          |                                              |                          |            |            |
+| i02060000            |                                   | YokaNet Box                           |                                              |                          |            |            |
+| i02080000            |                                   | Purple Mine                           |                                              |                          |            |            |
+| i02080010            |                                   | Black Mine                            |                                              |                          |            |            |
+| i02080020            |                                   | Blue Mine                             |                                              |                          |            |            |
+| i02080030            |                                   | Gray Mine                             |                                              |                          |            |            |
+| i02090000            |                                   | Chocobar                              |                                              |                          |            |            |
+| i02100000            |                                   | Spiked Ball?                          |                                              |                          |            |            |
+| i02110000            |                                   | Green Orb Emitter                     |                                              |                          |            |            |
+| i02110010            |                                   | Black Orb Emitter                     |                                              |                          |            |            |
+| i02110020            |                                   | Yellow Orb Emitter                    |                                              |                          |            |            |
+| i03010000            | Youkai Yamakasa                   | Yo-kai Festival                       |                                              |                          |            | 0xBF6B4216 |
+| i03010000            | Youkai Yamakasa                   | Yo-kai Festival                       |                                              |                          | 0xE8F4FD92 | 0xA6707357 |
+| i03010000            | Youkai Yamakasa                   | Yo-kai Festival                       |                                              |                          | 0x613D1C79 | 0xA6707357 |
+| i03020000            |                                   | UFO                                   |                                              |                          |            | 0xF8CB38C6 |
+| i03030000            |                                   | Capsule?                              |                                              |                          |            | 0xC5AB1176 |
+| i04010000            |                                   | Airplane                              |                                              |                          |            | 0x7ACC7C98 |
+| i04020000            |                                   | Flock of Birds                        |                                              |                          |            | 0x3D6C0648 |
+| i05010000            |                                   | Houkenden                             |                                              | Outside view             |            |            |
+| i05020000            |                                   | Fish                                  | Dark fade                                    |                          |            |            |
+| i05020010            |                                   | Fish                                  | Light blue, solid pattern                    |                          |            |            |
+| i05020020            |                                   | Fish                                  | Yellow, solid pattern                        |                          |            |            |
+| i05030000            |                                   | Fish                                  | Blue Tang?                                   |                          |            |            |
+| i05030010            |                                   | Fish                                  | Yellow Blue Tang?                            |                          |            |            |
+| i05030020            |                                   | Fish                                  | Red Blue Tang?                               |                          |            |            |
+| i05040000            |                                   | Jellyfish                             |                                              |                          |            |            |
+| i05040010            |                                   | Jellyfish                             |                                              |                          |            |            |
+| i05040020            |                                   | Jellyfish                             |                                              |                          |            |            |
+| i10010000            |                                   | Shoes                                 |                                              |                          |            | 0x42295815 |
+| i10010010            |                                   | Shoes                                 |                                              |                          |            | 0x5B326954 |
+| i10020000            |                                   | Shoes                                 |                                              |                          |            | 0x058922C5 |
+| i10020010            |                                   | Shoes                                 |                                              |                          |            | 0x1C921384 |
+| i10020040            |                                   | Shoes                                 |                                              |                          |            |            |
+| i10030000            |                                   | Shoes                                 |                                              |                          |            | 0x38E90B75 |
+| i10040000            |                                   | Shoes                                 |                                              |                          |            | 0x8AC9D765 |
+| i10050000            |                                   | Shoes                                 |                                              |                          |            | 0xB7A9FED5 |
+| i10050010            |                                   | Shoes                                 |                                              |                          |            | 0xAEB2CF94 |
+| i10050040            |                                   | Shoes                                 |                                              |                          |            |            |
+| i10080000            |                                   | Shoes                                 |                                              |                          |            | 0x4F393A64 |
+| i11010000            |                                   | Yo-ki Sword                           |                                              |                          |            |            |
+| i11020000            |                                   | Yo-ki Naginata                        |                                              |                          |            |            |
+| i11030000            |                                   | Yo-ki Mace                            |                                              |                          |            |            |
+| i11040000            |                                   | Yo-ki Bat                             |                                              |                          |            |            |
+| i11050000            |                                   | Yo-ki Hammer                          |                                              |                          |            |            |
+| i11080000            |                                   | Yo-ki Fan                             |                                              |                          |            |            |
+| i21050000            |                                   | Shoes                                 |                                              |                          |            | 0x9F51F282 |
+| i21060000            |                                   | Shoes                                 |                                              |                          |            | 0xD8F18852 |
+| m00010000            |                                   | Trash Can                             |                                              |                          |            | 0xD36F0987 |
+| m00020000            |                                   | Box                                   |                                              |                          |            | 0x94CF7357 |
+| m00030000            |                                   | Bush                                  |                                              |                          |            | 0xA9AF5AE7 |
+| m00040000            |                                   | Jar                                   |                                              |                          |            | 0x1B8F86F7 |
+| m00050000            |                                   | Milk Crate                            |                                              |                          |            | 0x26EFAF47 |
+| sy0701_01a0          |                                   | Yo-Gunk                               |                                              |                          |            | 0xF59985F6 |
+| sy1201_01a0          |                                   | Eyepo                                 |                                              |                          |            | 0xAA029FD1 |
+| w00010000            | Fudo Myoo                         | Lord Acala                            |                                              |                          | 0xF50D97C9 | 0xEA81C168 |
+| w00010000            | Fudo Myoo                         | Lord Acala                            |                                              |                          | 0xC65AC33D | 0xEA81C168 |
+| w00010000            | Fudo Myoo                         | Lord Acala                            |                                              |                          | 0x26E4FCA2 | 0xEA81C168 |
+| w00010000            | Fudo Myoo                         | Lord Acala                            |                                              |                          | 0xB8FAD7CA | 0xEA81C168 |
+| w00010020            | Fudo Myoo Ten                     | Divine Acala                          |                                              |                          | 0xC73BF54B | 0xD8B7A3EA |
+| w00010020            | Fudo Myoo Ten                     | Divine Acala                          |                                              |                          | 0x51C5D214 | 0xD8B7A3EA |
+| w00010020            | Fudo Myoo Ten                     | Divine Acala                          |                                              |                          | 0x6891A7D8 | 0xD8B7A3EA |
+| w00010020            | Fudo Myoo Ten                     | Divine Acala                          |                                              |                          | 0x960CFF4C | 0xD8B7A3EA |
+| w00010030            | Fudo Myoo Kai                     | Acala Exalted                         |                                              |                          | 0xCDD347A1 | 0xC1AC92AB |
+| w00010030            | Fudo Myoo Kai                     | Acala Exalted                         |                                              |                          | 0xDE20C40A | 0xC1AC92AB |
+| w00010030            | Fudo Myoo Kai                     | Acala Exalted                         |                                              |                          | 0x8177EB0F | 0xC1AC92AB |
+| w00020000            | Suzaku                            | Suzaku                                | Blade Bearer                                 |                          | 0xB2ADED19 | 0xAD21BBB8 |
+| w00020000            | Suzaku                            | Suzaku                                | Blade Bearer                                 |                          | 0x2D6D783E | 0xAD21BBB8 |
+| w00020000            | Suzaku                            | Suzaku                                | Blade Bearer                                 |                          | 0x9B2E906C | 0xAD21BBB8 |
+| w00020000            | Suzaku                            | Suzaku                                | Blade Bearer                                 |                          | 0x14390DF2 | 0xAD21BBB8 |
+| w00020000            | Suzaku                            | Suzaku                                | Blade Bearer                                 |                          | 0xCF64053A | 0xAD21BBB8 |
+| w00030000            | Genbu                             | Genbu                                 | Blade Bearer                                 |                          | 0x8FCDC4A9 | 0x90419208 |
+| w00030000            | Genbu                             | Genbu                                 | Blade Bearer                                 |                          | 0xC2AF1300 | 0x90419208 |
+| w00030000            | Genbu                             | Genbu                                 | Blade Bearer                                 |                          | 0x46B849E9 | 0x90419208 |
+| w00030000            | Genbu                             | Genbu                                 | Blade Bearer                                 |                          | 0xFBFB66CC | 0x90419208 |
+| w00030000            | Genbu                             | Genbu                                 | Blade Bearer                                 |                          | 0x54C14955 | 0x90419208 |
+| w00040000            | Byakko                            | Byakko                                | Blade Bearer                                 |                          | 0x3DED18B9 | 0x22614E18 |
+| w00040000            | Byakko                            | Byakko                                | Blade Bearer                                 |                          | 0x20730879 | 0x22614E18 |
+| w00040000            | Byakko                            | Byakko                                | Blade Bearer                                 |                          | 0x3BCB4FB1 | 0x22614E18 |
+| w00040000            | Byakko                            | Byakko                                | Blade Bearer                                 |                          | 0x19277DB5 | 0x22614E18 |
+| w00040000            | Byakko                            | Byakko                                | Blade Bearer                                 |                          | 0x2059A0DA | 0x22614E18 |
+| w00050000            | Ashura                            | Asura                                 |                                              |                          | 0x008D3109 | 0x1F0167A8 |
+| w00050000            | Ashura                            | Asura                                 |                                              |                          | 0xCFB16347 | 0x1F0167A8 |
+| w00050000            | Ashura                            | Asura                                 |                                              |                          | 0xE65D9634 | 0x1F0167A8 |
+| w00050000            | Ashura                            | Asura                                 |                                              |                          | 0xF6E5168B | 0x1F0167A8 |
+| w00050000            | Ashura                            | Asura                                 |                                              |                          | 0xBBFCECB5 | 0x1F0167A8 |
+| w00060000            | Omatsu                            | Matsu                                 |                                              |                          | 0x472D4BD9 | 0x58A11D78 |
+| w00070000            | Yoshitsune                        | Minamoto                              |                                              |                          | 0x7A4D6269 | 0x65C134C8 |
+| w00080000            | Goemon                            | Goemon                                |                                              |                          | 0xF81DF5B8 | 0xE791A319 |
+| w00090000            | Benkei                            | Benkei                                |                                              |                          | 0xC57DDC08 | 0xDAF18AA9 |
+| w00100000            | Suzaku                            | Suzaku                                | Celestial                                    |                          | 0x03316DDC | 0x1CBD3B7D |
+| w00100000            | Suzaku                            | Suzaku                                | Celestial                                    |                          | 0xE81677C3 | 0x1CBD3B7D |
+| w00100000            | Suzaku                            | Suzaku                                | Celestial                                    |                          | 0x667DC451 | 0x1CBD3B7D |
+| w00100000            | Suzaku                            | Suzaku                                | Celestial                                    |                          | 0xFEC94220 | 0x1CBD3B7D |
+| w00100010            | Ookina Tori                       | Large Bird                            |                                              |                          |            | 0x05A60A3C |
+| w00110000            | Genbu                             | Genbu                                 | Celestial                                    |                          | 0x3E51446C | 0x21DD12CD |
+| w00110000            | Genbu                             | Genbu                                 | Celestial                                    |                          | 0x07D41CFD | 0x21DD12CD |
+| w00110000            | Genbu                             | Genbu                                 | Celestial                                    |                          | 0xBBEB1DD4 | 0x21DD12CD |
+| w00110000            | Genbu                             | Genbu                                 | Celestial                                    |                          | 0x656C0E4F | 0x21DD12CD |
+| w00120000            | Byakko                            | Byakko                                | Celestial                                    |                          | 0x79F13EBC | 0x667D681D |
+| w00120000            | Byakko                            | Byakko                                | Celestial                                    |                          | 0xECE3A7FE | 0x667D681D |
+| w00120000            | Byakko                            | Byakko                                | Celestial                                    |                          | 0x0621711A | 0x667D681D |
+| w00120000            | Byakko                            | Byakko                                | Celestial                                    |                          | 0x12F2DCBF | 0x667D681D |
+| w00130000            | Kirin                             | Kyryn                                 |                                              |                          | 0x4491170C | 0x5B1D41AD |
+| w00130000            | Kirin                             | Kyryn                                 |                                              |                          | 0x0321CCC0 | 0x5B1D41AD |
+| w00140000            | Gento                             | Boreas                                |                                              |                          | 0xE60CBF7F | 0xE93D9DBD |
+| w00140000            | Gento                             | Boreas                                |                                              |                          | 0xF6B1CB1C | 0xE93D9DBD |
+| w00149999            |                                   |                                       |                                              |                          |            | 0x33FAEA55 |
+| w00150000            | Hakushu                           | Eurus                                 |                                              |                          | 0x278260BF | 0xD45DB40D |
+| w00150000            | Hakushu                           | Eurus                                 |                                              |                          | 0xCBD1E2AC | 0xD45DB40D |
+| w00159999            |                                   |                                       |                                              |                          |            | 0x0E9AC3E5 |
+| w00160000            | Kakusei Enma                      | Enma Awoken                           |                                              |                          | 0x8C71987C | 0x93FDCEDD |
+| w00160000            | Kakusei Enma                      | Enma Awoken                           |                                              |                          | 0x91E52AAB | 0x93FDCEDD |
+| w00160000            | Kakusei Enma                      | Enma Awoken                           |                                              |                          | 0xDC5C7248 | 0x93FDCEDD |
+| w00170000            | Yami Enma                         | Dark Enma                             |                                              |                          | 0x7FEED97E | 0xAE9DE76D |
+| w00170000            | Yami Enma                         | Dark Enma                             |                                              |                          | 0xB111B1CC | 0xAE9DE76D |
+| w00180000            | Yasha Enma                        | Yasha Enma                            |                                              |                          | 0x3341261D | 0x2CCD70BC |
+| w00180000            | Yasha Enma                        | Yasha Enma                            |                                              |                          | 0xEB0923F7 | 0x2CCD70BC |
+| w00180000            | Yasha Enma                        | Yasha Enma                            |                                              |                          | 0xF4576819 | 0x2CCD70BC |
+| w00180000            | Yasha Enma                        | Yasha Enma                            |                                              |                          | 0xC29542FB | 0x2CCD70BC |
+| w00190000            | Kaibyo Kamaitachi                 | Kaibyo Kamaitachi                     |                                              |                          | 0x0E210FAD | 0x11AD590C |
+| w00200000            | Neko'o Basuteto                   | Neko'o Bastet                         |                                              |                          | 0x85A51F72 | 0x9A2949D3 |
+| w00200000            | Neko'o Basuteto                   | Neko'o Bastet                         |                                              |                          | 0xA4B87102 | 0x9A2949D3 |
+| w00200000            | Neko'o Basuteto                   | Neko'o Bastet                         |                                              |                          | 0x214B1E0D | 0x9A2949D3 |
+| w00200000            | Neko'o Basuteto                   | Neko'o Bastet                         |                                              |                          | 0x48A0640E | 0x9A2949D3 |
+| w00200000            | Neko'o Basuteto                   | Neko'o Bastet                         |                                              |                          | 0x43032EEE | 0x9A2949D3 |
+| w00210000            | Kappa'o Sagojo                    | Kappa'o Sagojo                        |                                              |                          | 0xB8C536C2 | 0xA7496063 |
+| w00210000            | Kappa'o Sagojo                    | Kappa'o Sagojo                        |                                              |                          | 0xB3C36541 | 0xA7496063 |
+| w00210000            | Kappa'o Sagojo                    | Kappa'o Sagojo                        |                                              |                          | 0xE0C5C1CD | 0xA7496063 |
+| w00210000            | Kappa'o Sagojo                    | Kappa'o Sagojo                        |                                              |                          | 0xA7620F30 | 0xA7496063 |
+| w00210000            | Kappa'o Sagojo                    | Kappa'o Sagojo                        |                                              |                          | 0xD8A66281 | 0xA7496063 |
+| w00220000            | Tengu'o Kurama                    | Tengu'o Kurama                        |                                              |                          | 0xFF654C12 | 0xE0E91AB3 |
+| w00220000            | Tengu'o Kurama                    | Tengu'o Kurama                        |                                              |                          | 0x8A4E5984 | 0xE0E91AB3 |
+| w00220000            | Tengu'o Kurama                    | Tengu'o Kurama                        |                                              |                          | 0x7927A7CC | 0xE0E91AB3 |
+| w00220000            | Tengu'o Kurama                    | Tengu'o Kurama                        |                                              |                          | 0x4C55B433 | 0xE0E91AB3 |
+| w00220000            | Tengu'o Kurama                    | Tengu'o Kurama                        |                                              |                          | 0xAF38B071 | 0xE0E91AB3 |
+| w00230000            | Gunshin Susano'o                  | Gunshin Susano'o                      |                                              |                          | 0xC20565A2 | 0xDD893303 |
+| w00240000            | Kenshin Amaterasu                 | Kenshin Amaterasu                     |                                              |                          | 0x7025B9B2 | 0x6FA9EF13 |
+| w00240000            | Kenshin Amaterasu                 | Kenshin Amaterasu                     |                                              |                          | 0x414BC474 | 0x6FA9EF13 |
+| w00240000            | Kenshin Amaterasu                 | Kenshin Amaterasu                     |                                              |                          | 0x40051591 | 0x6FA9EF13 |
+| w00250000            | Gesshin Tsukuyomi                 | Gesshin Tsukuyomi                     |                                              |                          | 0x4D459002 | 0x52C9C6A3 |
+| w00250000            | Gesshin Tsukuyomi                 | Gesshin Tsukuyomi                     |                                              |                          | 0xAE89AF4A | 0x52C9C6A3 |
+| w00250000            | Gesshin Tsukuyomi                 | Gesshin Tsukuyomi                     |                                              |                          | 0xDBA059FE | 0x52C9C6A3 |
+| x01010000            | Jingeki                           | Jingeki                               | Full Body                                    |                          | 0x8CC353AC | 0x934F050D |
+| x01010000            | Jingeki                           | Jingeki                               | Full Body                                    |                          | 0x22A78FD5 | 0x934F050D |
+| x01010000_01         | Jingeki                           | Jingeki                               | Super                                        |                          | 0x55A0BF43 | 0x85F5BDD2 |
+| x01010000_02         | Jingeki                           | Jingeki                               | Ultra                                        |                          | 0xCCA9EEF9 | 0x1CFCEC68 |
+| x01010000_03         | Jingeki                           | Jingeki                               | Infernal                                     |                          | 0xBBAEDE6F | 0x6BFBDCFE |
+| x01020000            | Jingeki                           | Jingeki                               | Organ                                        |                          |            |            |
+| x01030000            | Jingeki                           | Jingeki                               | Organ                                        |                          |            |            |
+| x01040000            | Jingeki                           | Jingeki                               | Heart                                        |                          |            |            |
+| x01050000            | Jingeki                           | Jingeki                               | Organ                                        |                          |            |            |
+| x01060000            | Jingeki                           | Jingeki                               | Stomach                                      |                          |            |            |
+| x01070000            | Jingeki                           | Jingeki                               | Intestines                                   |                          |            |            |
+| x01080000            | Jingeki                           | Jingeki                               | Organ                                        |                          |            |            |
+| x01090000            | Jingeki                           | Jingeki                               | Organ                                        |                          |            |            |
+| x01910000            |                                   |                                       |                                              |                          |            |            |
+| x02010000            | Mitsumata Nozuchi                 | Slimamander                           |                                              |                          | 0xBD2B4931 | 0xA2A71F90 |
+| x02010000            | Mitsumata Nozuchi                 | Slimamander                           |                                              |                          | 0xC99034D6 | 0xA2A71F90 |
+| x02010000_01         | Mitsumata Nozuchi                 | Slimamander                           | Super                                        |                          | 0xBE970440 | 0x6EC206D1 |
+| x02010000_02         | Mitsumata Nozuchi                 | Slimamander                           | Ultra                                        |                          | 0x279E55FA | 0xF7CB576B |
+| x02010000_03         | Mitsumata Nozuchi                 | Slimamander                           | Infernal                                     |                          | 0x5099656C | 0x80CC67FD |
+| x02020000            | Medamanbou                        | Slyball                               |                                              |                          | 0xFA8B33E1 | 0xE5076540 |
+| x02020000            | Medamanbou                        | Slyball                               |                                              |                          | 0x471F3335 | 0xE5076540 |
+| x02020000            | Medamanbou                        | Slyball                               |                                              |                          | 0x301803A3 | 0xE5076540 |
+| x02020000            | Medamanbou                        | Slyball                               |                                              |                          | 0xA9115219 | 0xE5076540 |
+| x02020000            | Medamanbou                        | Slyball                               |                                              |                          | 0xDE16628F | 0xE5076540 |
+| x02030000            | Mitsumata Nozuchi                 | Slimamander                           | Eyeball                                      |                          |            |            |
+| x02910000            |                                   |                                       |                                              |                          |            |            |
+| x03010000            | Nobosetonman                      | Sproink                               |                                              |                          | 0x1B5C4285 | 0x04D01424 |
+| x03010000            | Nobosetonman                      | Sproink                               |                                              |                          | 0x2CD794FF | 0x04D01424 |
+| x03010000            | Nobosetonman                      | Sproink                               |                                              |                          | 0x84053426 | 0x04D01424 |
+| x03010000            | Nobosetonman                      | Sproink                               |                                              |                          | 0x3E65E530 | 0x04D01424 |
+| x03010000            | Nobosetonman                      | Sproink                               |                                              |                          | 0x26525FE8 | 0x04D01424 |
+| x03010000            | Nobosetonman                      | Sproink                               |                                              |                          | 0xD23C8A68 | 0x04D01424 |
+| x03010000_01         | Nobosetonman                      | Sproink                               | Super                                        |                          | 0x51556F7E | 0x81006DEF |
+| x03010000_01         | Nobosetonman                      | Sproink                               | Super                                        |                          | 0xA53BBAFE | 0x81006DEF |
+| x03010000_02         | Nobosetonman                      | Sproink                               | Ultra                                        |                          | 0xC85C3EC4 | 0x18093C55 |
+| x03010000_02         | Nobosetonman                      | Sproink                               | Ultra                                        |                          | 0x3C32EB44 | 0x18093C55 |
+| x03010000_mini       |                                   | Mini Sproink                          |                                              |                          | 0x016004FE | 0x3FE4569B |
+| x03010010            | Onobori Kuroton                   | Hoggles                               |                                              |                          | 0x024773C4 | 0x1DCB2565 |
+| x03010010            | Onobori Kuroton                   | Hoggles                               |                                              |                          | 0x11B7BD4F | 0x1DCB2565 |
+| x03010010            | Onobori Kuroton                   | Hoggles                               |                                              |                          | 0x1B327658 | 0x1DCB2565 |
+| x03010010            | Onobori Kuroton                   | Hoggles                               |                                              |                          | 0x1E968AF6 | 0x1DCB2565 |
+| x03010010_01         | Onobori Kuroton                   | Hoggles                               | Super                                        |                          | 0x6C3546CE | 0xBC60445F |
+| x03010010_01         | Onobori Kuroton                   | Hoggles                               | Super                                        |                          | 0x6991BA60 | 0xBC60445F |
+| x03010010_02         | Onobori Kuroton                   | Hoggles                               | Ultra                                        |                          | 0xF53C1774 | 0x256915E5 |
+| x03010010_02         | Onobori Kuroton                   | Hoggles                               | Ultra                                        |                          | 0xF098EBDA | 0x256915E5 |
+| x10010000            | Soranaki                          | Overseer                              |                                              |                          | 0xE61E5886 | 0xF9920E27 |
+| x10010000            | Soranaki                          | Overseer                              |                                              |                          | 0x0CEB3B2B | 0xF9920E27 |
+| x10010000_01         | Soranaki                          | Overseer                              | Super                                        |                          | 0x7BEC0BBD | 0xABB9092C |
+| x10010000_02         | Soranaki                          | Overseer                              | Ultra                                        |                          | 0xE2E55A07 | 0x32B05896 |
+| x10010000_03         | Soranaki                          | Overseer                              | Infernal                                     |                          | 0x95E26A91 | 0x45B76800 |
+| x10020000            | Soranaki's Ute                    | Overseer's Right Hand                 |                                              |                          | 0xA1BE2256 | 0xBE3274F7 |
+| x10020000            | Soranaki's Ute                    | Overseer's Right Hand                 |                                              |                          | 0x82643CC8 | 0xBE3274F7 |
+| x10020000            | Soranaki's Ute                    | Overseer's Right Hand                 |                                              |                          | 0xF5630C5E | 0xBE3274F7 |
+| x10020000            | Soranaki's Ute                    | Overseer's Right Hand                 |                                              |                          | 0x6C6A5DE4 | 0xBE3274F7 |
+| x10020000            | Soranaki's Ute                    | Overseer's Right Hand                 |                                              |                          | 0x1B6D6D72 | 0xBE3274F7 |
+| x10030000            | Soranaki's Sate                   | Overseer's Left Hand                  |                                              |                          | 0x9CDE0BE6 | 0x83525D47 |
+| x10030000            | Soranaki's Sate                   | Overseer's Left Hand                  |                                              |                          | 0x4ECE3C56 | 0x83525D47 |
+| x10030000            | Soranaki's Sate                   | Overseer's Left Hand                  |                                              |                          | 0x39C90CC0 | 0x83525D47 |
+| x10030000            | Soranaki's Sate                   | Overseer's Left Hand                  |                                              |                          | 0xA0C05D7A | 0x83525D47 |
+| x10030000            | Soranaki's Sate                   | Overseer's Left Hand                  |                                              |                          | 0xD7C76DEC | 0x83525D47 |
+| x10040000            | Aya Suishou                       | Bewitched Crystal                     |                                              |                          | 0x2EFED7F6 | 0x31728157 |
+| x10040000            | Aya Suishou                       | Bewitched Crystal                     |                                              |                          | 0x440B354F | 0x31728157 |
+| x10040000            | Aya Suishou                       | Bewitched Crystal                     |                                              |                          | 0x330C05D9 | 0x31728157 |
+| x10040000            | Aya Suishou                       | Bewitched Crystal                     |                                              |                          | 0xAA055463 | 0x31728157 |
+| x10040000            | Aya Suishou                       | Bewitched Crystal                     |                                              |                          | 0xDD0264F5 | 0x31728157 |
+| x12010000            | Maten Soranaki                    | Maten Overseer                        |                                              |                          | 0x718149AF | 0x6E0D1F0E |
+| x12010000            | Maten Soranaki                    | Maten Overseer                        |                                              |                          | 0xD15063EA | 0x6E0D1F0E |
+| x12010000            | Maten Soranaki                    | Maten Overseer                        |                                              |                          | 0x081EEB16 | 0x6E0D1F0E |
+| x12010000_01         | Maten Soranaki                    | Maten Overseer                        | Super                                        |                          | 0x7F19DB80 | 0xAF4CD911 |
+| x12010000_02         | Maten Soranaki                    | Maten Overseer                        | Ultra                                        |                          | 0xE6108A3A | 0x364588AB |
+| x12010000_03         | Maten Soranaki                    | Maten Overseer                        | Infernal                                     |                          | 0x9117BAAC | 0x4142B83D |
+| x12020000            |                                   | Black Capsules                        |                                              |                          |            |            |
+| x12030000            | Youkai Gasha                      | Present Crank-a-Kai                   |                                              |                          |            |            |
+| x21010000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou |                                              |                          | 0xCEE654D1 | 0xD16A0270 |
+| x21010000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou |                                              |                          | 0x7ACB3614 | 0xD16A0270 |
+| x21010000_01         | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Super                                        |                          | 0x0DCC0682 | 0xDD990413 |
+| x21010000_02         | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | UItra                                        |                          | 0x94C55738 | 0x449055A9 |
+| x21010000_03         | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Infernal                                     |                          | 0xE3C267AE | 0x3397653F |
+| x21020000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Multicolored, swirly orb                     |                          |            |            |
+| x21030000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Giant chili pepper                           |                          |            |            |
+| x21040000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Lightning bolt                               |                          |            |            |
+| x21050000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Grotesque bomb                               |                          |            |            |
+| x21060000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Purple soap                                  |                          |            |            |
+| x21070000            | Shinmagunshin Fukurou             | Shinma Warlord Fukurou/Shinma Fukurou | Triple decker cake                           |                          |            |            |
+| x21910000            |                                   |                                       |                                              |                          |            |            |
+| x22010000            | Jorogumo                          | Lady Arachnia                         |                                              |                          | 0xFF0E4E4C | 0xE08218ED |
+| x22010000            | Jorogumo                          | Lady Arachnia                         |                                              |                          | 0x91FC8D17 | 0xE08218ED |
+| x22010000_01         | Jorogumo                          | Lady Arachnia                         | Super                                        |                          | 0xE6FBBD81 | 0x36AEBF10 |
+| x22010000_02         | Jorogumo                          | Lady Arachnia                         | Ultra                                        |                          | 0x7FF2EC3B | 0xAFA7EEAA |
+| x22010000_03         | Jorogumo                          | Lady Arachnia                         | Infernal                                     |                          | 0x08F5DCAD | 0xD8A0DE3C |
+| x22020000            |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          |            | 0xA722623D |
+| x22020000_tori       |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          | 0x66952764 | 0xE0C12D46 |
+| x22020010            |                                   |                                       |                                              | Only objbin file         |            |            |
+| x22030000            |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          |            | 0x9A424B8D |
+| x22030000_tori       |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          | 0x89574C5A | 0x0F034678 |
+| x22030010            |                                   |                                       |                                              | Only objbin file         |            |            |
+| x22040000            |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          |            | 0x2862979D |
+| x22040010            |                                   |                                       |                                              | Only objbin file         |            |            |
+| x22060000            |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          |            | 0x52A2C4FD |
+| x22060000_tori       |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          | 0x6F7E871E | 0xE92A8D3C |
+| x22060010            |                                   |                                       |                                              | Only objbin file         |            |            |
+| x22070000            |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          |            | 0x6FC2ED4D |
+| x22070000_tori       |                                   | Handsome Guy (Arachnia Victim)        |                                              |                          | 0x80BCEC20 | 0x06E8E602 |
+| x22070010            |                                   |                                       |                                              | Only objbin file         |            |            |
+| x26010000            | Raidenryu                         | Raidenryu                             |                                              |                          | 0x0B416A5F | 0x14CD3CFE |
+| x26010000            | Raidenryu                         | Raidenryu                             |                                              |                          | 0x0F458E1C | 0x14CD3CFE |
+| x26010000_01         | Raidenryu                         | Raidenryu                             | Super                                        |                          | 0x7842BE8A | 0x3F451F6A |
+| x26010000_02         | Raidenryu                         | Raidenryu                             | Ultra                                        |                          | 0xE14BEF30 | 0xA64C4ED0 |
+| x26020000            | Gyouji                            | Referee                               |                                              |                          |            | 0x536D462E |
+| x26030000            | Oozumou Uketsuke/Oozumou Kakariin | Sumo Receptionist/Sumo Staff          |                                              |                          |            | 0x6E0D6F9E |
+| x30010000            | Gashadokuro                       | Gutsy Bones                           |                                              |                          |            | 0xBBB7095A |
+| x30010010            | Gashadokuro G                     | Goldy Bones                           |                                              |                          |            | 0xA2AC381B |
+| x30010020            | Giyaman Dokuro                    | Glitzy Bones                          |                                              |                          |            | 0x89816BD8 |
+| y00010000            | Wisupa                            | Whisper                               | Future                                       |                          | 0x3DCF4C5B | 0x22431AFA |
+| y00010000            | Wisupa                            | Whisper                               | Future                                       |                          | 0x3495E371 | 0x22431AFA |
+| y00020000            | Wisupa                            | Whisper                               | Present                                      |                          | 0x7A6F368B | 0x65E3602A |
+| y00020000            | Wisupa                            | Whisper                               | Present                                      |                          | 0xDFA25872 | 0x65E3602A |
+| y00110000            | Nabiwan                           | Naviwoof                              |                                              |                          |            | 0xE91FC95F |
+| y00110010            | Nabiwan                           | Naviwoof                              |                                              |                          |            | 0xF004F81E |
+| y00110020            | Nabiwan                           | Naviwoof                              |                                              |                          |            | 0xDB29ABDD |
+| y00110030            | Nabiwan                           | Naviwoof                              |                                              |                          |            | 0xC2329A9C |
+| y00110040            | Nabiwan                           | Naviwoof                              |                                              |                          |            | 0x8D730C5B |
+| y00520000            | Konsaru                           | Soulmian                              |                                              |                          | 0x06AA4184 | 0x352EF199 |
+| y00530000            |                                   | Yo-kai World Ghost                    | Normal                                       |                          |            | 0x084ED829 |
+| y00530010            |                                   | Yo-kai World Ghost                    | Horned                                       |                          |            | 0x1155E968 |
+| y00530020            |                                   | Yo-kai World Ghost                    | Dog ears                                     |                          |            | 0x3A78BAAB |
+| y00540000            | Mikakunin                         | Mikakunin                             |                                              |                          | 0x0BB431C3 | 0xBA6E0439 |
+| y00550000            |                                   | Yo-kai Festival Puller                | Red                                          |                          |            | 0x870E2D89 |
+| y00550010            |                                   | Yo-kai Festival Puller                | Blue                                         |                          |            | 0x9E151CC8 |
+| y00550020            |                                   | Yo-kai Festival Puller                | Green                                        |                          |            | 0xB5384F0B |
+| y01010000            | Jibanyan                          | Jibanyan                              | Lightside                                    |                          | 0x9BB847EF | 0x8434114E |
+| y01010000            | Jibanyan                          | Jibanyan                              | Lightside                                    |                          | 0xAF30AF1E | 0x8434114E |
+| y01011000            | Jibanyan                          | Jibanyan                              | Shadowside                                   |                          | 0x2304208A | 0x3C88762B |
+| y01011000            | Jibanyan                          | Jibanyan                              | Shadowside                                   |                          | 0xB84BBB5D | 0x3C88762B |
+| y01020000            | Komasan                           | Komasan                               | Lightside                                    |                          | 0xDC183D3F | 0xC3946B9E |
+| y01020000            | Komasan                           | Komasan                               | Lightside                                    |                          | 0x4407141D | 0xC3946B9E |
+| y01021000            | Komasan                           | Komasan                               | Shadowside                                   |                          | 0x64A45A5A | 0x7B280CFB |
+| y01021000            | Komasan                           | Komasan                               | Shadowside                                   |                          | 0x537C005E | 0x7B280CFB |
+| y01030000            | Micchi                            | Sly                                   | Lightside                                    |                          | 0xE178148F | 0xFEF4422E |
+| y01030000            | Micchi                            | Sly                                   | Lightside                                    |                          | 0x64772763 | 0xFEF4422E |
+| y01030000            | Micchi                            | Sly                                   | Lightside                                    |                          | 0xABC57F23 | 0xFEF4422E |
+| y01031000            | Mitsumata Nozuchi                 | Slimamander                           | Shadowside                                   |                          | 0x59C473EA | 0x4648254B |
+| y01031000            | Mitsumata Nozuchi                 | Slimamander                           | Shadowside                                   |                          | 0x8BB54C5D | 0x4648254B |
+| y01031000            | Mitsumata Nozuchi                 | Slimamander                           | Shadowside                                   |                          | 0xBCBE6B60 | 0x4648254B |
+| y01040000            | Merameraion                       | Blazion                               | Lightside                                    |                          | 0x5358C89F | 0x4CD49E3E |
+| y01040000            | Merameraion                       | Blazion                               | Lightside                                    |                          | 0x4919645A | 0x4CD49E3E |
+| y01041000            | Merameraion                       | Blazion                               | Shadowside                                   |                          | 0xEBE4AFFA | 0xF468F95B |
+| y01041000            | Merameraion                       | Blazion                               | Shadowside                                   |                          | 0x5E627019 | 0xF468F95B |
+| y01041000_virus      | Merameraion                       | Blazion                               | Shinma                                       |                          | 0x0A437C7A | 0xDFA56994 |
+| y01050000            | Fubuki-hime                       | Blizzaria                             | Lightside                                    |                          | 0x6E38E12F | 0x71B4B78E |
+| y01050000            | Fubuki-hime                       | Blizzaria                             | Lightside                                    |                          | 0xA6DB0F64 | 0x71B4B78E |
+| y01050000            | Fubuki-hime                       | Blizzaria                             | Lightside                                    |                          | 0x0F586D04 | 0x71B4B78E |
+| y01050010            | Hyakki-hime                       | Damona                                | Lightside                                    |                          | 0x7723D06E | 0x68AF86CF |
+| y01050010            | Hyakki-hime                       | Damona                                | Lightside                                    |                          | 0x00AC04D0 | 0x68AF86CF |
+| y01050010            | Hyakki-hime                       | Damona                                | Lightside                                    |                          | 0x18237947 | 0x68AF86CF |
+| y01051000            | Fubuki-hime                       | Blizzaria                             | Shadowside                                   |                          | 0xD684864A | 0xC908D0EB |
+| y01051000            | Fubuki-hime                       | Blizzaria                             | Shadowside                                   |                          | 0xB1A01B27 | 0xC908D0EB |
+| y01051000_virus      | Fubuki-hime                       | Blizzaria                             | Shinma                                       |                          | 0xCBCDA3BA | 0x1E2BB654 |
+| y01051010            | Hyakki-hime                       | Damona                                | Shadowside                                   |                          | 0xCF9FB70B | 0xD013E1AA |
+| y01051010            | Hyakki-hime                       | Damona                                | Shadowside                                   |                          | 0x17D71093 | 0xD013E1AA |
+| y01051010            | Hyakki-hime                       | Damona                                | Shadowside                                   |                          | 0xD08430EB | 0xD013E1AA |
+| y01060000            | Kyubi                             | Kyubi                                 | Lightside                                    |                          | 0x29989BFF | 0x3614CD5E |
+| y01060000            | Kyubi                             | Kyubi                                 | Lightside                                    |                          | 0x15208B21 | 0x3614CD5E |
+| y01060000            | Kyubi                             | Kyubi                                 | Lightside                                    |                          | 0x4DECB467 | 0x3614CD5E |
+| y01060010            | Inugami                           | Frostail                              | Lightside                                    |                          | 0x3083AABE | 0x2F0FFC1F |
+| y01060010            | Inugami                           | Frostail                              | Lightside                                    |                          | 0xEB9BBFD3 | 0x2F0FFC1F |
+| y01061000            | Kyubi                             | Kyubi                                 | Shadowside                                   |                          | 0x9124FC9A | 0x8EA8AA3B |
+| y01061000            | Kyubi                             | Kyubi                                 | Shadowside                                   |                          | 0xFAE2E01F | 0x8EA8AA3B |
+| y01061000            | Kyubi                             | Kyubi                                 | Shadowside                                   |                          | 0x5A97A024 | 0x8EA8AA3B |
+| y01061000_virus      | Kyubi                             | Kyubi                                 | Shinma                                       |                          | 0x522FC5BB | 0x87C9D055 |
+| y01061010            | Inugami                           | Frostail                              | Shadowside                                   |                          | 0x883FCDDB | 0x97B39B7A |
+| y01061010            | Inugami                           | Frostail                              | Shadowside                                   |                          | 0xFCE0AB90 | 0x97B39B7A |
+| y01070000            | Seiryu                            | Azure Dragon                          | Lightside                                    |                          | 0x14F8B24F | 0x0B74E4EE |
+| y01070000            | Seiryu                            | Azure Dragon                          | Lightside                                    |                          | 0xA22EDF59 | 0x0B74E4EE |
+| y01071000            | Seiryu                            | Azure Dragon                          | Shadowside                                   |                          | 0xAC44D52A | 0xB3C8838B |
+| y01071000            | Seiryu                            | Azure Dragon                          | Shadowside                                   |                          | 0xB555CB1A | 0xB3C8838B |
+| y01071000_qsa0040    | Senda Seiryu                      | Past Azure Dragon                     |                                              |                          | 0x3B6C3FDF | 0xDE1F9D9A |
+| y01071010            | Soryu                             | Soryu                                 | Celestial                                    |                          | 0xB55FE46B | 0xAAD3B2CA |
+| y01080000            | Robonyan Daburu OO                | Tidynator                             | Lightside                                    |                          | 0x96A8259E | 0x8924733F |
+| y01080000            | Robonyan Daburu OO                | Tidynator                             | Lightside                                    |                          | 0x532584D4 | 0x8924733F |
+| y01081000            | Robonyan Daburu OO                | Tidynator                             | Shadowside                                   |                          | 0x2E1442FB | 0x3198145A |
+| y01081000            | Robonyan Daburu OO                | Tidynator                             | Shadowside                                   |                          | 0x445E9097 | 0x3198145A |
+| y01081000            | Robonyan Daburu OO                | Tidynator                             | Shadowside                                   |                          | 0x59502546 | 0x3198145A |
+| y01090000            | Rai Oton                          | Papa Bolt                             | Lightside                                    |                          | 0xABC80C2E | 0xB4445A8F |
+| y01090000            | Rai Oton                          | Papa Bolt                             | Lightside                                    |                          | 0xBCE7EFEA | 0xB4445A8F |
+| y01091000            | Rai Oton                          | Papa Bolt                             | Shadowside                                   |                          | 0x13746B4B | 0x0CF83DEA |
+| y01091000            | Rai Oton                          | Papa Bolt                             | Shadowside                                   |                          | 0xAB9CFBA9 | 0x0CF83DEA |
+| y01100000            | Jinta                             | Jinta                                 | Lightside                                    |                          | 0x6D84BDFA | 0x7208EB5B |
+| y01100000            | Jinta                             | Jinta                                 | Lightside                                    |                          | 0x817C1BE0 | 0x7208EB5B |
+| y01100000_virus_test | Jinta                             | Jinta                                 | Shinma                                       |                          | 0x758E6E62 | 0xD48D2D39 |
+| y01101000            | Jingeki                           | Jingeki                               | Shadowside                                   |                          | 0xD538DA9F | 0xCAB48C3E |
+| y01101000            | Jingeki                           | Jingeki                               | Shadowside                                   |                          | 0x96070FA3 | 0xCAB48C3E |
+| y01101000            | Jingeki                           | Jingeki                               | Shadowside                                   |                          | 0x82CA8A3D | 0xCAB48C3E |
+| y01101000_virus      | Jingeki                           | Jingeki                               | Shinma                                       |                          | 0x213F4397 | 0xF4D95679 |
+| y01101000_virus      | Jingeki                           | Jingeki                               | Shinma                                       |                          | 0x89F26633 | 0xF4D95679 |
+| y01101000_virus_test | Jingeki                           | Jingeki                               | Shinma                                       |                          | 0xCC75B58A | 0x6D76F6D1 |
+| y01110000            | Bancho                            | Bancho                                | Lightside                                    |                          | 0x50E4944A | 0x4F68C2EB |
+| y01110000            | Bancho                            | Bancho                                | Lightside                                    |                          | 0x6EBE70DE | 0x4F68C2EB |
+| y01111000            | Borei Bancho                      | Basher                                | Shadowside                                   |                          | 0xE858F32F | 0xF7D4A58E |
+| y01111000            | Borei Bancho                      | Basher                                | Shadowside                                   |                          | 0x79C5649D | 0xF7D4A58E |
+| y01111000_virus      | Borei Bancho                      | Basher                                | Shinma                                       |                          | 0xE0B19C57 | 0x355789B9 |
+| y01130000            | Semikoron                         | Semicolon                             | Lightside                                    |                          | 0x2A24C72A | 0x35A8918B |
+| y01130000            | Semikoron                         | Semicolon                             | Lightside                                    |                          | 0x6A4BA0E3 | 0x35A8918B |
+| y01131000            | Semirongu                         | Bugaboo                               | Shadowside                                   |                          | 0x9298A04F | 0x8D14F6EE |
+| y01131000            | Semirongu                         | Bugaboo                               | Shadowside                                   |                          | 0x7D30B4A0 | 0x8D14F6EE |
+| y01131000_virus      | Semirongu                         | Bugaboo                               | Shinma                                       |                          | 0xB8DD2596 | 0x6D3B3078 |
+| y01140000            | Pakkun                            | Pakkun                                | Lightside                                    |                          | 0x98041B3A | 0x87884D9B |
+| y01140000            | Pakkun                            | Pakkun                                | Lightside                                    |                          | 0x8897BB9A | 0x87884D9B |
+| y01141000            | Gaburieru                         | Gaburiel                              | Shadowside                                   |                          | 0x20B87C5F | 0x3F342AFE |
+| y01141000            | Gaburieru                         | Gaburiel                              | Shadowside                                   |                          | 0x9FECAFD9 | 0x3F342AFE |
+| y01141000_virus      | Gaburieru                         | Gaburiel                              | Shinma                                       |                          | 0x91E63015 | 0x440025FB |
+| y01150000            | Ogu, Togu, and Mogu               | Ogu, Togu, and Mogu                   |                                              |                          | 0xA564328A | 0xBAE8642B |
+| y01150000            | Ogu, Togu, and Mogu               | Ogu, Togu, and Mogu                   |                                              |                          | 0x6755D0A4 | 0xBAE8642B |
+| y01160000            | Fukurou                           | Fukurou                               |                                              |                          | 0x8E85C74E | 0xFD481EFB |
+| y01160000            | Fukurou                           | Fukurou                               |                                              |                          | 0xE2C4485A | 0xFD481EFB |
+| y01160000            | Fukurou                           | Fukurou                               |                                              |                          | 0x8C626BA7 | 0xFD481EFB |
+| y01170000            | Jabo                              | Jabow                                 |                                              |                          | 0xDFA461EA | 0xC028374B |
+| y01170000            | Jabo                              | Jabow                                 |                                              |                          | 0x63A00099 | 0xC028374B |
+| y01180000            | Himojii                           | Hungramps                             | Lightside                                    |                          | 0x5DF4F63B | 0x4278A09A |
+| y01180000            | Himojii                           | Hungramps                             | Lightside                                    |                          | 0x92AB5B14 | 0x4278A09A |
+| y01181000            | Himojii                           | Hungramps                             | Shadowside                                   |                          | 0xE548915E | 0xFAC4C7FF |
+| y01181000            | Himojii                           | Hungramps                             | Shadowside                                   |                          | 0x85D04F57 | 0xFAC4C7FF |
+| y01181000_virus      | Himojii                           | Hungramps                             | Shinma                                       |                          | 0x9BFCA2D2 | 0x4E1AB73C |
+| y01200000            | Kyunshi                           | Kyunshi                               | Lightside                                    |                          | 0xEB10CF54 | 0xF49C99F5 |
+| y01200000            | Kyunshi                           | Kyunshi                               | Lightside                                    |                          | 0x189E7DE1 | 0xF49C99F5 |
+| y01201000            | Zukkyunshi                        | Zukkyunshi                            | Shadowside                                   |                          | 0x53ACA831 | 0x4C20FE90 |
+| y01201000            | Zukkyunshi                        | Zukkyunshi                            | Shadowside                                   |                          | 0x0FE569A2 | 0x4C20FE90 |
+| y01201000_virus      | Zukkyunshi                        | Zukkyunshi                            | Shinma                                       |                          | 0x56A19167 | 0x83478489 |
+| y01220000            | Kakurenbo                         | Kakurenbo                             | Lightside                                    |                          | 0x91D09C34 | 0x8E5CCA95 |
+| y01220000            | Kakurenbo                         | Kakurenbo                             | Lightside                                    |                          | 0x1C6BADDC | 0x8E5CCA95 |
+| y01221000            | Inaiinaiba                        | Inaiinaiba                            | Shadowside                                   |                          | 0x296CFB51 | 0x36E0ADF0 |
+| y01221000            | Inaiinaiba                        | Inaiinaiba                            | Shadowside                                   |                          | 0x0B10B99F | 0x36E0ADF0 |
+| y01221000            | Inaiinaiba                        | Inaiinaiba                            | Shadowside                                   |                          | 0xD33B786C | 0x36E0ADF0 |
+| y01230000            | Hare-onna                         | Hare-onna                             | Lightside                                    |                          | 0xACB0B584 | 0xB33CE325 |
+| y01230000            | Hare-onna                         | Hare-onna                             | Lightside                                    |                          | 0xF3A9C6E2 | 0xB33CE325 |
+| y01231000            | Ame-onna                          | Drizzelda                             | Shadowside                                   |                          | 0x140CD2E1 | 0x0B808440 |
+| y01231000            | Ame-onna                          | Drizzelda                             | Shadowside                                   |                          | 0xE4D2D2A1 | 0x0B808440 |
+| y01250000            | Danieru                           | Daniel                                | Lightside                                    |                          | 0x23F04024 | 0x3C7C1685 |
+| y01250000            | Danieru                           | Daniel                                | Lightside                                    |                          | 0xFEB7B6A5 | 0x3C7C1685 |
+| y01251000            | Biggu Dani                        | Big Danny                             | Shadowside                                   |                          | 0x9B4C2741 | 0x84C071E0 |
+| y01251000            | Biggu Dani                        | Big Danny                             | Shadowside                                   |                          | 0xE9CCA2E6 | 0x84C071E0 |
+| y01270000            | Itashikatanashi                   | Itashikatanashi                       | Lightside                                    |                          | 0x59301344 | 0x46BC45E5 |
+| y01270000            | Itashikatanashi                   | Itashikatanashi                       | Lightside                                    |                          | 0xFA426698 | 0x46BC45E5 |
+| y01271000            | Yamuwoen                          | Yamuwoen                              | Shadowside                                   |                          | 0xE18C7421 | 0xFE002280 |
+| y01271000            | Yamuwoen                          | Yamuwoen                              | Shadowside                                   |                          | 0xED3972DB | 0xFE002280 |
+| y01280000            | Chokki                            | Choky                                 | Lightside                                    |                          | 0xDB608495 | 0xC4ECD234 |
+| y01280000            | Chokki                            | Choky                                 | Lightside                                    |                          | 0x0B493D15 | 0xC4ECD234 |
+| y01281000            | Shiomaneki                        | Shiomaneki                            | Shadowside                                   |                          | 0x63DCE3F0 | 0x7C50B551 |
+| y01281000            | Shiomaneki                        | Shiomaneki                            | Shadowside                                   |                          | 0x1C322956 | 0x7C50B551 |
+| y01290000            | Saya                              | Saya                                  | Lightside                                    |                          | 0xE600AD25 | 0xF98CFB84 |
+| y01290000            | Saya                              | Saya                                  | Lightside                                    |                          | 0xE48B562B | 0xF98CFB84 |
+| y01291000            | Makenki                           | Makenki                               | Shadowside                                   |                          | 0x5EBCCA40 | 0x41309CE1 |
+| y01291000            | Makenki                           | Makenki                               | Shadowside                                   |                          | 0xF3F04268 | 0x41309CE1 |
+| y01300000            | Orochi                            | Venoct                                | Lightside                                    |                          | 0x204C1CF1 | 0x3FC04A50 |
+| y01300000            | Orochi                            | Venoct                                | Lightside                                    |                          | 0x8A0B9392 | 0x3FC04A50 |
+| y01300000            | Orochi                            | Venoct                                | Lightside                                    |                          | 0xD910A221 | 0x3FC04A50 |
+| y01300010            | Kage Orochi                       | Shadow Venoct                         | Lightside                                    |                          | 0x39572DB0 | 0x26DB7B11 |
+| y01300010            | Kage Orochi                       | Shadow Venoct                         | Lightside                                    |                          | 0x7F67A995 | 0x26DB7B11 |
+| y01301000            | Orochi                            | Venoct                                | Shadowside                                   |                          | 0x98F07B94 | 0x877C2D35 |
+| y01301000            | Orochi                            | Venoct                                | Shadowside                                   |                          | 0x65C9F8AC | 0x877C2D35 |
+| y01301000            | Orochi                            | Venoct                                | Shadowside                                   |                          | 0xCE6BB662 | 0x877C2D35 |
+| y01301000_virus      | Orochi                            | Venoct                                | Shinma                                       |                          | 0xCD04DD08 | 0x18E2C8E6 |
+| y01301010            | Kage Orochi                       | Shadow Venoct                         | Shadowside                                   |                          | 0x81EB4AD5 | 0x9E671C74 |
+| y01301010            | Kage Orochi                       | Shadow Venoct                         | Shadowside                                   |                          | 0x681CBDD6 | 0x9E671C74 |
+| y01310000            | Bushinyan                         | Shogunyan                             | Lightside                                    |                          | 0x1D2C3541 | 0x02A063E0 |
+| y01310000            | Bushinyan                         | Shogunyan                             | Lightside                                    |                          | 0x36D2C91F | 0x02A063E0 |
+| y01311000            | Bushinyan                         | Shogunyan                             | Shadowside                                   |                          | 0xA5905224 | 0xBA1C0485 |
+| y01311000            | Bushinyan                         | Shogunyan                             | Shadowside                                   |                          | 0x21A9DD5C | 0xBA1C0485 |
+| y01311000            | Bushinyan                         | Shogunyan                             | Shadowside                                   |                          | 0x79337319 | 0xBA1C0485 |
+| y01320000            | Tsuchigumo                        | Arachnus                              | Lightside                                    |                          | 0x5A8C4F91 | 0x45001930 |
+| y01320000            | Tsuchigumo                        | Arachnus                              | Lightside                                    |                          | 0xDDE5721C | 0x45001930 |
+| y01321000            | Tsuchigumo                        | Arachnus                              | Shadowside                                   |                          | 0xE23028F4 | 0xFDBC7E55 |
+| y01321000            | Tsuchigumo                        | Arachnus                              | Shadowside                                   |                          | 0xCA9E665F | 0xFDBC7E55 |
+| y01330000            | Honmaguro-taisho                  | Chief Tuna                            | Lightside                                    |                          | 0x67EC6621 | 0x78603080 |
+| y01330000            | Honmaguro-taisho                  | Chief Tuna                            | Lightside                                    |                          | 0x32271922 | 0x78603080 |
+| y01331000            | Magurodon                         | Neptuna                               | Shadowside                                   |                          | 0xDF500144 | 0xC0DC57E5 |
+| y01331000            | Magurodon                         | Neptuna                               | Shadowside                                   |                          | 0x255C0D61 | 0xC0DC57E5 |
+| y01331000_virus      | Magurodon                         | Neptuna                               | Shinma                                       |                          | 0x54E6BB09 | 0x8100AEE7 |
+| y01340000            | Tsuchinoko                        | Noko                                  | Lightside                                    |                          | 0xD5CCBA31 | 0xCA40EC90 |
+| y01340000            | Tsuchinoko                        | Noko                                  | Lightside                                    |                          | 0xD0FB025B | 0xCA40EC90 |
+| y01340000            | Tsuchinoko                        | Noko                                  | Lightside                                    |                          | 0xDF91C27C | 0xCA40EC90 |
+| y01341000            | Tsuchinoko                        | Noko                                  | Shadowside                                   |                          | 0x6D70DD54 | 0x72FC8BF5 |
+| y01341000            | Tsuchinoko                        | Noko                                  | Shadowside                                   |                          | 0xC7801618 | 0x72FC8BF5 |
+| y01341000            | Tsuchinoko                        | Noko                                  | Shadowside                                   |                          | 0x429E230A | 0x72FC8BF5 |
+| y01350000            | Komajiro                          | Komajiro                              | Lightside                                    |                          | 0xE8AC9381 | 0xF720C520 |
+| y01350000            | Komajiro                          | Komajiro                              | Lightside                                    |                          | 0x3F396965 | 0xF720C520 |
+| y01351000            | Komajiro                          | Komajiro                              | Shadowside                                   |                          | 0x5010F4E4 | 0x4F9CA245 |
+| y01351000            | Komajiro                          | Komajiro                              | Shadowside                                   |                          | 0x28427D26 | 0x4F9CA245 |
+| y01351000_virus      | Komajiro                          | Komajiro                              | Shinma                                       |                          | 0xBC53714A | 0x69B564A4 |
+| y01360000            | Ogama                             | Toadal Dude                           | Lightside                                    |                          | 0xAF0CE951 | 0xB080BFF0 |
+| y01360000            | Ogama                             | Toadal Dude                           | Lightside                                    |                          | 0xD40ED266 | 0xB080BFF0 |
+| y01361000            | Ogama                             | Toadal Dude                           | Shadowside                                   |                          | 0x17B08E34 | 0x083CD895 |
+| y01361000            | Ogama                             | Toadal Dude                           | Shadowside                                   |                          | 0xC375C625 | 0x083CD895 |
+| y01370000            | Fuu-kun                           | Fuu-kun                               | Lightside                                    |                          | 0x926CC0E1 | 0x8DE09640 |
+| y01370000            | Fuu-kun                           | Fuu-kun                               | Lightside                                    |                          | 0xA3308611 | 0x8DE09640 |
+| y01370000            | Fuu-kun                           | Fuu-kun                               | Lightside                                    |                          | 0x3BCCB958 | 0x8DE09640 |
+| y01371000            | Fujin                             | Fujin                                 | Shadowside                                   |                          | 0x2AD0A784 | 0x355CF125 |
+| y01371000            | Fujin                             | Fujin                                 | Shadowside                                   |                          | 0x4CF2ED2F | 0x355CF125 |
+| y01371000            | Fujin                             | Fujin                                 | Shadowside                                   |                          | 0x2CB7AD1B | 0x355CF125 |
+| y01371000_virus      | Fujin                             | Fujin                                 | Shinma                                       |                          | 0xE43FC88B | 0x31D9DD65 |
+| y01380000            | Rai-chan                          | Rai-chan                              | Lightside                                    |                          | 0x103C5730 | 0x0FB00191 |
+| y01380000            | Rai-chan                          | Rai-chan                              | Lightside                                    |                          | 0x30C872D7 | 0x0FB00191 |
+| y01380000            | Rai-chan                          | Rai-chan                              | Lightside                                    |                          | 0xCAC7E2D5 | 0x0FB00191 |
+| y01381000            | Raijin                            | Raijin                                | Shadowside                                   |                          | 0xA8803055 | 0xB70C66F4 |
+| y01381000            | Raijin                            | Raijin                                | Shadowside                                   |                          | 0xDF0A19E9 | 0xB70C66F4 |
+| y01381000            | Raijin                            | Raijin                                | Shadowside                                   |                          | 0xDDBCF696 | 0xB70C66F4 |
+| y01381000_virus      | Raijin                            | Raijin                                | Shinma                                       |                          | 0x77C73C4D | 0xA22129A3 |
+| y01390000            | Hamuhamu                          | Hamham                                | Lightside                                    |                          | 0x2D5C7E80 | 0x32D02821 |
+| y01390000            | Hamuhamu                          | Hamham                                | Lightside                                    |                          | 0x250589EB | 0x32D02821 |
+| y01391000            | Aburahamu                         | Aburaham                              | Shadowside                                   |                          | 0x95E019E5 | 0x8A6C4F44 |
+| y01391000            | Aburahamu                         | Aburaham                              | Shadowside                                   |                          | 0x327E9DA8 | 0x8A6C4F44 |
+| y01391000            | Aburahamu                         | Aburaham                              | Shadowside                                   |                          | 0x7F3F05E7 | 0x8A6C4F44 |
+| y01420000            | Doyapon                           | Doyapon                               | Lightside                                    |                          | 0x47897F29 | 0x58052988 |
+| y01420000            | Doyapon                           | Doyapon                               | Lightside                                    |                          | 0xF4DE679F | 0x58052988 |
+| y01421000            | Dodanuki                          | Dodanuki                              | Shadowside                                   |                          | 0xFF35184C | 0xE0B94EED |
+| y01421000            | Dodanuki                          | Dodanuki                              | Shadowside                                   |                          | 0xE3A573DC | 0xE0B94EED |
+| y01421000            | Dodanuki                          | Dodanuki                              | Shadowside                                   |                          | 0x7AF731DD | 0xE0B94EED |
+| y01430000            | Uribou                            | Uribou                                | Lightside                                    |                          | 0x7AE95699 | 0x65650038 |
+| y01430000            | Uribou                            | Uribou                                | Lightside                                    |                          | 0x1B1C0CA1 | 0x65650038 |
+| y01431000            | Inosasaou                         | Inosasaou                             | Shadowside                                   |                          | 0xC25531FC | 0xDDD9675D |
+| y01431000            | Inosasaou                         | Inosasaou                             | Shadowside                                   |                          | 0x0C6718E2 | 0xDDD9675D |
+| y01450000            | Chari                             | Charlie                               | Lightside                                    |                          | 0xF5A9A339 | 0xEA25F598 |
+| y01450000            | Chari                             | Charlie                               | Lightside                                    |                          | 0x16027CE6 | 0xEA25F598 |
+| y01451000            | Gosutosaikuru                     | Ghostcycle                            | Shadowside                                   |                          | 0x4D15C45C | 0x529992FD |
+| y01451000            | Gosutosaikuru                     | Ghostcycle                            | Shadowside                                   |                          | 0x017968A5 | 0x529992FD |
+| y01460000            | Kezurin                           | Kezurin                               | Lightside                                    |                          | 0xB209D9E9 | 0xAD858F48 |
+| y01460000            | Kezurin                           | Kezurin                               | Lightside                                    |                          | 0xFD35C7E5 | 0xAD858F48 |
+| y01461000            | Jinkotsukezuri                    | Jinkotsukezuri                        | Shadowside                                   |                          | 0x0AB5BE8C | 0x1539E82D |
+| y01461000            | Jinkotsukezuri                    | Jinkotsukezuri                        | Shadowside                                   |                          | 0xEA4ED3A6 | 0x1539E82D |
+| y01470000            | Zundomaru                         | Hot Pot                               | Lightside                                    |                          | 0x8F69F059 | 0x90E5A6F8 |
+| y01470000            | Zundomaru                         | Hot Pot                               | Lightside                                    |                          | 0x12F7ACDB | 0x90E5A6F8 |
+| y01471000            | Shiryo no Dokudoku-nabe           | Rot Pot                               | Shadowside                                   |                          | 0x37D5973C | 0x2859C19D |
+| y01471000            | Shiryo no Dokudoku-nabe           | Rot Pot                               | Shadowside                                   |                          | 0x058CB898 | 0x2859C19D |
+| y01471000_virus      | Shiryo no Dokudoku-nabe           | Rot Pot                               | Shinma                                       |                          | 0x90A72104 | 0x454134EA |
+| y01480000            | Ungaikyo                          | Mirapo                                | Lightside                                    |                          | 0x0D396788 | 0x12B53129 |
+| y01480000            | Ungaikyo                          | Mirapo                                | Lightside                                    |                          | 0xE3FCF756 | 0x12B53129 |
+| y01481000            | Ungaikyo                          | Mirapo                                | Shadowside                                   |                          | 0xB58500ED | 0xAA09564C |
+| y01481000            | Ungaikyo                          | Mirapo                                | Shadowside                                   |                          | 0xF487E315 | 0xAA09564C |
+| y01520000            | Kiborikkuma                       | Kiborikkuma                           | Lightside                                    |                          | 0x8CD5AC8C | 0x9359FA2D |
+| y01520000            | Kiborikkuma                       | Kiborikkuma                           | Lightside                                    |                          | 0x3550B85F | 0x9359FA2D |
+| y01521000            | Onikuma                           | Onikuma                               | Shadowside                                   |                          | 0x3469CBE9 | 0x2BE59D48 |
+| y01521000            | Onikuma                           | Onikuma                               | Shadowside                                   |                          | 0x222BAC1C | 0x2BE59D48 |
+| y01530000            | Kantaro                           | Kantaro                               | Lightside                                    |                          | 0xB1B5853C | 0xAE39D39D |
+| y01530000            | Kantaro                           | Kantaro                               | Lightside                                    |                          | 0xDA92D361 | 0xAE39D39D |
+| y01531000            | Jihanki                           | Jihanki                               | Shadowside                                   |                          | 0x0909E259 | 0x1685B4F8 |
+| y01531000            | Jihanki                           | Jihanki                               | Shadowside                                   |                          | 0xCDE9C722 | 0x1685B4F8 |
+| y01531000_virus      | Jihanki                           | Jihanki                               | Shinma                                       |                          | 0xBBDB1EE9 | 0x6E3D0B07 |
+| y01550000            | Shurakoma                         | Komashura                             | Lightside                                    |                          | 0x3EF5709C | 0x2179263D |
+| y01550000            | Shurakoma                         | Komashura                             | Lightside                                    |                          | 0xD78CA326 | 0x2179263D |
+| y01551000            | Shurakoma                         | Komashura                             | Shadowside                                   |                          | 0x864917F9 | 0x99C54158 |
+| y01551000            | Shurakoma                         | Komashura                             | Shadowside                                   |                          | 0xC0F7B765 | 0x99C54158 |
+| y01560000            | Junia                             | Junior                                | Lightside                                    |                          | 0x79550A4C | 0x66D95CED |
+| y01560000            | Junia                             | Junior                                | Lightside                                    |                          | 0x3CBB1825 | 0x66D95CED |
+| y01561000            | Baningu Doragon                   | Burning Dragon                        | Shadowside                                   |                          | 0xC1E96D29 | 0xDE653B88 |
+| y01561000            | Baningu Doragon                   | Burning Dragon                        | Shadowside                                   |                          | 0x2BC00C66 | 0xDE653B88 |
+| y01610000            | Dameboi                           | Dameboy                               | Lightside                                    |                          | 0x4DE1A4F2 | 0x526DF253 |
+| y01610000            | Dameboi                           | Dameboy                               | Lightside                                    |                          | 0x4785655D | 0x526DF253 |
+| y01611000            | Zettai Gadoman                    | Zettai Guardman                       | Shadowside                                   |                          | 0xF55DC397 | 0xEAD19536 |
+| y01611000            | Zettai Gadoman                    | Zettai Guardman                       | Shadowside                                   |                          | 0x50FE711E | 0xEAD19536 |
+| y01611000            | Zettai Gadoman                    | Zettai Guardman                       | Shadowside                                   |                          | 0x641CC00A | 0xEAD19536 |
+| y01640000            | Becchan                           | Becchan                               | Lightside                                    |                          | 0x85012B82 | 0x9A8D7D23 |
+| y01640000            | Becchan                           | Becchan                               | Lightside                                    |                          | 0xA1ACAE19 | 0x9A8D7D23 |
+| y01641000            | Nuttarabeccha                     | Nuttarabeccha                         | Shadowside                                   |                          | 0x3DBD4CE7 | 0x22311A46 |
+| y01641000            | Nuttarabeccha                     | Nuttarabeccha                         | Shadowside                                   |                          | 0xB6D7BA5A | 0x22311A46 |
+| y01650000            | Hinoshin                          | Hinozall                              | Lightside                                    |                          | 0xB8610232 | 0xA7ED5493 |
+| y01650000            | Hinoshin                          | Hinozall                              | Lightside                                    |                          | 0x4E6EC527 | 0xA7ED5493 |
+| y01651000            | Hinoshin                          | Hinozall                              | Shadowside                                   |                          | 0x00DD6557 | 0x1F5133F6 |
+| y01651000            | Hinoshin                          | Hinozall                              | Shadowside                                   |                          | 0x8C3D23FE | 0x1F5133F6 |
+| y01651000            | Hinoshin                          | Hinozall                              | Shadowside                                   |                          | 0x15347244 | 0x1F5133F6 |
+| y01651000            | Hinoshin                          | Hinozall                              | Shadowside                                   |                          | 0x5915D164 | 0x1F5133F6 |
+| y01651000            | Hinoshin                          | Hinozall                              | Shadowside                                   |                          | 0x671AFB75 | 0x1F5133F6 |
+| y01651000            | Hinoshin                          | Hinozall                              | Shadowside                                   |                          | 0xA694F8D8 | 0x1F5133F6 |
+| y01651000_01         | Hinoshin                          | Hinozall                              | Super                                        |                          | 0x4E29ED86 | 0x4F778D79 |
+| y01651000_01         | Hinoshin                          | Hinozall                              | Super                                        |                          | 0xBEA4DE90 | 0x4F778D79 |
+| y01651000_02         | Hinoshin                          | Hinozall                              | Ultra                                        |                          | 0xD720BC3C | 0xD67EDCC3 |
+| y01651000_02         | Hinoshin                          | Hinozall                              | Ultra                                        |                          | 0x27AD8F2A | 0xD67EDCC3 |
+| y01660000            | Kitaro                            | Kitaro                                |                                              |                          |            | 0xE04D2E43 |
+| y01661000            | Medama-Oyaji                      | Daddy Eyeball                         |                                              |                          |            | 0x58F14926 |
+| y01670000            | Haipa Micchi                      | Super Sly                             | Lightside                                    |                          | 0xC2A15152 | 0xDD2D07F3 |
+| y01670000            | Haipa Micchi                      | Super Sly                             | Lightside                                    |                          | 0x4A9B151A | 0xDD2D07F3 |
+| y01671000            | Mitsumata Gidora                  | Slyju                                 | Shadowside                                   |                          | 0x7A1D3637 | 0x65916096 |
+| y01671000            | Mitsumata Gidora                  | Slyju                                 | Shadowside                                   |                          | 0x5DE00159 | 0x65916096 |
+| y01671000            | Mitsumata Gidora                  | Slyju                                 | Shadowside                                   |                          | 0x8B2165EA | 0x65916096 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0x40F1C683 | 0x5F7D9022 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0x052B0657 | 0x5F7D9022 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0xF22BD036 | 0x5F7D9022 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0x852CE0A0 | 0x5F7D9022 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0x1C25B11A | 0x5F7D9022 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0x6B22818C | 0x5F7D9022 |
+| y01680000            | Enma                              | Enma                                  |                                              |                          | 0xBB904E97 | 0x5F7D9022 |
+| y01690000            | Jao Kaira                         | Lord Ananta                           |                                              |                          | 0x7D91EF33 | 0x621DB992 |
+| y01690000            | Jao Kaira                         | Lord Ananta                           |                                              |                          | 0x8D3EA264 | 0x621DB992 |
+| y01690000            | Jao Kaira                         | Lord Ananta                           |                                              |                          | 0x69E5DA07 | 0x621DB992 |
+| y01690000            | Jao Kaira                         | Lord Ananta                           |                                              |                          | 0x545225A9 | 0x621DB992 |
+| y01690000_virus      | Jao Kaira                         | Lord Ananta                           | Shinma                                       |                          | 0x6D065065 | 0x14CEEA4D |
+| y01690010            | Yami Kaira                        | Dark Ananta                           |                                              |                          | 0xA54FDA99 | 0x7B0688D3 |
+| y01700000            | Shutendoji                        | Shutendoji                            |                                              |                          | 0xBBDD5EE7 | 0xA4510846 |
+| y01700000            | Shutendoji                        | Shutendoji                            |                                              |                          | 0x509DA46F | 0xA4510846 |
+| y01700000            | Shutendoji                        | Shutendoji                            |                                              |                          | 0x69C9D1A3 | 0xA4510846 |
+| y01710000            | Doketsu                           | Voidera                               |                                              |                          | 0x86BD7757 | 0x993121F6 |
+| y01710000            | Doketsu                           | Voidera                               |                                              |                          | 0x860BBA9D | 0x993121F6 |
+| y01710010            | Doketsu                           | Voidera                               | Wildfire Brand                               |                          | 0x9FA64616 | 0x802A10B7 |
+| y01710010            | Doketsu                           | Voidera                               | Wildfire Brand                               |                          | 0x1928C4E5 | 0x802A10B7 |
+| y01710010_virus      | Doketsu                           | Voidera                               | Shinma                                       |                          | 0x47C58948 | 0xF90247F9 |
+| y01720000            | Shuka                             | Juno                                  |                                              |                          | 0xD161112C | 0xDE915B26 |
+| y01720000            | Shuka                             | Juno                                  |                                              |                          | 0xC11D0D87 | 0xDE915B26 |
+| y01729999            |                                   |                                       |                                              |                          |            | 0x04562CCE |
+| y01730000            | Kuuten                            | Saros                                 |                                              |                          | 0x10EFCEEC | 0xE3F17296 |
+| y01730000            | Kuuten                            | Saros                                 |                                              |                          | 0xFC7D2437 | 0xE3F17296 |
+| y01760000            | Nurarihyon                        | Zazel                                 |                                              |                          | 0x349DAB47 | 0x2B11FDE6 |
+| y01760000            | Nurarihyon                        | Zazel                                 |                                              |                          | 0x64D7A1E4 | 0x2B11FDE6 |
+| y01770000            | Fudo Myoo Boi                     | Lil' Acala                            |                                              |                          | 0x09FD82F7 | 0x1671D456 |
+| y01770000            | Fudo Myoo Boi                     | Lil' Acala                            |                                              |                          | 0xA036BD6E | 0x1671D456 |
+| y01770000            | Fudo Myoo Boi                     | Lil' Acala                            |                                              |                          | 0x8B15CADA | 0x1671D456 |
+| y02010000            | Himojii                           | Hungramps                             | Present                                      |                          | 0xAA505D72 | 0xB5DC0BD3 |
+| y02010000            | Himojii                           | Hungramps                             | Present                                      |                          | 0xD8AE7DEE | 0xB5DC0BD3 |
+| y02020000            | Jimii                             | Dimmy                                 |                                              |                          | 0xEDF027A2 | 0xF27C7103 |
+| y02020000            | Jimii                             | Dimmy                                 |                                              |                          | 0x3399C6ED | 0xF27C7103 |
+| y02030000            | Bakuroba                          | Tattletell                            |                                              |                          | 0xD0900E12 | 0xCF1C58B3 |
+| y02030001            | Bakuroba                          | Tattletell                            |                                              |                          | 0xDC5BADD3 | 0xCF1C58B3 |
+| y02040000            | Donyorinu                         | Dismarelda                            |                                              |                          | 0x62B0D202 | 0x7D3C84A3 |
+| y02040001            | Donyorinu                         | Dismarelda                            |                                              |                          | 0x3E87B6AA | 0x7D3C84A3 |
+| y02050000            | Hikikomori                        | Hidabat                               |                                              |                          | 0x5FD0FBB2 | 0x405CAD13 |
+| y02050001            | Hikikomori                        | Hidabat                               |                                              |                          | 0xD145DD94 | 0x405CAD13 |
+| y02060000            | Yuki-onna                         | Frostina                              |                                              |                          | 0x18708162 | 0x07FCD7C3 |
+| y02060001            | Yuki-onna                         | Frostina                              |                                              |                          | 0x3A726697 | 0x07FCD7C3 |
+| y02070000            | Fumin                             | Insomni                               |                                              |                          | 0x2510A8D2 | 0x3A9CFE73 |
+| y02070001            | Fumin                             | Insomni                               |                                              |                          | 0xD5B00DA9 | 0x3A9CFE73 |
+| y02070000_virus      | Fumin                             | Insomni                               | Shinma                                       |                          | 0xC1A91D8B | 0x144F0865 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0xA7403F03 | 0xB8CC69A2 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0x92BF251E | 0xB8CC69A2 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0x1DE5CE2E | 0xB8CC69A2 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0xC4AB46D2 | 0xB8CC69A2 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0xB3AC7644 | 0xB8CC69A2 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0x2AA527FE | 0xB8CC69A2 |
+| y02080000            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0x5DA21768 | 0xB8CC69A2 |
+| y02080001            | Fubuki-hime                       | Blizzaria                             | Present                                      |                          | 0x24BB5624 | 0xB8CC69A2 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0xBE5B0E42 | 0xA1D758E3 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0x091A6971 | 0xA1D758E3 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0xA41E15C6 | 0xA1D758E3 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0x7D509D3A | 0xA1D758E3 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0x0A57ADAC | 0xA1D758E3 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0x935EFC16 | 0xA1D758E3 |
+| y02080010            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0xE459CC80 | 0xA1D758E3 |
+| y02080011            | Hyakki-hime                       | Damona                                | Present                                      |                          | 0x82CC5D90 | 0xA1D758E3 |
+| y02090000            | Yamimaro                          | Awevil                                |                                              |                          | 0x9A2016B3 | 0x85AC4012 |
+| y02090000            | Yamimaro                          | Awevil                                |                                              |                          | 0xCB793D1A | 0x85AC4012 |
+| y02100000            | Saki-chan                         | Little Charrmer                       |                                              |                          | 0x5C6CA767 | 0x43E0F1C6 |
+| y02100000            | Saki-chan                         | Little Charrmer                       |                                              |                          | 0xDBFA61C3 | 0x43E0F1C6 |
+| y02100001            | Saki-chan                         | Little Charrmer                       |                                              |                          | 0xF6E2C910 | 0x43E0F1C6 |
+| y02120000            | Gurerurin                         | Roughraff                             |                                              |                          | 0x26ACF407 | 0x3920A2A6 |
+| y02120000            | Gurerurin                         | Roughraff                             |                                              |                          | 0xF217192D | 0x3920A2A6 |
+| y02120000            | Gurerurin                         | Roughraff                             |                                              |                          | 0xD31EEEB9 | 0x3920A2A6 |
+| y02120000_virus      | Gurerurin                         | Roughraff                             | Shinma                                       |                          | 0x2B5BFDA6 | 0xFEBDE848 |
+| y02130000            | Chikaramochi                      | Mochismo                              |                                              |                          | 0x1BCCDDB7 | 0x04408B16 |
+| y02130000            | Chikaramochi                      | Mochismo                              |                                              |                          | 0x1DD57213 | 0x04408B16 |
+| y02140000            | Merameraion                       | Blazion                               | Present                                      |                          | 0xA9EC01A7 | 0xB6605706 |
+| y02140000            | Merameraion                       | Blazion                               | Present                                      |                          | 0xFF09696A | 0xB6605706 |
+| y02140000_virus      | Merameraion                       | Blazion                               | Shinma                                       |                          | 0xC3EE37E5 | 0x1608220B |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0x948C2817 | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0xC0D9C683 | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0x39AC819D | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0xE0E20961 | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0x97E539F7 | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0x0EEC684D | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0x79EB58DB | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0x10CB0254 | 0x8B007EB6 |
+| y02150000            | Burii Taicho                      | Sgt. Burly                            |                                              |                          | 0xA7860736 | 0x8B007EB6 |
+| y02160000            | Orochi                            | Venoct                                | Present                                      |                          | 0xD32C52C7 | 0xCCA00466 |
+| y02160000            | Orochi                            | Venoct                                | Present                                      |                          | 0xFBFCB957 | 0xCCA00466 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0xCA376386 | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0x4A01E095 | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0x6AD18717 | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0xB39F0FEB | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0xC4983F7D | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0x5D916EC7 | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0x2A965E51 | 0xD5BB3527 |
+| y02160010            | Hikari Orochi                     | Illuminoct                            |                                              |                          | 0x5D8BB2E3 | 0xD5BB3527 |
+| y02160020            | Kage Orochi                       | Shadow Venoct                         | Present                                      |                          | 0xE11A3045 | 0xFE9666E4 |
+| y02160020            | Kage Orochi                       | Shadow Venoct                         | Present                                      |                          | 0x6C63A87E | 0xFE9666E4 |
+| y02170000            | Bushinyan                         | Shogunyan                             | Present                                      |                          | 0xEE4C7B77 | 0xF1C02DD6 |
+| y02170000            | Bushinyan                         | Shogunyan                             | Present                                      |                          | 0xF2C17440 | 0xF1C02DD6 |
+| y02170000            | Bushinyan                         | Shogunyan                             | Present                                      |                          | 0x143ED269 | 0xF1C02DD6 |
+| y02180000            | Namahage                          | Snartle                               |                                              |                          | 0x6C1CECA6 | 0x7390BA07 |
+| y02180000            | Namahage                          | Snartle                               |                                              |                          | 0xE53589E4 | 0x7390BA07 |
+| y02180000            | Namahage                          | Snartle                               |                                              |                          | 0x8EA78A30 | 0x7390BA07 |
+| y02180000_virus      | Namahage                          | Snartle                               | Shinma                                       |                          | 0xC9F4A522 | 0x1C12B0CC |
+| y02190000            | Tsuchigumo                        | Arachnus                              | Present                                      |                          | 0x517CC516 | 0x4EF093B7 |
+| y02190000            | Tsuchigumo                        | Arachnus                              | Present                                      |                          | 0xA0B75F46 | 0x4EF093B7 |
+| y02190000            | Tsuchigumo                        | Arachnus                              | Present                                      |                          | 0x0AF7E2DA | 0x4EF093B7 |
+| y02190000_virus      | Tsuchigumo                        | Arachnus                              | Shinma                                       |                          | 0x087A7AE2 | 0xDD9C6F0C |
+| y02200000            | Oni-kui                           | Demuncher                             |                                              |                          | 0xDAF8D5C9 | 0xC5748368 |
+| y02200000            | Oni-kui                           | Demuncher                             |                                              |                          | 0x6F00AF11 | 0xC5748368 |
+| y02200000            | Oni-kui                           | Demuncher                             |                                              |                          | 0x82EF1CE8 | 0xC5748368 |
+| y02200000            | Oni-kui                           | Demuncher                             |                                              |                          | 0x28CFE2C6 | 0xC5748368 |
+| y02200000_01         | Oni-kui                           | Demuncher                             | Super                                        |                          | 0x670AA578 | 0x173B62A6 |
+| y02200000_01         | Oni-kui                           | Demuncher                             | Super                                        |                          | 0xE48822C3 | 0x173B62A6 |
+| y02200000_02         | Oni-kui                           | Demuncher                             | Ultra                                        |                          | 0xFE03F4C2 | 0x8E32331C |
+| y02200000_02         | Oni-kui                           | Demuncher                             | Ultra                                        |                          | 0x7D817379 | 0x8E32331C |
+| y02210000            | Tsuchinoko                        | Noko                                  | Present                                      |                          | 0xE798FC79 | 0xF814AAD8 |
+| y02210000            | Tsuchinoko                        | Noko                                  | Present                                      |                          | 0x80C2C42F | 0xF814AAD8 |
+| y02210000            | Tsuchinoko                        | Noko                                  | Present                                      |                          | 0x11E4B6E2 | 0xF814AAD8 |
+| y02220000            | Komasan                           | Komasan                               | Present                                      |                          | 0xA03886A9 | 0xBFB4D008 |
+| y02220000            | Komasan                           | Komasan                               | Present                                      |                          | 0x6BF57F2C | 0xBFB4D008 |
+| y02230000            | Komajiro                          | Komajiro                              | Present                                      |                          | 0x9D58AF19 | 0x82D4F9B8 |
+| y02230000            | Komajiro                          | Komajiro                              | Present                                      |                          | 0x84371412 | 0x82D4F9B8 |
+| y02240000            | Onigiri-zamurai                   | Slicenrice                            |                                              |                          | 0x2F787309 | 0x30F425A8 |
+| y02240000            | Onigiri-zamurai                   | Slicenrice                            |                                              |                          | 0x66EB0F6B | 0x30F425A8 |
+| y02250000            | Honobono                          | Happierre                             |                                              |                          | 0x12185AB9 | 0x0D940C18 |
+| y02250000            | Honobono                          | Happierre                             |                                              |                          | 0x89296455 | 0x0D940C18 |
+| y02260000            | Fuyunyan                          | Hovernyan                             |                                              |                          | 0x55B82069 | 0x4A3476C8 |
+| y02260000            | Fuyunyan                          | Hovernyan                             |                                              |                          | 0x44D17970 | 0x4A3476C8 |
+| y02260000            | Fuyunyan                          | Hovernyan                             |                                              |                          | 0x621EDF56 | 0x4A3476C8 |
+| y02260000            | Fuyunyan                          | Hovernyan                             |                                              |                          | 0x6DD2B908 | 0x4A3476C8 |
+| y02270000            | Denjin                            | Signiton                              |                                              |                          | 0x68D809D9 | 0x77545F78 |
+| y02270000            | Denjin                            | Signiton                              |                                              |                          | 0x8DDCB468 | 0x77545F78 |
+| y02270000            | Denjin                            | Signiton                              |                                              |                          | 0xF677F567 | 0x77545F78 |
+| y02280000            | Genma Shogun                      | Reuknight                             |                                              |                          | 0xEA889E08 | 0xF504C8A9 |
+| y02280000            | Genma Shogun                      | Reuknight                             |                                              |                          | 0x7CD7EFE5 | 0xF504C8A9 |
+| y02280000_virus      | Genma Shogun                      | Reuknight                             | Shinma                                       |                          | 0xBE6A77D2 | 0x6B8C623C |
+| y02280010            | Yomi Gensui                       | Corptain                              |                                              |                          | 0xF393AF49 | 0xEC1FF9E8 |
+| y02280010            | Yomi Gensui                       | Corptain                              |                                              |                          | 0xDAA0E451 | 0xEC1FF9E8 |
+| y02290000            | Ogama                             | Toadal Dude                           | Present                                      |                          | 0xD7E8B7B8 | 0xC864E119 |
+| y02290000            | Ogama                             | Toadal Dude                           | Present                                      |                          | 0xD7298DB6 | 0xC864E119 |
+| y02290000            | Ogama                             | Toadal Dude                           | Present                                      |                          | 0x931584DB | 0xC864E119 |
+| y02290000_virus      | Ogama                             | Toadal Dude                           | Shinma                                       |                          | 0x7FE4A812 | 0xAA02BDFC |
+| y02300000            | Sukaishariman                     | Silver Lining                         |                                              |                          | 0x11A4066C | 0x0E2850CD |
+| y02300000            | Sukaishariman                     | Silver Lining                         |                                              |                          | 0xAE8E70D1 | 0x0E2850CD |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0x2CC42FDC | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0xCD058683 | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0x46B0506A | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0x9FFED896 | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0xE8F9E800 | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0x71F0B9BA | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0x06F7892C | 0x3348797D |
+| y02310000            | Jinmenken                         | Manjimutt                             |                                              |                          | 0x414C1BEF | 0x3348797D |
+| y02310000_virus      | Jinmenken                         | Manjimutt                             | Shinma                                       |                          | 0x5E820538 | 0x8B6410D6 |
+| y02320000            | Jibanyan                          | Jibanyan                              | Present                                      |                          | 0x6B64550C | 0x74E803AD |
+| y02320000            | Jibanyan                          | Jibanyan                              | Present                                      |                          | 0xAA7BA0EC | 0x74E803AD |
+| y02330000            | Kon-tan                           | Krystal Fox                           |                                              |                          | 0x56047CBC | 0x49882A1D |
+| y02330000            | Kon-tan                           | Krystal Fox                           |                                              |                          | 0x45B9CBD2 | 0x49882A1D |
+| y02340000            | Debami                            | Molar Petite                          |                                              |                          | 0xE424A0AC | 0xFBA8F60D |
+| y02340000            | Debami                            | Molar Petite                          |                                              |                          | 0xA765D0AB | 0xFBA8F60D |
+| y02350000            | Baku                              | Baku                                  |                                              |                          | 0xD944891C | 0xC6C8DFBD |
+| y02350000            | Baku                              | Baku                                  |                                              |                          | 0x48A7BB95 | 0xC6C8DFBD |
+| y02359999            |                                   |                                       |                                              |                          |            | 0x1C0FA855 |
+| y02360000            | Kyuntaro                          | Shmoopie                              |                                              |                          | 0x9EE4F3CC | 0x8168A56D |
+| y02360000            | Kyuntaro                          | Shmoopie                              |                                              |                          | 0xA3900096 | 0x8168A56D |
+| y02370000            | Man'ojishi                        | Lie-in Heart                          |                                              |                          | 0xA384DA7C | 0xBC088CDD |
+| y02370000            | Man'ojishi                        | Lie-in Heart                          |                                              |                          | 0x4C526BA8 | 0xBC088CDD |
+| y02370000            | Man'ojishi                        | Lie-in Heart                          |                                              |                          | 0x2BE12CE2 | 0xBC088CDD |
+| y02380000            | Kyubi                             | Kyubi                                 | Present                                      |                          | 0x21D44DAD | 0x3E581B0C |
+| y02380000            | Kyubi                             | Kyubi                                 | Present                                      |                          | 0xBD593025 | 0x3E581B0C |
+| y02380010            | Yami Kyubi                        | Darkyubi                              |                                              |                          | 0x38CF7CEC | 0x27432A4D |
+| y02380010            | Yami Kyubi                        | Darkyubi                              |                                              |                          | 0x1B2E3B91 | 0x27432A4D |
+| y02390000            | Master Nyaada                     | Master Nyada                          |                                              |                          | 0x1CB4641D | 0x033832BC |
+| y02390000            | Master Nyaada                     | Master Nyada                          |                                              |                          | 0x529B5B1B | 0x033832BC |
+| y02400000            | Murikabe                          | Noway                                 |                                              |                          | 0x0CA136D4 | 0x132D6075 |
+| y02400000            | Murikabe                          | Noway                                 |                                              |                          | 0x87B56552 | 0x132D6075 |
+| y02410000            | Wasurenbou                        | Wazzat                                |                                              |                          | 0x31C11F64 | 0x2E4D49C5 |
+| y02410000            | Wasurenbou                        | Wazzat                                |                                              |                          | 0x68770E6C | 0x2E4D49C5 |
+| y02420000            | Sunao                             | Sandmeh                               |                                              |                          | 0x766165B4 | 0x69ED3315 |
+| y02420000            | Sunao                             | Sandmeh                               |                                              |                          | 0x8340B56F | 0x69ED3315 |
+| y02430000            | Monomanekin                       | Mimikin                               |                                              |                          | 0x4B014C04 | 0x548D1AA5 |
+| y02430000            | Monomanekin                       | Mimikin                               |                                              |                          | 0x6C82DE51 | 0x548D1AA5 |
+| y02430000_virus      | Monomanekin                       | Mimikin                               | Shinma                                       |                          | 0x72765576 | 0xA7904098 |
+| y02440000            | Ungaikyo                          | Mirapo                                | Present                                      |                          | 0xF9219014 | 0xE6ADC6B5 |
+| y02440000            | Ungaikyo                          | Mirapo                                | Present                                      |                          | 0x8E5EC528 | 0xE6ADC6B5 |
+| y02450000            | Bakusoku                          | Nekidspeed                            |                                              |                          | 0xC441B9A4 | 0xDBCDEF05 |
+| y02450000            | Bakusoku                          | Nekidspeed                            |                                              |                          | 0x619CAE16 | 0xDBCDEF05 |
+| y02460000            | Rimokon-kakushi                   | Count Zapaway                         |                                              |                          | 0x83E1C374 | 0x9C6D95D5 |
+| y02460000            | Rimokon-kakushi                   | Count Zapaway                         |                                              |                          | 0x8AAB1515 | 0x9C6D95D5 |
+| y02470000            | Karakuri Benkei                   | B3-NK1                                |                                              |                          | 0xBE81EAC4 | 0xA10DBC65 |
+| y02470000            | Karakuri Benkei                   | B3-NK1                                |                                              |                          | 0x65697E2B | 0xA10DBC65 |
+| y02480000            | Robonyan                          | Robonyan                              |                                              |                          | 0x3CD17D15 | 0x235D2BB4 |
+| y02480000            | Robonyan                          | Robonyan                              |                                              |                          | 0x946225A6 | 0x235D2BB4 |
+| y02480000            | Robonyan                          | Robonyan                              |                                              |                          | 0x2406B5CB | 0x235D2BB4 |
+| y02480010            | Gorunyan                          | Goldenyan                             |                                              |                          | 0x25CA4C54 | 0x3A461AF5 |
+| y02480010            | Gorunyan                          | Goldenyan                             |                                              |                          | 0x32152E12 | 0x3A461AF5 |
+| y02480010            | Gorunyan                          | Goldenyan                             |                                              |                          | 0x337DA188 | 0x3A461AF5 |
+| y02490000            | Nogappa                           | Walkappa                              |                                              |                          | 0x01B154A5 | 0x1E3D0204 |
+| y02490000            | Nogappa                           | Walkappa                              |                                              |                          | 0x7BA04E98 | 0x1E3D0204 |
+| y02500000            | MitoMEN                           | Nosirs                                |                                              |                          | 0xC7FDE571 | 0xD871B3D0 |
+| y02500000            | MitoMEN                           | Nosirs                                |                                              |                          | 0x463BBA92 | 0xD871B3D0 |
+| y02510000            | Pintokon                          | Cornfused                             |                                              |                          | 0xFA9DCCC1 | 0xE5119A60 |
+| y02510000            | Pintokon                          | Cornfused                             |                                              |                          | 0xA9F9D1AC | 0xE5119A60 |
+| y02520000            | Asekkaki                          | Swelton                               |                                              |                          | 0xBD3DB611 | 0xA2B1E0B0 |
+| y02520000            | Asekkaki                          | Swelton                               |                                              |                          | 0x42CE6AAF | 0xA2B1E0B0 |
+| y02530000            | An'nojo                           | Rocky Badboya                         |                                              |                          | 0x805D9FA1 | 0x9FD1C900 |
+| y02530000            | An'nojo                           | Rocky Badboya                         |                                              |                          | 0xAD0C0191 | 0x9FD1C900 |
+| y02530000            | An'nojo                           | Rocky Badboya                         |                                              |                          | 0x8802C840 | 0x9FD1C900 |
+| y02540000            | USApyon                           | Usapyon                               |                                              |                          | 0x327D43B1 | 0x2DF11510 |
+| y02540000            | USApyon                           | Usapyon                               |                                              |                          | 0x2032D970 | 0x2DF11510 |
+| y02540000            | USApyon                           | Usapyon                               |                                              |                          | 0x4FD01AE8 | 0x2DF11510 |
+| y02550000            | Enraenra                          | Smogmella                             |                                              |                          | 0x0F1D6A01 | 0x10913CA0 |
+| y02550000            | Enraenra                          | Smogmella                             |                                              |                          | 0xA01271D6 | 0x10913CA0 |
+| y02560000            | Dondoro                           | Wobblewok                             |                                              |                          | 0x48BD10D1 | 0x57314670 |
+| y02560000            | Dondoro                           | Wobblewok                             |                                              |                          | 0x4B25CAD5 | 0x57314670 |
+| y02560000            | Dondoro                           | Wobblewok                             |                                              |                          | 0x10A1BF50 | 0x57314670 |
+| y02560000            | Dondoro                           | Wobblewok                             |                                              |                          | 0xEDE797DB | 0x57314670 |
+| y02560000_01         | Dondoro                           | Wobblewok                             | Super                                        |                          | 0xB80989FF | 0xB53506E8 |
+| y02560000_01         | Dondoro                           | Wobblewok                             | Super                                        |                          | 0x978B376C | 0xB53506E8 |
+| y02560000_02         | Dondoro                           | Wobblewok                             | Ultra                                        |                          | 0x2100D845 | 0x2C3C5752 |
+| y02560000_02         | Dondoro                           | Wobblewok                             | Ultra                                        |                          | 0x0E8266D6 | 0x2C3C5752 |
+| y02570000            | Netabarerina                      | Spoilerina                            |                                              |                          | 0x75DD3961 | 0x6A516FC0 |
+| y02570000            | Netabarerina                      | Spoilerina                            |                                              |                          | 0xA4E7A1EB | 0x6A516FC0 |
+| y02580000            | Warunorin                         | Deadcool                              |                                              |                          | 0xF78DAEB0 | 0xE801F811 |
+| y02580000            | Warunorin                         | Deadcool                              |                                              |                          | 0x623FBBF9 | 0xE801F811 |
+| y02580000            | Warunorin                         | Deadcool                              |                                              |                          | 0x55ECFA66 | 0xE801F811 |
+| y02590000            |                                   |                                       |                                              | Only objbin/mevbin files |            |            |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0x3BA9C4BF | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0xA62131EC | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0x92BC00B2 | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0x4BF2884E | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0x3CF5B8D8 | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0xA5FCE962 | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0xD2FBD9F4 | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0xF70E318D | 0x2425921E |
+| y02620000            | Yamabuki Oni                      | Gilgaros                              |                                              |                          | 0xDB2C0CAE | 0x2425921E |
+| y02630000            | Wakame-kun                        | Wiglin                                |                                              |                          | 0x06C9ED0F | 0x1945BBAE |
+| y02630000            | Wakame-kun                        | Wiglin                                |                                              |                          | 0x34EE6790 | 0x1945BBAE |
+| y02640000            | Konbu-san                         | Steppa                                |                                              |                          | 0xB4E9311F | 0xAB6567BE |
+| y02640000            | Konbu-san                         | Steppa                                |                                              |                          | 0xD6327CE9 | 0xAB6567BE |
+| y02650000            | Mekabu-chan                       | Rhyth                                 |                                              |                          | 0x898918AF | 0x96054E0E |
+| y02650000            | Mekabu-chan                       | Rhyth                                 |                                              |                          | 0x39F017D7 | 0x96054E0E |
+| y02650000            | Mekabu-chan                       | Rhyth                                 |                                              |                          | 0xDAF5016E | 0x96054E0E |
+| y02660000            | Shirokuma                         | Shirokuma                             |                                              |                          | 0xCE29627F | 0xD1A534DE |
+| y02660000            | Shirokuma                         | Shirokuma                             |                                              |                          | 0xD2C7ACD4 | 0xD1A534DE |
+| y02670000            | Harii                             | Punkupine                             |                                              |                          | 0xF3494BCF | 0xECC51D6E |
+| y02670000            | Harii                             | Punkupine                             |                                              |                          | 0x3D05C7EA | 0xECC51D6E |
+| y02680000            | Gomendako                         | Sorrypus                              |                                              |                          | 0x7119DC1E | 0x6E958ABF |
+| y02680000            | Gomendako                         | Sorrypus                              |                                              |                          | 0xCC0E9C67 | 0x6E958ABF |
+| y02690000            | Aka Oni                           | Gargaros                              |                                              |                          | 0x4C79F5AE | 0x53F5A30F |
+| y02690000            | Aka Oni                           | Gargaros                              |                                              |                          | 0x23CCF759 | 0x53F5A30F |
+| y02690000            | Aka Oni                           | Gargaros                              |                                              |                          | 0xDFFF4CEF | 0x53F5A30F |
+| y02690000            | Aka Oni                           | Gargaros                              |                                              |                          | 0xB6F66735 | 0x53F5A30F |
+| y02690000_01         | Aka Oni                           | Gargaros                              | Super                                        |                          | 0xC549FE90 | 0x55982881 |
+| y02690000_01         | Aka Oni                           | Gargaros                              | Super                                        |                          | 0x4AFB0BD2 | 0x55982881 |
+| y02690000_02         | Aka Oni                           | Gargaros                              | Ultra                                        |                          | 0x5C40AF2A | 0xCC91793B |
+| y02690000_02         | Aka Oni                           | Gargaros                              | Ultra                                        |                          | 0xD3F25A68 | 0xCC91793B |
+| y02700000            | Ao Oni                            | Ogralus                               |                                              |                          | 0x8A35447A | 0x95B912DB |
+| y02700000            | Ao Oni                            | Ogralus                               |                                              |                          | 0x1E570353 | 0x95B912DB |
+| y02700000            | Ao Oni                            | Ogralus                               |                                              |                          | 0x9FC0AFFB | 0x95B912DB |
+| y02700000            | Ao Oni                            | Ogralus                               |                                              |                          | 0xAC6C8CAB | 0x95B912DB |
+| y02700000_01         | Ao Oni                            | Ogralus                               | Super                                        |                          | 0x1D53786E | 0x5DAC27E9 |
+| y02700000_01         | Ao Oni                            | Ogralus                               | Super                                        |                          | 0x1026CE4F | 0x5DAC27E9 |
+| y02700000_02         | Ao Oni                            | Ogralus                               | Ultra                                        |                          | 0x845A29D4 | 0xC4A57653 |
+| y02700000_02         | Ao Oni                            | Ogralus                               | Ultra                                        |                          | 0x892F9FF5 | 0xC4A57653 |
+| y02710000            | Kuro Oni                          | Orcanos                               |                                              |                          | 0xB7556DCA | 0xA8D93B6B |
+| y02710000            | Kuro Oni                          | Orcanos                               |                                              |                          | 0xF195686D | 0xA8D93B6B |
+| y02710000            | Kuro Oni                          | Orcanos                               |                                              |                          | 0x0465E394 | 0xA8D93B6B |
+| y02710000            | Kuro Oni                          | Orcanos                               |                                              |                          | 0x71FA552E | 0xA8D93B6B |
+| y02710000_01         | Kuro Oni                          | Orcanos                               | Super                                        |                          | 0xA4A8A386 | 0x91062777 |
+| y02710000_01         | Kuro Oni                          | Orcanos                               | Super                                        |                          | 0xBE4E5FDE | 0x91062777 |
+| y02710000_02         | Kuro Oni                          | Orcanos                               | Ultra                                        |                          | 0x3DA1F23C | 0x080F76CD |
+| y02710000_02         | Kuro Oni                          | Orcanos                               | Ultra                                        |                          | 0x27470E64 | 0x080F76CD |
+| y02720000            | Shurakoma                         | Komashura                             | Present                                      |                          | 0xF0F5171A | 0xEF7941BB |
+| y02720000            | Shurakoma                         | Komashura                             | Present                                      |                          | 0x6CAB7DE2 | 0xEF7941BB |
+| y02720000            | Shurakoma                         | Komashura                             | Present                                      |                          | 0x1AA2D36E | 0xEF7941BB |
+| y02730000            | Android Yamada                    | Sighborg Y                            |                                              |                          | 0xCD953EAA | 0xD219680B |
+| y02730000            | Android Yamada                    | Sighborg Y                            |                                              |                          | 0xF560B850 | 0xD219680B |
+| y02730000            | Android Yamada                    | Sighborg Y                            |                                              |                          | 0xE85E7D0B | 0xD219680B |
+| y02740000            | Kuwaga Taishou                    | Beetall                               |                                              |                          | 0x7FB5E2BA | 0x6039B41B |
+| y02740000            | Kuwaga Taishou                    | Beetall                               |                                              |                          | 0x17BCA329 | 0x6039B41B |
+| y02740010            | Ookuwanokami                      | Cruncha                               |                                              |                          | 0x66AED3FB | 0x7922855A |
+| y02740010            | Ookuwanokami                      | Cruncha                               |                                              |                          | 0xB1CBA89D | 0x7922855A |
+| y02750000            | Kabuto Musou                      | Rhinormous                            |                                              |                          | 0x42D5CB0A | 0x5D599DAB |
+| y02750000            | Kabuto Musou                      | Rhinormous                            |                                              |                          | 0xF87EC817 | 0x5D599DAB |
+| y02750010            | Ootsunonokami                     | Hornaplenty                           |                                              |                          | 0x5BCEFA4B | 0x4442ACEA |
+| y02750010            | Ootsunonokami                     | Hornaplenty                           |                                              |                          | 0x5E09C3A3 | 0x4442ACEA |
+| y02760000            | Fuji no Yama                      | Mad Mountain                          |                                              |                          | 0x0575B1DA | 0x1AF9E77B |
+| y02760000            | Fuji no Yama                      | Mad Mountain                          |                                              |                          | 0x13497314 | 0x1AF9E77B |
+| y02760010            | Sakura no Jima                    | Lava Lord                             |                                              |                          | 0x1C6E809B | 0x03E2D63A |
+| y02760010            | Sakura no Jima                    | Lava Lord                             |                                              |                          | 0xB53E78A0 | 0x03E2D63A |
+| y02770000            | Kappa                             | Kappa                                 | Present                                      |                          | 0x3815986A | 0x2799CECB |
+| y02770000            | Kappa                             | Kappa                                 | Present                                      |                          | 0xFC8B182A | 0x2799CECB |
+| y02780000            | Ikakamone                         | McKraken                              |                                              |                          | 0xBA450FBB | 0xA5C9591A |
+| y02780000            | Ikakamone                         | McKraken                              |                                              |                          | 0xBF3F1348 | 0xA5C9591A |
+| y02780000            | Ikakamone                         | McKraken                              |                                              |                          | 0x99CCD905 | 0xA5C9591A |
+| y02780000            | Ikakamone                         | McKraken                              |                                              |                          | 0xF66F5FC6 | 0xA5C9591A |
+| y02780000_01         | Ikakamone                         | McKraken                              | Super                                        |                          | 0xD2DAB4E9 | 0x8E493C5C |
+| y02780000_01         | Ikakamone                         | McKraken                              | Super                                        |                          | 0x63355100 | 0x8E493C5C |
+| y02780000_02         | Ikakamone                         | McKraken                              | Ultra                                        |                          | 0x4BD3E553 | 0x17406DE6 |
+| y02780000_02         | Ikakamone                         | McKraken                              | Ultra                                        |                          | 0xFA3C00BA | 0x17406DE6 |
+| y02790000            | Ame-onna                          | Drizzelda                             | Present                                      |                          | 0x8725260B | 0x98A970AA |
+| y02790000            | Ame-onna                          | Drizzelda                             | Present                                      |                          | 0xE2422899 | 0x98A970AA |
+| y02800000            | Hare Otoko                        | Ray O'Light                           |                                              |                          | 0x7B63F6AF | 0x64EFA00E |
+| y02800000            | Hare Otoko                        | Ray O'Light                           |                                              |                          | 0x8DAFF795 | 0x64EFA00E |
+| y02810000            | Unchikuma                         | Poofessor                             |                                              |                          | 0x4603DF1F | 0x598F89BE |
+| y02810000            | Unchikuma                         | Poofessor                             |                                              |                          | 0x626D9CAB | 0x598F89BE |
+| y02820000            | Hijouguchi                        | Legsit                                |                                              |                          | 0x01A3A5CF | 0x1E2FF36E |
+| y02820000            | Hijouguchi                        | Legsit                                |                                              |                          | 0x895A27A8 | 0x1E2FF36E |
+| y02820000            | Hijouguchi                        | Legsit                                |                                              |                          | 0x95D43DD1 | 0x1E2FF36E |
+| y02830000            | Hanahojin                         | Snottle                               |                                              |                          | 0x3CC38C7F | 0x234FDADE |
+| y02830000            | Hanahojin                         | Snottle                               |                                              |                          | 0x66984C96 | 0x234FDADE |
+| y02840000            | B Jibanyan                        | Jibanyan B                            |                                              |                          | 0x8EE3506F | 0x916F06CE |
+| y02840000            | B Jibanyan                        | Jibanyan B                            |                                              |                          | 0xBBB641B1 | 0x916F06CE |
+| y02840000            | B Jibanyan                        | Jibanyan B                            |                                              |                          | 0xB29FD7DD | 0x916F06CE |
+| y02850000            | B Komasan                         | Komasan B                             |                                              |                          | 0xB38379DF | 0xAC0F2F7E |
+| y02850000            | B Komasan                         | Komasan B                             |                                              |                          | 0x20130DDE | 0xAC0F2F7E |
+| y02850000            | B Komasan                         | Komasan B                             |                                              |                          | 0x293A9BB2 | 0xAC0F2F7E |
+| y02860000            | B USApyon                         | Usapyon B                             |                                              |                          | 0xF423030F | 0xEBAF55AE |
+| y02860000            | B USApyon                         | Usapyon B                             |                                              |                          | 0x578DDF2E | 0xEBAF55AE |
+| y02860000            | B USApyon                         | Usapyon B                             |                                              |                          | 0x5EA44942 | 0xEBAF55AE |
+| y02870000            | Fubuki-chan                       | Blizzie                               |                                              |                          |            | 0xD6CF7C1E |
+| y03010000            | Shien                             | Shien                                 |                                              |                          | 0x7A5F444D | 0x13AB0067 |
+| y03010000            | Shien                             | Shien                                 |                                              |                          | 0x76BD6E4D | 0x13AB0067 |
+| y03010000            | Shien                             | Shien                                 |                                              |                          | 0xE41904BA | 0x13AB0067 |
+| y03010000_01         | Shien                             | Shien                                 | Super                                        |                          | 0x01BA5EDB | 0x1AA52180 |
+| y03010000_02         | Shien                             | Shien                                 | Ultra                                        |                          | 0x98B30F61 | 0x83AC703A |
+| y03010000_03         | Shien                             | Shien                                 | Infernal                                     |                          | 0xEFB43FF7 | 0xF4AB40AC |
+| y03010000_friend     | Shien                             | Shien                                 | Friend Form                                  |                          | 0x0C2756C6 | 0xA7976F7F |
+| y03020000            | Sendai Enma Daio                  | Lord Enma/Ancient Enma                |                                              |                          |            | 0x540B7AB7 |
+| y03030000            | Yamambaa                          | Yamamba                               |                                              |                          | 0x7EAA9470 | 0x696B5307 |
+| y03030000            | Yamambaa                          | Yamamba                               |                                              |                          | 0x08229A25 | 0x696B5307 |
+| y03030000            | Yamambaa                          | Yamamba                               |                                              |                          | 0xCD90914D | 0x696B5307 |
+| y03030000_01         | Yamambaa                          | Yamamba                               | Super                                        |                          | 0x76712121 | 0x588026FD |
+| y03030000_01         | Yamambaa                          | Yamamba                               | Super                                        |                          | 0xF62EB017 | 0x588026FD |
+| y03030000_02         | Yamambaa                          | Yamamba                               | Ultra                                        |                          | 0xEF78709B | 0xC1897747 |
+| y03030000_02         | Yamambaa                          | Yamamba                               | Ultra                                        |                          | 0x6F27E1AD | 0xC1897747 |
+| y03030000_friend     | Yamambaa                          | Yamamba                               | Friend Form                                  |                          | 0x76E705A6 | 0x4BACF1E0 |
+| y03040000            | Tamamo no Mae                     | Tamamo no Mae                         |                                              |                          | 0x9C768F09 | 0xDB4B8F17 |
+| y03040000            | Tamamo no Mae                     | Tamamo no Mae                         |                                              |                          | 0x7CBA73AA | 0xDB4B8F17 |
+| y03040000            | Tamamo no Mae                     | Tamamo no Mae                         |                                              |                          | 0xB0E39715 | 0xDB4B8F17 |
+| y03040000_01         | Tamamo no Mae                     | Tamamo no Mae                         | Super                                        |                          | 0xED702E3B | 0x52452FE4 |
+| y03040000_01         | Tamamo no Mae                     | Tamamo no Mae                         | Super                                        |                          | 0x0BD74862 | 0x52452FE4 |
+| y03040000_02         | Tamamo no Mae                     | Tamamo no Mae                         | Ultra                                        |                          | 0x74797F81 | 0xCB4C7E5E |
+| y03040000_02         | Tamamo no Mae                     | Tamamo no Mae                         | Ultra                                        |                          | 0x92DE19D8 | 0xCB4C7E5E |
+| y03040000_friend     | Tamamo no Mae                     | Tamamo no Mae                         | Friend Form                                  |                          | 0xC4C7D9B6 | 0x3F34186F |
+| y03070000            | Suu-san                           | Suu-san                               |                                              |                          | 0x8367A366 | 0x9CEBF5C7 |
+| y03070000            | Suu-san                           | Suu-san                               |                                              |                          | 0x4E1541C6 | 0x9CEBF5C7 |
+| y03080000            | Zashiki-warashi                   | Zashiki-warashi                       |                                              |                          | 0x013734B7 | 0x1EBB6216 |
+| y03080000            | Zashiki-warashi                   | Zashiki-warashi                       |                                              |                          | 0xBF1E1A4B | 0x1EBB6216 |
+| y03090000            | Yamanbaa                          | Yamanba                               |                                              |                          | 0x3C571D07 | 0x23DB4BA6 |
+| y03090000            | Yamanbaa                          | Yamanba                               |                                              |                          | 0x50DC7175 | 0x23DB4BA6 |
+| y03100000            | Kukuri-hime                       | Kukuri-hime                           |                                              |                          | 0xFA1BACD3 | 0xE597FA72 |
+| y03100000            | Kukuri-hime                       | Kukuri-hime                           |                                              |                          | 0x6D47857F | 0xE597FA72 |
+| y03110000            | Nekomata                          | Nekomata                              |                                              |                          | 0xC77B8563 | 0xD8F7D3C2 |
+| y03110000            | Nekomata                          | Nekomata                              |                                              |                          | 0x8285EE41 | 0xD8F7D3C2 |
+| y03120000            | Tamamo                            | Tamamo                                |                                              |                          | 0x80DBFFB3 | 0x9F57A912 |
+| y03120000            | Tamamo                            | Tamamo                                |                                              |                          | 0x69B25542 | 0x9F57A912 |
+| y03120000            | Tamamo                            | Tamamo                                |                                              |                          | 0x4E110FCF | 0x9F57A912 |
+| y03140000            | Kappa                             | Kappa                                 | Past                                         |                          | 0x0F9B0A13 | 0x10175CB2 |
+| y03140000            | Kappa                             | Kappa                                 | Past                                         |                          | 0x64AC2505 | 0x10175CB2 |
+| y03150000            | Kawauso                           | Kawauso                               |                                              |                          | 0x32FB23A3 | 0x2D777502 |
+| y03150000            | Kawauso                           | Kawauso                               |                                              |                          | 0x8B6E4E3B | 0x2D777502 |
+| y03170000            | Gyuuki                            | Gyuuki                                |                                              |                          | 0x483B70C3 | 0x57B72662 |
+| y03170000            | Gyuuki                            | Gyuuki                                |                                              |                          | 0x8F9B9E06 | 0x57B72662 |
+| y03180000            | Narigama                          | Narigama                              |                                              |                          | 0xCA6BE712 | 0xD5E7B1B3 |
+| y03180000            | Narigama                          | Narigama                              |                                              |                          | 0x7E90C58B | 0xD5E7B1B3 |
+| y03190000            | Azukiarai                         | Azukiarai                             |                                              |                          | 0xF70BCEA2 | 0xE8879803 |
+| y03190000            | Azukiarai                         | Azukiarai                             |                                              |                          | 0x9152AEB5 | 0xE8879803 |
+| y03200000            | Nuppefuhofu                       | Blobgoblin                            |                                              |                          | 0x7C8FDE7D | 0x630388DC |
+| y03200000            | Nuppefuhofu                       | Blobgoblin                            |                                              |                          | 0xF4A5E37E | 0x630388DC |
+| zikkyoyokai          |                                   | Announcer                             |                                              |                          |            | 0x1290DDF2 |
