@@ -1210,7 +1210,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0DF59D4F (0xDF59D4F) | 1195 | - | - |
 | 0xA7FC55C4 | 1196 | - | - |
 | 0x3EF5047E | 1197 | - | - |
-| 0x1437657E | 1198 | - | - |
+| 0x1437657E | 1198 | Checks if you have slept to the next morning during the Oden of the Soul questline? | - |
 | 0xCFEF0E53 | 1199 | - | - |
 | 0x56E65FE9 | 1200 | - | - |
 | 0x472322F7 | 1201 | - | - |
@@ -1337,18 +1337,18 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xC5C25E05 | 1322 | Has the Infinite Inferno been cleared. | - |
 | 0x2D374578 | 1323 | - | - |
 | 0x3997F743 | 1324 | - | `ev50_2640` |
-| 0x6E5ED0A9 | 1325 | - | - |
-| 0xF7578113 | 1326 | - | - |
-| 0x8050B185 | 1327 | - | - |
-| 0x1E342426 | 1328 | - | - |
-| 0x693314B0 | 1329 | - | - |
-| 0xF03A450A | 1330 | - | - |
+| 0x6E5ED0A9 | 1325 | Checks if you have slept to the next morning during the Bear Boy questline? | - |
+| 0xF7578113 | 1326 | Checks if you have slept to the next morning during the Hangout Havoc questline? | - |
+| 0x8050B185 | 1327 | Checks if you have slept to the next morning during the Treasure Hunters questline? | - |
+| 0x1E342426 | 1328 | Checks if you have slept to the next morning during the Secret Base questline? | - |
+| 0x693314B0 | 1329 | Checks if you have slept to the next morning during the Ghost Club questline? | - |
+| 0xF03A450A | 1330 | Checks if you have slept to the next morning during the Independent Study questline? | - |
 | 0x873D759C | 1331 | - | - |
-| 0x1782680D | 1332 | - | - |
-| 0x6085589B | 1333 | - | - |
-| 0x0042D17E (0x42D17E) | 1334 | - | - |
-| 0x7745E1E8 | 1335 | - | - |
-| 0xEE4CB052 | 1336 | - | - |
+| 0x1782680D | 1332 | Checks if you have slept to the next morning during the Makeover Takeover questline? | - |
+| 0x6085589B | 1333 | Ingame day reset checker for Makeover Takeover questline? | - |
+| 0x0042D17E (0x42D17E) | 1334 | Checks if you have slept to the next morning during the Springdale Star questline? | - |
+| 0x7745E1E8 | 1335 | Ingame day reset checker for Catchy Fandom questline? | - |
+| 0xEE4CB052 | 1336 | Ingame day reset checker for Catchy Fandom questline? | - |
 | 0x994B80C4 | 1337 | - | - |
 | 0x072F1567 (0x72F1567) | 1338 | - | - |
 | 0xBC44EB18 | 1339 | - | - |
