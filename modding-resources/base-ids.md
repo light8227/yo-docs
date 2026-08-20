@@ -36,7 +36,7 @@ The layout can be represented in form `xYYYYYY`. `x` is a character representing
 |i     |Interactable Objects|
 |m     |Animated Non-interactable Objects|
 |r     | Critters |
-|t     | DX Medals (YW3+) |
+|t     | DX Medals |
 |x     | Bosses |
 |y     | Yo-kai |
 |z     | Test Models |
