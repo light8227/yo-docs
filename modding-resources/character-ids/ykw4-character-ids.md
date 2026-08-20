@@ -1,7 +1,7 @@
 ---
 title: YW4 Character IDs
 layout: default
-parent: Character IDs
+parent: Base IDs
 grand_parent: Modding Resources
 ---
 
