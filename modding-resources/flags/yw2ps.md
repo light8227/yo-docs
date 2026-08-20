@@ -181,7 +181,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x2757CA4A | 165 | - | `ev02_1850` |
 | 0x5BE25438 | 166 | - | `ev02_1900` |
 | 0x4686C059 | 167 | - | `ev02_2000` |
-| 0xEF2B0E3B | 168 | - | - |
+| 0xEF2B0E3B | 168 | - | `ev02_btl0030` |
 | 0x4744AA6E | 169 | - | `ev02_2100` |
 | 0x45021437 | 170 | - | `ev02_2200` |
 | 0x4F94C79E | 171 | - | `ev02_9990` |
@@ -289,7 +289,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDCD5E878 | 274 | - | `ev06_2100` |
 | 0xDE935621 | 275 | - | `ev06_2200` |
 | 0xDF513C16 | 276 | - | `ev06_2300` |
-| 0xFD86C9F0 | 277 | - | - |
+| 0xFD86C9F0 | 277 | - | `ev06_btl0040` |
 | 0xDA1E2A93 | 278 | - | `ev06_2400` |
 | 0xDBDC40A4 | 279 | - | `ev06_2500` |
 | 0xD99AFEFD | 280 | - | `ev06_2600` |
@@ -324,14 +324,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xF7EEF288 | 309 | - | `ev08_1300` |
 | 0xF2A1E40D | 310 | - | `ev08_1400` |
 | 0xF3638E3A | 311 | - | `ev08_1500` |
-| 0x631EB5E4 | 312 | - | - |
+| 0x631EB5E4 | 312 | - | `ev08_btl0020` |
 | 0xF1253063 | 313 | - | `ev08_1600` |
 | 0xF0E75A54 | 314 | - | `ev08_1700` |
 | 0x8D90AE11 | 315 | - | `ev08_1750` |
-| 0x7A0584A5 | 316 | - | - |
+| 0x7A0584A5 | 316 | - | `ev08_btl0030` |
 | 0xFBBB1D69 | 317 | - | `ev08_1800` |
 | 0xFA79775E | 318 | - | `ev08_1900` |
-| 0x35441262 | 319 | - | - |
+| 0x35441262 | 319 | - | `ev08_btl0040` |
 | 0xE71DE33F | 320 | - | `ev08_2000` |
 | 0xE6DF8908 | 321 | - | `ev08_2100` |
 | 0xEE0FE4F8 | 322 | - | `ev08_9990` |
@@ -345,7 +345,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x885BA9A9 | 330 | - | `ev09_0800` |
 | 0x2E078EC3 | 331 | - | `ev09_2300` |
 | 0x94FD57FF | 332 | - | `ev09_3000` |
-| 0x6D7E90E6 | 333 | - | - |
+| 0x6D7E90E6 | 333 | - | `ev09_btl0030` |
 | 0x953F3DC8 | 334 | - | `ev09_3100` |
 | 0x97798391 | 335 | - | `ev09_3200` |
 | 0x2553375D | 336 | - | `ev09_9990` |
@@ -370,26 +370,26 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB8856DD4 | 355 | - | `ev10_1400` |
 | 0xB94707E3 | 356 | - | `ev10_1500` |
 | 0xBB01B9BA | 357 | - | `ev10_1600` |
-| 0x7845EA05 | 358 | - | - |
+| 0x7845EA05 | 358 | - | `ev10_btl0050` |
 | 0xBAC3D38D | 359 | - | `ev10_1700` |
 | 0xAD396AE6 | 360 | - | `ev10_2000` |
 | 0xAF7FD4BF | 361 | - | `ev10_2300` |
 | 0xAA30C23A | 362 | - | `ev10_2400` |
-| 0x04F07477 (0x4F07477) | 363 | - | - |
+| 0x04F07477 (0x4F07477) | 363 | - | `ev10_btl0100` |
 | 0xA9B41654 | 364 | - | `ev10_2600` |
 | 0xA8767C63 | 365 | - | `ev10_2700` |
 | 0x833B5C00 | 366 | - | - |
 | 0xA32A3B5E | 367 | - | `ev10_2800` |
 | 0x134ECF68 | 368 | - | `ev10_3500` |
-| 0x36C616F5 | 369 | - | - |
+| 0x36C616F5 | 369 | - | `ev10_btl0120` |
 | 0x11087131 | 370 | - | `ev10_3600` |
 | 0x6C7F8574 | 371 | - | `ev10_3650` |
-| 0x79878032 | 372 | - | - |
+| 0x79878032 | 372 | - | `ev10_btl0150` |
 | 0x10CA1B06 | 373 | - | `ev10_3700` |
 | 0x8852353A | 374 | - | `ev10_4000` |
 | 0x89905F0D | 375 | - | `ev10_4100` |
 | 0x8BD6E154 | 376 | - | `ev10_4200` |
-| 0x06B6CA2E (0x6B6CA2E) | 377 | - | - |
+| 0x06B6CA2E (0x6B6CA2E) | 377 | - | `ev10_btl0200` |
 | 0x30EE525F | 378 | - | `ev10_5000` |
 | 0x362590B4 | 379 | - | `ev10_5500` |
 | 0x4B5264F1 | 380 | - | `ev10_5550` |
@@ -458,7 +458,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEB80CCC2 | 443 | - | `hlp_500` |
 | 0xF29BFD83 | 444 | - | `hlp_510` |
 | 0x3B801DBC | 445 | - | `hlp_490` |
-| 0xD3A20656 | 446 | - | - |
+| 0xD3A20656 | 446 | - | `hlp_175` |
 | 0x8FEC09C6 | 447 | - | `hlp_540` |
 | 0x3ECF0B39 | 448 | - | `hlp_390` |
 | 0xBDDA6B44 | 449 | - | `hlp_560` |
@@ -474,8 +474,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBF9CD51D | 459 | - | `hlp_660` |
 | 0xE80418AC | 460 | - | `hlp_700` |
 | 0x211FF893 | 461 | - | `hlp_680` |
-| 0xA81E30F8 | 462 | - | - |
-| 0x735D6316 | 463 | - | - |
+| 0xA81E30F8 | 462 | - | `hlp_425` |
+| 0x735D6316 | 463 | - | `new_hlp_425` |
 | 0x2F136C86 | 464 | - | `new_hlp_010` |
 | 0x043E3F45 (0x43E3F45) | 465 | - | `new_hlp_020` |
 | 0x1D250E04 | 466 | - | `new_hlp_030` |
@@ -517,7 +517,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x30C39F2C | 502 | - | `new_hlp_500` |
 | 0x29D8AE6D | 503 | - | `new_hlp_510` |
 | 0xE0C34E52 | 504 | - | `new_hlp_490` |
-| 0x08E155B8 (0x8E155B8) | 505 | - | - |
+| 0x08E155B8 (0x8E155B8) | 505 | - | `new_hlp_175` |
 | 0x54AF5A28 | 506 | - | `new_hlp_540` |
 | 0xE58C58D7 | 507 | - | `new_hlp_390` |
 | 0x669938AA | 508 | - | `new_hlp_560` |
@@ -553,7 +553,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA99EEB20 | 538 | - | - |
 | 0x3921F6B1 | 539 | - | - |
 | 0xAE6E90AE | 540 | - | - |
-| 0xA6771E9A | 541 | - | - |
+| 0xA6771E9A | 541 | - | `edy_y147000_01` |
 | 0x0C3CAFE3 (0xC3CAFE3) | 542 | - | - |
 | 0x1C327562 | 543 | - | - |
 | 0xE15501D3 | 544 | - | - |
@@ -945,7 +945,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xEFAD430E | 930 | - | - |
 | 0x76A412B4 | 931 | - | - |
 | 0x01A32222 (0x1A32222) | 932 | - | - |
-| 0x8C19564B | 933 | - | - |
+| 0x8C19564B | 933 | - | `tlk_qs0124_01` |
 | 0x5CF9DE02 | 934 | - | - |
 | 0x2C13E210 | 935 | - | - |
 | 0xF1DBB656 | 936 | - | - |
@@ -1197,30 +1197,30 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x3A5ECDD0 | 1182 | - | `btl_qs0028_01` |
 | 0xA3579C6A | 1183 | - | `btl_qs0028_02` |
 | 0xD450ACFC | 1184 | - | `btl_qs0028_03` |
-| 0x4DD93E9B | 1185 | - | - |
-| 0xD4D06F21 | 1186 | - | - |
-| 0xA3D75FB7 | 1187 | - | - |
+| 0x4DD93E9B | 1185 | - | `tlk_qs0055_01` |
+| 0xD4D06F21 | 1186 | - | `tlk_qs0055_02` |
+| 0xA3D75FB7 | 1187 | - | `tlk_qs0055_03` |
 | 0xCE015DB9 | 1188 | - | - |
-| 0xD00E0622 | 1189 | - | - |
-| 0x49075798 | 1190 | - | - |
-| 0x97AE7CF2 | 1191 | - | - |
-| 0x0EA72D48 (0xEA72D48) | 1192 | - | - |
-| 0x79A01DDE | 1193 | - | - |
+| 0xD00E0622 | 1189 | - | `tlk_qs0052_01` |
+| 0x49075798 | 1190 | - | `tlk_qs0052_02` |
+| 0x97AE7CF2 | 1191 | - | `tlk_qs0062_01` |
+| 0x0EA72D48 (0xEA72D48) | 1192 | - | `tlk_qs0062_02` |
+| 0x79A01DDE | 1193 | - | `tlk_qs0062_03` |
 | 0x9479352B | 1194 | - | - |
-| 0x0DF59D4F (0xDF59D4F) | 1195 | - | - |
-| 0xA7FC55C4 | 1196 | - | - |
-| 0x3EF5047E | 1197 | - | - |
+| 0x0DF59D4F (0xDF59D4F) | 1195 | - | `tlk_qs0084_01` |
+| 0xA7FC55C4 | 1196 | - | `tlk_qs0086_01` |
+| 0x3EF5047E | 1197 | - | `tlk_qs0086_02` |
 | 0x1437657E | 1198 | - | - |
-| 0xCFEF0E53 | 1199 | - | - |
-| 0x56E65FE9 | 1200 | - | - |
-| 0x472322F7 | 1201 | - | - |
-| 0xDE2A734D | 1202 | - | - |
-| 0xFFDB807C | 1203 | - | - |
+| 0xCFEF0E53 | 1199 | - | `tlk_qs0009_01` |
+| 0x56E65FE9 | 1200 | - | `tlk_qs0009_02` |
+| 0x472322F7 | 1201 | - | `tlk_qs0088_01` |
+| 0xDE2A734D | 1202 | - | `tlk_qs0088_02` |
+| 0xFFDB807C | 1203 | - | `tlk_qs0041_01` |
 | 0x288DC527 | 1204 | - | `btl_qs0087_01` |
 | 0xDFD8245C | 1205 | - | `ev70_1200` |
 | 0xC6C3151D | 1206 | - | `ev70_1210` |
 | 0xEDEE46DE | 1207 | - | `ev70_1220` |
-| 0x925152B3 | 1208 | - | - |
+| 0x925152B3 | 1208 | - | `ev05_btl0020` |
 | 0x9E72F21A | 1209 | - | - |
 | 0x8DDEE2A3 | 1210 | - | - |
 | 0x14D7B319 | 1211 | - | - |
@@ -1232,14 +1232,14 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x68AD483D | 1217 | - | - |
 | 0xCEDA4389 | 1218 | - | - |
 | 0x3AB0A76C | 1219 | - | - |
-| 0xCBB92C9B | 1220 | - | - |
-| 0x52B07D21 | 1221 | - | - |
-| 0x25B74DB7 | 1222 | - | - |
+| 0xCBB92C9B | 1220 | - | `tlk_qs0114_01` |
+| 0x52B07D21 | 1221 | - | `tlk_qs0114_02` |
+| 0x25B74DB7 | 1222 | - | `tlk_qs0114_03` |
 | 0x223FE9C9 | 1223 | - | - |
 | 0x3B24D888 | 1224 | - | - |
 | 0x6D3F8C9B | 1225 | - | - |
-| 0xA0708CC0 | 1226 | - | - |
-| 0x3979DD7A | 1227 | - | - |
+| 0xA0708CC0 | 1226 | - | `tlk_qs0067_01` |
+| 0x3979DD7A | 1227 | - | `tlk_qs0067_02` |
 | 0xB6A775B3 | 1228 | - | - |
 | 0xAC38909C | 1229 | - | - |
 | 0xC5C3D04E | 1230 | - | - |
@@ -1249,13 +1249,13 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x1B0091D1 | 1234 | - | - |
 | 0x9C058221 | 1235 | - | - |
 | 0x6C7F0FF0 | 1236 | - | `btl_qs0051_02` |
-| 0x8CEF8D94 | 1237 | - | - |
+| 0x8CEF8D94 | 1237 | - | `ev70_5890` |
 | 0x4B3A6951 | 1238 | - | `ev12_0100` |
-| 0x20791EED | 1239 | - | - |
-| 0x0B544D2E (0xB544D2E) | 1240 | - | - |
-| 0x124F7C6F | 1241 | - | - |
-| 0x4415DBE9 | 1242 | - | - |
-| 0x38A0459B | 1243 | - | - |
+| 0x20791EED | 1239 | - | `ev51_1200_010` |
+| 0x0B544D2E (0xB544D2E) | 1240 | - | `ev51_1200_020` |
+| 0x124F7C6F | 1241 | - | `ev51_1200_030` |
+| 0x4415DBE9 | 1242 | - | `ev51_1200_050` |
+| 0x38A0459B | 1243 | - | `ev51_1200_100` |
 | 0x0308863D (0x308863D) | 1244 | - | `ev70_0240` |
 | 0x24E43A21 | 1245 | - | - |
 | 0xBDED6B9B | 1246 | - | - |
@@ -1283,8 +1283,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xD75EA854 | 1268 | - | `door_t103i33_01` |
 | 0x564F7D36 | 1269 | - | `door_t103g00_03` |
 | 0x653E359D | 1270 | - | - |
-| 0x037BC11C (0x37BC11C) | 1271 | - | - |
-| 0x9A7290A6 | 1272 | - | - |
+| 0x037BC11C (0x37BC11C) | 1271 | - | `tlk_qs0120_01` |
+| 0x9A7290A6 | 1272 | - | `tlk_qs0120_02` |
 | 0x016C1918 (0x16C1918) | 1273 | - | - |
 | 0xDB912920 | 1274 | - | `door_t105g00_01` |
 | 0xC81DF40F | 1275 | - | `door_t103g51_01` |
@@ -1313,7 +1313,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x50ABC683 | 1298 | - | - |
 | 0xCEBC6146 | 1299 | - | `wl_t100d00_01` |
 | 0xBF2F0B80 | 1300 | - | `wl_t104d11_01` |
-| 0x242567B8 | 1301 | - | - |
+| 0x242567B8 | 1301 | - | `ev70_6140` |
 | 0x6415751F | 1302 | - | - |
 | 0xC07C0D15 | 1303 | - | - |
 | 0x227765F8 | 1304 | - | - |
@@ -1334,7 +1334,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xDD1E7758 | 1319 | - | - |
 | 0xF637FAF2 | 1320 | - | - |
 | 0x6F3EAB48 | 1321 | - | - |
-| 0xC5C25E05 | 1322 | Has the Infinite Inferno been cleared. | - |
+| 0xC5C25E05 | 1322 | Has the Infinite Inferno been cleared. | `ev50_btl0180` |
 | 0x2D374578 | 1323 | - | - |
 | 0x3997F743 | 1324 | - | `ev50_2640` |
 | 0x6E5ED0A9 | 1325 | - | - |
@@ -1354,9 +1354,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBC44EB18 | 1339 | - | - |
 | 0x7FDBA6D3 | 1340 | - | - |
 | 0x0943CAFB (0x943CAFB) | 1341 | - | - |
-| 0xB98DE4CE | 1342 | - | - |
-| 0x3A2B6D7D | 1343 | - | - |
-| 0x7A430B47 | 1344 | - | - |
+| 0xB98DE4CE | 1342 | - | `ev70_8110` |
+| 0x3A2B6D7D | 1343 | - | `tlk_qs0081_01` |
+| 0x7A430B47 | 1344 | - | `tlk_qs0098_01` |
 | 0xEF24E3E5 | 1345 | - | - |
 | 0xB3BB0432 | 1346 | - | - |
 | 0xB739EA01 | 1347 | Is the Yo-kai Pad Wallpaper "Hearts and Fluff" unlocked? | - |
@@ -2085,7 +2085,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB23BAE07 | 2070 | - | - |
 | 0xCE2CD4FD | 2071 | - | - |
 | 0x63036BF8 | 2072 | - | `week_get_wanted_reward` |
-| 0xFB24CBF6 | 2073 | - | - |
+| 0xFB24CBF6 | 2073 | - | `wanted_complete` |
 | 0x9A906B2F | 2074 | - | - |
 | 0xED975BB9 | 2075 | - | - |
 | 0x749E0A03 | 2076 | - | - |
@@ -3742,8 +3742,8 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA495485C | 19 | - | `tmp_is_recover` |
 | 0x606B51C8 | 20 | - | `tmp_is_amm` |
 | 0xA494B844 | 21 | - | `tmp_is_cancel_nm` |
-| 0x6242919A | 22 | Download Menu Data #1 | `tmp_did_add_member` |
-| 0x209E3EB5 | 23 | Download Menu Data #2 | `tmp_save_call` |
+| 0x6242919A | 22 | - | `tmp_did_add_member` |
+| 0x209E3EB5 | 23 | - | `tmp_save_call` |
 | 0x141DC04D | 24 | - | `tmp_return_title` |
 | 0xC79E50EF | 25 | - | `menu_disable` |
 | 0x2F21650A | 26 | - | `lens_disable` |

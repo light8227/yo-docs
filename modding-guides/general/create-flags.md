@@ -13,7 +13,7 @@ These are *boolean* meaning they can be either:
 * `1`; this could mean enabled, true, unlocked, on or any similar state.
 * `0`; this means the inverse, so it could mean disabled, false, and so on.
  
-You can get/set these in XQ via `get_global_bitflag()` and `set_global_bitflag()`. Another common type is `GlobalByteFlags` which are *8-bit unsigned integers* meaning they can be any number between 0 and 255. I'm not going to cover the meaning, differences, and details of every flag type. I have however in [this](../../modding-resources/flags.html) page.
+You can get/set these in XQ via `get_global_bit_flag()` and `set_global_bit_flag()`. Another common type is `GlobalByteFlags` which are *8-bit unsigned integers* meaning they can be any number between 0 and 255. I'm not going to cover the meaning, differences, and details of every flag type. I have however in [this](../../modding-resources/flags.html) page.
 > I will also NOT cover secondary flag types such as `GlobalTrophyGetFlag`s, as they are reserved for their own guides, e.g. a guide on custom trophies.
 
 ## Configuring Flags
