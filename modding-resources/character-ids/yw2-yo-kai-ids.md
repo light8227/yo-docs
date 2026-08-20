@@ -1,7 +1,7 @@
 ---
 title: YW2 Yo-kai IDs
 layout: default
-parent: Character IDs
+parent: Base IDs
 grand_parent: Modding Resources
 ---
 
