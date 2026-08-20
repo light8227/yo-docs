@@ -1,10 +1,10 @@
 ---
-title: Control Codes & Glyphs
+title: Control Codes, Glyphs & Ruby Text
 layout: default
 has_children: false
 parent: Modding Resources
 ---
-# Control Codes & Glyphs
+# Control Codes, Glyphs & Ruby Text
 ## Glyphs
 In the 3DS Yo-kai Watch games, for any source of rendered text, a glyphs feature is supported whereby you can enclose the name of a resource from any currently loaded ANM in square brackets and it'll be rendered substituting the code, we call this code a glyph. Here are some examples:
 * `[g_coin]` - Confirmed to work in Yo-kai Watch 2
@@ -32,8 +32,8 @@ In Yo-kai Watch, you may notice some strings include patterns such as `<SOMETHIN
 * Actor control codes. These such as `<V>`, which plays audio, have an indirect function and are usually not rendered.
 
 ### Colour Tags
-> Note: Color Tags are **not** self closing; no other known control code type has this property
-> 
+> Note: Color Tags are **not** self closing; no other known control code type has this property.
+
 There are 3 kinds of colour tags:
 
 * Named Pallete. Specifically, this includes `<CG>`, `<CR>` and `<CN>`.
