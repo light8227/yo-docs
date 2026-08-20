@@ -13,7 +13,7 @@ The layout can be represented in form `xYYYYYY`. `x` is a character representing
 
 ### First Character
 
-#### YW1-YWB2
+#### YW1
 
 |Letter|Character Type|
 |------|--------------|
@@ -22,6 +22,21 @@ The layout can be represented in form `xYYYYYY`. `x` is a character representing
 |i     |Interactable Objects|
 |m     |Animated Non-interactable Objects|
 |r     | Critters |
+|x     | Yo-kai Tribe Medals |
+|y     | Yo-kai |
+|z     | Test Models |
+
+#### YW2-YWB2
+
+|Letter|Character Type|
+|------|--------------|
+|c     |Humans|
+|d     |Vehicles|
+|g     | Mounts (YW3+) |
+|i     |Interactable Objects|
+|m     |Animated Non-interactable Objects|
+|r     | Critters |
+|t     | DX Medals (YW3+) |
 |x     | Bosses |
 |y     | Yo-kai |
 |z     | Test Models |
