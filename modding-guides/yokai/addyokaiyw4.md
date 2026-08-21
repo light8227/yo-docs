@@ -13,17 +13,8 @@ Before I begin this guide, note that **at this time, you must have a model alrea
 
 Furthermore, the **actual usability is very limited at this time.** It is currently unknown how to fully add Yo-kai properly, so right now, your Yo-kai is completely useless because it effectively doesn't exist. We don't know how to make the model appear, nor how to make the icons work properly.
 
-# Required Files
-
-The files you need may vary depending on what you are trying to do, ie whether you're adding an existing Yo-kai or doing a recolor. For this guide, I'll act as if you're doing a recolor of Present Noko.
-
-**chara_base_0.00.00.cfg.bin:** Assigns some core info, such as Tribe and Rank.
-
-**chara_param_0.13.62.cfg.bin:** Assigns some core info, such as stats and moves.
-
-**addmenber_text.cfg.bin:** This is for dialogue the Yo-kai says when befriending you, for both the Crank-a-Kai and Konkatsu.
-
-**chara_text.cfg.bin:** This is for assigning a name to your Yo-kai.
+# Research Zone
+This section is for noting down every aspect of required files we can think of that are still unknown in hopes of figuring out what we are missing to make this work. If you want the actual, confirmed information, scroll down until the Required Files section.
 
 # g4pkm
 
@@ -68,6 +59,18 @@ This cfgbin type is older, and thus has no trees. Thankfully, the mevbins are al
 The COUNT entry at the start details how many MOT_X entries and EVENT_X entries there are.
 
 The ID in the MOT_X entries are CRC hashes of names stored in that mevbin's g4mt counterpart, which is stored in the g4pk. (For example, a _p010.mevin's MOT_X ID names would be from the g4mt file inside of the _p010.g4pk file.) Seemingly, only the last names in the g4mt are used for this, ie if a mevbin has two MOT_X entries, then the last two names in the g4mt are the CRC hashes for them.
+
+# Required Files
+
+The files you need may vary depending on what you are trying to do, ie whether you're adding an existing Yo-kai or doing a recolor. For this guide, I'll act as if you're doing a recolor of Present Noko.
+
+**chara_base_0.00.00.cfg.bin:** Assigns some core info, such as Tribe and Rank.
+
+**chara_param_0.13.62.cfg.bin:** Assigns some core info, such as stats and moves.
+
+**addmenber_text.cfg.bin:** This is for dialogue the Yo-kai says when befriending you, for both the Crank-a-Kai and Konkatsu.
+
+**chara_text.cfg.bin:** This is for assigning a name to your Yo-kai.
 
 # chara_text: NOUN_INFO
 Open the file in CfgBinEditor after downloading the latest MyTags.
