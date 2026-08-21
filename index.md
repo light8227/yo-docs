@@ -4,9 +4,10 @@ layout: home
 nav_order: 1
 ---
 
-# yokai.wiki
+# yo-docs
 
-The Yo-kai Watch documentation site. 
+Welcome to yo-docs, a Yo-kai Watch documentation site. 
+If you want to play a mod, please consult the [Playing Mods](modding-guides/playing.html) section. If you want to *make* one, please start with the [Getting Started](modding-guides/gettingstarted.html) guide. Finally, if you're interested in glitches, take a look at [this](glitches-and-exploits.html) section.
 
 ## Some Available information:
 * [Base IDs](modding-resources/base-ids.html) for Yo-kai Watch 1, 2, 3 and 4!
