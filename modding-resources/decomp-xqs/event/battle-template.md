@@ -9,6 +9,8 @@ grand_parent: Decompiled/Sample XQs
 You can attach this to any battle in the encount table, then add your XQ code that should be triggered when the battle is won in the BattleEvent_OnBattleEndEvent next to the comment. 
 > Note: This isn't actually blank - I didn't get this example, I'm just moving it. I'll remove the redundant functions later once I can confirm it works fine
 
+## XtractQuery 3.6
+
 ```php
 BattleEventInit()
 {

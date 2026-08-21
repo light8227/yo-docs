@@ -13,6 +13,7 @@ Blank event template for doing basic dialogue. Tested on YW1 & 2.
 > [!NOTE]
 > You can click the clipboard icon on the top right of the code block below to copy the text.
 
+### XtractQuery 3.6
 ```php
 Main()
 {
