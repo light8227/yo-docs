@@ -2,6 +2,7 @@
 title: Creating Official IDs
 layout: default
 parent: Modding Guides
+nav_exclude: true
 ---
 
 # Creating Official IDs

@@ -6,8 +6,10 @@ parent: Yo-kai Watch 2 RomFS Legend!
 grand_parent: RomFS Legend
 ---
 # yw2_a.fa
-This is the main game archive containing all assets and data that dosent change across localisations. 
-> **Note: Some purely-data `cfg.bin`s such as Wanted Criminal data and KOR QR Codes are still stored in this archive for developement reasons.**
+This is the main game archive; it consists of all files that don't change across localisations, with the exception of audio and videos.
+
+> [!NOTE]
+> Some purely-data `cfg.bin`s such as Wanted Criminal data and KOR QR Codes are still stored in this archive for development reasons.
 
 It contains:
 * `ctr/` - Game Icons.
