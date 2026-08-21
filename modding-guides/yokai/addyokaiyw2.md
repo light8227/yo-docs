@@ -47,7 +47,10 @@ parent: Yo-kai and Battles
   * `FavoriteFoodItemType` / `HatedFoodItemType`: Determines the food preference. Common values: `1` (Rice Balls), `2` (Bread), `3` (Candy), `4` (Milk), `5` (Juice), `6` (Burgers), `7` (Ramen), `8` (Sushi), `9` (Chinese Food), `11` (Vegetables), `12` (Meat), `13` (Fish), `14` (Curry), `15` (Sweets), `16` (Oden), `17` (Soba Noodles), `18` (Snacks), `19` (Chocobars). Other Type(s) exist for non-food items like equipment, key items, or talismans.
   * `LegalAlliances`: Determines which "Alliance" your Yo-kai can originate from. Meaning `1` = BS only, `2` = FS only, `3` = Wicked, `7` = BS/FS (Most Yo-kai!).
   * `WorldMapPosID`: Determines the location it'll state it was befriended from in the Medallium.
-  * `MedalliumOffset`: **Must be a unique value < 512** to prevent crashes. In an unmodified copy of Yo-kai Watch 2: Psychic Specters, unique values start from 449 onwards.
+  * `MedalliumOffset`: The position in the Medallium.
+
+> [!CAUTION]
+> The `MedalliumOffset` *must* be a unique value, *less than 512* to prevent crashes. In an unmodified copy of Yo-kai Watch 2: Psychic Specters, unique values start from 449 onwards.
 
 ## Modifying CharaScale
 
