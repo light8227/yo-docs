@@ -3,6 +3,8 @@ title: Porting YW2 Maps to YW3
 layout: default
 grand_parent: Modding Guides
 parent: Map Modding
+has_children: false
+nav_order: 2
 ---
 
 # Porting YO-KAI WATCH 2 Maps to YO-KAI WATCH 3
