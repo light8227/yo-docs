@@ -8,6 +8,8 @@ grand_parent: Decompiled/Sample XQs
 # SelectGuestMenu Decompilation (YW2)
 This section contains a decompilation of Yo-kai Watch 2's SelectGuestMenu which allows you to change your Companion Yo-kai. As this is a decompilation page, the explanations are in the form of comments placed within the source. This source assumes you are using the latest `methodMappings.json`. The source can be found below:
 
+### XtractQuery 3.6
+
 ```php
 /*
  * SelectGuestMenu()
