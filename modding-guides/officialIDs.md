@@ -22,8 +22,6 @@ The `<type>` can be found in the `cfg.bin` although the placing is unknown, here
 * `iky` for Key items.
 
 The `<ItemNum>` can be found in the `cfg.bin` using the latest `MyTags.txt`.
-### YW4
-For YO-KAI WATCH 4, this can be found easily by looking at item texture names, since they need that to call an icon.
 
 ## BaseIDs
 ### YW1
@@ -48,9 +46,6 @@ These follow `cpsl_text_<MDL>` where `<MDL>` is the model name of the Yo-kai e.g
 
 ## NounIDs
 In YO-KAI WATCH 4, the NounID used in chara_text is a hash of `name_<MDL>`. For example, `name_y02210000`.
-
-## ModelIDs
-In YO-KAI WATCH 4, the ModelID in chara_base uses the same hash as the BaseID.
 
 ## CharaModelIDs
 In YO-KAI WATCH 4, the CharaModelID is a hash of `mdl_<MDL>`. For example, `mdl_y02210000`.
