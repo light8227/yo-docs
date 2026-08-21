@@ -1,3 +1,10 @@
+<!--
+  This file does two things so far:
+    1. Implements GFM alert support
+    2. Reverts code blocks to look how they used to
+       - the new darker style they added looks awful
+    3. Adds a copy button to md tables, to copy as JSON5
+-->
 <style>
 /* code block patches (reverts code blocks to look like how they used to in ~2022, since it looks better */
 :root {
@@ -6,7 +13,6 @@
   --code-text: #dee2f7;
 }
 
-/* Inline code */
 :not(pre, figure) > code {
   padding: 0.2em 0.15em;
   font-weight: 400;
@@ -15,7 +21,6 @@
   border-radius: 4px;
 }
 
-/* Code blocks */
 .highlight,
 pre.highlight,
 div.highlighter-rouge pre.highlight {
@@ -23,13 +28,12 @@ div.highlighter-rouge pre.highlight {
   color: var(--code-text) !important;
 }
 
-/* This is to make sure we don't have any double backgrounds */
 pre code {
   background: transparent !important;
   border: 0 !important;
 }
 
-/* This CSS is to add GFM alerts */
+/* This CSS is to add GFM alerts in case you couldn't tell :p */
 .markdown-alert {
   padding: 0.5em 1em;
   margin-bottom: 1em;
@@ -104,8 +108,47 @@ pre code {
   }
   .markdown-alert-caution .markdown-alert-title { color: #f85149; }
 }
-</style>
+  
+.table-json5-wrapper {
+  position: relative;
+}
 
+.table-json5-copy-btn {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2em;
+  height: 2em;
+  padding: 0;
+  border: 1px solid var(--code-border, #44434d);
+  border-radius: 4px;
+  background-color: var(--code-bg, #31343f);
+  color: var(--code-text, #dee2f7);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
+}
+
+.table-json5-wrapper:hover .table-json5-copy-btn,
+.table-json5-copy-btn:focus-visible {
+  opacity: 1;
+}
+
+.table-json5-copy-btn .copy-icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.table-json5-copy-btn[data-copied="true"] {
+  color: #3fb950;
+  border-color: #3fb950;
+}
+</style>
 <script>
 /* GFM Alert transformation script yay! */
 document.addEventListener('DOMContentLoaded', function() {
@@ -136,22 +179,220 @@ document.addEventListener('DOMContentLoaded', function() {
       const alertType = match[1].toLowerCase();
       const alertDiv = document.createElement('div');
       alertDiv.className = `markdown-alert markdown-alert-${alertType}`;
-
-      /* Create title paragraph with icon */
       const titleP = document.createElement('p');
       titleP.className = 'markdown-alert-title';
       titleP.innerHTML = `${alertIcons[alertType]}${alertTitles[alertType]}`;
       alertDiv.appendChild(titleP);
 
       firstChild.innerHTML = firstChild.innerHTML.replace(/^\[!(NOTE|TIP|IMPORTANT|WARNING|CAUTION)\]\s*(<br\s*\/?>)?\s*/i, '');
-
-      /* if the first section is now empty, we ofc remove it */
       if (!firstChild.textContent.trim()) firstChild.remove();
     
-      /* and we also need to move all remaining children to the alert div */
+      /* we need to move all remaining children to the alert div */
       while (blockquote.firstChild) alertDiv.appendChild(blockquote.firstChild);
       blockquote.parentNode.replaceChild(alertDiv, blockquote); /* finally, replace the blockquote with the alert div */
     }
   });
 });
+  
+/*
+ * Parses a <table> and autodetects col type
+ * returning good ol' JSON5
+ * because of how I want things to be serialised
+ * I didnt use a lib for the JSON5 serialisation
+*/
+class JSON5Table {
+  static #HEX_BARE_RE = /^0x([0-9A-Fa-f]+)$/;
+  static #HEX_PAIR_RE = /^0x([0-9A-Fa-f]+)\s*\(0x([0-9A-Fa-f]+)\)$/;
+  static #BOOL_RE = /^(true|false)$/i;
+  static #FLOAT_RE = /^[+-]?(\d+\.?\d*|\.\d+)([eE][+-]?\d+)?$/;
+  static #SPECIAL_FLOAT_RE = /^(NaN|-?Infinity)$/;
+  static #BARE_KEY_RE = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
+  static #BR_RE = /<br\s*\/?>|<\/br>/gi;
+
+  // the entry point, <table> -> JSON5, as the explanation above already tells you :p
+  static serialize(table) {
+    const headers = this.#extractHeaders(table);
+    if (headers.length === 0) return null;
+
+    const grid = this.#extractGrid(table, headers.length);
+    if (grid.length === 0) return null;
+
+    const columnTypes = headers.map((_, col) => this.#inferColumnType(grid, col));
+    return this.#render(headers, columnTypes, grid);
+  }
+
+  static #isNullToken(trimmed) {
+    return trimmed === '-' || trimmed.toLowerCase() === 'n/a';
+  }
+
+  static #classifyCell(trimmed) {
+    const pairMatch = trimmed.match(this.#HEX_PAIR_RE);
+    if (pairMatch) {
+      const [, a, b] = pairMatch;
+      return parseInt(a, 16) === parseInt(b, 16) ? { kind: 'id', value: parseInt(a, 16) } : { kind: 'string', value: trimmed };
+    }
+
+    const bareMatch = trimmed.match(this.#HEX_BARE_RE);
+    if (bareMatch) return { kind: 'id', value: parseInt(bareMatch[1], 16) };
+    if (this.#BOOL_RE.test(trimmed)) return { kind: 'bool', value: trimmed.toLowerCase() === 'true' };
+
+    if (this.#SPECIAL_FLOAT_RE.test(trimmed)) {
+      const value = trimmed === 'NaN' ? NaN : trimmed === '-Infinity' ? -Infinity : Infinity;
+      return { kind: 'float', value };
+    }
+
+    if (this.#FLOAT_RE.test(trimmed)) return { kind: 'float', value: parseFloat(trimmed) };
+    return { kind: 'string', value: trimmed };
+  }
+
+  static #formatFloat(value) {
+    if (Number.isNaN(value)) return 'NaN';
+    if (value === Infinity) return 'Infinity';
+    if (value === -Infinity) return '-Infinity';
+    return String(value);
+  }
+
+  static #formatString(raw) {
+    const withNewlines = raw.replace(this.#BR_RE, '\n');
+    return "'" + (withNewlines
+      .replace(/\\/g, '\\\\')
+      .replace(/'/g, "\\'")
+      .replace(/\n/g, '\\n')
+      .replace(/\r/g, '\\r')
+      .replace(/\t/g, '\\t')) + "'";
+  }
+
+  static #formatKey(key) {
+    return this.#BARE_KEY_RE.test(key) ? key : `'${key.replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`;
+  }
+
+  /*
+   * i should explain this one
+   * it appends 2 to the key, if still not unique
+   * tries appending 3 instead, and loops until it creates a unique key
+   * i designed it this way so that tables that have 2+ columns with the same name can still be copied
+   * without a stupid format like [key, value]
+  */
+  static #dedupeHeader(name, used) {
+    let candidate = name;
+    let suffix = 2;
+    while (used.has(candidate)) {
+      candidate = `${name}${suffix}`;
+      suffix += 1;
+    }
+    used.add(candidate);
+    return candidate;
+  }
+
+  static #extractHeaders(table) {
+    const used = new Set();
+    return Array.from(table.querySelectorAll('thead tr th'))
+      .map(th => th.textContent.trim()).map(name => this.#dedupeHeader(name, used));
+  }
+
+  static #extractGrid(table, colCount) {
+    return Array.from(table.querySelectorAll('tbody tr')).map(row => {
+      const cells = Array.from(row.querySelectorAll('td'));
+      return Array.from({ length: colCount }, (_, i) => (cells[i] ? cells[i].innerHTML.trim() : null));
+    });
+  }
+
+  // empty/null cells ofc dont count towards type 
+  static #votingValue(raw) {
+    if (raw === null) return null;
+    const trimmed = raw.replace(this.#BR_RE, ' ').trim();
+    if (trimmed === '' || this.#isNullToken(trimmed)) return null;
+    return trimmed;
+  }
+
+  /*
+   * a column's type is detected as whatever every (eligible) cell agrees on
+   * if there's no consensus it must be a string (or at the minimum its the safe output)
+   */
+  static #inferColumnType(grid, col) {
+    let type = null;
+    for (const row of grid) {
+      const trimmed = this.#votingValue(row[col]);
+      if (trimmed === null) continue;
+      const { kind } = this.#classifyCell(trimmed);
+      if (type === null) type = kind;
+      else if (type !== kind) return 'string';
+    }
+    return type ?? 'string';
+  }
+
+  static #formatCell(raw, colType) {
+    if (raw === null) return 'null';
+    const trimmed = raw.replace(this.#BR_RE, ' ').trim();
+    if (trimmed === '') return "''";
+    if (this.#isNullToken(trimmed)) return 'null';
+
+    switch (colType) {
+      case 'id': return `0x${(this.#classifyCell(trimmed).value >>> 0).toString(16).toUpperCase()}`;
+      case 'bool': return this.#classifyCell(trimmed).value ? 'true' : 'false';
+      case 'float': return this.#formatFloat(this.#classifyCell(trimmed).value);
+      default: return this.#formatString(raw);
+    }
+  }
+
+  static #render(headers, columnTypes, grid) {
+    const rows = grid.map(rowValues => {
+      const fields = headers.map((key, col) => `    ${this.#formatKey(key)}: ${this.#formatCell(rowValues[col], columnTypes[col])}`);
+      return `  {\n${fields.join(',\n')}\n  }`;
+    });
+    return `[\n${rows.join(',\n')}\n]`;
+  }
+}
+
+// adds the copy button to every table
+const TableCopyButtons = {
+  isEligible(table) {
+    return !table.closest('.table-json5-wrapper') &&
+      table.querySelector('thead tr th') &&
+      table.querySelector('tbody tr');
+  },
+
+  wrap(table) {
+    const wrapper = document.createElement('div');
+    wrapper.className = 'table-json5-wrapper';
+    table.parentNode.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'table-json5-copy-btn';
+    btn.setAttribute('aria-label', 'Copy table as JSON5');
+    btn.innerHTML = '<svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg>';
+    btn.addEventListener('click', () => this.handleCopyClick(btn, table));
+    wrapper.appendChild(btn);
+  },
+
+  handleCopyClick(btn, table) {
+    const json5 = JSON5Table.serialize(table);
+    if (json5 === null) return;
+
+    navigator.clipboard.writeText(json5)
+      .then(() => {
+        btn.setAttribute('data-copied', 'true');
+        btn.setAttribute('aria-label', 'Copied!');
+        btn.innerHTML = '<svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copied"></use></svg>';
+
+        setTimeout(() => {
+          btn.removeAttribute('data-copied');
+          btn.setAttribute('aria-label', 'Copy table as JSON5');
+          btn.innerHTML = '<svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg>';
+        }, 2000);
+      })
+      .catch(err => console.error('Failed to copy table as JSON5:', err, "\nPlease tell me if you see this :p"));
+  },
+
+  init() {
+    const content = document.querySelector('.main-content') ?? document.body;
+    content.querySelectorAll('table').forEach(table => {
+      if (this.isEligible(table)) this.wrap(table);
+    });
+  },
+};
+
+document.addEventListener('DOMContentLoaded', () => TableCopyButtons.init());
 </script>
