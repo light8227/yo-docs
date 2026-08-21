@@ -11,7 +11,7 @@ This contains:
   * Please note that the image here has alot of empty space at the bottom cropped out.
  
   ![Yo-kai Watch 2 Interaction Bubble Spritesheet](chr_icn.png)
-* `character/` - Contains all the models in the game. Go to [Yo-kai Watch 2 Model IDs](../../../modding-resources/character-ids/ykw2-yo-kai-ids.html) for a list.
+* `character/` - Contains all the models in the game. Go to [Yo-kai Watch 2 Model IDs](../../../modding-resources/character-ids/yw2-yo-kai-ids.html) for a list.
 * `res/` - Contains most of the games `cfg.bins` for configuration.
 
 TODO:

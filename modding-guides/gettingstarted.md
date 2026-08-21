@@ -10,6 +10,7 @@ nav_order: 0
 # Getting Started
 This guide should help you get started modding 3DS Yo-kai Watch games. I have decided to cover three steps, in this guide: dumping and extracting the game's RomFS, learning to use K2 and CfgBin Editor, and understanding how to generate IDs. After which you'll be ready to follow a specific modding guide.
 
+> [!NOTE]
 > This guide applies to the Nintendo 3DS Yo-kai Watch games (YW1, YW2, YWB, YW3, YWB2). There are slight deviations, but it's generally the same across the 3DS titles developed using Level5's engine (Specifically worded so that sangokushi does **not** count here).
 
 ## Dumping RomFS and Extracting Main Archives
@@ -36,10 +37,16 @@ Finally, enjoy!
 ## Using CfgBin Editor
 First, download the latest version of opf's `CfgBin Editor` - a tool you'll use frequently throughout your time modding these games. You can download it [here](https://github.com/onepiecefreak3/CfgBinEditor/releases/latest).
 
-Then download and set up the latest `MyTags.txt`, you can do so using [this](../modding-resources/cfgbin-tags.html) short guide.
-> If CfgBin Editor is already open, you'll have to reopen it for the changes to apply.
+Then download and set up the latest `MyTags.txt`, you can do so via the instructions listed here:
 
-Next open `CfgBin Editor` for the next steps:
+### Installing MyTags
+* First, decide on the following. There are two sources of MyTags, one holds stable documentation and is recommended. While one holds more complete documentation. This other source may also include placeholders and unconfirmed information. For the recommended source open [this link](https://raw.githubusercontent.com/light8227/yw-stuff/refs/heads/master/MyTags.txt). Otherwise, open [this link](https://raw.githubusercontent.com/n123git/yw-stuff/refs/heads/master/MyTags.txt).
+* Then, click `Ctrl + S`. This will save the `MyTags.txt` file.
+* Next, place the file in the same directory (folder) as your CfgBin Editor's `.exe`.
+* Finally, close and re-open CfgBin Editor if it's already open.
+
+
+Next, now that MyTags are functioning, make sure `CfgBin Editor` is open in order to proceed with the following steps:
 * Click on [this](/item_config_0.05d.cfg.bin) link and click the download button to download this example `cfg.bin` (to be specific it's YW1 EUR's `item_config`.)
 * Optionally click on Settings > Languages and Settings > Themes to adjust the tool to your liking.
 * Then, open the file in `CfgBin Editor` using File > Open (or the shortcut Ctrl+O)
