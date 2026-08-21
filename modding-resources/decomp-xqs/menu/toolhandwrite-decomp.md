@@ -8,6 +8,8 @@ grand_parent: Decompiled/Sample XQs
 # tool_hand_write Decompilation (YW1s)
 This section contains a decompilation of Yo-kai Watch 1's debug tool called tool_hand_write, used for testing the drawing minigame, the explanations are in the form of comments placed within the source. This source assumes you are using the latest `methodMappings.json`. The source can be found below:
 
+### XtractQuery 3.6
+
 ```php
 /*
  * Main()
