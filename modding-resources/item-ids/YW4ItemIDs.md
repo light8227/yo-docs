@@ -5,6 +5,7 @@ parent: Item IDs! (And B1 Auras!)
 grand_parent: Modding Resources
 ---
 ## Key Items
+
 | Internal Name | Japanese | English                       | ItemID     |
 | --------- | -------- | ----------------------------- | ---------- |
 | iky010010 |          | Yo-kai Watch                  | 0x4E47B6F0 |
@@ -124,7 +125,8 @@ grand_parent: Modding Resources
 | iky070890 |          | Perfect Equipment Book        | 0x07CD98E0 |
 
 ## Consumables
-| Filename  | Japanese | English                     | ItemID     |
+
+| Internal Name  | Japanese | English                     | ItemID     |
 | --------- | -------- | --------------------------- | ---------- |
 | ifd010010 |          | Plum Rice Ball              | 0xD34B5E2F |
 | ifd010020 |          | Salmon Rice Ball            | 0xF8660DEC |
@@ -395,7 +397,8 @@ grand_parent: Modding Resources
 | itl100180 |          | Hinozall's Sidekick         | 0xF8060D75 |
 
 ## Equipment
-| Filename  | Japanese | English                     | ItemID     |
+
+| Internal Name  | Japanese | English                     | ItemID     |
 | --------- | -------- | --------------------------- | ---------- |
 | iea010010 |          | Apprentice Sword            | 0x0FFC766B |
 | iea010020 |          | Star Pupil's Sword          | 0x24D125A8 |
@@ -838,6 +841,7 @@ grand_parent: Modding Resources
 | ung032000 |          | Blobbo Shield               | 0xB26044C8 |
 
 ## Souls
+
 | Internal Name | Japanese | English                      | ItemID     |
 | --------------- | -------- | ---------------------------- | ---------- |
 | sol010010       |          | Goriki Soul                  | 0xC605C38C |
