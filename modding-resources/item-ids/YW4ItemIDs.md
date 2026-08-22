@@ -124,7 +124,7 @@ grand_parent: Modding Resources
 | iky070890 |          | Perfect Equipment Book        | 0x07CD98E0 |
 
 ## Consumables
-| Internal Name | Japanese | English                     | ItemID     |
+| Filename  | Japanese | English                     | ItemID     |
 | --------- | -------- | --------------------------- | ---------- |
 | ifd010010 |          | Plum Rice Ball              | 0xD34B5E2F |
 | ifd010020 |          | Salmon Rice Ball            | 0xF8660DEC |
@@ -160,242 +160,242 @@ grand_parent: Modding Resources
 | ifd050060 |          | Aristocrat Black Tea        | 0x698A6E28 |
 | ifd050070 |          | Big Boss Coffee             | 0x70915F69 |
 | ifd050080 |          | VoltXtreme                  | 0xF70943A6 |
-| ifd060010 |          | Hamburger                   | 0xC10DDFAC |
-| ifd060020 |          | Cheeseburger                | 0xC78F1390 |
-| ifd060030 |          | Teriyaki Chicken Burger     | 0xB943B063 |
-| ifd060040 |          | Double Burger               | 0xA34DD25B |
-| ifd060050 |          | Nom Burger                  | 0x656079CF |
-| ifd060060 |          | Extreme Star Burger         | 0xA3E3D694 |
-| ifd060070 |          | Nom Giant                   | 0x7C7B488E |
-| ifd070010 |          | Ramen Cup                   | 0xF20ED637 |
-| ifd070020 |          | First Delivery Ramen        | 0x5FB7F75A |
-| ifd070030 |          | Pork Ramen                  | 0x811A0259 |
-| ifd070040 |          | Miso Corn Ramen             | 0xE4EDA88B |
-| ifd070050 |          | Egg Soy Sauce Ramen         | 0x0E5AF7F9 |
-| ifd070060 |          | Noodle King                 | 0x3BDB325E |
-| ifd070070 |          | Everything Ramen            | 0xEC6D5EDC |
-| ifd070080 |          | Hell's Saburo Ramen         | 0x5C0BAB8F |
-| ifd080010 |          | Cucumber Roll               | 0x4A46D1FC |
-| ifd080020 |          | Shrimp Sushi                | 0x0507473B |
-| ifd080030 |          | Egg Sushi                   | 0x2A21EF08 |
-| ifd080040 |          | Fin Sushi                   | 0x749AA499 |
-| ifd080050 |          | Salmon Roe Sushi            | 0x6D8195D8 |
-| ifd080060 |          | Fatty Tuna Sushi            | 0x373125B9 |
-| ifd080070 |          | Sea Urchin Sushi            | 0xECA24053 |
-| ifd080075 |          | Sushi Pack                  | 0xD1C269E3 |
-| ifd080080 |          | High-End Sushi              | 0x98013318 |
-| ifd090010 |          | Banana                      | 0xBC7A2BE9 |
-| ifd090020 |          | Grapes                      | 0xF5766F9D |
-| ifd090030 |          | Mandarin Orange             | 0xAC7A8329 |
-| ifd090040 |          | Apple                       | 0x6726508C |
-| ifd090050 |          | Pineapple                   | 0xEA208C6F |
-| ifd090060 |          | Oama Strawberry             | 0x22C0031F |
-| ifd090070 |          | Queen's Melon               | 0x3DF7FAAD |
-| ifd100010 |          | Carrot                      | 0xDE3A261E |
-| ifd100020 |          | Cucumber                    | 0x034A9588 |
-| ifd100030 |          | Avocado                     | 0xD740A5DF |
-| ifd100040 |          | Bamboo Shoot                | 0xCE5B949E |
-| ifd100050 |          | Ripe Tomato                 | 0x9E4CE1AB |
-| ifd100060 |          | Matsutake                   | 0x9757782A |
-| ifd110010 |          | Chicken Thigh               | 0xF51775DD |
-| ifd110020 |          | Ground Meat Cutlet          | 0xD816EEED |
-| ifd110030 |          | Chicken Salad               | 0xDE9422D1 |
-| ifd110040 |          | Beef Tongue                 | 0x198CE25C |
-| ifd110050 |          | Marbled Beef                | 0x56CD749B |
-| ifd110060 |          | Sirloin Steak               | 0x4C0B034F |
-| ifd110070 |          | Chateaubriand               | 0x89FBEE4E |
-| ifd120010 |          | Dried Mackerel              | 0x4E4D2A0C |
-| ifd120020 |          | Yellowtail                  | 0xD92385F4 |
-| ifd120030 |          | Grilled Squid               | 0x2E2A14F8 |
-| ifd120040 |          | Grilled Sweetfish           | 0x88CE8557 |
-| ifd120050 |          | King Salmon                 | 0x1507EFFB |
-| ifd120060 |          | Choice Tuna                 | 0xF33BBD2E |
-| ifd120070 |          | Supreme Urchin Rice Bowl    | 0xEB15E776 |
-| ifd130010 |          | Chicken Curry               | 0xFAEF3A20 |
-| ifd130020 |          | Lamb Curry                  | 0xEF1917E5 |
-| ifd130030 |          | Green Curry                 | 0xA5611AA8 |
-| ifd130040 |          | Seafood Curry               | 0x10F6619D |
-| ifd130050 |          | Keema Curry                 | 0xB2B70F0D |
-| ifd130060 |          | Megaton Cutlet Curry        | 0x616B823F |
-| ifd140010 |          | Spirit Doughnut             | 0x1741C6B8 |
-| ifd140020 |          | Soul Doughnut               | 0x8757D0EA |
-| ifd140030 |          | Obanyaki                    | 0x5800507F |
-| ifd140040 |          | Cheesecake                  | 0x72B66C6A |
-| ifd140050 |          | Tiramisu                    | 0xA32CC81B |
-| ifd140060 |          | Siberia                     | 0x0097D31D |
-| ifd140070 |          | Shortcake                   | 0x7726F84C |
-| ifd140080 |          | Cherry Daifuku              | 0x62D7DEEA |
-| ifd140090 |          | Royal Pancakes              | 0x6E3DC90D |
-| ifd140100 |          | Princess★Strawberry Parfait | 0x535DE0BD |
-| ifd140110 |          | White Snow Daifuku          | 0x09ED50DC |
-| ifd140120 |          | Chilled Yokan               | 0x217C5FCA |
-| ifd140130 |          | Luxury Castella             | 0x1C1C767A |
-| ifd150010 |          | Soba Saemon                 | 0x411B613E |
-| ifd150020 |          | Soba Noodles                | 0x38676E8B |
-| ifd150030 |          | Noodles in Broth            | 0x599B3FA9 |
-| ifd150040 |          | Fishy Noodles               | 0xA45471B1 |
-| ifd150050 |          | Duck Noodles                | 0x4695C363 |
-| ifd160010 |          | Yukisuke Udon               | 0x911AAA99 |
-| ifd160020 |          | Maruten Udon                | 0x57561B4D |
-| ifd160030 |          | Meat Udon                   | 0xE3F40B61 |
-| ifd160040 |          | Curry Udon                  | 0xC816462D |
-| ifd160050 |          | Shrimp Tempura Udon         | 0xACB59DA6 |
-| ifd170010 |          | Lettuce Taro                | 0xAA37519A |
-| ifd170020 |          | Lucky Bean                  | 0x999A5CCE |
-| ifd170030 |          | Potato Chips                | 0xFDF699CA |
-| ifd170040 |          | Tasty Nibbles               | 0xB561B268 |
-| ifd170050 |          | Spicy Wasabi                | 0x9E83FF24 |
-| ifd170060 |          | Cheesy Chips                | 0xC8D958A2 |
-| ifd170070 |          | Torori Pizza Chips          | 0xBD4F40F0 |
-| ifd170080 |          | Snow-Pea Snack              | 0xBA37F95A |
-| ifd180010 |          | Chocobar                    | 0xD6DBCA09 |
-| ifd190010 |          | Gorigori-kun                | 0x6A3632FD |
-| ifd190020 |          | Ice Cream                   | 0x50E1BC68 |
-| ifd190030 |          | Matcha Soft Serve           | 0x49FA8D29 |
-| ifd190040 |          | Cherry Soft Serve           | 0x18178D8A |
-| ifd190050 |          | King of Monaka              | 0x06BB1BEE |
-| ifd190060 |          | Black Everest               | 0x1FA02AAF |
-| ifd190070 |          | Special ☆ Sundae            | 0xB5AEACE7 |
-| ifd190080 |          | Royal Gelato                | 0x4F41446D |
-| ifd200010 |          | Doughnut                    | 0xC4344426 |
-| ifd200020 |          | Chocolate Doughnut          | 0x1A51A4C9 |
-| ifd200030 |          | Soy Milk Kinako Donut       | 0x7E3D61CD |
-| ifd200040 |          | Mochirin Roll               | 0x91D5B416 |
-| ifd200050 |          | Angel Ring                  | 0x134A3D48 |
-| ifd200060 |          | Cosmic Doughnut             | 0xD0F702FA |
-| ifd210010 |          | Eggplant Tempura            | 0x16DAA96E |
-| ifd210020 |          | Pumpkin Tempura             | 0x2D96482D |
-| ifd210030 |          | Chicken Tempura             | 0x0A510C09 |
-| ifd210040 |          | Fish Tempura                | 0xDE5B3C5E |
-| ifd210050 |          | Squid Tempura               | 0x0F998717 |
-| ifd210060 |          | Eel Tempura                 | 0xE33B15EE |
-| ifd210070 |          | Jumbo Shrimp Tempura        | 0x333ADE49 |
-| ifd210080 |          | Deluxe Tempura              | 0x8DC910C6 |
-| ifd220010 |          | Sukiyaki Lunchbox           | 0xA4FA757E |
-| ifd220020 |          | Chicken Sukiyaki            | 0x2BBA80DE |
-| ifd220030 |          | Beef Sukiyaki               | 0xE2C16078 |
-| ifd220040 |          | Double Sukiyaki             | 0xFBDA5139 |
-| ifd220050 |          | Special Marbled Sukiyaki    | 0xB49BC7FE |
-| ifd990010 |          | Chankonabe                  | 0x6BAD5D2B |
-| ifd990020 |          | Okusiri Chocolate           | 0xAD80F6BF |
-| ifd990030 |          | Yo-ki Drops                 | 0x86ADA57C |
-| ifd990040 |          | Yakuzen Cookies             | 0x9FB6943D |
-| iko000100 |          | Whisper's Hair Wax          | 0x182E88F2 |
-| iko000200 |          | Whisper's Notebook          | 0x24ECCBEC |
-| iko011500 |          | Ogu, Togu, and Mogu's Toys  | 0x0135B9B3 |
-| iko011700 |          | Jabo's Ore                  | 0xD13568CD |
-| iko012000 |          | Kyunshi's Hairclip          | 0xC82E598C |
-| iko012300 |          | Hare-onna's Cloud           | 0xE3030A4F |
-| iko012700 |          | Itashikatanashi's Sash      | 0xFA183B0E |
-| iko014300 |          | Uribou's Fang               | 0xC6BA7889 |
-| iko014800 |          | Mirapo Fragment             | 0xED972B4A |
-| iko015600 |          | Junior's Rare Card          | 0xF60226A4 |
-| iko016100 |          | Dameboy's Gloves            | 0xEC0C449C |
-| iko016500 |          | Hinozall's Plan             | 0xABAC3E4C |
-| iko016900 |          | Lord Ananta's Perfume       | 0x4FD645DA |
-| iko017000 |          | Shutendoji's Bowl           | 0x64FB1619 |
-| iko017100 |          | Voidera's Whetstone         | 0x6C1AFA0E |
-| iko017600 |          | Zazel's Brush               | 0x235B6CC9 |
-| iko017700 |          | Acala Boy's Ornament        | 0x116D0E4B |
-| iko020700 |          | Insomni's Eyedrops          | 0x4737A9CD |
-| iko020800 |          | Glacial Clip                | 0xD10D776C |
-| iko021400 |          | Blazion's Flame             | 0x88019BD8 |
-| iko021500 |          | Burly's Wristband           | 0x2867C64B |
-| iko021610 |          | Illuminoct's Shine          | 0x5510320E |
-| iko022000 |          | Demuncher Beads             | 0xF9A57D02 |
-| iko022100 |          | Noko's Shed Skin            | 0xF86B6F57 |
-| iko022700 |          | GHz Orb                     | 0x90E0DF0F |
-| iko022800 |          | Reuknight's Flag            | 0xDFA149C8 |
-| iko022810 |          | Corptain's Flag             | 0x2577A43A |
-| iko023500 |          | Baku's Pillow               | 0x3A405D88 |
-| iko023600 |          | Swooning Heart              | 0xBDD84147 |
-| iko023810 |          | Darkyubi's Comb             | 0xA4C37006 |
-| iko024800 |          | Robonyan Oil                | 0x74C3A178 |
-| iko025500 |          | Smogmella's Smoke           | 0x21102731 |
-| iko026600 |          | Shirokuma's Milk Bottle     | 0x2C0D27FB |
-| iko026700 |          | Punkupine's Needles         | 0x351616BA |
-| iko030800 |          | Zashiki-warashi's Mirror    | 0x1E3B4579 |
-| iko031700 |          | Gyuuki's Eyeball            | 0x07207438 |
-| itl010010 |          | Nasty Medicine              | 0x80B868F7 |
-| itl010020 |          | Bitter Medicine             | 0x99A359B6 |
-| itl010030 |          | Mighty Medicine             | 0x49A388C8 |
-| itl010040 |          | Miracle Medicine            | 0x50B8B989 |
-| itl020010 |          | Yofresher                   | 0xD32A446F |
-| itl020020 |          | Dark B-Gone                 | 0xF80717AC |
-| itl020030 |          | Slippitoll                  | 0xE11C26ED |
-| itl020040 |          | Dimmin' All                 | 0xAE5DB02A |
-| itl020050 |          | Targevale                   | 0xB746816B |
-| itl020060 |          | Cleansando                  | 0x9C6BD2A8 |
-| itl030010 |          | Getaway Plush               | 0x8570E3E9 |
-| itl040010 |          | Mini Exporb                 | 0x02E8FF26 |
-| itl040020 |          | Small Exporb                | 0x1BF3CE67 |
-| itl040030 |          | Medium Exporb               | 0xC5673E1C |
-| itl040040 |          | Large Exporb                | 0xDC7C0F5D |
-| itl040050 |          | Mega Exporb                 | 0x933D999A |
-| itl040060 |          | Holy Exporb                 | 0x8A26A8DB |
-| itl050010 |          | Iron Doll                   | 0xA10BFB18 |
-| itl050020 |          | Bronze Doll                 | 0xD1610F97 |
-| itl050030 |          | Silver Doll                 | 0xB810CA59 |
-| itl050040 |          | Golden Doll                 | 0xC87A3ED6 |
-| itl050050 |          | Platinum Doll               | 0x3F88D696 |
-| itl050060 |          | Black Doll                  | 0x4FE22219 |
-| itl060010 |          | Yo-Gurt                     | 0x2806DC0B |
-| itl060020 |          | Music Card                  | 0x032B8FC8 |
-| itl060040 |          | Ultra Orb                   | 0x1A30BE89 |
-| itl060060 |          | Infernal Orb                | 0x5571284E |
-| itl060070 |          | Ultra Orb B                 | 0x4C6A190F |
-| itl060080 |          | Oni Egg S                   | 0x67474ACC |
-| itl060090 |          | Oni Egg M                   | 0x7E5C7B8D |
-| itl060100 |          | Oni Egg L                   | 0xF9C46742 |
-| itl070015 |          | Crank-a-Coin                | 0xE0DF5603 |
-| itl070040 |          | One-Star Coin               | 0x30DF877D |
-| itl070050 |          | Five-Star Coin              | 0x29C4B63C |
-| itl070060 |          | Special Coin                | 0x02E9E5FF |
-| itl070070 |          | Old Coin                    | 0x1BF2D4BE |
-| itl070080 |          | Oni Coin                    | 0x54B34279 |
-| itl070090 |          | Super Oni Coin              | 0x4DA87338 |
-| itl070100 |          | Ultra Oni Coin              | 0x668520FB |
-| itl070110 |          | Y Coin                      | 0x7F9E11BA |
-| itl080010 |          | Goriki Ark                  | 0xF8060D75 |
-| itl080020 |          | Onnen Ark                   | 0x6FF06DC2 |
-| itl080030 |          | Mononoke Ark                | 0x6DB6D39B |
-| itl080040 |          | Tsukumono Ark               | 0xED258BCB |
-| itl080050 |          | Uwanosora Ark               | 0xEEA15FA5 |
-| itl080060 |          | Omamori Ark                 | 0xF95BE6CE |
-| itl080070 |          | Rainbow Ark                 | 0xFB1D5897 |
-| itl080080 |          | Five-Star Ark               | 0xFC14F04B |
-| itl080090 |          | One Chance Ark              | 0xDE76074B |
-| itl090020 |          | Suzaku Ark                  | 0xD223E8AA |
-| itl090030 |          | Genbu Ark                   | 0x6001A2C5 |
-| itl090040 |          | Byakko Ark                  | 0x77FB1BAE |
-| itl090050 |          | Asura Ark                   | 0x70F2B372 |
-| itl090060 |          | Lord Acala Ark              | 0x79E84A16 |
-| itl090065 |          | Acala Exalted Ark           | 0xCE8516FC |
-| itl090070 |          | Yasha Enma Ark              | 0xCF477CCB |
-| itl090075 |          | Ultra Yasha Enma Ark        | 0xCA086A4E |
-| itl090080 |          | Divine King Ark             | 0xCBCA0079 |
-| itl090085 |          | Ultra Divine King Ark       | 0x11BD4210 |
-| itl100010 |          | Sproink Rope                | 0x1AE1052D |
-| itl100020 |          | Fine Rope                   | 0xAB479B2C |
-| itl100030 |          | Gargaros Horn               | 0xAA85F11B |
-| itl100040 |          | Ultra Gargaros Horn         | 0xB1D87E03 |
-| itl100050 |          | Ogralus Horn                | 0xBEFB9C1E |
-| itl100060 |          | Ultra Ogralus Horn          | 0xBF39F629 |
-| itl100070 |          | Orcanos Horn                | 0xBBB48A9B |
-| itl100080 |          | Ultra Orcanos Horn          | 0xB0E8CDA6 |
-| itl100090 |          | Hoggles Bucket              | 0xA9F3FCE7 |
-| itl100100 |          | Shiny Hogbucket             | 0x008C3990 |
-| itl100110 |          | Demuncher Tooth             | 0x02CA87C9 |
-| itl100120 |          | Demuncher Molar             | 0x114F9B82 |
-| itl100130 |          | McKraken Ink                | 0x9583927A |
-| itl100140 |          | Solid McKraken Ink          | 0x25E7664C |
-| itl100150 |          | Wobblewok Pot               | 0x351477FB |
-| itl100160 |          | Gold Wobblepot              | 0x34D61DCC |
-| itl100170 |          | Hinozall Underling          | 0x27812C9D |
-| itl100180 |          | Hinozall's Sidekick         | 0x94610CC5 |
+| ifd060010 |          | Hamburger                   | 0x616B823F |
+| ifd060020 |          | Cheeseburger                | 0x4A46D1FC |
+| ifd060030 |          | Teriyaki Chicken Burger     | 0x535DE0BD |
+| ifd060040 |          | Double Burger               | 0x1C1C767A |
+| ifd060050 |          | Nom Burger                  | 0x0507473B |
+| ifd060060 |          | Extreme Star Burger         | 0x2E2A14F8 |
+| ifd060070 |          | Nom Giant                   | 0x373125B9 |
+| ifd070010 |          | Ramen Cup                   | 0x5C0BAB8F |
+| ifd070020 |          | First Delivery Ramen        | 0x7726F84C |
+| ifd070030 |          | Pork Ramen                  | 0x6E3DC90D |
+| ifd070040 |          | Miso Corn Ramen             | 0x217C5FCA |
+| ifd070050 |          | Egg Soy Sauce Ramen         | 0x38676E8B |
+| ifd070060 |          | Noodle King                 | 0x134A3D48 |
+| ifd070070 |          | Everything Ramen            | 0x0A510C09 |
+| ifd070080 |          | Hell's Saburo Ramen         | 0x8DC910C6 |
+| ifd080010 |          | Cucumber Roll               | 0xDE5B3C5E |
+| ifd080020 |          | Shrimp Sushi                | 0xF5766F9D |
+| ifd080030 |          | Egg Sushi                   | 0xEC6D5EDC |
+| ifd080040 |          | Fin Sushi                   | 0xA32CC81B |
+| ifd080050 |          | Salmon Roe Sushi            | 0xBA37F95A |
+| ifd080060 |          | Fatty Tuna Sushi            | 0x911AAA99 |
+| ifd080070 |          | Sea Urchin Sushi            | 0x88019BD8 |
+| ifd080075 |          | Sushi Pack                  | 0xF86B6F57 |
+| ifd080080 |          | High-End Sushi              | 0x0F998717 |
+| ifd090010 |          | Banana                      | 0xE33B15EE |
+| ifd090020 |          | Grapes                      | 0xC816462D |
+| ifd090030 |          | Mandarin Orange             | 0xD10D776C |
+| ifd090040 |          | Apple                       | 0x9E4CE1AB |
+| ifd090050 |          | Pineapple                   | 0x8757D0EA |
+| ifd090060 |          | Oama Strawberry             | 0xAC7A8329 |
+| ifd090070 |          | Queen's Melon               | 0xB561B268 |
+| ifd100010 |          | Carrot                      | 0x2577A43A |
+| ifd100020 |          | Cucumber                    | 0x0E5AF7F9 |
+| ifd100030 |          | Avocado                     | 0x1741C6B8 |
+| ifd100040 |          | Bamboo Shoot                | 0x5800507F |
+| ifd100050 |          | Ripe Tomato                 | 0x411B613E |
+| ifd100060 |          | Matsutake                   | 0x6A3632FD |
+| ifd110010 |          | Chicken Thigh               | 0x18178D8A |
+| ifd110020 |          | Ground Meat Cutlet          | 0x333ADE49 |
+| ifd110030 |          | Chicken Salad               | 0x2A21EF08 |
+| ifd110040 |          | Beef Tongue                 | 0x656079CF |
+| ifd110050 |          | Marbled Beef                | 0x7C7B488E |
+| ifd110060 |          | Sirloin Steak               | 0x57561B4D |
+| ifd110070 |          | Chateaubriand               | 0x4E4D2A0C |
+| ifd120010 |          | Dried Mackerel              | 0x5FB7F75A |
+| ifd120020 |          | Yellowtail                  | 0x749AA499 |
+| ifd120030 |          | Grilled Squid               | 0x6D8195D8 |
+| ifd120040 |          | Grilled Sweetfish           | 0x22C0031F |
+| ifd120050 |          | King Salmon                 | 0x3BDB325E |
+| ifd120060 |          | Choice Tuna                 | 0x10F6619D |
+| ifd120070 |          | Supreme Urchin Rice Bowl    | 0x09ED50DC |
+| ifd130010 |          | Chicken Curry               | 0x62D7DEEA |
+| ifd130020 |          | Lamb Curry                  | 0x49FA8D29 |
+| ifd130030 |          | Green Curry                 | 0x50E1BC68 |
+| ifd130040 |          | Seafood Curry               | 0x1FA02AAF |
+| ifd130050 |          | Keema Curry                 | 0x06BB1BEE |
+| ifd130060 |          | Megaton Cutlet Curry        | 0x2D96482D |
+| ifd140010 |          | Spirit Doughnut             | 0xD0F702FA |
+| ifd140020 |          | Soul Doughnut               | 0xFBDA5139 |
+| ifd140030 |          | Obanyaki                    | 0xE2C16078 |
+| ifd140040 |          | Cheesecake                  | 0xAD80F6BF |
+| ifd140050 |          | Tiramisu                    | 0xB49BC7FE |
+| ifd140060 |          | Siberia                     | 0x9FB6943D |
+| ifd140070 |          | Shortcake                   | 0x86ADA57C |
+| ifd140080 |          | Cherry Daifuku              | 0x0135B9B3 |
+| ifd140090 |          | Royal Pancakes              | 0x182E88F2 |
+| ifd140100 |          | Princess★Strawberry Parfait | 0xC82E598C |
+| ifd140110 |          | White Snow Daifuku          | 0xD13568CD |
+| ifd140120 |          | Chilled Yokan               | 0xFA183B0E |
+| ifd140130 |          | Luxury Castella             | 0xE3030A4F |
+| ifd150010 |          | Soba Saemon                 | 0xED972B4A |
+| ifd150020 |          | Soba Noodles                | 0xC6BA7889 |
+| ifd150030 |          | Noodles in Broth            | 0xDFA149C8 |
+| ifd150040 |          | Fishy Noodles               | 0x90E0DF0F |
+| ifd150050 |          | Duck Noodles                | 0x89FBEE4E |
+| ifd160010 |          | Yukisuke Udon               | 0xAA37519A |
+| ifd160020 |          | Maruten Udon                | 0x811A0259 |
+| ifd160030 |          | Meat Udon                   | 0x98013318 |
+| ifd160040 |          | Curry Udon                  | 0xD740A5DF |
+| ifd160050 |          | Shrimp Tempura Udon         | 0xCE5B949E |
+| ifd170010 |          | Lettuce Taro                | 0x9757782A |
+| ifd170020 |          | Lucky Bean                  | 0xBC7A2BE9 |
+| ifd170030 |          | Potato Chips                | 0xA5611AA8 |
+| ifd170040 |          | Tasty Nibbles               | 0xEA208C6F |
+| ifd170050 |          | Spicy Wasabi                | 0xF33BBD2E |
+| ifd170060 |          | Cheesy Chips                | 0xD816EEED |
+| ifd170070 |          | Torori Pizza Chips          | 0xC10DDFAC |
+| ifd170080 |          | Snow-Pea Snack              | 0x4695C363 |
+| ifd180010 |          | Chocobar                    | 0x1507EFFB |
+| ifd190010 |          | Gorigori-kun                | 0x2867C64B |
+| ifd190020 |          | Ice Cream                   | 0x034A9588 |
+| ifd190030 |          | Matcha Soft Serve           | 0x1A51A4C9 |
+| ifd190040 |          | Cherry Soft Serve           | 0x5510320E |
+| ifd190050 |          | King of Monaka              | 0x4C0B034F |
+| ifd190060 |          | Black Everest               | 0x6726508C |
+| ifd190070 |          | Special ☆ Sundae            | 0x7E3D61CD |
+| ifd190080 |          | Royal Gelato                | 0xF9A57D02 |
+| ifd200010 |          | Doughnut                    | 0xA3E3D694 |
+| ifd200020 |          | Chocolate Doughnut          | 0x88CE8557 |
+| ifd200030 |          | Soy Milk Kinako Donut       | 0x91D5B416 |
+| ifd200040 |          | Mochirin Roll               | 0xDE9422D1 |
+| ifd200050 |          | Angel Ring                  | 0xC78F1390 |
+| ifd200060 |          | Cosmic Doughnut             | 0xECA24053 |
+| ifd210010 |          | Eggplant Tempura            | 0x9E83FF24 |
+| ifd210020 |          | Pumpkin Tempura             | 0xB5AEACE7 |
+| ifd210030 |          | Chicken Tempura             | 0xACB59DA6 |
+| ifd210040 |          | Fish Tempura                | 0xE3F40B61 |
+| ifd210050 |          | Squid Tempura               | 0xFAEF3A20 |
+| ifd210060 |          | Eel Tempura                 | 0xD1C269E3 |
+| ifd210070 |          | Jumbo Shrimp Tempura        | 0xC8D958A2 |
+| ifd210080 |          | Deluxe Tempura              | 0x4F41446D |
+| ifd220010 |          | Sukiyaki Lunchbox           | 0xD92385F4 |
+| ifd220020 |          | Chicken Sukiyaki            | 0xF20ED637 |
+| ifd220030 |          | Beef Sukiyaki               | 0xEB15E776 |
+| ifd220040 |          | Double Sukiyaki             | 0xA45471B1 |
+| ifd220050 |          | Special Marbled Sukiyaki    | 0xBD4F40F0 |
+| ifd990010 |          | Chankonabe                  | 0xC4344426 |
+| ifd990020 |          | Okusiri Chocolate           | 0xEF1917E5 |
+| ifd990030 |          | Yo-ki Drops                 | 0xF60226A4 |
+| ifd990040 |          | Yakuzen Cookies             | 0xB943B063 |
+| iko000100 |          | Whisper's Hair Wax          | 0x6FF06DC2 |
+| iko000200 |          | Whisper's Notebook          | 0x6DB6D39B |
+| iko011500 |          | Ogu, Togu, and Mogu's Toys  | 0xED258BCB |
+| iko011700 |          | Jabo's Ore                  | 0xEEA15FA5 |
+| iko012000 |          | Kyunshi's Hairclip          | 0xF95BE6CE |
+| iko012300 |          | Hare-onna's Cloud           | 0xFB1D5897 |
+| iko012700 |          | Itashikatanashi's Sash      | 0xFC14F04B |
+| iko014300 |          | Uribou's Fang               | 0xDE76074B |
+| iko014800 |          | Mirapo Fragment             | 0xD223E8AA |
+| iko015600 |          | Junior's Rare Card          | 0x6001A2C5 |
+| iko016100 |          | Dameboy's Gloves            | 0x77FB1BAE |
+| iko016500 |          | Hinozall's Plan             | 0x70F2B372 |
+| iko016900 |          | Lord Ananta's Perfume       | 0x79E84A16 |
+| iko017000 |          | Shutendoji's Bowl           | 0xCE8516FC |
+| iko017100 |          | Voidera's Whetstone         | 0xCF477CCB |
+| iko017600 |          | Zazel's Brush               | 0xCA086A4E |
+| iko017700 |          | Acala Boy's Ornament        | 0xCBCA0079 |
+| iko020700 |          | Insomni's Eyedrops          | 0x11BD4210 |
+| iko020800 |          | Glacial Clip                | 0x1AE1052D |
+| iko021400 |          | Blazion's Flame             | 0xAB479B2C |
+| iko021500 |          | Burly's Wristband           | 0xAA85F11B |
+| iko021610 |          | Illuminoct's Shine          | 0xB1D87E03 |
+| iko022000 |          | Demuncher Beads             | 0xBEFB9C1E |
+| iko022100 |          | Noko's Shed Skin            | 0xBF39F629 |
+| iko022700 |          | GHz Orb                     | 0xBBB48A9B |
+| iko022800 |          | Reuknight's Flag            | 0xB0E8CDA6 |
+| iko022810 |          | Corptain's Flag             | 0xA9F3FCE7 |
+| iko023500 |          | Baku's Pillow               | 0x008C3990 |
+| iko023600 |          | Swooning Heart              | 0x02CA87C9 |
+| iko023810 |          | Darkyubi's Comb             | 0x114F9B82 |
+| iko024800 |          | Robonyan Oil                | 0x9583927A |
+| iko025500 |          | Smogmella's Smoke           | 0x25E7664C |
+| iko026600 |          | Shirokuma's Milk Bottle     | 0x351477FB |
+| iko026700 |          | Punkupine's Needles         | 0x34D61DCC |
+| iko030800 |          | Zashiki-warashi's Mirror    | 0x27812C9D |
+| iko031700 |          | Gyuuki's Eyeball            | 0x94610CC5 |
+| itl010010 |          | Nasty Medicine              | 0xDE3A261E |
+| itl010020 |          | Bitter Medicine             | 0xF51775DD |
+| itl010030 |          | Mighty Medicine             | 0xEC0C449C |
+| itl010040 |          | Miracle Medicine            | 0xA34DD25B |
+| itl020010 |          | Yofresher                   | 0x999A5CCE |
+| itl020020 |          | Dark B-Gone                 | 0xB2B70F0D |
+| itl020030 |          | Slippitoll                  | 0xABAC3E4C |
+| itl020040 |          | Dimmin' All                 | 0xE4EDA88B |
+| itl020050 |          | Targevale                   | 0xFDF699CA |
+| itl020060 |          | Cleansando                  | 0xD6DBCA09 |
+| itl030010 |          | Getaway Plush               | 0xA4FA757E |
+| itl040010 |          | Mini Exporb                 | 0x16DAA96E |
+| itl040020 |          | Small Exporb                | 0x3DF7FAAD |
+| itl040030 |          | Medium Exporb               | 0x24ECCBEC |
+| itl040040 |          | Large Exporb                | 0x6BAD5D2B |
+| itl040050 |          | Mega Exporb                 | 0x72B66C6A |
+| itl040060 |          | Holy Exporb                 | 0x599B3FA9 |
+| itl050010 |          | Iron Doll                   | 0x2BBA80DE |
+| itl050020 |          | Bronze Doll                 | 0x0097D31D |
+| itl050030 |          | Silver Doll                 | 0x198CE25C |
+| itl050040 |          | Golden Doll                 | 0x56CD749B |
+| itl050050 |          | Platinum Doll               | 0x4FD645DA |
+| itl050060 |          | Black Doll                  | 0x64FB1619 |
+| itl060010 |          | Yo-Gurt                     | 0x6C1AFA0E |
+| itl060020 |          | Music Card                  | 0x4737A9CD |
+| itl060040 |          | Ultra Orb                   | 0x116D0E4B |
+| itl060060 |          | Infernal Orb                | 0x235B6CC9 |
+| itl060070 |          | Ultra Orb B                 | 0x3A405D88 |
+| itl060080 |          | Oni Egg S                   | 0xBDD84147 |
+| itl060090 |          | Oni Egg M                   | 0xA4C37006 |
+| itl060100 |          | Oni Egg L                   | 0x74C3A178 |
+| itl070015 |          | Crank-a-Coin                | 0x21102731 |
+| itl070040 |          | One-Star Coin               | 0x2C0D27FB |
+| itl070050 |          | Five-Star Coin              | 0x351616BA |
+| itl070060 |          | Special Coin                | 0x1E3B4579 |
+| itl070070 |          | Old Coin                    | 0x07207438 |
+| itl070080 |          | Oni Coin                    | 0x80B868F7 |
+| itl070090 |          | Super Oni Coin              | 0x99A359B6 |
+| itl070100 |          | Ultra Oni Coin              | 0x49A388C8 |
+| itl070110 |          | Y Coin                      | 0x50B8B989 |
+| itl080010 |          | Goriki Ark                  | 0xD32A446F |
+| itl080020 |          | Onnen Ark                   | 0xF80717AC |
+| itl080030 |          | Mononoke Ark                | 0xE11C26ED |
+| itl080040 |          | Tsukumono Ark               | 0xAE5DB02A |
+| itl080050 |          | Uwanosora Ark               | 0xB746816B |
+| itl080060 |          | Omamori Ark                 | 0x9C6BD2A8 |
+| itl080070 |          | Rainbow Ark                 | 0x8570E3E9 |
+| itl080080 |          | Five-Star Ark               | 0x02E8FF26 |
+| itl080090 |          | One Chance Ark              | 0x1BF3CE67 |
+| itl090020 |          | Suzaku Ark                  | 0xC5673E1C |
+| itl090030 |          | Genbu Ark                   | 0xDC7C0F5D |
+| itl090040 |          | Byakko Ark                  | 0x933D999A |
+| itl090050 |          | Asura Ark                   | 0x8A26A8DB |
+| itl090060 |          | Lord Acala Ark              | 0xA10BFB18 |
+| itl090065 |          | Acala Exalted Ark           | 0xD1610F97 |
+| itl090070 |          | Yasha Enma Ark              | 0xB810CA59 |
+| itl090075 |          | Ultra Yasha Enma Ark        | 0xC87A3ED6 |
+| itl090080 |          | Divine King Ark             | 0x3F88D696 |
+| itl090085 |          | Ultra Divine King Ark       | 0x4FE22219 |
+| itl100010 |          | Sproink Rope                | 0x2806DC0B |
+| itl100020 |          | Fine Rope                   | 0x032B8FC8 |
+| itl100030 |          | Gargaros Horn               | 0x1A30BE89 |
+| itl100040 |          | Ultra Gargaros Horn         | 0x5571284E |
+| itl100050 |          | Ogralus Horn                | 0x4C6A190F |
+| itl100060 |          | Ultra Ogralus Horn          | 0x67474ACC |
+| itl100070 |          | Orcanos Horn                | 0x7E5C7B8D |
+| itl100080 |          | Ultra Orcanos Horn          | 0xF9C46742 |
+| itl100090 |          | Hoggles Bucket              | 0xE0DF5603 |
+| itl100100 |          | Shiny Hogbucket             | 0x30DF877D |
+| itl100110 |          | Demuncher Tooth             | 0x29C4B63C |
+| itl100120 |          | Demuncher Molar             | 0x02E9E5FF |
+| itl100130 |          | McKraken Ink                | 0x1BF2D4BE |
+| itl100140 |          | Solid McKraken Ink          | 0x54B34279 |
+| itl100150 |          | Wobblewok Pot               | 0x4DA87338 |
+| itl100160 |          | Gold Wobblepot              | 0x668520FB |
+| itl100170 |          | Hinozall Underling          | 0x7F9E11BA |
+| itl100180 |          | Hinozall's Sidekick         | 0xF8060D75 |
 
 ## Equipment
-| Internal Name | Japanese | English                     | ItemID     |
+| Filename  | Japanese | English                     | ItemID     |
 | --------- | -------- | --------------------------- | ---------- |
 | iea010010 |          | Apprentice Sword            | 0x0FFC766B |
 | iea010020 |          | Star Pupil's Sword          | 0x24D125A8 |
@@ -431,353 +431,353 @@ grand_parent: Modding Resources
 | iea060210 |          | Holy Red Cross Spear        | 0xBE587E15 |
 | iea070010 |          | Overseer's Strange Sword    | 0x80BC83CB |
 | iea070020 |          | Overseer's Ruin Sword       | 0xAB91D008 |
-| iea070210 |          | Grass-Cutting Sword         | 0x2FC207C4 |
-| iea070220 |          | Holy Blade                  | 0x7E2F0767 |
-| iea070230 |          | Evil-Rejecting Sword        | 0xCC0D4D08 |
-| iea070410 |          | Yasha Ice and Fire Wheel    | 0xC9B0821F |
-| iea070420 |          | Yasha Ice and Fire Blades   | 0xC882A7C5 |
-| iea070610 |          | Enma's Hellfire Sword       | 0x568680CA |
-| iea070810 |          | Ananta's Storm Sword        | 0xD1999684 |
-| iea410010 |          | Warped Wand                 | 0xEE3AE7AF |
-| iea410020 |          | Weird Wand                  | 0xACEE62C1 |
-| iea410030 |          | Wand of Chaos               | 0x50744759 |
-| iea410040 |          | Wand of Mystery             | 0xFC8F4841 |
-| iea410050 |          | Evil Soul Wand              | 0x77A0E8CE |
-| iea410060 |          | Shining Wand                | 0xFB76AF70 |
-| iea410210 |          | Skull on a Stick            | 0xF3852517 |
-| iea410220 |          | Pessimistick                | 0x946D347D |
-| iea410230 |          | Trembling Stick             | 0xA8150466 |
-| iea410240 |          | Shivering Stick             | 0xAC9878D4 |
-| iea410250 |          | Yo-kai World Noble's Stick  | 0xE3AFF406 |
-| iea410410 |          | Fukurou's Magic Wand        | 0xB5F55380 |
-| iea410420 |          | Fukurou's Mysterious Wand   | 0x326D4F4F |
-| iea410610 |          | Amaterasu's Virtue Staff    | 0x8EAFD273 |
-| iea410620 |          | Amaterasu's God Staff       | 0x67343626 |
-| iea410630 |          | Amaterasu's Sun Staff       | 0xDB052DF1 |
-| iea410810 |          | Reincarnation Staff         | 0x83F04249 |
-| iea420010 |          | Wonderful Stick             | 0x006228B5 |
-| iea420020 |          | Blue Ballad                 | 0xEA9E1456 |
-| iea420030 |          | Golden Rose                 | 0xC58034DE |
-| iea420040 |          | Rainbow Rose Stick          | 0x520BFC78 |
-| iea430010 |          | Mysterious Fan              | 0x2C46D3AA |
-| iea430020 |          | Spirit Flower Fan           | 0x2B767E0E |
-| iea430030 |          | Yoma War Fan                | 0x83AC0C10 |
-| iea440010 |          | Yo-ki Gun                   | 0xD5167C49 |
-| iea440020 |          | Premium Yo-ki Gun           | 0x15AB86A8 |
-| iea440030 |          | Future Yo-ki Gun            | 0x9AEB7308 |
-| iea440040 |          | Yo-ki Magnum                | 0xB1C620CB |
-| iea440210 |          | Sniper Shot                 | 0xAEBABAE8 |
-| iea440220 |          | Improved Sniper Shot        | 0x2B4F7B76 |
-| iea440230 |          | Yoma Rifle                  | 0xFB86E09D |
-| iea440410 |          | Torrent Gun T               | 0x1E70B128 |
-| iea810010 |          | Enma Club                   | 0x550254A4 |
-| iea810020 |          | Acala's Rope                | 0x05F496AB |
-| iea810030 |          | Kamaitachi Claw             | 0x0436FC9C |
-| iea810035 |          | Swift Kamaitachi Claw       | 0x63B94A94 |
-| iea810050 |          | Cat King's Mirror           | 0xCEF76AD7 |
-| iea810060 |          | Kappa King's Mirror         | 0x87C33102 |
-| iea810070 |          | Tengu King's Mirror         | 0xD881F99F |
-| iea810080 |          | Enchanted Flute             | 0x8431FF79 |
-| iea810090 |          | Dark Enma's Barb            | 0x7DABD309 |
-| iea810100 |          | Acala's Sword               | 0x1DF46546 |
-| iea830010 |          | Demon Blade                 | 0x076B8069 |
-| iea830015 |          | Super Demon Blade           | 0xC517B46C |
-| iea830020 |          | Nekomata's Black Claw       | 0xC21E1CB0 |
-| iea830025 |          | Nekomata's Iron Claw        | 0xDF885143 |
-| iea830030 |          | Triple Nyan Claw            | 0x197919F4 |
-| iea830035 |          | Triple Nyanyan Claw         | 0x996FA766 |
-| iea830040 |          | Yasha Enma Blade            | 0xD32F6730 |
-| iea830045 |          | Yasha Enma Hellblade        | 0x833857A5 |
-| iea830050 |          | Karma Enma Blades           | 0x6EBBD98F |
-| iea830055 |          | Gale Enma Blades            | 0xEEAD671D |
-| iea830060 |          | Naraku Spirit Blade         | 0x21FA4F48 |
-| iea830065 |          | Naraku Slashing Blade       | 0x00BB802E |
-| iea830070 |          | Crimson Cat Lotus           | 0x93649CA1 |
-| iea830075 |          | Blazing Cat Lotus           | 0x1EA919B3 |
-| iea830080 |          | Dog's Silver Blade          | 0xBF4067BE |
-| iea830085 |          | Dog's Burning Blade         | 0xB242F4A5 |
-| iea830090 |          | Rabbit's Golden Gun         | 0xA65B56FF |
-| iea830095 |          | Rabbit's Universe Gun       | 0xB10E3527 |
-| iea830100 |          | Emerald Celestial Spear     | 0xE90553E9 |
-| iea830110 |          | Acala's Life Sword          | 0xE91AC038 |
-| iea830120 |          | Jibacat Fist                | 0x87B52B17 |
-| iea830130 |          | Infernal Busters Launcher   | 0x5F096F63 |
-| iea830140 |          | Severance Sword             | 0xF001F179 |
-| iea830150 |          | Shishi O Knuckle            | 0x067042C5 |
-| iea830160 |          | Kyubi's Rapier              | 0xDC0C852D |
-| iea830170 |          | Kommander Ray Gun           | 0x04EF5407 |
-| iea830180 |          | Crimson Blade Pair          | 0x90E048CF |
-| iea830190 |          | Imprisoning Blade Pair      | 0xA1F3620B |
-| iea830200 |          | Wild Shooter                | 0xE9334F73 |
-| iea830210 |          | Saint Blue Rod              | 0xF8E01D6E |
-| iea830220 |          | Orochi 8 Head               | 0x6DAA1B2C |
-| iea840010 |          | Whisper Hammer              | 0x496F7618 |
-| iea840020 |          | Whisper Hammer II           | 0xF80234F3 |
-| iea840030 |          | Whisper Hammer III          | 0xD7A21B82 |
-| iea840410 |          | Oni Claw                    | 0xDC9B059F |
-| iea840420 |          | Oni Claw Form Two           | 0x5F9C79AE |
-| iea840430 |          | Oni Claw Form Three         | 0xEAB79B1D |
-| iea840610 |          | Crimson Naginata            | 0xEDBE33C1 |
-| iea840620 |          | Oni Naginata                | 0xB849CF62 |
-| iea840630 |          | Oni Princess Naginata       | 0xCEB92AC3 |
-| iea850010 |          | Sly's Love Fan              | 0x74243CA0 |
-| iea850210 |          | Slimamander Fork            | 0xAB59C5E4 |
-| iea860010 |          | Exorcism Staff              | 0xC228002A |
-| iea860020 |          | Exorcism Wish Staff         | 0x6D3F0DE1 |
-| iea860030 |          | Exorcism Ruin Staff         | 0xE4185323 |
-| iea860210 |          | Peerless Knuckle            | 0xDB33316B |
-| iea860220 |          | Heavenly Knuckle            | 0x74B12A6D |
-| iea860230 |          | Divine Knuckle              | 0xC19AC8DE |
-| iea860410 |          | Smashing Fan                | 0xC6936002 |
-| iea860420 |          | Smashing Magic Fan          | 0x518F2816 |
-| iea860430 |          | Smashing Illusion Fan       | 0x7926AFBB |
-| iea860610 |          | Magic Bullet Rifle          | 0x64B0E248 |
-| iea860620 |          | High-Pressure Rifle         | 0xDB2CA2BA |
-| iea860630 |          | New-Style Rifle             | 0xFD036262 |
-| iea860810 |          | Crushing Hammer             | 0x3F9D17C7 |
-| iea860820 |          | Super Crushing Hammer       | 0x9472A7AC |
-| iea860830 |          | Ultimate Blasting Hammer    | 0x97E9E013 |
-| iea861010 |          | Annihilation Spear          | 0xA5DF8291 |
-| iea861020 |          | Large Annihilation Spear    | 0x9A7E65C5 |
-| iea861030 |          | Roaring Annihilation Spear  | 0xD3CD4EAD |
-| iea861210 |          | Kibitsu Longsword           | 0x5B8413D1 |
-| iea861220 |          | Longsword of Fear           | 0xBCC4B3D0 |
-| iea861230 |          | Twilight Longsword          | 0x3DDBA99E |
-| iea861410 |          | Evil-Beheading Sword        | 0x07B228F2 |
-| iea861420 |          | Beheading Spirit Sword      | 0xD62E31A1 |
-| iea861430 |          | Satan-Beheading Sword       | 0x8D6996ED |
-| iea861610 |          | Oni Orb Blade               | 0xCF3500E0 |
-| iea861620 |          | Treasured Orb Blade         | 0x9119A3FE |
-| iea861630 |          | Secret Oni Orb Blade        | 0xA644C52E |
-| iea861810 |          | Tribe Soul Hammer           | 0x48AD1C2F |
-| iea861820 |          | Good Soul Hammer            | 0xBF5FF46F |
-| iea861830 |          | Excellent Soul Hammer       | 0x51B62D6E |
-| iea862010 |          | Crinkling Cane              | 0x826E6627 |
-| iea862020 |          | Wise Crinkling Cane         | 0x38C7E8A0 |
-| iea862030 |          | Crinkling King Cane         | 0x81B6FC10 |
-| iea862210 |          | Training Fan                | 0x21DCD9E1 |
-| iea862220 |          | Second Training Fan         | 0xB3809E92 |
-| iea862230 |          | Secret Training Fan         | 0x98ADCD51 |
-| iea862410 |          | Flying Mallet               | 0xE5DA3914 |
-| iea862420 |          | Flying Hammer               | 0xAA9BAFD3 |
-| iea862430 |          | Flying War Hammer           | 0xE7201ECB |
-| ieg010010 |          | Round Shield                | 0xD0ABB35E |
-| ieg010020 |          | Sturdy Shield               | 0xCA345671 |
-| ieg010030 |          | Alloy Shield                | 0xBB833325 |
-| ieg010040 |          | Kurogane Shield             | 0xBF0E4F97 |
-| ieg010050 |          | Scarlet Sky Shield          | 0xBD48F1CE |
-| ieg010060 |          | Azure Sea Shield            | 0xAB702292 |
-| ieg010210 |          | Iron Shield                 | 0xB7D6DCC4 |
-| ieg010220 |          | Silver Shield               | 0xBC8A9BF9 |
-| ieg010230 |          | Striped Shield              | 0xE1FB2C2F |
-| ieg010240 |          | Demon's Great Shield        | 0xBBCD1B0C |
-| ieg010250 |          | Glorious Light Shield       | 0x162F52C6 |
-| ieg010410 |          | Bumpy Shield                | 0x7AA27BD5 |
-| ieg010510 |          | Glitzy Shield               | 0x603D9EFA |
-| ieg010610 |          | Tsukuyomi's Holy Shield     | 0xA2D62A4D |
-| ieg010620 |          | Tsukuyomi's God Shield      | 0xD7EC5B96 |
-| ieg010630 |          | Tsukuyomi's Moon Shield     | 0xFCC10855 |
-| ieg010710 |          | Marked Sproink Bucket       | 0x5C8DBB0D |
-| ieg010720 |          | Marked Red-Hot Pigbucket    | 0xA9369CCB |
-| ieg010810 |          | Marked Hoggles Bucket       | 0xADBBE079 |
-| ieg010820 |          | Marked Lava Hogbucket       | 0xAE3F3417 |
-| ieg020010 |          | Foot Soldier's Armor        | 0xA4A1191D |
-| ieg020020 |          | Retainer's Armor            | 0x13CC45F7 |
-| ieg020030 |          | General's Armor             | 0x0AD774B6 |
-| ieg020040 |          | Lord's Armor                | 0x120E2FC0 |
-| ieg020210 |          | Jingeki Armor               | 0x10489199 |
-| ieg020220 |          | Super Jingeki Armor         | 0x1507871C |
-| ieg020410 |          | Maten Armor                 | 0x17413945 |
-| ieg020420 |          | True Maten Armor            | 0x16835372 |
-| ieg020610 |          | Stiff and Hard Mail         | 0x1DDF144F |
-| ieg020810 |          | Fabled Dragon Armor         | 0x8D9FA920 |
-| ieg030010 |          | Ronin's Hakama              | 0x8C5DC317 |
-| ieg030020 |          | Swordsman's Hakama          | 0x88D0BFA5 |
-| ieg030030 |          | Master's Hakama             | 0x8A9601FC |
-| ieg030040 |          | Inferno King's Robe         | 0x306CD8C0 |
-| ieg030045 |          | Inferno King's Sacred Robe  | 0x322A6699 |
-| ieg040010 |          | Blank Cape                  | 0x25D0DFF2 |
-| ieg040020 |          | Elite Cape                  | 0x22D9772E |
-| ieg040030 |          | Dark Knight Cape            | 0x2A01E47D |
-| ieg040040 |          | Hero Cape                   | 0x2BC38E4A |
-| ieg040210 |          | Bat Cape                    | 0x5CC4BEDC |
-| ieg040220 |          | Vampire Cape                | 0x9CAED2A0 |
-| ieg050010 |          | Lord Acala's Gauntlet       | 0x9D6CB897 |
-| ieg050020 |          | Lord Acala's Great Gauntlet | 0x9F2A06CE |
-| ieg050210 |          | Suzaku's Gauntlet           | 0x9EE86CF9 |
-| ieg050220 |          | Suzaku's Great Gauntlet     | 0x9823AE12 |
-| ieg050410 |          | Asura's Gauntlet            | 0x99E1C425 |
-| ieg050420 |          | Asura's Great Gauntlet      | 0x471BFAFE |
-| ieg050610 |          | Genbu's Gauntlet            | 0x455D44A7 |
-| ieg050620 |          | Genbu's Great Gauntlet      | 0x449F2E90 |
-| ieg050810 |          | Byakko's Gauntlet           | 0x40125222 |
-| ieg050820 |          | Byakko's Great Gauntlet     | 0x4254EC7B |
-| ieg060010 |          | Dosukoi Loincloth           | 0x4396864C |
-| ieg060020 |          | Decorative Loincloth        | 0x48CAC171 |
-| ieg060030 |          | Unified Loincloth           | 0x51D1F030 |
-| ieg410010 |          | Rustic Amulet               | 0x4908AB46 |
-| ieg410020 |          | Elegant Amulet              | 0xFDE123C2 |
-| ieg410030 |          | Intriguing Amulet           | 0xF96C5F70 |
-| ieg410040 |          | Midnight Amulet             | 0xF8AE3547 |
-| ieg410050 |          | Galaxy Amulet               | 0xFAE88B1E |
-| ieg410060 |          | Starlight Amulet            | 0xE3F3BA5F |
-| ieg410210 |          | Flower Charm                | 0xC8DEE99C |
-| ieg410220 |          | Aurora Charm                | 0xFB2AE129 |
-| ieg410230 |          | Mirage Charm                | 0xF076A614 |
-| ieg410240 |          | Dawn Charm                  | 0xF1B4CC23 |
-| ieg410250 |          | Dusk Charm                  | 0xEF548C2C |
-| ieg420010 |          | Happy Charm                 | 0xF64FBD6D |
-| ieg420020 |          | Pulsating Charm             | 0xEE96E61B |
-| ieg420030 |          | Courage Charm               | 0xEBD9F09E |
-| ieg420040 |          | Fiend Charm                 | 0xE85D24F0 |
-| ieg420210 |          | Passion Pendant             | 0xE99F4EC7 |
-| ieg420220 |          | Zeal Pendant                | 0xE2C309FA |
-| ieg420230 |          | Fighting Spirit Pendant     | 0xFBD838BB |
-| ieg420410 |          | Patched-Up Charm            | 0xE30163CD |
-| ieg420420 |          | Fragrant Charm              | 0x57E8EB49 |
-| ieg420430 |          | Lucky Charm                 | 0x4EF3DA08 |
-| ieg420440 |          | Better Fortune Charm        | 0x562A817E |
-| ieg420610 |          | Speed Charm                 | 0x512329A2 |
-| ieg420620 |          | Fast Runner Charm           | 0x5A7F6E9F |
-| ieg420810 |          | Healing Charm               | 0x43645FDE |
-| ieg810010 |          | Acala's Robe                | 0x5BBD04A8 |
-| ieg830010 |          | Eternal Pendant             | 0xCCF4111B |
-| ieg830020 |          | Shadow Head                 | 0xC7A85626 |
-| ieg830030 |          | Galaxy Headgear             | 0xDEB36767 |
-| ieg840210 |          | Pink Ribbon                 | 0xC66A3C11 |
-| ieg840220 |          | Cute Ribbon                 | 0x70C50ACC |
-| ieg840230 |          | Pretty Ribbon               | 0x7341DEA2 |
-| ieg840810 |          | Yoma Skates                 | 0x760EC827 |
-| ieg840820 |          | Custom Yoma Skates          | 0x6F15F966 |
-| ieg840830 |          | Super Yoma Skates           | 0x77CCA210 |
-| ieg841010 |          | Handmade Scarf              | 0x60361B7B |
-| ieg841020 |          | Sincerely Handmade Scarf    | 0x673FB3A7 |
-| ieg841030 |          | Lovingly Handmade Scarf     | 0x66FDD990 |
-| ieg850010 |          | Sly's Skin-Colored Leotard  | 0x6C63F49A |
-| ieg850210 |          | Sly's Love Diary            | 0xDB0EA870 |
-| ieg850410 |          | Life-Sized Sly Panel        | 0xDACCC247 |
-| ieg850610 |          | Super Suit                  | 0xD88A7C1E |
-| ieg850620 |          | Ultra Super Suit            | 0xD9481629 |
-| ieg850810 |          | Super Dress                 | 0xDC0700AC |
-| ieg850820 |          | Ultra Super Dress           | 0xC51C31ED |
-| ieg860010 |          | Shield of Wisdom            | 0xD51DF9C8 |
-| ieg860020 |          | Fighting Spirit Shield      | 0x836DB826 |
-| ieg860030 |          | Divine Shield               | 0x82AFD211 |
-| ieg860210 |          | Flying Swallow Charm        | 0x812B067F |
-| ieg860220 |          | Fast Swallow Charm          | 0x7A7BD34E |
-| ieg860230 |          | Swift Swallow Charm         | 0x79FF0720 |
-| una000100 |          | Whispointer                 | 0x7EF6AFFC |
-| una000200 |          | Whispointing Stick          | 0x75AAE8C1 |
-| una001400 |          | Swift Oni Sword             | 0x746882F6 |
-| una001500 |          | Sturdy Oni Club             | 0xC2C7B42B |
-| una002400 |          | Amaterasu's Staff           | 0xC0810A72 |
-| una010100 |          | Red Slash                   | 0xC40C76C0 |
-| una010400 |          | Magical Flame Fist          | 0xCD168FA4 |
-| una010500 |          | Icy Petal Fan               | 0x6C2C4351 |
-| una010510 |          | Bloom Fan                   | 0x47011092 |
-| una010600 |          | Spirit Fox Fan              | 0x5E1A21D3 |
-| una010700 |          | Azure Dragon Staff          | 0x115BB714 |
-| una011300 |          | Cicada Nails                | 0x08408655 |
-| una011500 |          | Three Brothers' Kendama     | 0x236DD596 |
-| una011600 |          | Owl's Pipe                  | 0x6FA8973F |
-| una011700 |          | Great Snake Pickaxe         | 0x4485C4FC |
-| una011800 |          | Elderly Yo-kai Stick        | 0x5D9EF5BD |
-| una012000 |          | Heart-Wringing Charm        | 0x12DF637A |
-| una012300 |          | Weather Umbrella            | 0x0BC4523B |
-| una012500 |          | Slurping Danny Nail         | 0x6B25EB8D |
-| una012700 |          | Illusion-Cutting Sword      | 0x6AE781BA |
-| una012900 |          | Brilliant Severing Sword    | 0x68A13FE3 |
-| una013000 |          | Great Snake Dagger          | 0x438C6C20 |
-| una013010 |          | Shadow Snake Fang           | 0x5A975D61 |
-| una013100 |          | Full Moon                   | 0x696355D4 |
-| una013200 |          | Revised Spider Longsword    | 0x424E0617 |
-| una013500 |          | Hoppit Fist                 | 0x623F12E9 |
-| una013600 |          | True Toad Longspear         | 0x4912412A |
-| una013700 |          | Stormcloud Drum             | 0x2B8C3981 |
-| una013800 |          | Thundercloud Drum           | 0x00A16A42 |
-| una014200 |          | Righteous Dotanuki          | 0x19BA5B03 |
-| una014300 |          | Mountain God Fang           | 0x56FBCDC4 |
-| una014500 |          | Chain Whip                  | 0x2808EDEF |
-| una014600 |          | Glaring Pencil              | 0x0325BE2C |
-| una015500 |          | King Fangs of Asura         | 0x2C85915D |
-| una015600 |          | Biroron Stick               | 0x07A8C29E |
-| una016100 |          | Shiny Stick                 | 0x2F014533 |
-| una016500 |          | Staff of Judgement          | 0x259F6839 |
-| una016800 |          | Enma Blade                  | 0x16EC1031 |
-| una016900 |          | Snake King Sword            | 0x3DC143F2 |
-| una016901 |          | True Snake King Sword       | 0x24DA72B3 |
-| una017000 |          | Yoma Blade                  | 0x6B9BE474 |
-| una017100 |          | Spirited Sword              | 0x1BF110FB |
-| una017200 |          | Oni Branch Fan              | 0xA4CCCC21 |
-| una017300 |          | Wailing Oni Blade           | 0x8FE19FE2 |
-| una017600 |          | Chairman's Staff            | 0x96FAAEA3 |
-| una017700 |          | Stormweaver Boy             | 0xD9BB3864 |
-| una020100 |          | Empty Stomach Cane          | 0xA748184F |
-| una020200 |          | Dimmy's Patient Blade       | 0x8C654B8C |
-| una020300 |          | Exposure Microphone         | 0x99ACE591 |
-| una020500 |          | Hidabat's Shuriken          | 0xB281B652 |
-| una020600 |          | Snow Child Fan              | 0x9A2831FF |
-| una020700 |          | Insomnia Staff              | 0xB105623C |
-| una020800 |          | Blizzard Fan                | 0x9EA54D4D |
-| una020810 |          | Darkness Fan                | 0xB5881E8E |
-| una020900 |          | Evil Cane                   | 0x9D219923 |
-| una021200 |          | Nail Bat                    | 0xB60CCAE0 |
-| una021400 |          | Blazing Punch               | 0x97BFB429 |
-| una021500 |          | Burly Dumbbell              | 0xBC92E7EA |
-| una021600 |          | Snake Blade of Ruin         | 0xDE0C9F41 |
-| una021610 |          | Shining Snake Blade         | 0xF521CC82 |
-| una021620 |          | Dark Snake Blade            | 0xEC3AFDC3 |
-| una021700 |          | Moon Carver                 | 0xF7BD0147 |
-| una021800 |          | Barbarian Sword             | 0xDC905284 |
-| una021900 |          | Spider Longsword            | 0xC58B63C5 |
-| una022200 |          | White Dog Wand              | 0x8ACAF502 |
-| una022210 |          | White Dog Launcher B        | 0x93D1C443 |
-| una022300 |          | Komajiro Punch              | 0xB8FC9780 |
-| una022400 |          | Oni Slayer                  | 0xF439D529 |
-| una022600 |          | Gutsy Knuckle!              | 0xDF1486EA |
-| una022700 |          | Signipunch                  | 0xC60FB7AB |
-| una022800 |          | Full Moon Spear             | 0x894E216C |
-| una022810 |          | Magical Hell Spear          | 0x9055102D |
-| una022900 |          | Toad Longspear              | 0xB01D7B97 |
-| una023200 |          | Magical Cat Claw            | 0x9B302854 |
-| una023210 |          | Red Cat Launcher B          | 0x822B1915 |
-| una023300 |          | ☆Obvious Stick              | 0xCD6A8FD2 |
-| una023700 |          | Lie-in's Secret Sword       | 0xB399AFF9 |
-| una023800 |          | Kyubi Fan                   | 0x98B4FC3A |
-| una023810 |          | Eternal Darkness Fan        | 0x81AFCD7B |
-| una023900 |          | Hose Saber                  | 0xB714D34B |
-| una024700 |          | Mechanical Zanbara          | 0x9C398088 |
-| una024800 |          | Nyan Gravity Gun            | 0x8522B1C9 |
-| una024810 |          | Golden Particle Cannon      | 0xCA63270E |
-| una024900 |          | Bottomless Bottle           | 0xB4900725 |
-| una025100 |          | Unfocusing Stick            | 0x9FBD54E6 |
-| una025300 |          | Badboya's Jolt Blow         | 0xBE0E2A2F |
-| una025400 |          | Bunny Blaster               | 0x807FC13C |
-| una025410 |          | Rabbit Launcher B           | 0xFABF925C |
-| una025500 |          | Shiny Pipe                  | 0xD192C19F |
-| una026200 |          | Oni Smasher (Prison)        | 0xC889F0DE |
-| una026600 |          | Devil Rattle                | 0x4B1B9A22 |
-| una026700 |          | Marking Stick               | 0x6036C9E1 |
-| una026900 |          | Oni Smasher (Fire)          | 0x792DF8A0 |
-| una027000 |          | Oni Smasher (Sea)           | 0x468C1FF4 |
-| una027100 |          | Oni Smasher (Earth)         | 0x6DA14C37 |
-| una027200 |          | Shura Fist                  | 0x74BA7D76 |
-| una027300 |          | Maul Attachment             | 0xF0232929 |
-| una027400 |          | Pincer Vise                 | 0xDB0E7AEA |
-| una027410 |          | Great Pincer Vise           | 0xC2154BAB |
-| una027800 |          | Squid Leg                   | 0x75FF67FC |
-| una028000 |          | Cheerful Stick              | 0x767BB392 |
-| una028100 |          | Poop Stick                  | 0x72F6CF20 |
-| una028300 |          | Nightmare Slingshot         | 0x71721B4E |
-| una030100 |          | Shaman's Violent Blade      | 0x5A5F488D |
-| una030300 |          | Butcher's Knife             | 0x7BEC3644 |
-| una030700 |          | Gunshin Bamboo Sword        | 0x50C16587 |
-| una030800 |          | Tengu Fan                   | 0x325F1D2C |
-| una030900 |          | Good Walking Stick          | 0x19724EEF |
-| una031100 |          | Nekomata Claw               | 0x00697FAE |
-| una031200 |          | Mysterious Lipstick         | 0x31DBC942 |
-| una031400 |          | Kappa Gourd                 | 0x1AF69A81 |
-| una031800 |          | Narigama's Fortune Hammer   | 0x03EDABC0 |
+| iea070210 |          | Grass-Cutting Sword         | 0x833857A5 |
+| iea070220 |          | Holy Blade                  | 0xA8150466 |
+| iea070230 |          | Evil-Rejecting Sword        | 0xB10E3527 |
+| iea070410 |          | Yasha Ice and Fire Wheel    | 0x87B52B17 |
+| iea070420 |          | Yasha Ice and Fire Blades   | 0xAC9878D4 |
+| iea070610 |          | Enma's Hellfire Sword       | 0x8431FF79 |
+| iea070810 |          | Ananta's Storm Sword        | 0x8EAFD273 |
+| iea410010 |          | Warped Wand                 | 0x946D347D |
+| iea410020 |          | Weird Wand                  | 0xBF4067BE |
+| iea410030 |          | Wand of Chaos               | 0xA65B56FF |
+| iea410040 |          | Wand of Mystery             | 0xE91AC038 |
+| iea410050 |          | Evil Soul Wand              | 0xF001F179 |
+| iea410060 |          | Shining Wand                | 0xDB2CA2BA |
+| iea410210 |          | Skull on a Stick            | 0x97E9E013 |
+| iea410220 |          | Pessimistick                | 0xBCC4B3D0 |
+| iea410230 |          | Trembling Stick             | 0xA5DF8291 |
+| iea410240 |          | Shivering Stick             | 0xEA9E1456 |
+| iea410250 |          | Yo-kai World Noble's Stick  | 0xF3852517 |
+| iea410410 |          | Fukurou's Magic Wand        | 0x93649CA1 |
+| iea410420 |          | Fukurou's Mysterious Wand   | 0xB849CF62 |
+| iea410610 |          | Amaterasu's Virtue Staff    | 0x90E048CF |
+| iea410620 |          | Amaterasu's God Staff       | 0xBBCD1B0C |
+| iea410630 |          | Amaterasu's Sun Staff       | 0xA2D62A4D |
+| iea410810 |          | Reincarnation Staff         | 0x9A7E65C5 |
+| iea420010 |          | Wonderful Stick             | 0xD3CD4EAD |
+| iea420020 |          | Blue Ballad                 | 0xF8E01D6E |
+| iea420030 |          | Golden Rose                 | 0xE1FB2C2F |
+| iea420040 |          | Rainbow Rose Stick          | 0xAEBABAE8 |
+| iea430010 |          | Mysterious Fan              | 0xEEAD671D |
+| iea430020 |          | Spirit Flower Fan           | 0xC58034DE |
+| iea430030 |          | Yoma War Fan                | 0xDC9B059F |
+| iea440010 |          | Yo-ki Gun                   | 0x5C8DBB0D |
+| iea440020 |          | Premium Yo-ki Gun           | 0x77A0E8CE |
+| iea440030 |          | Future Yo-ki Gun            | 0x6EBBD98F |
+| iea440040 |          | Yo-ki Magnum                | 0x21FA4F48 |
+| iea440210 |          | Sniper Shot                 | 0x5F096F63 |
+| iea440220 |          | Improved Sniper Shot        | 0x74243CA0 |
+| iea440230 |          | Yoma Rifle                  | 0x6D3F0DE1 |
+| iea440410 |          | Torrent Gun T               | 0x5B8413D1 |
+| iea810010 |          | Enma Club                   | 0xE3AFF406 |
+| iea810020 |          | Acala's Rope                | 0xC882A7C5 |
+| iea810030 |          | Kamaitachi Claw             | 0xD1999684 |
+| iea810035 |          | Swift Kamaitachi Claw       | 0xA1F3620B |
+| iea810050 |          | Cat King's Mirror           | 0x87C33102 |
+| iea810060 |          | Kappa King's Mirror         | 0xACEE62C1 |
+| iea810070 |          | Tengu King's Mirror         | 0xB5F55380 |
+| iea810080 |          | Enchanted Flute             | 0x326D4F4F |
+| iea810090 |          | Dark Enma's Barb            | 0x2B767E0E |
+| iea810100 |          | Acala's Sword               | 0xFB76AF70 |
+| iea830010 |          | Demon Blade                 | 0x996FA766 |
+| iea830015 |          | Super Demon Blade           | 0xE90553E9 |
+| iea830020 |          | Nekomata's Black Claw       | 0xB242F4A5 |
+| iea830025 |          | Nekomata's Iron Claw        | 0xC228002A |
+| iea830030 |          | Triple Nyan Claw            | 0xAB59C5E4 |
+| iea830035 |          | Triple Nyanyan Claw         | 0xDB33316B |
+| iea830040 |          | Yasha Enma Blade            | 0xE4185323 |
+| iea830045 |          | Yasha Enma Hellblade        | 0x9472A7AC |
+| iea830050 |          | Karma Enma Blades           | 0xFD036262 |
+| iea830055 |          | Gale Enma Blades            | 0x8D6996ED |
+| iea830060 |          | Naraku Spirit Blade         | 0xD62E31A1 |
+| iea830065 |          | Naraku Slashing Blade       | 0xA644C52E |
+| iea830070 |          | Crimson Cat Lotus           | 0xCF3500E0 |
+| iea830075 |          | Blazing Cat Lotus           | 0xBF5FF46F |
+| iea830080 |          | Dog's Silver Blade          | 0x48AD1C2F |
+| iea830085 |          | Dog's Burning Blade         | 0x38C7E8A0 |
+| iea830090 |          | Rabbit's Golden Gun         | 0x51B62D6E |
+| iea830095 |          | Rabbit's Universe Gun       | 0x21DCD9E1 |
+| iea830100 |          | Emerald Celestial Spear     | 0x81B6FC10 |
+| iea830110 |          | Acala's Life Sword          | 0x98ADCD51 |
+| iea830120 |          | Jibacat Fist                | 0xB3809E92 |
+| iea830130 |          | Infernal Busters Launcher   | 0xAA9BAFD3 |
+| iea830140 |          | Severance Sword             | 0xE5DA3914 |
+| iea830150 |          | Shishi O Knuckle            | 0xFCC10855 |
+| iea830160 |          | Kyubi's Rapier              | 0xD7EC5B96 |
+| iea830170 |          | Kommander Ray Gun           | 0xCEF76AD7 |
+| iea830180 |          | Crimson Blade Pair          | 0x496F7618 |
+| iea830190 |          | Imprisoning Blade Pair      | 0x50744759 |
+| iea830200 |          | Wild Shooter                | 0x83F04249 |
+| iea830210 |          | Saint Blue Rod              | 0x9AEB7308 |
+| iea830220 |          | Orochi 8 Head               | 0xB1C620CB |
+| iea840010 |          | Whisper Hammer              | 0x2B4F7B76 |
+| iea840020 |          | Whisper Hammer II           | 0x006228B5 |
+| iea840030 |          | Whisper Hammer III          | 0x197919F4 |
+| iea840410 |          | Oni Claw                    | 0x2C46D3AA |
+| iea840420 |          | Oni Claw Form Two           | 0x076B8069 |
+| iea840430 |          | Oni Claw Form Three         | 0x1E70B128 |
+| iea840610 |          | Crimson Naginata            | 0x2FC207C4 |
+| iea840620 |          | Oni Naginata                | 0x04EF5407 |
+| iea840630 |          | Oni Princess Naginata       | 0x1DF46546 |
+| iea850010 |          | Sly's Love Fan              | 0x162F52C6 |
+| iea850210 |          | Slimamander Fork            | 0x15AB86A8 |
+| iea860010 |          | Exorcism Staff              | 0x518F2816 |
+| iea860020 |          | Exorcism Wish Staff         | 0x7AA27BD5 |
+| iea860030 |          | Exorcism Ruin Staff         | 0x63B94A94 |
+| iea860210 |          | Peerless Knuckle            | 0x520BFC78 |
+| iea860220 |          | Heavenly Knuckle            | 0x7926AFBB |
+| iea860230 |          | Divine Knuckle              | 0x603D9EFA |
+| iea860410 |          | Smashing Fan                | 0x568680CA |
+| iea860420 |          | Smashing Magic Fan          | 0x7DABD309 |
+| iea860430 |          | Smashing Illusion Fan       | 0x64B0E248 |
+| iea860610 |          | Magic Bullet Rifle          | 0x550254A4 |
+| iea860620 |          | High-Pressure Rifle         | 0x7E2F0767 |
+| iea860630 |          | New-Style Rifle             | 0x67343626 |
+| iea860810 |          | Crushing Hammer             | 0x5F9C79AE |
+| iea860820 |          | Super Crushing Hammer       | 0x74B12A6D |
+| iea860830 |          | Ultimate Blasting Hammer    | 0x6DAA1B2C |
+| iea861010 |          | Annihilation Spear          | 0xE9334F73 |
+| iea861020 |          | Large Annihilation Spear    | 0xC21E1CB0 |
+| iea861030 |          | Roaring Annihilation Spear  | 0xDB052DF1 |
+| iea861210 |          | Kibitsu Longsword           | 0xEAB79B1D |
+| iea861220 |          | Longsword of Fear           | 0xC19AC8DE |
+| iea861230 |          | Twilight Longsword          | 0xD881F99F |
+| iea861410 |          | Evil-Beheading Sword        | 0xEE3AE7AF |
+| iea861420 |          | Beheading Spirit Sword      | 0xC517B46C |
+| iea861430 |          | Satan-Beheading Sword       | 0xDC0C852D |
+| iea861610 |          | Oni Orb Blade               | 0xEDBE33C1 |
+| iea861620 |          | Treasured Orb Blade         | 0xC6936002 |
+| iea861630 |          | Secret Oni Orb Blade        | 0xDF885143 |
+| iea861810 |          | Tribe Soul Hammer           | 0xE7201ECB |
+| iea861820 |          | Good Soul Hammer            | 0xCC0D4D08 |
+| iea861830 |          | Excellent Soul Hammer       | 0xD5167C49 |
+| iea862010 |          | Crinkling Cane              | 0xFB86E09D |
+| iea862020 |          | Wise Crinkling Cane         | 0xD0ABB35E |
+| iea862030 |          | Crinkling King Cane         | 0xC9B0821F |
+| iea862210 |          | Training Fan                | 0xF80234F3 |
+| iea862220 |          | Second Training Fan         | 0xD32F6730 |
+| iea862230 |          | Secret Training Fan         | 0xCA345671 |
+| iea862410 |          | Flying Mallet               | 0xFC8F4841 |
+| iea862420 |          | Flying Hammer               | 0xD7A21B82 |
+| iea862430 |          | Flying War Hammer           | 0xCEB92AC3 |
+| ieg010010 |          | Round Shield                | 0x6C2C4351 |
+| ieg010020 |          | Sturdy Shield               | 0x47011092 |
+| ieg010030 |          | Alloy Shield                | 0x5E1A21D3 |
+| ieg010040 |          | Kurogane Shield             | 0x115BB714 |
+| ieg010050 |          | Scarlet Sky Shield          | 0x08408655 |
+| ieg010060 |          | Azure Sea Shield            | 0x236DD596 |
+| ieg010210 |          | Iron Shield                 | 0x6FA8973F |
+| ieg010220 |          | Silver Shield               | 0x4485C4FC |
+| ieg010230 |          | Striped Shield              | 0x5D9EF5BD |
+| ieg010240 |          | Demon's Great Shield        | 0x12DF637A |
+| ieg010250 |          | Glorious Light Shield       | 0x0BC4523B |
+| ieg010410 |          | Bumpy Shield                | 0x6B25EB8D |
+| ieg010510 |          | Glitzy Shield               | 0x6AE781BA |
+| ieg010610 |          | Tsukuyomi's Holy Shield     | 0x68A13FE3 |
+| ieg010620 |          | Tsukuyomi's God Shield      | 0x438C6C20 |
+| ieg010630 |          | Tsukuyomi's Moon Shield     | 0x5A975D61 |
+| ieg010710 |          | Marked Sproink Bucket       | 0x696355D4 |
+| ieg010720 |          | Marked Red-Hot Pigbucket    | 0x424E0617 |
+| ieg010810 |          | Marked Hoggles Bucket       | 0x623F12E9 |
+| ieg010820 |          | Marked Lava Hogbucket       | 0x4912412A |
+| ieg020010 |          | Foot Soldier's Armor        | 0x2B8C3981 |
+| ieg020020 |          | Retainer's Armor            | 0x00A16A42 |
+| ieg020030 |          | General's Armor             | 0x19BA5B03 |
+| ieg020040 |          | Lord's Armor                | 0x56FBCDC4 |
+| ieg020210 |          | Jingeki Armor               | 0x2808EDEF |
+| ieg020220 |          | Super Jingeki Armor         | 0x0325BE2C |
+| ieg020410 |          | Maten Armor                 | 0x2C85915D |
+| ieg020420 |          | True Maten Armor            | 0x07A8C29E |
+| ieg020610 |          | Stiff and Hard Mail         | 0x2F014533 |
+| ieg020810 |          | Fabled Dragon Armor         | 0x259F6839 |
+| ieg030010 |          | Ronin's Hakama              | 0x16EC1031 |
+| ieg030020 |          | Swordsman's Hakama          | 0x3DC143F2 |
+| ieg030030 |          | Master's Hakama             | 0x24DA72B3 |
+| ieg030040 |          | Inferno King's Robe         | 0x6B9BE474 |
+| ieg030045 |          | Inferno King's Sacred Robe  | 0x1BF110FB |
+| ieg040010 |          | Blank Cape                  | 0xA4CCCC21 |
+| ieg040020 |          | Elite Cape                  | 0x8FE19FE2 |
+| ieg040030 |          | Dark Knight Cape            | 0x96FAAEA3 |
+| ieg040040 |          | Hero Cape                   | 0xD9BB3864 |
+| ieg040210 |          | Bat Cape                    | 0xA748184F |
+| ieg040220 |          | Vampire Cape                | 0x8C654B8C |
+| ieg050010 |          | Lord Acala's Gauntlet       | 0x99ACE591 |
+| ieg050020 |          | Lord Acala's Great Gauntlet | 0xB281B652 |
+| ieg050210 |          | Suzaku's Gauntlet           | 0x9A2831FF |
+| ieg050220 |          | Suzaku's Great Gauntlet     | 0xB105623C |
+| ieg050410 |          | Asura's Gauntlet            | 0x9EA54D4D |
+| ieg050420 |          | Asura's Great Gauntlet      | 0xB5881E8E |
+| ieg050610 |          | Genbu's Gauntlet            | 0x9D219923 |
+| ieg050620 |          | Genbu's Great Gauntlet      | 0xB60CCAE0 |
+| ieg050810 |          | Byakko's Gauntlet           | 0x97BFB429 |
+| ieg050820 |          | Byakko's Great Gauntlet     | 0xBC92E7EA |
+| ieg060010 |          | Dosukoi Loincloth           | 0xDE0C9F41 |
+| ieg060020 |          | Decorative Loincloth        | 0xF521CC82 |
+| ieg060030 |          | Unified Loincloth           | 0xEC3AFDC3 |
+| ieg410010 |          | Rustic Amulet               | 0xF7BD0147 |
+| ieg410020 |          | Elegant Amulet              | 0xDC905284 |
+| ieg410030 |          | Intriguing Amulet           | 0xC58B63C5 |
+| ieg410040 |          | Midnight Amulet             | 0x8ACAF502 |
+| ieg410050 |          | Galaxy Amulet               | 0x93D1C443 |
+| ieg410060 |          | Starlight Amulet            | 0xB8FC9780 |
+| ieg410210 |          | Flower Charm                | 0xF439D529 |
+| ieg410220 |          | Aurora Charm                | 0xDF1486EA |
+| ieg410230 |          | Mirage Charm                | 0xC60FB7AB |
+| ieg410240 |          | Dawn Charm                  | 0x894E216C |
+| ieg410250 |          | Dusk Charm                  | 0x9055102D |
+| ieg420010 |          | Happy Charm                 | 0xB01D7B97 |
+| ieg420020 |          | Pulsating Charm             | 0x9B302854 |
+| ieg420030 |          | Courage Charm               | 0x822B1915 |
+| ieg420040 |          | Fiend Charm                 | 0xCD6A8FD2 |
+| ieg420210 |          | Passion Pendant             | 0xB399AFF9 |
+| ieg420220 |          | Zeal Pendant                | 0x98B4FC3A |
+| ieg420230 |          | Fighting Spirit Pendant     | 0x81AFCD7B |
+| ieg420410 |          | Patched-Up Charm            | 0xB714D34B |
+| ieg420420 |          | Fragrant Charm              | 0x9C398088 |
+| ieg420430 |          | Lucky Charm                 | 0x8522B1C9 |
+| ieg420440 |          | Better Fortune Charm        | 0xCA63270E |
+| ieg420610 |          | Speed Charm                 | 0xB4900725 |
+| ieg420620 |          | Fast Runner Charm           | 0x9FBD54E6 |
+| ieg420810 |          | Healing Charm               | 0xBE0E2A2F |
+| ieg810010 |          | Acala's Robe                | 0x807FC13C |
+| ieg830010 |          | Eternal Pendant             | 0xFABF925C |
+| ieg830020 |          | Shadow Head                 | 0xD192C19F |
+| ieg830030 |          | Galaxy Headgear             | 0xC889F0DE |
+| ieg840210 |          | Pink Ribbon                 | 0x4B1B9A22 |
+| ieg840220 |          | Cute Ribbon                 | 0x6036C9E1 |
+| ieg840230 |          | Pretty Ribbon               | 0x792DF8A0 |
+| ieg840810 |          | Yoma Skates                 | 0x468C1FF4 |
+| ieg840820 |          | Custom Yoma Skates          | 0x6DA14C37 |
+| ieg840830 |          | Super Yoma Skates           | 0x74BA7D76 |
+| ieg841010 |          | Handmade Scarf              | 0xF0232929 |
+| ieg841020 |          | Sincerely Handmade Scarf    | 0xDB0E7AEA |
+| ieg841030 |          | Lovingly Handmade Scarf     | 0xC2154BAB |
+| ieg850010 |          | Sly's Skin-Colored Leotard  | 0x75FF67FC |
+| ieg850210 |          | Sly's Love Diary            | 0x767BB392 |
+| ieg850410 |          | Life-Sized Sly Panel        | 0x72F6CF20 |
+| ieg850610 |          | Super Suit                  | 0x71721B4E |
+| ieg850620 |          | Ultra Super Suit            | 0x5A5F488D |
+| ieg850810 |          | Super Dress                 | 0x7BEC3644 |
+| ieg850820 |          | Ultra Super Dress           | 0x50C16587 |
+| ieg860010 |          | Shield of Wisdom            | 0x325F1D2C |
+| ieg860020 |          | Fighting Spirit Shield      | 0x19724EEF |
+| ieg860030 |          | Divine Shield               | 0x00697FAE |
+| ieg860210 |          | Flying Swallow Charm        | 0x31DBC942 |
+| ieg860220 |          | Fast Swallow Charm          | 0x1AF69A81 |
+| ieg860230 |          | Swift Swallow Charm         | 0x03EDABC0 |
+| una000100 |          | Whispointer                 | 0x3DDBA99E |
+| una000200 |          | Whispointing Stick          | 0x3F9D17C7 |
+| una001400 |          | Swift Oni Sword             | 0x83AC0C10 |
+| una001500 |          | Sturdy Oni Club             | 0x826E6627 |
+| una002400 |          | Amaterasu's Staff           | 0x9119A3FE |
+| una010100 |          | Red Slash                   | 0x00BB802E |
+| una010400 |          | Magical Flame Fist          | 0x067042C5 |
+| una010500 |          | Icy Petal Fan               | 0x07B228F2 |
+| una010510 |          | Bloom Fan                   | 0x1EA919B3 |
+| una010600 |          | Spirit Fox Fan              | 0x05F496AB |
+| una010700 |          | Azure Dragon Staff          | 0x0436FC9C |
+| una011300 |          | Cicada Nails                | 0xBB833325 |
+| una011500 |          | Three Brothers' Kendama     | 0xBF0E4F97 |
+| una011600 |          | Owl's Pipe                  | 0xBD48F1CE |
+| una011700 |          | Great Snake Pickaxe         | 0xBC8A9BF9 |
+| una011800 |          | Elderly Yo-kai Stick        | 0xB7D6DCC4 |
+| una012000 |          | Heart-Wringing Charm        | 0xAB702292 |
+| una012300 |          | Weather Umbrella            | 0xA9369CCB |
+| una012500 |          | Slurping Danny Nail         | 0xADBBE079 |
+| una012700 |          | Illusion-Cutting Sword      | 0xAE3F3417 |
+| una012900 |          | Brilliant Severing Sword    | 0xA4A1191D |
+| una013000 |          | Great Snake Dagger          | 0x13CC45F7 |
+| una013010 |          | Shadow Snake Fang           | 0x0AD774B6 |
+| una013100 |          | Full Moon                   | 0x120E2FC0 |
+| una013200 |          | Revised Spider Longsword    | 0x10489199 |
+| una013500 |          | Hoppit Fist                 | 0x1507871C |
+| una013600 |          | True Toad Longspear         | 0x17413945 |
+| una013700 |          | Stormcloud Drum             | 0x16835372 |
+| una013800 |          | Thundercloud Drum           | 0x1DDF144F |
+| una014200 |          | Righteous Dotanuki          | 0x8D9FA920 |
+| una014300 |          | Mountain God Fang           | 0x8C5DC317 |
+| una014500 |          | Chain Whip                  | 0x88D0BFA5 |
+| una014600 |          | Glaring Pencil              | 0x8A9601FC |
+| una015500 |          | King Fangs of Asura         | 0x306CD8C0 |
+| una015600 |          | Biroron Stick               | 0x322A6699 |
+| una016100 |          | Shiny Stick                 | 0x25D0DFF2 |
+| una016500 |          | Staff of Judgement          | 0x22D9772E |
+| una016800 |          | Enma Blade                  | 0x2A01E47D |
+| una016900 |          | Snake King Sword            | 0x2BC38E4A |
+| una016901 |          | True Snake King Sword       | 0x5CC4BEDC |
+| una017000 |          | Yoma Blade                  | 0x9CAED2A0 |
+| una017100 |          | Spirited Sword              | 0x9D6CB897 |
+| una017200 |          | Oni Branch Fan              | 0x9F2A06CE |
+| una017300 |          | Wailing Oni Blade           | 0x9EE86CF9 |
+| una017600 |          | Chairman's Staff            | 0x9823AE12 |
+| una017700 |          | Stormweaver Boy             | 0x99E1C425 |
+| una020100 |          | Empty Stomach Cane          | 0x471BFAFE |
+| una020200 |          | Dimmy's Patient Blade       | 0x455D44A7 |
+| una020300 |          | Exposure Microphone         | 0x449F2E90 |
+| una020500 |          | Hidabat's Shuriken          | 0x40125222 |
+| una020600 |          | Snow Child Fan              | 0x4254EC7B |
+| una020700 |          | Insomnia Staff              | 0x4396864C |
+| una020800 |          | Blizzard Fan                | 0x48CAC171 |
+| una020810 |          | Darkness Fan                | 0x51D1F030 |
+| una020900 |          | Evil Cane                   | 0x4908AB46 |
+| una021200 |          | Nail Bat                    | 0xFDE123C2 |
+| una021400 |          | Blazing Punch               | 0xF96C5F70 |
+| una021500 |          | Burly Dumbbell              | 0xF8AE3547 |
+| una021600 |          | Snake Blade of Ruin         | 0xFAE88B1E |
+| una021610 |          | Shining Snake Blade         | 0xE3F3BA5F |
+| una021620 |          | Dark Snake Blade            | 0xC8DEE99C |
+| una021700 |          | Moon Carver                 | 0xFB2AE129 |
+| una021800 |          | Barbarian Sword             | 0xF076A614 |
+| una021900 |          | Spider Longsword            | 0xF1B4CC23 |
+| una022200 |          | White Dog Wand              | 0xEF548C2C |
+| una022210 |          | White Dog Launcher B        | 0xF64FBD6D |
+| una022300 |          | Komajiro Punch              | 0xEE96E61B |
+| una022400 |          | Oni Slayer                  | 0xEBD9F09E |
+| una022600 |          | Gutsy Knuckle!              | 0xE85D24F0 |
+| una022700 |          | Signipunch                  | 0xE99F4EC7 |
+| una022800 |          | Full Moon Spear             | 0xE2C309FA |
+| una022810 |          | Magical Hell Spear          | 0xFBD838BB |
+| una022900 |          | Toad Longspear              | 0xE30163CD |
+| una023200 |          | Magical Cat Claw            | 0x57E8EB49 |
+| una023210 |          | Red Cat Launcher B          | 0x4EF3DA08 |
+| una023300 |          | ☆Obvious Stick              | 0x562A817E |
+| una023700 |          | Lie-in's Secret Sword       | 0x512329A2 |
+| una023800 |          | Kyubi Fan                   | 0x5A7F6E9F |
+| una023810 |          | Eternal Darkness Fan        | 0x43645FDE |
+| una023900 |          | Hose Saber                  | 0x5BBD04A8 |
+| una024700 |          | Mechanical Zanbara          | 0xCCF4111B |
+| una024800 |          | Nyan Gravity Gun            | 0xC7A85626 |
+| una024810 |          | Golden Particle Cannon      | 0xDEB36767 |
+| una024900 |          | Bottomless Bottle           | 0xC66A3C11 |
+| una025100 |          | Unfocusing Stick            | 0x70C50ACC |
+| una025300 |          | Badboya's Jolt Blow         | 0x7341DEA2 |
+| una025400 |          | Bunny Blaster               | 0x760EC827 |
+| una025410 |          | Rabbit Launcher B           | 0x6F15F966 |
+| una025500 |          | Shiny Pipe                  | 0x77CCA210 |
+| una026200 |          | Oni Smasher (Prison)        | 0x60361B7B |
+| una026600 |          | Devil Rattle                | 0x673FB3A7 |
+| una026700 |          | Marking Stick               | 0x66FDD990 |
+| una026900 |          | Oni Smasher (Fire)          | 0x6C63F49A |
+| una027000 |          | Oni Smasher (Sea)           | 0xDB0EA870 |
+| una027100 |          | Oni Smasher (Earth)         | 0xDACCC247 |
+| una027200 |          | Shura Fist                  | 0xD88A7C1E |
+| una027300 |          | Maul Attachment             | 0xD9481629 |
+| una027400 |          | Pincer Vise                 | 0xDC0700AC |
+| una027410 |          | Great Pincer Vise           | 0xC51C31ED |
+| una027800 |          | Squid Leg                   | 0xD51DF9C8 |
+| una028000 |          | Cheerful Stick              | 0x836DB826 |
+| una028100 |          | Poop Stick                  | 0x82AFD211 |
+| una028300 |          | Nightmare Slingshot         | 0x812B067F |
+| una030100 |          | Shaman's Violent Blade      | 0x7A7BD34E |
+| una030300 |          | Butcher's Knife             | 0x79FF0720 |
+| una030700 |          | Gunshin Bamboo Sword        | 0x7EF6AFFC |
+| una030800 |          | Tengu Fan                   | 0x75AAE8C1 |
+| una030900 |          | Good Walking Stick          | 0x746882F6 |
+| una031100 |          | Nekomata Claw               | 0xC2C7B42B |
+| una031200 |          | Mysterious Lipstick         | 0xC0810A72 |
+| una031400 |          | Kappa Gourd                 | 0xC40C76C0 |
+| una031800 |          | Narigama's Fortune Hammer   | 0xCD168FA4 |
 | ung002500 |          | Tsukuyomi's Hair Ornament   | 0xF30BFCF3 |
 | ung010200 |          | Lion Dog Charm              | 0x612D0B4D |
 | ung010610 |          | Frostail's Haori            | 0x7F3F92D0 |
