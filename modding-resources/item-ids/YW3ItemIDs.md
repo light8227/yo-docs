@@ -9,7 +9,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Consumables
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Plum Rice Ball | 0x6B85C07A |
 | Leaf Rice Ball | 0xF28C91C0 |
@@ -380,7 +380,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Important
 (Key Items)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Yo-kai Watch | 0x4F6B8097 |
 | UFO-kai Watch | 0x4806448E |
@@ -578,7 +578,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Equipment
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Worn Bangle | 0x4511AA26 |
 | Cheap Bracelet | 0xDB753F85 |
@@ -666,7 +666,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Blasters T Equipment
 
-| Blasters Equipment Name | Blasters ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Apprentice Sword | 0x76CF4C58 |
 | Star Pupil's Sword | 0xEFC61DE2 |
@@ -716,7 +716,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Blasters T Hidden Treasure
 
-| Blasters Treasure Name | Blasters TreasureID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Prestigio. Treasure | 0x14D04FE9 |
 | Insightful Treasure | 0x8DD91E53 |
@@ -726,7 +726,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Creatures
 (Critters)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Green Cicada | 0xD03E27FE |
 | ★Green Cicada | 0x6882409B |
@@ -973,7 +973,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Souls
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Blazion Soul | 0x67F658D0 |
 | Mr. Blockhead Soul | 0xFEFF096A |
