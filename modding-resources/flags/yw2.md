@@ -2584,7 +2584,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x7CD7E5A7 | 4 | - | - |
 | 0x9ED422FC | 5 | - | `orgeTimeMode` |
 | 0xDE40DAA8 | 6 | - | `orgeTimeGoalId` |
-| 0xB3E9494F | 7 | - | - |
+| 0xB3E9494F | 7 | Checks what version you are playing. (Transferred saves appear to inherit the version it was previously from) 1 = Bony Spirits, 2 = Fleshy Souls | - |
 | 0x78002D2E | 8 | - | `count_offertory box` |
 | 0x74CAA867 | 9 | - | `count_gold_egg` |
 | 0xDF0B0383 | 11 | - | - |
