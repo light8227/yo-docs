@@ -11,7 +11,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 ## FLAG_INFO_0 (0, 2559) - GlobalBitFlag
 
-| FLAG_ID | Slot | Notes  | Name |
+| $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | - | `dummy` |
 | 0x176F56BB | 1 | - | `game_clear1` |
@@ -2575,7 +2575,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 ## FLAG_INFO_1 (6, 581) - GlobalByteFlag
 
-| FLAG_ID | Slot | Notes  | Name |
+| $keyFlagID | Slot | Notes  | Name |
 |---------|------|------- |------|
 | 0x4FF4F23F | 0 | - | `dummy` |
 | 0x1827540E | 1 | - | `current_area` |
@@ -3161,7 +3161,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 ## FLAG_INFO_2 (1, 552) - GlobalTBoxFlag
 
-| FLAG_ID | Slot | Notes | Name |
+| $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
 | 0x4FF4F23F | 0 | - | `dummy` |
 | 0x213DF173 | 1 | Uptown Springdale - Treasure Chest #1 | - |
@@ -3718,7 +3718,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 ## FLAG_INFO_3 (7, 164) - TempBitFlag
 
-| FLAG_ID | Slot | Notes | Name |
+| $keyFlagID | Slot | Notes | Name |
 |---------|------|-------|------|
 | 0x98CE5C36 | 0 | - | `tmp_dummy` |
 | 0x7B179115 | 1 | - | `home_sleep_out` |
@@ -3887,7 +3887,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 
 ## FLAG_INFO_4 (8, 67) - TempByteFlag
 
-| FLAG_ID | Slot | Notes | Name |
+| $keyFlagID | Slot | Notes | Name |
 |---------|------|-------| ---- |
 | 0x98CE5C36 | 0 | - | `tmp_dummy` |
 | 0x9FF789D8 | 1 | - | `tmp_event_select` |
