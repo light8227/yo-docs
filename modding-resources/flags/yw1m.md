@@ -11,7 +11,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 
 ## FLAG_INFO_0 (0, 1385) - GlobalBitFlag
 
-| FlagID | Name | Debug Description |
+| $keyFlagID | Name | Debug Description |
 |------|------|-------------|
 | `0x4FF4F23F` | `dummy` | dummy |
 | `0x176F56BB` | `game_clear1` | ゲームクリア |
@@ -1401,7 +1401,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 
 ## FLAG_INFO_1 (6, 530) - GlobalByteFlag
 
-| FlagID | Name | Debug Description |
+| $keyFlagID | Name | Debug Description |
 |------|------|-------------|
 | `0x4FF4F23F` | `dummy` | dummy |
 | `0x1827540E` | `current_area` | current_area |
@@ -1936,7 +1936,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 
 ## FLAG_INFO_2 (1, 301) - GlobalTBoxFlag
 
-| FlagID | Name | Debug Description |
+| $keyFlagID | Name | Debug Description |
 |------|------|-------------|
 | `0x4FF4F23F` | `dummy` | dummy |
 | `0x054E4B59` (0x54E4B59) | `tbox_t101g00_001` | 宝箱:さくらニュータウン(外観) |
@@ -2242,7 +2242,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 
 ## FLAG_INFO_3 (7, 67) - TempBitFlag
 
-| FlagID | Name | Debug Description |
+| $keyFlagID | Name | Debug Description |
 |------|------|-------------|
 | `0x98CE5C36` | `tmp_dummy` | dummy |
 | `0x7B179115` | `home_sleep_out` | HOME/SLEEP復帰 |
@@ -2314,7 +2314,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when it
 
 ## FLAG_INFO_4 (8, 27) - TempByteFlag
 
-| FlagID | Name | Debug Description |
+| $keyFlagID | Name | Debug Description |
 |------|------|-------------|
 | `0x98CE5C36` | `tmp_dummy` | dummy |
 | `0x9FF789D8` | `tmp_event_select` | イベント分岐選択 |
