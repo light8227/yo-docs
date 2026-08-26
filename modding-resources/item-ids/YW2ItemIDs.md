@@ -9,7 +9,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Consumables
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Chocobar | 0x8162B121 |
 | Plum Rice Ball | 0x6B85C07A |
@@ -221,7 +221,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Important
 (Key Items)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Yo-kai Watch | 0x4F6B8097 |
 | Yo-kai Watch | 0xD662D12D |
@@ -388,7 +388,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Equipment
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Worn Bangle | 0x4511AA26 |
 | Cheap Bracelet | 0xDB753F85 |
@@ -467,7 +467,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Souls
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Pandle | 0x10F16846 |
 | Undy | 0x67F658D0 |
@@ -888,7 +888,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Creature
 (Critters)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Green Cicada | 0xD03E27FE |
 | ★Green Cicada | 0x6882409B |
