@@ -12,7 +12,7 @@ The list is in alphabetical order.
 
 *Special thanks to [The Cutting Room Floor](https://tcrf.net/Notes:Yo-kai_Watch_(Nintendo_3DS)#Map_names).*
 
-|Map ID    |Map name|Map Type |
+| $keyMapID| Name   | Type    |
 |----------|--------|---------|
 | e100g002 |Mt. Wildwood Sacred Tree (Crank-a-kai Cutscene)|"Big" Map (EVENT)|
 | e100g099 |*Unknown (Uptown Springdale???, not in JP ver)*|"Big" Map (EVENT)|
