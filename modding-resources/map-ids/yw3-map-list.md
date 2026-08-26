@@ -9,7 +9,7 @@ grand_parent: Modding Resources
 
 The list is in alphabetical order. Brackets will be used to denote names for certain maps i.e. the unused Old Springdale map.
 
-| Location | Map ID | Map Name |
+| Name | $keyMapID | FileName |
 | - | - | - |
 | New Yo-kai City | 0xDC80D053 | t001g00 |
 | Uptown Springdale | 0x17DC03F6 | t101g00 |
