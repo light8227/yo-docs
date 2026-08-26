@@ -8,7 +8,7 @@ grand_parent: Modding Resources
 
 The Below IDs are shown in hex format for convenience. Note that Type Rares and Boss Forms have their own IDs:
 
-| Yokai                         | Param ID (Hex)         | Medallium Offset | BaseID (Hex)             | FriendRateDescriptor |
+| Name                          | $keyParamID            | Medallium Offset | BaseID                   | FriendRateDescriptor |
 | ----------------------------- | ---------------------- | ---------------- | -----------------------  | -------------------- |
 | Pandle                        | 0x79F3AA36             | 1                | 0x1FF85A03  | 0x00654331 |
 | Undy                          | 0x6B4605D8             | 2                | 0xD4DF5ED (0x0D4DF5ED)  | 0x00765444 |
