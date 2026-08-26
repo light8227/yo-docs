@@ -8,7 +8,7 @@ grand_parent: Modding Resources
 
 The Below IDs are shown in hex format for convenience:
 
-| Yokai | ID (Hex) | Index |
+| Yo-kai | $keyParamID | Index |
 |---|---|---|
 | Pandle | 0x79F3AA36 | 1 |
 | Undy | 0x6B4605D8 | 2 |
