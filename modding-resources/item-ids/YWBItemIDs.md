@@ -9,7 +9,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Consume
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Red Coin | 0x15EB282B |
 | Yellow Coin | 0x8CE27991 |
@@ -258,7 +258,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Element
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Brave Shard | 0x9A89BF7C |
 | Mysterious Shard | 0x7487DE50 |
@@ -509,7 +509,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Important
 (Key Items)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Beginner's Trophy | 0x4F6B8097 |
 | Gratitude Trophy | 0xD662D12D |
@@ -588,7 +588,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Equipment
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Blunt Sword | 0xAB1FCB0A |
 | Starling Sword | 0xDC18FB9C |
@@ -923,7 +923,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Aura
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Friend Finder | 0x8FF528F7 |
 | Sure Jackpot | 0x16FC794D |
@@ -1008,7 +1008,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Soul
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Ogralus Soul | 0x46436E0F |
 | Slimamander Soul | 0xAF20CB3A |
