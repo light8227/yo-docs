@@ -209,6 +209,8 @@ class JSON5Table {
   static #BARE_KEY_RE = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
   static #BR_RE = /<br\s*\/?>|<\/br>/gi;
   static #INLINE_CODE_RE = /<code class="language-plaintext highlighter-rouge">(.*?)<\/code>/g;
+  static #KEY_PREFIX_RE = /^\$key/;
+  static #MAX_U32 = 0xFFFFFFFF;
 
   /* runtime generated because of the stupid build process */
   static #FIELD_INDENT = ' '.repeat(4);
@@ -216,14 +218,32 @@ class JSON5Table {
 
   /* the entry point, <table> -> JSON5, as the explanation above already tells you :p */
   static serialize(table) {
-    const headers = this.#extractHeaders(table);
-    if (headers.length === 0) return null;
+    const rawHeaders = this.#extractRawHeaders(table);
+    if (rawHeaders.length === 0) return null;
 
-    const grid = this.#extractGrid(table, headers.length);
+    const grid = this.#extractGrid(table, rawHeaders.length);
     if (grid.length === 0) return null;
 
+    /*
+     * if there's EXACTLY one $key column, we instead of an array of row-objects
+     * use a single object keyed by that column's values
+     * 2+ is ofc not correct, so we just strip and ignore
+     * i think this is a pretty useful mechanism, still keeps everything automatic
+     * but theres one manual trick (which doesn't affect rendering), to make the output
+     * as clean as if it was manual, in the cases where the default is the wrong shape :3
+     */
+    const keyPrefixed = rawHeaders.map(h => this.#KEY_PREFIX_RE.test(h));
+    const keyCol = keyPrefixed.filter(Boolean).length === 1 ? keyPrefixed.indexOf(true) : -1;
+
+    const used = new Set();
+    const headers = rawHeaders
+      .map(h => h.replace(this.#KEY_PREFIX_RE, ''))
+      .map(name => this.#dedupeHeader(name, used));
+
     const columnTypes = headers.map((_, col) => this.#inferColumnType(grid, col));
-    return this.#render(headers, columnTypes, grid);
+
+    if (keyCol === -1) return this.#renderArray(headers, columnTypes, grid);
+    return this.#renderKeyed(headers, columnTypes, grid, keyCol);
   }
 
   static #isNullToken(trimmed) {
@@ -234,11 +254,12 @@ class JSON5Table {
     const pairMatch = trimmed.match(this.#HEX_PAIR_RE);
     if (pairMatch) {
       const [, a, b] = pairMatch;
-      return parseInt(a, 16) === parseInt(b, 16) ? { kind: 'id', value: parseInt(a, 16) } : { kind: 'string', value: trimmed };
+      if (parseInt(a, 16) !== parseInt(b, 16)) return { kind: 'string', value: trimmed };
+      return this.#classifyId(parseInt(a, 16), trimmed);
     }
 
     const bareMatch = trimmed.match(this.#HEX_BARE_RE);
-    if (bareMatch) return { kind: 'id', value: parseInt(bareMatch[1], 16) };
+    if (bareMatch) return this.#classifyId(parseInt(bareMatch[1], 16), trimmed);
     if (this.#BOOL_RE.test(trimmed)) return { kind: 'bool', value: trimmed.toLowerCase() === 'true' };
 
     if (this.#SPECIAL_FLOAT_RE.test(trimmed)) {
@@ -248,6 +269,21 @@ class JSON5Table {
 
     if (this.#FLOAT_RE.test(trimmed)) return { kind: 'float', value: parseFloat(trimmed) };
     return { kind: 'string', value: trimmed };
+  }
+
+  /*
+   * In the Yo-kai Watch modding community, we use IDs to refer to CRC-32 hashes (they are extremely prevalent in Level5's engines)
+   * so anything outside u32 range is malformed source data, although may in some case, be intentional.
+   * so we degrade to string to maintain usability, and alert, so the specific situation can be evaluated
+   * to see if we lift this restriction (and replace >>> 0, with higher range counterparts) or change that specific instance
+   * also note that we don't throw here because it'd be messy and it's not fatal, so we just tell the user, so we can get a bug report, and fallback
+   */
+  static #classifyId(value, trimmed) {
+    if (value > this.#MAX_U32) {
+      alert("This table has an Invalid ID, hence IDs will be treated as strings. Please contact @n123original on discord to resolve this issue, or make an Issue on the site's respository.");
+      return { kind: 'string', value: trimmed };
+    }
+    return { kind: 'id', value };
   }
 
   static #formatFloat(value) {
@@ -289,10 +325,8 @@ class JSON5Table {
     return candidate;
   }
 
-  static #extractHeaders(table) {
-    const used = new Set();
-    return Array.from(table.querySelectorAll('thead tr th'))
-      .map(th => th.textContent.trim()).map(name => this.#dedupeHeader(name, used));
+  static #extractRawHeaders(table) {
+    return Array.from(table.querySelectorAll('thead tr th')).map(th => th.textContent.trim());
   }
 
   static #extractGrid(table, colCount) {
@@ -345,12 +379,45 @@ class JSON5Table {
     }
   }
 
-  static #render(headers, columnTypes, grid) {
+  static #renderArray(headers, columnTypes, grid) {
     const rows = grid.map(rowValues => {
       const fields = headers.map((key, col) => `${this.#FIELD_INDENT}${this.#formatKey(key)}: ${this.#formatCell(rowValues[col], columnTypes[col])}`);
       return `${this.#BRACE_INDENT}{\n${fields.join(',\n')}\n${this.#BRACE_INDENT}}`;
     });
     return `[\n${rows.join(',\n')}\n]`;
+  }
+
+  /*
+   * collapses the table into a single object keyed by the $key column entries
+   * != 1 aka 0 or 2+ does not exhibit this behaviour, as that'd be invalid
+   * if theres a key collision, we throw: unlike the ID case above, there's no sensible
+   * partial output here, the whole render is compromised, so abort rather than degrade
+   */
+  static #renderKeyed(headers, columnTypes, grid, keyCol) {
+    const otherCols = headers.map((_, col) => col).filter(col => col !== keyCol);
+    const seenKeys = new Set();
+    const entries = [];
+
+    for (const rowValues of grid) {
+      const rawKey = rowValues[keyCol];
+      const keyText = rawKey === null ? '' : rawKey.replace(this.#BR_RE, ' ').trim();
+      if (this.#isNullToken(keyText) || keyText === '') continue;
+
+      if (seenKeys.has(keyText))
+        throw new Error("This table cannot be copied as it has a conflicting key. Please contact @n123original on discord to resolve this issue, or make an Issue on the site's respository.");
+      seenKeys.add(keyText);
+
+      const formattedKey = this.#formatKey(keyText);
+      const value = otherCols.length === 1 ? this.#formatCell(rowValues[otherCols[0]], columnTypes[otherCols[0]]) : this.#renderKeyedValueObject(headers, columnTypes, rowValues, otherCols);
+      entries.push(`${this.#FIELD_INDENT}${formattedKey}: ${value}`);
+    }
+
+    return `{\n${entries.join(',\n')}\n}`;
+  }
+
+  static #renderKeyedValueObject(headers, columnTypes, rowValues, otherCols) {
+    const fields = otherCols.map(col => `${this.#FIELD_INDENT}${this.#FIELD_INDENT}${this.#formatKey(headers[col])}: ${this.#formatCell(rowValues[col], columnTypes[col])}`);
+    return `{\n${fields.join(',\n')}\n${this.#FIELD_INDENT}}`;
   }
 }
   
@@ -378,7 +445,13 @@ const TableCopyButtons = {
   },
 
   handleCopyClick(btn, table) {
-    const json5 = JSON5Table.serialize(table);
+    let json5;
+    try {
+      json5 = JSON5Table.serialize(table);
+    } catch (err) {
+      alert(err.message);
+      return;
+    }
     if (json5 === null) return;
 
     navigator.clipboard.writeText(json5)
