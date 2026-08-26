@@ -148,6 +148,11 @@ pre code {
   color: #3fb950;
   border-color: #3fb950;
 }
+
+/* hides the $key directive so we dont see $key in the rendered HTML (but we still keep it as thats the simplest solution for the code to still know about it :p) */
+.table-json5-key-prefix {
+  display: none;
+}
 </style>
 <script>
 /* GFM Alert transformation script yay! */
@@ -248,6 +253,11 @@ class JSON5Table {
 
   static #isNullToken(trimmed) {
     return trimmed === '-' || trimmed.toLowerCase() === 'n/a';
+  }
+
+  /* public so TableCopyButtons can know about it */
+  static hasKeyPrefix(headerText) {
+    return this.#KEY_PREFIX_RE.test(headerText);
   }
 
   static #classifyCell(trimmed) {
@@ -430,6 +440,8 @@ const TableCopyButtons = {
   },
 
   wrap(table) {
+    this.hideKeyPrefixes(table);
+
     const wrapper = document.createElement('div');
     wrapper.className = 'table-json5-wrapper';
     table.parentNode.insertBefore(wrapper, table);
@@ -442,6 +454,27 @@ const TableCopyButtons = {
     btn.innerHTML = '<svg viewBox="0 0 24 24" class="copy-icon"><use xlink:href="#svg-copy"></use></svg>';
     btn.addEventListener('click', () => this.handleCopyClick(btn, table));
     wrapper.appendChild(btn);
+  },
+
+  /* 
+   * make $key invisible so it's still there (and thus is in the textContent for the JSON5 serialiser to read)
+   * but the user won't see it in the rendered output, for obvious reasons
+   */
+  hideKeyPrefixes(table) {
+    table.querySelectorAll('thead tr th').forEach(th => {
+      if (!JSON5Table.hasKeyPrefix(th.textContent.trim())) return;
+      if (th.querySelector('.table-json5-key-prefix')) return; /* already wired */
+
+      const text = th.textContent;
+      const prefixEnd = text.indexOf('$key') + '$key'.length;
+      const span = document.createElement('span');
+      span.className = 'table-json5-key-prefix';
+      span.textContent = text.slice(0, prefixEnd);
+
+      th.textContent = '';
+      th.appendChild(span);
+      th.appendChild(document.createTextNode(text.slice(prefixEnd)));
+    });
   },
 
   handleCopyClick(btn, table) {
