@@ -8,7 +8,7 @@ grand_parent: Modding Resources
 
 The Below IDs are shown in hex format for convenience. Note that the names are in Japanese due to the game never being officially localised, but in brackets the *official* english name is present if ever localised:
 
-| Yokai |ID (Hex)|Index|
+| Yokai |$keyParamID|Index|
 |---|---|---|
 | アチャー (Sigh-Durr) |0xF0D747CE|1|
 | 枕返し (Flippit) |0x486B20AB|2|
