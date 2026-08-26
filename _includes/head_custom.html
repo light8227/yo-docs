@@ -209,7 +209,7 @@ class JSON5Table {
   static #BARE_KEY_RE = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
   static #BR_RE = /<br\s*\/?>|<\/br>/gi;
 
-  // the entry point, <table> -> JSON5, as the explanation above already tells you :p
+  /* the entry point, <table> -> JSON5, as the explanation above already tells you :p */
   static serialize(table) {
     const headers = this.#extractHeaders(table);
     if (headers.length === 0) return null;
@@ -297,7 +297,7 @@ class JSON5Table {
     });
   }
 
-  // empty/null cells ofc dont count towards type 
+  /* empty/null cells ofc dont count towards type */
   static #votingValue(raw) {
     if (raw === null) return null;
     const trimmed = raw.replace(this.#BR_RE, ' ').trim();
@@ -343,8 +343,8 @@ class JSON5Table {
     return `[\n${rows.join(',\n')}\n]`;
   }
 }
-
-// adds the copy button to every table
+  
+/* adds the copy button to every table */
 const TableCopyButtons = {
   isEligible(table) {
     return !table.closest('.table-json5-wrapper') &&
