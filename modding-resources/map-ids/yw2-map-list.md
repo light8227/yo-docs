@@ -11,7 +11,7 @@ The list is in alphabetical order.
 
 *Compiled by n123; original version was taken from TKB but had too many issues*
 
-| File Name | Location | MapID |
+| FileName | Name | $keyMapID |
 | - | - | - |
 | e104d331 | - | 0x943A982C |
 | e206g003 | - | 0x0AC2F289 (0xAC2F289) |

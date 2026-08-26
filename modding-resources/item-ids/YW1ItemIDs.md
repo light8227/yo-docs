@@ -10,7 +10,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Consumables
 
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Plum Rice Ball | 0x6B85C07A |
 | Leaf Rice Ball | 0xF28C91C0 |
@@ -148,7 +148,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Important
 (Key Items)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Yo-kai Watch | 0x4F6B8097 |
 | Yo-kai Watch | 0xD662D12D |
@@ -282,7 +282,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Equipment
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Worn Bangle | 0x4511AA26 |
 | Rocker Wrist | 0xDC18FB9C |
@@ -348,7 +348,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Creature
 (Critters)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | Green Cicada | 0xD03E27FE |
 | ★Green Cicada | 0xCE48D2A6 |

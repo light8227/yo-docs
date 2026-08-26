@@ -10,7 +10,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Consumable
  <!-- I didnt notice or fix the | | bug in my tool until equipment came lmao -->
  
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | 鉄のこけし | 0x94A84D8C |  |
 | 銅のこけし | 0xE3AF7D1A |  |
@@ -300,7 +300,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 ## Important
 (Key Items)
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | 妖怪マグナム | 0xAA75D45C |  |
 | 妖怪チェーンソード | 0xDD72E4CA |  |
@@ -409,7 +409,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Equipment
 
-| Item Name | ItemID (Hex) | enchant |
+| Name | $keyItemID | enchant |
 |---|---|---|
 | 見習いの刀 | 0x18D34D8F | 10 |
 | 見習いの刀 | 0x6FD47D19 | 10 |
@@ -895,7 +895,7 @@ These will be sorted into the different types - with IDs in hex for convenience.
 
 ## Auras
 
-| Item Name | ItemID (Hex) |
+| Name | $keyItemID |
 |---|---|
 | 火のB妖気（小） | 0xBB610C0 |
 | 水のB妖気（小） | 0x92BF417A |

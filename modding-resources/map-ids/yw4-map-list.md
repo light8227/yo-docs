@@ -7,11 +7,10 @@ grand_parent: Modding Resources
 ---
 
 # YW4 Map List
+> AUTHOR: @8227light
 
 
-**AUTHOR: @8227light**
-
-| Map ID      | JP Name                             | EN Name                            |
+| $keyMapID   | JP Name                             | EN Name                            |
 |-------------|-------------------------------------|------------------------------------|
 | d100g001    | Soukenzan                           | Soukenzan                          |
 | d100g003    | Reikenrin                           | Mystic Grove                       |

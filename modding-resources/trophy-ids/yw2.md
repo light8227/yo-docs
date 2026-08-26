@@ -6,7 +6,7 @@ grand_parent: Modding Resources
 ---
 # YW2 Trophy IDs
 
-| TrophyID | Name | Slot | Description | Rarity | RequirementVal | Condition |
+| $keyTrophyID | Name | Slot | Description | Rarity | RequirementVal | Condition |
 |---|---|---|---|---|---|---|
 | 0x6BE22B04 | Promising Rookie | 1 | Played for 30+ hours. | 0 (Bronze) | 30 | 0 |
 | 0xF2EB7ABE | Seasoned Veteran | 2 | Played for 100+ hours. | 1 (Silver) | 100 | `AAAAABgFNScybUcACgEoAAYCNGviKwQyAAAAAXg=` |

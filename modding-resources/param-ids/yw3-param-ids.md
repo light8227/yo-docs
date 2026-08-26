@@ -9,7 +9,7 @@ grand_parent: Modding Resources
 
 The Below IDs are shown in hex format for convenience. Note that Boss Forms have their own IDs:
 
-| Yokai | ID (Hex) | Index |
+| Name | $keyParamID | Index |
 |---|---|---|
 | Sigh-Durr | 0xF0D747CE | 1 |
 | Flippit | 0x486B20AB | 2 |

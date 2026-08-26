@@ -5,7 +5,7 @@ grand_parent: Modding Resources
 ---
 # YW2 BtlCommand IDs
 
-| BtlCommandID | Name |
+| $keyBtlCommandID | Name |
 | --- | --- |
 | 0x61930F85 | 防御 (Guard) |
 | 0xF89A5E3F | さぼり (Loaf) |
