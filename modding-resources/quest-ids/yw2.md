@@ -8,7 +8,7 @@ grand_parent: Modding Resources
 These will contain most of the data in the main `QUEST_CONFIG_*` tree with IDs in hex for convenience.
 > Note: Due to the amount of params you'll have to scroll to the right to see all of them, sorry! 
 
-| QuestName | QuestID | QuestType | PerQuestTypeIndex | GlobalQuestIndex | GlobalByteFlagID | XPGained | FavourMoney | DescriptionID | RecommendedLevel | IsKeyQuest | MinRank | Cond |
+| QuestName | $keyQuestID | QuestType | PerQuestTypeIndex | GlobalQuestIndex | GlobalByteFlagID | XPGained | FavourMoney | DescriptionID | RecommendedLevel | IsKeyQuest | MinRank | Cond |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | C-1 Grand Prix A | 0xCE51696C | 2 | 36 | 34 | 0xCFEF43C8 | 684 | 0 | 0x64F51DB2 | 24 | 0 | 3 | AAAAAB4LNbkZNtoAAQAyAAE4inE13XcmlQABADIAAAADcY8= |
 | A Card-Carrying Liar | 0xCD97E194 | 2 | 49 | 69 | 0xCC29CB30 | 382 | 0 | 0x6733954A | 19 | 0 | 2 | AAAAAGYdNbkZNtoAAQAyAAERenE13XcmlQABADIAAAACcY81vgSlmAAKASgABgI02ldY5zIAAAD/eI81Kj1FQwAKASgABgI0d0Xh6DIAAAABeY81Kj1FQwAKASgABgI07kywUjIAAAABeY8= |
