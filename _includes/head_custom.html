@@ -242,7 +242,8 @@ class JSON5Table {
 
     const used = new Set();
     const headers = rawHeaders
-      .map(h => h.replace(this.#KEY_PREFIX_RE, ''))
+      .map(h => h.replace(this.#KEY_PREFIX_RE, '').trim())
+      .map(name => name.charAt(0).toLowerCase() + name.slice(1)) /* id might look weird, same for something like _Abc not being lowercased but it's fine for simplicity */
       .map(name => this.#dedupeHeader(name, used));
 
     const columnTypes = headers.map((_, col) => this.#inferColumnType(grid, col));
