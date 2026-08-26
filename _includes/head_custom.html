@@ -208,6 +208,11 @@ class JSON5Table {
   static #SPECIAL_FLOAT_RE = /^(NaN|-?Infinity)$/;
   static #BARE_KEY_RE = /^[A-Za-z_$][A-Za-z0-9_$]*$/;
   static #BR_RE = /<br\s*\/?>|<\/br>/gi;
+  static #INLINE_CODE_RE = /<code class="language-plaintext highlighter-rouge">(.*?)<\/code>/g;
+
+  /* runtime generated because of the stupid build process */
+  static #FIELD_INDENT = ' '.repeat(4);
+  static #BRACE_INDENT = ' '.repeat(2);
 
   /* the entry point, <table> -> JSON5, as the explanation above already tells you :p */
   static serialize(table) {
@@ -293,8 +298,13 @@ class JSON5Table {
   static #extractGrid(table, colCount) {
     return Array.from(table.querySelectorAll('tbody tr')).map(row => {
       const cells = Array.from(row.querySelectorAll('td'));
-      return Array.from({ length: colCount }, (_, i) => (cells[i] ? cells[i].innerHTML.trim() : null));
+      return Array.from({ length: colCount }, (_, i) => (cells[i] ? this.#stripInlineCode(cells[i].innerHTML.trim()) : null));
     });
+  }
+
+  /* <code class="language-plaintext highlighter-rouge">foo</code> -> foo for obvious reasons, md formatting should be stripped, only backticks rn because I'm lazy and that's whats used */
+  static #stripInlineCode(raw) {
+    return raw.replace(this.#INLINE_CODE_RE, '$1');
   }
 
   /* empty/null cells ofc dont count towards type */
@@ -337,8 +347,8 @@ class JSON5Table {
 
   static #render(headers, columnTypes, grid) {
     const rows = grid.map(rowValues => {
-      const fields = headers.map((key, col) => `    ${this.#formatKey(key)}: ${this.#formatCell(rowValues[col], columnTypes[col])}`);
-      return `  {\n${fields.join(',\n')}\n  }`;
+      const fields = headers.map((key, col) => `${this.#FIELD_INDENT}${this.#formatKey(key)}: ${this.#formatCell(rowValues[col], columnTypes[col])}`);
+      return `${this.#BRACE_INDENT}{\n${fields.join(',\n')}\n${this.#BRACE_INDENT}}`;
     });
     return `[\n${rows.join(',\n')}\n]`;
   }
