@@ -15,7 +15,7 @@ The layout can be represented in form `xYYYYYY`. `x` is a character representing
 
 #### YW1
 
-|Letter|Character Type|
+|$keyLetter|Type|
 |------|--------------|
 |c     |Humans|
 |d     |Vehicles|
@@ -28,7 +28,7 @@ The layout can be represented in form `xYYYYYY`. `x` is a character representing
 
 #### YW2-YWB2
 
-|Letter|Character Type|
+|$keyLetter|Type|
 |------|--------------|
 |c     |Humans|
 |d     |Vehicles|
@@ -43,7 +43,7 @@ The layout can be represented in form `xYYYYYY`. `x` is a character representing
 
 #### YW4
 
-|Letter|Character Type|
+|$keyLetter|Type|
 |------|--------------|
 |c     |Humans and Animals|
 |i     |Items|
