@@ -11,7 +11,7 @@ The list is in alphabetical order.
 
 ## Normal Yo-kai
 
-| Folder ID | Yo-kai | BaseID |
+| FileName | Name | $keyBaseID |
 | --- | --- | --- |
 | c000010 | ??? (Has no textures) | 0xB6AD1C02 |
 | c000020 | ??? (Has no textures) | 0x9D804FC1 |
