@@ -11,7 +11,7 @@ The list is in alphabetical order.
 
 ## Normal Yo-kai
 
-| Folder ID | Yo-kai | BaseID |
+| FileName | Name | $keyBaseID |
 | --- | --- | --- |
 | y001000 | Whisper | 0xD4A489A6 |
 | y001001 | Whisper | 0xA3A3B930 |

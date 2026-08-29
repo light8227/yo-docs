@@ -11,9 +11,8 @@ The list is in alphabetical order.
 
 *Special thanks to the [TCRF Page](https://tcrf.net/index.php?title=Notes:Yo-kai_Watch_3/Characters).*
 
-| Internal Name | Character Name | BaseID |
+| FileName | Name | $keyBaseID |
 | --- | --- | --- |
-| Character Section |  | 0xD0B87288 |
 | c000010 | Unknown (Only has animations) | 0xB6AD1C02 |
 | c000020 | Unknown (Only has animations) | 0x9D804FC1 |
 | c000030 | Unknown (Only has animations) | 0x849B7E80 |
@@ -609,7 +608,6 @@ The list is in alphabetical order.
 | c966000 | Tiger | 0x2292D6F7 |
 | c971000 | Yokai Cleaner (Calico Cat) | 0x8225C7FE |
 | c991000 | Empty | 0x3D15799F |
-| Vehicle/Stand Section |  | 0x6F213F29 |
 | d001000 | Light Blue Car 1 | 0xD2AD74A8 |
 | d001010 | Light Aqua Car 1 | 0xCBB645E9 |
 | d001020 | Rusty Light Blue Car 1 | 0xE09B162A |
@@ -659,7 +657,6 @@ The list is in alphabetical order.
 | d553000 | Light Crimson Yokai World Car 1 | 0xE089A2E0 |
 | d554000 | Black Yokai World Car 1 | 0x7D5E9A59 |
 | d007020 | Dark Green Truck 1 | 0xC5F049F6 |
-| G ID's/Mounts | 0x2406698B |  |
 | g001000 | Bike (Nate YW1,2) | 0xE3456E35 |
 | g001010 | Bike (Katie/Hailey) | 0xFA5E5F74 |
 | 001020 | Bike (Nathaniel/Kenny) | 0xB3CC0001 |
@@ -699,7 +696,6 @@ The list is in alphabetical order.
 | g401010 | Pony 2 | 0x61CF1D62 |
 | g401020 | Pony 3 | 0x4AE24EA1 |
 | g401030 | Pony 4 | 0x53F97FE0 |
-| Misc Section |  | 0x00C4A56D (0xC4A56D) |
 | i002000 | Medalium | 0xA1CFBA86 |
 | i005000 | Whisper's Yokai Pad | 0x3C18823F |
 | i005010 | Usapyon's Yokai Pad | 0x2503B37E |
@@ -912,7 +908,6 @@ The list is in alphabetical order.
 | i884000 | Alligator (Raft) | 0x58872CF6 |
 | i885000 | Driftwood (Raft) | 0xE03B4B93 |
 | i886000 | Bat (Raft) | 0xF28EE47D |
-| M IDs |  | 0xE421D813 |
 | m001000 |  | 0x4735317B |
 |  |  |  |
 |  |  |  |
@@ -1124,7 +1119,6 @@ The list is in alphabetical order.
 |  |  |  |
 |  |  |  |
 |  |  |  |
-| DX Medal Section |  | 0x327B4D97 |
 | t001000 | Brave Medal | 0xB573E866 |
 | t002000 | Mysterious Medal | 0xA7C64788 |
 | t003000 | Tough Medal | 0x1F7A20ED |
@@ -1134,7 +1128,6 @@ The list is in alphabetical order.
 | t007000 | Eerie Medal | 0x9018B7BA |
 | t008000 | Slippery Medal | 0xC87BA7EC |
 | t009000 | Wicked Medal | 0x70C7C089 |
-| Yokai Section |  | 0xE0693FF4 |
 | x001000 | Gargaros | 0x72D38212 |
 | x002000 | Ogralus | 0x60662DFC |
 | x003000 | Orcanos | 0xD8DA4A99 |
@@ -2294,7 +2287,6 @@ The list is in alphabetical order.
 | y906130 | Originyan (Jibanyan Bell Neckwear) | 0x4493D923 |
 | y906140 | Originyan (Komasan Wrap Neckwear) | 0x0BD24FE4 (0xBD24FE4) |
 | y906150 | Originyan (Adult Scarf Neckwear) | 0x12C97EA5 |
-| Z Id's |  | 0x671D439E |
 | z001000 | Unknown | 0xE54C933B |
 | z041000 | Kenny Cube (Classmate) | 0x10CC35FB |
 | z042000 | 8 gray squares? Tileset maybe? | 0x02799A15 (0x2799A15) |
