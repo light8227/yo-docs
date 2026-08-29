@@ -25,11 +25,13 @@ Once you've opened the file in CfgBin Editor:
 * Next, duplicate a `DATA_ITEM` entry. The new entry should appear at the end of the tree.
 * Next, configure the parameters of your new `DATA_ITEM`:
   * 1st param (`TriggerType`): The type of trigger you want to define. You should ideally know which type beforehand. Some common types include:
-    * `11` (`0xB`) - NPCs
-    * `21` (`0x15`) - FuncPoint Triggers
-    * `39` (`0x27`) - SearchPoint Triggers
-    * `71` (`0x47`) - AutoTrigger Triggers
-  * 2nd param (`TriggerID`): The ID for your trigger. No template is needed for generating the hash.
+    * `11` (`0xB`) - NPC Trigger
+    * `21` (`0x15`) - FuncPoint Trigger
+    * `39` (`0x27`) - SearchPoint Trigger
+    * `40` (`0x28`) - EnvTime Trigger
+    * `71` (`0x47`) - AutoTrigger Trigger
+  * 2nd param (`TriggerID`): The ID for your trigger. No template is needed for generating the hash for all trigger types, although some are expected to have one.
+    * For instance, EnvTime Triggers use template `<hour>`.
   * 3rd param: Set to `0`.
   * 4th param (`Cond`): A CExpression. Leave as int `0` if not needed.
   * 5th param: Set to `0`.
