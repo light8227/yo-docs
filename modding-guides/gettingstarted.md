@@ -40,34 +40,33 @@ First, download the latest version of opf's `CfgBin Editor` - a tool you'll use 
 Then download and set up the latest `MyTags.txt`, you can do so via the instructions listed here:
 
 ### Installing MyTags
-* First, decide on the following. There are two sources of MyTags, one holds stable documentation and is recommended. While one holds more complete documentation. This other source may also include placeholders and unconfirmed information. For the recommended source open [this link](https://raw.githubusercontent.com/light8227/yw-stuff/refs/heads/master/MyTags.txt). Otherwise, open [this link](https://raw.githubusercontent.com/n123git/yw-stuff/refs/heads/master/MyTags.txt).
+* First, decide on the following. There are two sources of MyTags, one holds stable documentation and is recommended whereas the other holds more complete documentation, but may also include placeholders and unconfirmed information. For the recommended source open [this link](https://raw.githubusercontent.com/light8227/yw-stuff/refs/heads/master/MyTags.txt). Otherwise, open [this link](https://raw.githubusercontent.com/n123git/yw-stuff/refs/heads/master/MyTags.txt).
 * Then, click `Ctrl + S`. This will save the `MyTags.txt` file.
 * Next, place the file in the same directory (folder) as your CfgBin Editor's `.exe`.
 * Finally, close and re-open CfgBin Editor if it's already open.
-
 
 Next, now that MyTags are functioning, make sure `CfgBin Editor` is open in order to proceed with the following steps:
 * Click on [this](/item_config_0.05d.cfg.bin) link and click the download button to download this example `cfg.bin` (to be specific it's YW1 EUR's `item_config`.)
 * Optionally click on Settings > Languages and Settings > Themes to adjust the tool to your liking.
 * Then, open the file in `CfgBin Editor` using File > Open (or the shortcut Ctrl+O)
 You should then see something like this:
-![Screenshot of cfg.bin editor](assets/mainShot2.png)
+![Screenshot of CfgBin Editor](assets/mainShot2.png)
 Now let's practice a few edits!
 First and most importantly of all, let's activate MyTags; this file is from Yo-kai Watch 1 so select YW1 under the MyTags select.
 
 You should see something like this:
 
-![Screenshot of cfg.bin editor](assets/MyTagsSelect.png)
+![Screenshot of CfgBin Editor](assets/MyTagsSelect.png)
 * Click "Add Root Entry" (under the search bar)
 * Now type the name of the entry you wish to create, for this example I'll type "hello!"
 * Click "Ok". You should end up with something like this:
 
-![Screenshot of cfg.bin editor](assets/newRootEntry.png)
+![Screenshot of CfgBin Editor](assets/newRootEntry.png)
 If you see a green entry (in this case the root entry/tree), then the entry in question is unsaved. You can click the save button to save the change.
 Additionally, if an error occurs (i.e. you try to open something that isn't a `cfg.bin`) you'll see something on the bottom left of the UI. In this case, before I took the screenshot, I made a root entry without a name.
 
 Next you can right click an entry to see a list of buttons. I won't cover them as they are very self-explanatory, but I will show a picture!
-![Screenshot of cfg.bin editor](assets/entryControls.png)
+![Screenshot of CfgBin Editor](assets/entryControls.png)
 
 Now let's do something practical: adding a new entry to `ITEM_INDEX`:
 * Click on the `ITEM_INDEX` root entry
@@ -82,7 +81,7 @@ Now let's do something practical: adding a new entry to `ITEM_INDEX`:
 ## Generating Generic IDs
 A lot of guides will ask you to generate an ID, i.e. `ItemID`s.
 You can do this by clicking the randomise button shown below:
-![Screenshot of cfg.bin editor](assets/randomize_icon.png)
+![Screenshot of CfgBin Editor](assets/randomize_icon.png)
 However, for some IDs a specific structure is required (e.g. `cpsl_text_<model>`). For these, follow the section below.
 
 ## Generating CRC-32 hashes
