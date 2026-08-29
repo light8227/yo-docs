@@ -5,14 +5,15 @@ parent: Creating Your Own Postgame Stories
 grand_parent: Modding Guides
 ---
 
-# Adding NPCs via NPCMake (YW1, 2, & 3)
+# Adding NPCs via NPCMake (YW1-YW3)
 
 **Original author on Discord: @z.u.ra, modified by @n123original**
 
 ## Required Tools
 
 [NPCMake](https://github.com/SuperTavor/NPCMake)
-> NPCMake is limited in what it can do, for alot of purposes I'd highly recommend manually creating them, although this guide will not cover that.
+> [!NOTE]
+> NPCMake is limited in what it can do, for more complex NPCs, I'd highly recommend editing the generated NPC manually or entirely creating the NPC manually.
 
 Have XtractQuery installed **GLOBALLY**. You can find a guide [here](/modding-guides/xq-editing/g1.html) (at step 3). You can find a video version of the same guide [here](https://www.youtube.com/watch?v=30hn6VrURUs). I generally do not recommend video guides, but it was already here, as I was modifying this guide, so I'm not going to remove it :p
 
@@ -51,8 +52,7 @@ For non-YW3 games, you could:
 * And more ways, none of these will be explained in detail here.
 
 For YW3, you can:
-* Use n123's save editor (Recommended).
-* Use [Togenyan's save editor](https://github.com/nobodyF34R/ykw-editors).
+* Use a save editor, for example [Togenyan's save editor](https://github.com/nobodyF34R/ykw-editors) (Recommended).
 * Use [CTRPF](https://github.com/PabloMK7/CTRPluginFramework-BlankTemplate).
 * Use a basic XQ edit (Recommended for advanced modders).
 <br>
@@ -73,7 +73,7 @@ For YW3, you can:
 * `OnTalk`
   * The XQ code to be executed when your interact with your NPC. You can learn how to program in XQ [here](/modding-guides/xq-editing.html).
 * `AppearCond`
-  * A CExpression string that determines when your NPC will be visible. Can be copied from other NPCs, modified or compiled using yw-cond.
+  * A CExpression string that determines when your NPC will be visible. Can either be copied from other NPCs, or modified & compiled using yw-cond.
 * `IsYw1`
   * A boolean variable that specifies if you are adding your NPC to Yo-kai Watch 1.
     * In short, leave as false if you are working with YW2, YW3 or YWB - otherwise, change it to true.
