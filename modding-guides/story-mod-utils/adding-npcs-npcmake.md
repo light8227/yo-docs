@@ -46,7 +46,6 @@ Let's go over every value in the TOML template!
 
 The next few properties are related to the NPC's position.
 For non-YW3 games, you could:
-* Use n123's save editor (Recommended for beginners).
 * Use [CTRPF](https://github.com/PabloMK7/CTRPluginFramework-BlankTemplate).
 * Use a basic XQ edit (Recommended for advanced modders).
 * And more ways, none of these will be explained in detail here.
