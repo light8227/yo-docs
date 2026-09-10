@@ -55,10 +55,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x51F15479             | 78   | - | - |
 | 0xFBC8FDF9             | 79   | - | - |
 | 0xCBB6FF0D             | 80   | - | - |
-| 0x83AAFC54             | 81   | - | - |
-| 0xA887AF97             | 82   | - | - |
-| 0xB19C9ED6             | 83   | - | - |
-| 0xFEDD0811             | 84   | - | - |
+| 0x83AAFC54             | 81   | Checks if you've scanned the QR Code giving the Football Gear and a Blue Coin. | - |
+| 0xA887AF97             | 82   | Checks if you've scanned the QR Code giving the Scuba Gear. | - |
+| 0xB19C9ED6             | 83   | Checks if you've scanned the QR Code giving the GI Gear and a Blue Coin. | - |
+| 0xFEDD0811             | 84   | Checks if you've scanned the QR Code giving the Racing Gear and a Blue Coin. | - |
 | 0x3E143B3A             | 85   | - | - |
 | 0x2CA194D4             | 86   | - | - |
 | 0x30485E4F             | 87   | - | - |
@@ -67,15 +67,15 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x6C84E69B             | 91   | - | - |
 | 0xCA5C0AD5             | 92   | - | - |
 | 0x923F1A83             | 93   | - | - |
-| 0x62228CBC             | 94   | - | - |
-| 0xB2EB1757             | 95   | - | - |
-| 0xA05EB8B9             | 96   | - | - |
-| 0x18E2DFDC             | 97   | - | - |
-| 0x8535E765             | 98   | - | - |
-| 0xC6DBFE07             | 99   | - | - |
+| 0x62228CBC             | 94   | Checks if you've scanned the QR Code giving two 1-Star Coins and the Enma Medal. | - |
+| 0xB2EB1757             | 95   | Checks if you've scanned the QR Code giving the First Place Flag. | - |
+| 0xA05EB8B9             | 96   | Checks if you've scanned the QR Code giving the Doggy Dumpling. | - |
+| 0x18E2DFDC             | 97   | Checks if you've scanned the QR Code giving the Monkey Dumpling. | - |
+| 0x8535E765             | 98   | Checks if you've scanned the QR Code giving the Pheasant Dumpling. | - |
+| 0xC6DBFE07             | 99   | Checks if you've scanned the QR Code giving a 1-Star Coin and the Emperor’s Scroll. | - |
 | 0xC346486A             | 100  | - | - |
-| 0x4749D360             | 101  | - | - |
-| 0x55FC7C8E             | 102  | - | - |
+| 0x4749D360             | 101  | Checks if you've scanned the QR Code giving a Green Coin and the Dragon King’s Chest. | - |
+| 0x55FC7C8E             | 102  | Checks if you've scanned the QR Code giving an Orange Coin and the Kintaronyan Candy. | - |
 | 0xB90818A3             | 103  | - | - |
 | 0x72A20DD2             | 104  | - | - |
 | 0x40558F58             | 105  | - | - |
