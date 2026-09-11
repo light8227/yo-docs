@@ -85,7 +85,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x4631101A             | 109  | - | - |
 | 0x99FAD5EA             | 110  | - | - |
 | 0x59B9C20D             | 111  | - | - |
-| 0xFCE7A16E             | 112  | - | - |
+| 0xFCE7A16E             | 112  | Checks if your VIP Link has expired or not. | - |
 | 0x7E069A7D             | 113  | - | - |
 | 0xBF1EF113             | 114  | Checks if Sgt. Burly has told you to go see Happierre. | - |
 | 0x6D68C288             | 115  | - | - |
@@ -983,7 +983,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x23796387             | 1843 | - | - |
 | 0x85A18FC9             | 1844 | - | - |
 | 0xDDC29F9F             | 1845 | - | - |
-| 0x0C547678 (0xC547678) | 1846 | - | - |
+| 0x0C547678 (0xC547678) | 1846 | Checks if you have done VIP Patrol that day. | - |
 | 0x138634E1             | 1847 | - | - |
 | 0x4A0C9B3C             | 1860 | - | - |
 | 0xD305CA86             | 1861 | - | - |
@@ -1468,7 +1468,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA2829D2B             | 24   | - | - |
 | 0x2E89CCA2             | 25   | - | - |
 | 0x29D73FD6             | 27   | - | - |
-| 0xB2F37C93             | 29   | - | - |
+| 0xB2F37C93             | 29   | Checks how many Insignias you can place on the statues. | - |
 | 0x742405E9             | 30   | - | - |
 | 0xD57270E7             | 31   | - | - |
 | 0x22A41C38             | 32   | - | - |
