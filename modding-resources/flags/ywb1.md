@@ -14,22 +14,22 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | $keyFlagID             | Slot | Notes | Name |
 | ---------------------- | ---- | ----- | ---- |
 | 0x4FF4F23F             | 0    | - | `dummy` |
-| 0x176F56BB             | 1    | Checks that the player has seen the Chapter 11 teaser. | `game_clear1` |
-| 0x8E660701             | 2    | - | `game_clear2` |
+| 0x176F56BB             | 1    | Checks if you have beaten Whisped Cream during the story. | `game_clear1` |
+| 0x8E660701             | 2    | Checks if you have beaten Red Paws/Swirlious Omai during the story. | `game_clear2` |
 | 0xF24F1BCA             | 17   | - | - |
 | 0x316FD2E9             | 19   | - | - |
-| 0x29FB87DA             | 21   | - | - |
-| 0x804457A6             | 23   | - | - |
-| 0x0CB7C57E (0xCB7C57E) | 25   | - | - |
-| 0x74DB9B28             | 27   | - | - |
-| 0xE18A5737             | 29   | - | - |
+| 0x29FB87DA             | 21   | Checks if you have returned to the Blasters House after registering for Red Cat Corps/White Dog Squad. | - |
+| 0x804457A6             | 23   | Checks if you have unlocked Leveling Up. | - |
+| 0x0CB7C57E (0xCB7C57E) | 25   | Checks if you have unlocked Equipment Crafting? | - |
+| 0x74DB9B28             | 27   | Checks if you have beaten Sproink during the story. | - |
+| 0xE18A5737             | 29   | Checks if you have unlocked Moving Out. | - |
 | 0x8A81D006             | 35   | - | `dictionary_comp_notice` |
-| 0x04FA47F4 (0x4FA47F4) | 36   | - | `event_comp_notice` |
+| 0x04FA47F4 (0x4FA47F4) | 36   | Checks if you have completed your Movie Collection. | `event_comp_notice` |
 | 0x40BA71A2             | 37   | - | - |
-| 0x7FA66054             | 38   | - | `sound_comp_notice` |
+| 0x7FA66054             | 38   | Checks if you have completed your Music Collection. | `sound_comp_notice` |
 | 0xAB5B9E4E             | 39   | - | - |
 | 0xAFF78D0C             | 40   | - | - |
-| 0x0030A6B0 (0x30A6B0)  | 41   | - | `gacha_release` |
+| 0x0030A6B0 (0x30A6B0)  | 41   | Checks if you have unlocked the Crank-a-kai. | `gacha_release` |
 | 0xD09164E7             | 42   | - | `gacha_valid` |
 | 0x23129852             | 49   | - | `kon_release` |
 | 0x26E38A5C             | 52   | - | - |
@@ -41,19 +41,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xB95C81F1             | 60   | Checks if you have broken the Normal Mode Red Paws/Swirlious Omai statue. | - |
 | 0x2055D04B             | 61   | Checks if you have broken the Super Mode Red Paws/Swirlious Omai statue. | - |
 | 0x5752E0DD             | 62   | Checks if you have broken the Ultra Mode Red Paws/Swirlious Omai statue. | - |
-| 0x4C58B88D             | 66   | - | - |
+| 0x4C58B88D             | 66   | Checks if you have heard about Komajiro's kidnapping. | - |
 | 0x2B7C254E             | 67   | - | - |
 | 0x6DF6D0F5             | 68   | - | - |
-| 0xDD27DC87             | 69   | - | - |
-| 0x472BC296             | 70   | - | - |
-| 0x78E27986             | 71   | - | - |
-| 0xBE45F884             | 72   | - | - |
-| 0x0ED75D62 (0xED75D62) | 74   | - | - |
-| 0x65562D74             | 75   | - | - |
-| 0x058CDE9D (0x58CDE9D) | 76   | - | - |
+| 0xDD27DC87             | 69   | Checks if you have heard about Robonyan 28's rampaging. | - |
+| 0x472BC296             | 70   | Checks if you have unlocked Equipment Crafting? | - |
+| 0x78E27986             | 71   | Checks if you have heard Faux Kappa and Mermaidyn bicker about the other team. | - |
+| 0xBE45F884             | 72   | Checks if you have unlocked Patrols. | - |
+| 0x0ED75D62 (0xED75D62) | 74   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
+| 0x65562D74             | 75   | Checks if you have unlocked Sub Missions. | - |
+| 0x058CDE9D (0x58CDE9D) | 76   | Checks if you have unlocked Equipment Crafting? | - |
 | 0x49EF0603             | 77   | - | - |
-| 0x51F15479             | 78   | - | - |
-| 0xFBC8FDF9             | 79   | - | - |
+| 0x51F15479             | 78   | Checks if you can go to YBA Hall to register for Red Cat Corps/White Dog Squad? | - |
+| 0xFBC8FDF9             | 79   | Checks if you have been told that you need to scout for allies. | - |
 | 0xCBB6FF0D             | 80   | Checks if you can swap into Usapyon B's outfit. | - |
 | 0x83AAFC54             | 81   | Checks if you can swap into Football Usapyon's outfit. | - |
 | 0xA887AF97             | 82   | Checks if you can swap into Marine Usapyon's outfit. | - |
@@ -61,7 +61,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFEDD0811             | 84   | Checks if you can swap into Racing Usapyon's outfit. | - |
 | 0x3E143B3A             | 85   | Checks if you can swap into Jibanyan B's outfit. | - |
 | 0x2CA194D4             | 86   | Checks if you can swap into Komasan B's outfit. | - |
-| 0x30485E4F             | 87   | - | - |
+| 0x30485E4F             | 87   | Checks if you have befriended Blizzie. | - |
 | 0xA29E50DB             | 89   | - | - |
 | 0x759FD7DA             | 90   | - | - |
 | 0x6C84E69B             | 91   | - | - |
@@ -132,42 +132,42 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x44B7F117             | 159  | Checks if you can take on "Red Palace 21" and "21st Century Dogs" | - |
 | 0x245F00CD             | 160  | - | - |
 | 0x0AD4B5ED (0xAD4B5ED) | 161  | - | - |
-| 0x21C1ECD0             | 181  | - | `ev13_1110` |
-| 0x0AECBF13 (0xAECBF13) | 182  | - | `ev13_1120` |
-| 0x13F78E52             | 183  | - | `ev13_1130` |
-| 0x5CB61895             | 184  | - | `ev13_1140` |
-| 0x45AD29D4             | 185  | - | `ev13_1150` |
-| 0x6E807A17             | 186  | - | `ev13_1160` |
-| 0x779B4B56             | 187  | - | `ev13_1170` |
-| 0xF0035799             | 188  | - | `ev13_1180` |
-| 0xE91866D8             | 189  | - | `ev13_1190` |
-| 0x3A9C63C8             | 190  | - | `ev13_1200` |
-| 0x23875289             | 191  | - | `ev13_1210` |
+| 0x21C1ECD0             | 181  | Checks if the story event ev13_1110 has been seen. | `ev13_1110` |
+| 0x0AECBF13 (0xAECBF13) | 182  | Checks if the story event ev13_1120 has been seen. | `ev13_1120` |
+| 0x13F78E52             | 183  | Checks if the story event ev13_1130 has been seen. | `ev13_1130` |
+| 0x5CB61895             | 184  | Checks if the story event ev13_1140 has been seen. | `ev13_1140` |
+| 0x45AD29D4             | 185  | Checks if the story event ev13_1150 has been seen. | `ev13_1150` |
+| 0x6E807A17             | 186  | Checks if the story event ev13_1160 has been seen. | `ev13_1160` |
+| 0x779B4B56             | 187  | Checks if the story event ev13_1170 has been seen. | `ev13_1170` |
+| 0xF0035799             | 188  | Checks if the story event ev13_1180 has been seen. | `ev13_1180` |
+| 0xE91866D8             | 189  | Checks if the story event ev13_1190 has been seen. | `ev13_1190` |
+| 0x3A9C63C8             | 190  | Checks if the story event ev13_1200 has been seen. | `ev13_1200` |
+| 0x23875289             | 191  | Checks if the story event ev13_1210 has been seen. | `ev13_1210` |
 | 0x65C1E84E             | 192  | - | - |
-| 0x0C277DF8 (0xC277DF8) | 193  | - | `ev13_1420` |
-| 0x2E10D75F             | 194  | - | `ev13_1810` |
+| 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. | `ev13_1420` |
+| 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. | `ev13_1810` |
 | 0xB211C0AC             | 195  | - | - |
 | 0x2906E2A8             | 196  | - | - |
 | 0xEE01F367             | 197  | - | - |
-| 0x6BD9104B             | 201  | - | `ev01_0100` |
+| 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. | `ev01_0100` |
 | 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. | `ev01_0200` |
 | 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. | `ev01_0230` |
 | 0x14E85A57             | 204  | Checks if the story scene mv_photo005/ev01_0250/ev01_0260 has been seen. | `ev01_0250` |
-| 0xA146241A             | 205  | - | `ev01_0280` |
-| 0x685DC425             | 206  | - | `ev01_0300` |
-| 0x152A3060             | 207  | - | `ev01_0350` |
-| 0x6D12D2A0             | 208  | - | `ev01_0400` |
-| 0x106526E5             | 209  | - | `ev01_0450` |
-| 0x6CD0B897             | 210  | - | `ev01_0500` |
-| 0x11A74CD2             | 211  | - | `ev01_0550` |
-| 0x6E9606CE             | 212  | - | `ev01_0600` |
-| 0x13E1F28B             | 213  | - | `ev01_0650` |
-| 0x6F546CF9             | 214  | - | `ev01_0700` |
-| 0x122398BC             | 215  | - | `ev01_0750` |
-| 0x64082BC4             | 216  | - | `ev01_0800` |
-| 0x197FDF81             | 217  | - | `ev01_0850` |
-| 0x65CA41F3             | 218  | - | `ev01_0900` |
-| 0x18BDB5B6             | 219  | - | `ev01_0950` |
+| 0xA146241A             | 205  | Checks if the story scene ev01_0280 has been seen. | `ev01_0280` |
+| 0x685DC425             | 206  | Checks if the story scene ev01_0300 has been seen. | `ev01_0300` |
+| 0x152A3060             | 207  | Checks if the story scene ev01_0350 has been seen. | `ev01_0350` |
+| 0x6D12D2A0             | 208  | Checks if the story scene ev01_0400 has been seen. | `ev01_0400` |
+| 0x106526E5             | 209  | Checks if the story scene ev01_0450 has been seen. | `ev01_0450` |
+| 0x6CD0B897             | 210  | Checks if the story scene ev01_0500 has been seen. | `ev01_0500` |
+| 0x11A74CD2             | 211  | Checks if the story scene ev01_0550 has been seen. | `ev01_0550` |
+| 0x6E9606CE             | 212  | Checks if the story scene ev01_0600 has been seen. | `ev01_0600` |
+| 0x13E1F28B             | 213  | Checks if the story scene ev01_0650 has been seen. | `ev01_0650` |
+| 0x6F546CF9             | 214  | Checks if the story scene ev01_0700 has been seen. | `ev01_0700` |
+| 0x122398BC             | 215  | Checks if the story scene ev01_0750 has been seen. | `ev01_0750` |
+| 0x64082BC4             | 216  | Checks if the story scene ev01_0800 has been seen. | `ev01_0800` |
+| 0x197FDF81             | 217  | Checks if the story scene ev01_0850 has been seen. | `ev01_0850` |
+| 0x65CA41F3             | 218  | Checks if the story scene ev01_0900 has been seen. | `ev01_0900` |
+| 0x18BDB5B6             | 219  | Checks if the story scene ev01_0950 has been seen. | `ev01_0950` |
 | 0xD3DAEACA             | 220  | - | - |
 | 0x69EA8073             | 221  | - | - |
 | 0x9602FD68             | 222  | - | - |
