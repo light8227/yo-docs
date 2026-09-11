@@ -61,7 +61,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFEDD0811             | 84   | Checks if you can swap into Racing Usapyon's outfit. | - |
 | 0x3E143B3A             | 85   | Checks if you can swap into Jibanyan B's outfit. | - |
 | 0x2CA194D4             | 86   | Checks if you can swap into Komasan B's outfit. | - |
-| 0x30485E4F             | 87   | Checks if you have befriended Blizzie. | - |
+| 0x30485E4F             | 87   | Checks if you have befriended Blizzie in "A Legend Appears! The B-Team!" | - |
 | 0xA29E50DB             | 89   | - | - |
 | 0x759FD7DA             | 90   | - | - |
 | 0x6C84E69B             | 91   | - | - |
@@ -80,42 +80,42 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x72A20DD2             | 104  | - | - |
 | 0x40558F58             | 105  | - | - |
 | 0x29CB76D7             | 106  | - | - |
-| 0xAAE71453             | 107  | - | - |
+| 0xAAE71453             | 107  | Checks if you have beaten Super Red Paws/Swirlious Omai once. | - |
 | 0x90D6104C             | 108  | - | - |
 | 0x4631101A             | 109  | - | - |
 | 0x99FAD5EA             | 110  | - | - |
 | 0x59B9C20D             | 111  | - | - |
 | 0xFCE7A16E             | 112  | - | - |
 | 0x7E069A7D             | 113  | - | - |
-| 0xBF1EF113             | 114  | - | - |
+| 0xBF1EF113             | 114  | Checks if Sgt. Burly has told you to go see Happierre. | - |
 | 0x6D68C288             | 115  | - | - |
 | 0xE4EFBD99             | 116  | - | - |
 | 0x46760D56             | 117  | - | - |
 | 0x0517D033 (0x517D033) | 118  | - | - |
 | 0x126CC470             | 119  | - | - |
 | 0x2BE1F8B5             | 120  | - | - |
-| 0xABBCEB69             | 121  | - | - |
-| 0x32B5BAD3             | 122  | - | - |
-| 0x45B28A45             | 123  | - | - |
-| 0xDBD61FE6             | 124  | - | - |
-| 0xACD12F70             | 125  | - | - |
-| 0x35D87ECA             | 126  | - | - |
-| 0x42DF4E5C             | 127  | - | - |
-| 0xD26053CD             | 128  | - | - |
-| 0xA567635B             | 129  | - | - |
-| 0xC5A0EABE             | 130  | - | - |
-| 0xB2A7DA28             | 131  | - | - |
-| 0x2BAE8B92             | 132  | - | - |
-| 0x5CA9BB04             | 133  | - | - |
-| 0xC2CD2EA7             | 134  | - | - |
-| 0xB5CA1E31             | 135  | - | - |
-| 0x2CC34F8B             | 136  | - | - |
-| 0x5BC47F1D             | 137  | - | - |
-| 0xCB7B628C             | 138  | - | - |
-| 0xBC7C521A             | 139  | - | - |
-| 0xEE8DB97D             | 140  | - | - |
-| 0x998A89EB             | 141  | - | - |
-| 0x0083D851 (0x83D851)  | 142  | - | - |
+| 0xABBCEB69             | 121  | Checks if you have acquired the Golden Fan. | - |
+| 0x32B5BAD3             | 122  | Checks if you have acquired the Beginner’s Trophy. | - |
+| 0x45B28A45             | 123  | Checks if you have acquired the Gratitude Trophy. | - |
+| 0xDBD61FE6             | 124  | Checks if you have acquired the Grand Trophy. | - |
+| 0xACD12F70             | 125  | Checks if you have acquired the Komander Award. | - |
+| 0x35D87ECA             | 126  | Checks if you have acquired the Paws and Claws Award. | - |
+| 0x42DF4E5C             | 127  | Checks if you have acquired the Pure Gold Oni Orb. | - |
+| 0xD26053CD             | 128  | Checks if you have acquired the Master Blaster. | - |
+| 0xA567635B             | 129  | Checks if you have acquired the Champion’s Belt. | - |
+| 0xC5A0EABE             | 130  | Checks if you have acquired Lumps of Love. | - |
+| 0xB2A7DA28             | 131  | Checks if you have acquired Hinozall’s Autograph. | - |
+| 0x2BAE8B92             | 132  | Checks if you have acquired the Sgt. Burly Statue. | - |
+| 0x5CA9BB04             | 133  | Checks if you have acquired Sgt. Burly’s Motto. | - |
+| 0xC2CD2EA7             | 134  | Checks if you have acquired the Thank-You Note. | - |
+| 0xB5CA1E31             | 135  | Checks if you have acquired the Tattleterror Statue. | - |
+| 0x2CC34F8B             | 136  | Checks if you have acquired the Rubeus J Statue. | - |
+| 0x5BC47F1D             | 137  | Checks if you have acquired the Hardy Hound Statue. | - |
+| 0xCB7B628C             | 138  | Checks if you have acquired the Wobblewok Statue. | - |
+| 0xBC7C521A             | 139  | Checks if you have acquired the Orcanos Statue. | - |
+| 0xEE8DB97D             | 140  | Checks if you have acquired the Kat Kraydel Statue. | - |
+| 0x998A89EB             | 141  | Checks if you have acquired the Hinozall Statue. | - |
+| 0x0083D851 (0x83D851)  | 142  | Checks if you have acquired the Mass Mutterer Statue. | - |
 | 0xB739EA01             | 145  | - | - |
 | 0xA042FE42             | 146  | - | - |
 | 0x99CFC287             | 147  | - | - |
@@ -146,9 +146,9 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x65C1E84E             | 192  | - | - |
 | 0x0C277DF8 (0xC277DF8) | 193  | Checks if the story event ev13_1420 has been seen. | `ev13_1420` |
 | 0x2E10D75F             | 194  | Checks if the story event ev13_1810 has been seen. | `ev13_1810` |
-| 0xB211C0AC             | 195  | - | - |
-| 0x2906E2A8             | 196  | - | - |
-| 0xEE01F367             | 197  | - | - |
+| 0xB211C0AC             | 195  | Checks if you have befriended Baddinyan in "Blasters in the world of “What If?"" | - |
+| 0x2906E2A8             | 196  | Checks if you have befriended Goldenyan in "Blasters in the world of “What If?"" | - |
+| 0xEE01F367             | 197  | Checks if you have befriended Shadow Venoct in "Blasters in the world of “What If?"" | - |
 | 0x6BD9104B             | 201  | Checks if the story scene ev01_0100 has been seen. | `ev01_0100` |
 | 0x699FAE12             | 202  | Checks if the story scene mv_photo003/ev01_0200/ev01_0210 has been seen. | `ev01_0200` |
 | 0x42B2FDD1             | 203  | Checks if the story scene mv_photo004/ev01_0230 has been seen. | `ev01_0230` |
@@ -168,87 +168,87 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x197FDF81             | 217  | Checks if the story scene ev01_0850 has been seen. | `ev01_0850` |
 | 0x65CA41F3             | 218  | Checks if the story scene ev01_0900 has been seen. | `ev01_0900` |
 | 0x18BDB5B6             | 219  | Checks if the story scene ev01_0950 has been seen. | `ev01_0950` |
-| 0xD3DAEACA             | 220  | - | - |
-| 0x69EA8073             | 221  | - | - |
-| 0x9602FD68             | 222  | - | - |
-| 0x571497E1             | 223  | - | - |
-| 0xA1DC0D5A             | 224  | - | - |
-| 0xED4D62E5             | 226  | - | `ev02_0100` |
-| 0xEF0BDCBC             | 227  | - | `ev02_0200` |
-| 0x927C28F9             | 228  | - | `ev02_0250` |
-| 0xEEC9B68B             | 229  | - | `ev02_0300` |
-| 0xEB86A00E             | 230  | - | `ev02_0400` |
-| 0xEA44CA39             | 231  | - | `ev02_0500` |
-| 0xE8027460             | 232  | - | `ev02_0600` |
-| 0xE9C01E57             | 233  | - | `ev02_0700` |
-| 0xE29C596A             | 234  | - | `ev02_0800` |
-| 0x947A901A             | 235  | - | - |
+| 0xD3DAEACA             | 220  | Checks if you have seen the end of Chapter 1. | - |
+| 0x69EA8073             | 221  | Checks if you have befriended Squeeky in "Scout! Friend Chance!" when first clearing it. | - |
+| 0x9602FD68             | 222  | Checks if you have befriended Hungramps in "Scout! Friend Chance!" when first clearing it. | - |
+| 0x571497E1             | 223  | Checks if you have befriended Hissfit in "Scout! Friend Chance!" when first clearing it. | - |
+| 0xA1DC0D5A             | 224  | Checks if you have befriended Pupsicle in "Scout! Friend Chance!" when first clearing it. | - |
+| 0xED4D62E5             | 226  | Checks if the story scene ev02_0100 has been seen. | `ev02_0100` |
+| 0xEF0BDCBC             | 227  | Checks if the story scene ev02_0200 has been seen. | `ev02_0200` |
+| 0x927C28F9             | 228  | Checks if the story scene ev02_0250 has been seen. | `ev02_0250` |
+| 0xEEC9B68B             | 229  | Checks if the story scene ev02_0300 has been seen. | `ev02_0300` |
+| 0xEB86A00E             | 230  | Checks if the story scene ev02_0400 has been seen. | `ev02_0400` |
+| 0xEA44CA39             | 231  | Checks if the story scene ev02_0500 has been seen. | `ev02_0500` |
+| 0xE8027460             | 232  | Checks if the story scene ev02_0600 has been seen. | `ev02_0600` |
+| 0xE9C01E57             | 233  | Checks if the story scene ev02_0700 has been seen. | `ev02_0700` |
+| 0xE29C596A             | 234  | Checks if the story scene ev02_0800 has been seen. | `ev02_0800` |
+| 0x947A901A             | 235  | Checks if you have seen the end of Chapter 2. | - |
 | 0xC4268F7F             | 236  | Checks if the story scene mv_photo104/ev02_0230 has been seen. | `ev02_0230` |
-| 0xDD3DBE3E             | 237  | - | `ev02_0220` |
-| 0x8B6719B8             | 238  | - | `ev02_0240` |
-| 0xB9517B3A             | 239  | - | `ev02_0260` |
-| 0xA04A4A7B             | 240  | - | `ev02_0270` |
-| 0x2611B140             | 241  | - | `ev03_0100` |
-| 0x24570F19             | 242  | - | `ev03_0200` |
-| 0x2595652E             | 243  | - | `ev03_0300` |
-| 0x20DA73AB             | 244  | - | `ev03_0400` |
+| 0xDD3DBE3E             | 237  | Checks if the story scene ev02_0220 has been seen. | `ev02_0220` |
+| 0x8B6719B8             | 238  | Checks if the story scene ev02_0240 has been seen. | `ev02_0240` |
+| 0xB9517B3A             | 239  | Checks if the story scene ev02_0260 has been seen. | `ev02_0260` |
+| 0xA04A4A7B             | 240  | Checks if the story scene ev02_0270 has been seen. | `ev02_0270` |
+| 0x2611B140             | 241  | Checks if the story scene ev03_0100 has been seen. | `ev03_0100` |
+| 0x24570F19             | 242  | Checks if the story scene ev03_0200 has been seen. | `ev03_0200` |
+| 0x2595652E             | 243  | Checks if the story scene ev03_0300 has been seen. | `ev03_0300` |
+| 0x20DA73AB             | 244  | Checks if the story scene ev03_0400 has been seen. | `ev03_0400` |
 | 0x2118199C             | 245  | Checks if the story scene mv_photo011/ev03_0500 has been seen. | `ev03_0500` |
-| 0x235EA7C5             | 246  | - | `ev03_0600` |
-| 0x229CCDF2             | 247  | - | `ev03_0700` |
-| 0xA91AB9AA             | 248  | - | - |
-| 0x3B1481F8             | 254  | - | `ev04_0100` |
-| 0x39523FA1             | 255  | - | `ev04_0200` |
-| 0x38905596             | 256  | - | `ev04_0300` |
-| 0x3DDF4313             | 257  | - | `ev04_0400` |
-| 0x3C1D2924             | 258  | - | `ev04_0500` |
-| 0x3E5B977D             | 259  | - | `ev04_0600` |
-| 0x1B3A65BA             | 260  | - | - |
+| 0x235EA7C5             | 246  | Checks if the story scene ev03_0600 has been seen. | `ev03_0600` |
+| 0x229CCDF2             | 247  | Checks if the story scene ev03_0700 has been seen. | `ev03_0700` |
+| 0xA91AB9AA             | 248  | Checks if you have seen the end of Chapter 3. | - |
+| 0x3B1481F8             | 254  | Checks if the story scene ev04_0100 has been seen. | `ev04_0100` |
+| 0x39523FA1             | 255  | Checks if the story scene ev04_0200 has been seen. | `ev04_0200` |
+| 0x38905596             | 256  | Checks if the story scene ev04_0300 has been seen. | `ev04_0300` |
+| 0x3DDF4313             | 257  | Checks if the story scene ev04_0400 has been seen. | `ev04_0400` |
+| 0x3C1D2924             | 258  | Checks if the story scene ev04_0500 has been seen. | `ev04_0500` |
+| 0x3E5B977D             | 259  | Checks if the story scene ev04_0600 has been seen. | `ev04_0600` |
+| 0x1B3A65BA             | 260  | Checks if you have seen the end of Chapter 4. | - |
 | 0x4335F014             | 261  | - | - |
-| 0xF048525D             | 266  | - | `ev05_0100` |
-| 0xF20EEC04             | 267  | - | `ev05_0200` |
-| 0xF3CC8633             | 268  | - | `ev05_0300` |
-| 0xF68390B6             | 269  | - | `ev05_0400` |
-| 0xF741FA81             | 270  | - | `ev05_0500` |
-| 0x265A4C0A             | 271  | - | - |
-| 0x76DC20F3             | 277  | - | `ev06_0100` |
-| 0x749A9EAA             | 278  | - | `ev06_0200` |
-| 0x7558F49D             | 279  | - | `ev06_0300` |
-| 0x7017E218             | 280  | - | `ev06_0400` |
-| 0x71D5882F             | 281  | - | `ev06_0500` |
-| 0x61FA36DA             | 282  | - | - |
-| 0xBD80F356             | 288  | - | `ev07_0100` |
-| 0xBFC64D0F             | 289  | - | `ev07_0200` |
-| 0xBE042738             | 290  | - | `ev07_0300` |
-| 0xBB4B31BD             | 291  | - | `ev07_0400` |
-| 0xBA895B8A             | 292  | - | `ev07_0500` |
-| 0x5C9A1F6A             | 293  | - | - |
-| 0x4CD64183             | 299  | - | `ev08_0100` |
-| 0x4E90FFDA             | 300  | - | `ev08_0200` |
-| 0x4F5295ED             | 301  | - | `ev08_0300` |
-| 0x4A1D8368             | 302  | - | `ev08_0400` |
-| 0x4BDFE95F             | 303  | - | `ev08_0500` |
-| 0x49995706             | 304  | - | `ev08_0600` |
-| 0xDECA88BB             | 305  | - | - |
-| 0x878A9226             | 311  | - | `ev09_0100` |
-| 0x85CC2C7F             | 312  | - | `ev09_0200` |
-| 0x840E4648             | 313  | - | `ev09_0300` |
-| 0x814150CD             | 314  | - | `ev09_0400` |
-| 0x80833AFA             | 315  | - | `ev09_0500` |
-| 0xE3AAA10B             | 316  | - | - |
-| 0x06F2C85A (0x6F2C85A) | 322  | - | `ev10_0100` |
-| 0x04B47603 (0x4B47603) | 323  | - | `ev10_0200` |
-| 0x05761C34 (0x5761C34) | 324  | - | `ev10_0300` |
-| 0x00390AB1 (0x390AB1)  | 325  | - | `ev10_0400` |
-| 0x25E610DF             | 326  | - | - |
-| 0xCDAE1BFF             | 332  | - | `ev11_0100` |
-| 0xCFE8A5A6             | 333  | - | `ev11_0200` |
-| 0xCE2ACF91             | 334  | - | `ev11_0300` |
-| 0xCB65D914             | 335  | - | `ev11_0400` |
-| 0xCAA7B323             | 336  | - | `ev11_0500` |
-| 0xC8E10D7A             | 337  | - | `ev11_0600` |
-| 0xC923674D             | 338  | - | `ev11_0700` |
+| 0xF048525D             | 266  | Checks if the story scene ev05_0100 has been seen. | `ev05_0100` |
+| 0xF20EEC04             | 267  | Checks if the story scene ev05_0200 has been seen. | `ev05_0200` |
+| 0xF3CC8633             | 268  | Checks if the story scene ev05_0300 has been seen. | `ev05_0300` |
+| 0xF68390B6             | 269  | Checks if the story scene ev05_0400 has been seen. | `ev05_0400` |
+| 0xF741FA81             | 270  | Checks if the story scene ev05_0500 has been seen. | `ev05_0500` |
+| 0x265A4C0A             | 271  | Checks if you have seen the end of Chapter 5. | - |
+| 0x76DC20F3             | 277  | Checks if the story scene ev06_0100 has been seen. | `ev06_0100` |
+| 0x749A9EAA             | 278  | Checks if the story scene ev06_0200 has been seen. | `ev06_0200` |
+| 0x7558F49D             | 279  | Checks if the story scene ev06_0300 has been seen. | `ev06_0300` |
+| 0x7017E218             | 280  | Checks if the story scene ev06_0400 has been seen. | `ev06_0400` |
+| 0x71D5882F             | 281  | Checks if the story scene ev06_0500 has been seen. | `ev06_0500` |
+| 0x61FA36DA             | 282  | Checks if you have seen the end of Chapter 6. | - |
+| 0xBD80F356             | 288  | Checks if the story scene ev07_0100 has been seen. | `ev07_0100` |
+| 0xBFC64D0F             | 289  | Checks if the story scene ev07_0200 has been seen. | `ev07_0200` |
+| 0xBE042738             | 290  | Checks if the story scene ev07_0300 has been seen. | `ev07_0300` |
+| 0xBB4B31BD             | 291  | Checks if the story scene ev07_0400 has been seen. | `ev07_0400` |
+| 0xBA895B8A             | 292  | Checks if the story scene ev07_0500 has been seen. | `ev07_0500` |
+| 0x5C9A1F6A             | 293  | Checks if you have seen the end of Chapter 7. | - |
+| 0x4CD64183             | 299  | Checks if the story scene ev08_0100 has been seen. | `ev08_0100` |
+| 0x4E90FFDA             | 300  | Checks if the story scene ev08_0200 has been seen. | `ev08_0200` |
+| 0x4F5295ED             | 301  | Checks if the story scene ev08_0300 has been seen. | `ev08_0300` |
+| 0x4A1D8368             | 302  | Checks if the story scene ev08_0400 has been seen. | `ev08_0400` |
+| 0x4BDFE95F             | 303  | Checks if the story scene ev08_0500 has been seen. | `ev08_0500` |
+| 0x49995706             | 304  | Checks if the story scene ev08_0600 has been seen. | `ev08_0600` |
+| 0xDECA88BB             | 305  | Checks if you have seen the end of Chapter 8. | - |
+| 0x878A9226             | 311  | Checks if the story scene ev09_0100 has been seen. | `ev09_0100` |
+| 0x85CC2C7F             | 312  | Checks if the story scene ev09_0200 has been seen. | `ev09_0200` |
+| 0x840E4648             | 313  | Checks if the story scene ev09_0300 has been seen. | `ev09_0300` |
+| 0x814150CD             | 314  | Checks if the story scene ev09_0400 has been seen. | `ev09_0400` |
+| 0x80833AFA             | 315  | Checks if the story scene ev09_0500 has been seen. | `ev09_0500` |
+| 0xE3AAA10B             | 316  | Checks if you have seen the end of Chapter 9. | - |
+| 0x06F2C85A (0x6F2C85A) | 322  | Checks if the story scene ev10_0100 has been seen. | `ev10_0100` |
+| 0x04B47603 (0x4B47603) | 323  | Checks if the story scene ev10_0200 has been seen. | `ev10_0200` |
+| 0x05761C34 (0x5761C34) | 324  | Checks if the story scene ev10_0300 has been seen. | `ev10_0300` |
+| 0x00390AB1 (0x390AB1)  | 325  | Checks if the story scene ev10_0400 has been seen. | `ev10_0400` |
+| 0x25E610DF             | 326  | Checks if you have seen the end of Chapter 10. | - |
+| 0xCDAE1BFF             | 332  | Checks if the story scene ev11_0100 has been seen. | `ev11_0100` |
+| 0xCFE8A5A6             | 333  | Checks if the story scene ev11_0200 has been seen. | `ev11_0200` |
+| 0xCE2ACF91             | 334  | Checks if the story scene ev11_0300 has been seen. | `ev11_0300` |
+| 0xCB65D914             | 335  | Checks if the story scene ev11_0400 has been seen. | `ev11_0400` |
+| 0xCAA7B323             | 336  | Checks if the story scene ev11_0500 has been seen. | `ev11_0500` |
+| 0xC8E10D7A             | 337  | Checks if the story scene ev11_0600 has been seen. | `ev11_0600` |
+| 0xC923674D             | 338  | Checks if the story scene ev11_0700 has been seen. | `ev11_0700` |
 | 0x2F8F6A97             | 341  | - | - |
-| 0xD5F0E781             | 342  | - | - |
+| 0xD5F0E781             | 342  | Checks if you have completed the Usapyon Star Quiz. | - |
 | 0xB408FABA             | 344  | Checks if the story scene mv_photo009/ev01_0990 has been seen. | `ev01_0990` |
 | 0x329C8814             | 345  | Checks if the story scene mv_photo010/ev02_0990 has been seen. | `ev02_0990` |
 | 0xF9C05BB1             | 346  | Checks if the story scene mv_photo012/ev03_0990 has been seen. | `ev03_0990` |
@@ -259,179 +259,179 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9307AB72             | 351  | Checks if the story scene mv_photo019/ev08_0990 has been seen. | `ev08_0990` |
 | 0x585B78D7             | 352  | Checks if the story scene mv_photo020/ev09_0990 has been seen. | `ev09_0990` |
 | 0xD92322AB             | 353  | Checks if the story scene mv_photo022/ev10_0990 has been seen. | `ev10_0990` |
-| 0x199B7ACA             | 355  | - | `ev13_2020` |
-| 0x00804B8B (0x804B8B)  | 356  | - | `ev13_2030` |
-| 0x4FC1DD4C             | 357  | - | `ev13_2040` |
-| 0x56DAEC0D             | 358  | - | `ev13_2050` |
-| 0x7DF7BFCE             | 359  | - | `ev13_2060` |
-| 0x64EC8E8F             | 360  | - | `ev13_2070` |
+| 0x199B7ACA             | 355  | Checks if the story scene ev13_2020 has been seen. | `ev13_2020` |
+| 0x00804B8B (0x804B8B)  | 356  | Checks if the story scene ev13_2030 has been seen. | `ev13_2030` |
+| 0x4FC1DD4C             | 357  | Checks if the story scene ev13_2040 has been seen. | `ev13_2040` |
+| 0x56DAEC0D             | 358  | Checks if the story scene ev13_2050 has been seen. | `ev13_2050` |
+| 0x7DF7BFCE             | 359  | Checks if the story scene ev13_2060 has been seen. | `ev13_2060` |
+| 0x64EC8E8F             | 360  | Checks if the story scene ev13_2070 has been seen. | `ev13_2070` |
 | 0xFE702F3B             | 361  | Checks if the story scene mv_photo102/ev15_2200 has been seen. | `ev15_2200` |
 | 0xFFB2450C             | 362  | Checks if the story scene mv_photo103/ev15_2300 has been seen. | `ev15_2300` |
-| 0xCCE1C98C             | 364  | - | `ev15_7500` |
-| 0xCEA777D5             | 365  | - | `ev15_7600` |
-| 0xFAFD5389             | 367  | - | `ev15_2400` |
-| 0x8648CDFB             | 369  | - | `ev15_2550` |
-| 0x448AF607             | 376  | - | `ev15_3100` |
-| 0x46CC485E             | 377  | - | `ev15_3200` |
-| 0x72966C02             | 381  | - | `ev15_6000` |
+| 0xCCE1C98C             | 364  | Checks if the story scene ev15_7500 has been seen. | `ev15_7500` |
+| 0xCEA777D5             | 365  | Checks if the story scene ev15_7600 has been seen. | `ev15_7600` |
+| 0xFAFD5389             | 367  | Checks if the story scene ev15_2400 has been seen. | `ev15_2400` |
+| 0x8648CDFB             | 369  | Checks if the story scene ev15_2550 has been seen. | `ev15_2550` |
+| 0x448AF607             | 376  | Checks if the story scene ev15_3100 has been seen. | `ev15_3100` |
+| 0x46CC485E             | 377  | Checks if the story scene ev15_3200 has been seen. | `ev15_3200` |
+| 0x72966C02             | 381  | Checks if the story scene ev15_6000 has been seen. | `ev15_6000` |
 | 0x2D836F47             | 389  | Checks if the story scene mv_photo105/ev15_0450 has been seen. | `ev15_0450` |
-| 0xB7B84AC6             | 391  | - | `ev13_5100` |
-| 0xB43C9EA8             | 392  | - | `ev13_5300` |
-| 0xA50DE528             | 393  | - | `ev13_6100` |
-| 0xA6893146             | 394  | - | `ev13_6300` |
-| 0x1DB1824D             | 395  | - | `ev13_7100` |
-| 0x1E355623             | 396  | - | `ev13_7300` |
-| 0x45D2921B             | 397  | - | `ev13_8100` |
-| 0x42DB3AC7             | 398  | - | `ev13_8500` |
-| 0xFD6EF57E             | 399  | - | `ev13_9100` |
-| 0xFEEA2110             | 400  | - | `ev13_9300` |
+| 0xB7B84AC6             | 391  | Checks if the story scene ev13_5100 has been seen. | `ev13_5100` |
+| 0xB43C9EA8             | 392  | Checks if the story scene ev13_5300 has been seen. | `ev13_5300` |
+| 0xA50DE528             | 393  | Checks if the story scene ev13_6100 has been seen. | `ev13_6100` |
+| 0xA6893146             | 394  | Checks if the story scene ev13_6300 has been seen. | `ev13_6300` |
+| 0x1DB1824D             | 395  | Checks if the story scene ev13_7100 has been seen. | `ev13_7100` |
+| 0x1E355623             | 396  | Checks if the story scene ev13_7300 has been seen. | `ev13_7300` |
+| 0x45D2921B             | 397  | Checks if the story scene ev13_8100 has been seen. | `ev13_8100` |
+| 0x42DB3AC7             | 398  | Checks if the story scene ev13_8500 has been seen. | `ev13_8500` |
+| 0xFD6EF57E             | 399  | Checks if the story scene ev13_9100 has been seen. | `ev13_9100` |
+| 0xFEEA2110             | 400  | Checks if the story scene ev13_9300 has been seen. | `ev13_9300` |
 | 0x65D16866             | 401  | - | - |
 | 0xDD3BD2F2             | 403  | - | `hlp_320` |
 | 0x403A239C             | 404  | - | - |
-| 0xF4503F68             | 405  | - | `hlp_010` |
+| 0xF4503F68             | 405  | Checks if the tutorial "Basic Controls" has been seen. | `hlp_010` |
 | 0xF7464BAF             | 406  | - | - |
-| 0xDF7D6CAB             | 407  | - | `hlp_020` |
+| 0xDF7D6CAB             | 407  | Checks if the tutorial "Choose your team in the Lounge" has been seen. | `hlp_020` |
 | 0x71D23901             | 408  | - | - |
-| 0xC6665DEA             | 409  | - | `hlp_030` |
+| 0xC6665DEA             | 409  | Checks if the tutorial "Select a Mission and move out!" has been seen. | `hlp_030` |
 | 0xBA8EEAA4             | 410  | - | - |
-| 0x8927CB2D             | 411  | - | `hlp_040` |
+| 0x8927CB2D             | 411  | Checks if the tutorial "Let's level up a Yo-kai!" has been seen. | `hlp_040` |
 | 0xA78BDA1C             | 412  | - | - |
-| 0x903CFA6C             | 413  | - | `hlp_050` |
+| 0x903CFA6C             | 413  | Checks if the tutorial "Bring along Yo-kai Friends" has been seen. | `hlp_050` |
 | 0x6CD709B9             | 414  | - | - |
-| 0xBB11A9AF             | 415  | - | `hlp_060` |
+| 0xBB11A9AF             | 415  | Checks if the tutorial "Go shopping on the 2F!" has been seen. | `hlp_060` |
 | 0xEA437B17             | 416  | - | - |
-| 0xA20A98EE             | 417  | - | `hlp_070` |
+| 0xA20A98EE             | 417  | Checks if the tutorial "Powering up Yo-kai with Equipment" has been seen. | `hlp_070` |
 | 0x211FA8B2             | 418  | - | - |
-| 0x25928421             | 419  | - | `hlp_080` |
+| 0x25928421             | 419  | Checks if the tutorial "Gather Materials to make Equipment!" has been seen. | `hlp_080` |
 | 0xD0491A67             | 420  | - | - |
-| 0x3C89B560             | 421  | - | `hlp_090` |
+| 0x3C89B560             | 421  | Checks if the tutorial "Passing by! Wayfarer Coliseum" has been seen. | `hlp_090` |
 | 0x1B15C9C2             | 422  | - | - |
-| 0xEC89641E             | 423  | - | `hlp_100` |
+| 0xEC89641E             | 423  | Checks if the tutorial "Blasters House Rank Up" has been seen. | `hlp_100` |
 | 0x9A6D93BE             | 424  | - | - |
-| 0xF592555F             | 425  | - | `hlp_110` |
+| 0xF592555F             | 425  | Checks if the tutorial "Play cooperatively with everyone!" has been seen. | `hlp_110` |
 | 0x5131401B             | 426  | - | - |
-| 0xDEBF069C             | 427  | - | `hlp_120` |
+| 0xDEBF069C             | 427  | Checks if the tutorial "Talk with everyone over chat" has been seen. | `hlp_120` |
 | 0xD7A532B5             | 428  | - | - |
-| 0xC7A437DD             | 429  | - | `hlp_130` |
+| 0xC7A437DD             | 429  | Checks if the tutorial "Befriend your family and friends!" has been seen. | `hlp_130` |
 | 0x1CF9E110             | 430  | - | - |
-| 0x88E5A11A             | 431  | - | `hlp_140` |
+| 0x88E5A11A             | 431  | Checks if the tutorial "Story Missions" has been seen. | `hlp_140` |
 | 0x01FCD1A8 (0x1FCD1A8) | 432  | - | - |
-| 0x91FE905B             | 433  | - | `hlp_150` |
+| 0x91FE905B             | 433  | Checks if the tutorial "What you can do in the Entrance" has been seen. | `hlp_150` |
 | 0xCAA0020D             | 434  | - | - |
-| 0xBAD3C398             | 435  | - | `hlp_160` |
+| 0xBAD3C398             | 435  | Checks if the tutorial "Turn the Crank-a-kai!" has been seen. | `hlp_160` |
 | 0x4C3470A3             | 436  | - | - |
-| 0xA3C8F2D9             | 437  | - | `hlp_170` |
+| 0xA3C8F2D9             | 437  | Checks if the tutorial "Patrol Missions" has been seen. | `hlp_170` |
 | 0x8768A306             | 438  | - | - |
-| 0x2450EE16             | 439  | - | `hlp_180` |
+| 0x2450EE16             | 439  | Checks if the tutorial "Evolve Yo-kai & make them stronger!" has been seen. | `hlp_180` |
 | 0x763E11D3             | 440  | - | - |
-| 0x3D4BDF57             | 441  | - | `hlp_190` |
+| 0x3D4BDF57             | 441  | Checks if the tutorial "Big Boss Missions" has been seen. | `hlp_190` |
 | 0xBD62C276             | 442  | - | - |
-| 0xEECFDA47             | 443  | - | `hlp_200` |
+| 0xEECFDA47             | 443  | Checks if the tutorial "Collect Ultra Orbs to try Ultra Mode!" has been seen. | `hlp_200` |
 | 0xAB858923             | 444  | - | - |
-| 0xF7D4EB06             | 445  | - | `hlp_210` |
+| 0xF7D4EB06             | 445  | Checks if the tutorial "Take on Bosses with Battle Auras!" has been seen. | `hlp_210` |
 | 0x60D95A86             | 446  | - | - |
-| 0xDCF9B8C5             | 447  | - | `hlp_220` |
+| 0xDCF9B8C5             | 447  | Checks if the tutorial "Use Soulcery on your Yo-kai!" has been seen. | `hlp_220` |
 | 0xE64D2828             | 448  | - | - |
-| 0xC5E28984             | 449  | - | `hlp_230` |
+| 0xC5E28984             | 449  | Checks if the tutorial "Receive precious mementos!" has been seen. | `hlp_230` |
 | 0x2D11FB8D             | 450  | - | - |
-| 0x8AA31F43             | 451  | - | `hlp_240` |
+| 0x8AA31F43             | 451  | Checks if the tutorial "Gather Insignias!" has been seen. | `hlp_240` |
 | 0x3014CB35             | 452  | - | - |
-| 0x93B82E02             | 453  | - | `hlp_250` |
+| 0x93B82E02             | 453  | Checks if the tutorial "Change costumes in the Secret Closet" has been seen. | `hlp_250` |
 | 0xFB481890             | 454  | - | - |
-| 0xEA42A6F5             | 455  | - | `hlp_400` |
+| 0xEA42A6F5             | 455  | Checks if the tutorial "Yo-kai Stats" has been seen. | `hlp_400` |
 | 0xC855BC19             | 456  | - | - |
-| 0xF35997B4             | 457  | - | `hlp_410` |
+| 0xF35997B4             | 457  | Checks if the tutorial "Yo-kai Roles" has been seen. | `hlp_410` |
 | 0x03096FBC (0x3096FBC) | 458  | - | - |
-| 0xD874C477             | 459  | - | `hlp_420` |
+| 0xD874C477             | 459  | Checks if the tutorial "Select Your Yo-kai Moves" has been seen. | `hlp_420` |
 | 0x859D1D12             | 460  | - | - |
-| 0xC16FF536             | 461  | - | `hlp_430` |
+| 0xC16FF536             | 461  | Checks if the tutorial "Yo-kai Skills" has been seen. | `hlp_430` |
 | 0x4EC1CEB7             | 462  | - | - |
-| 0x8E2E63F1             | 463  | - | `hlp_440` |
+| 0x8E2E63F1             | 463  | Checks if the tutorial "About Yo-kai Tribes" has been seen. | `hlp_440` |
 | 0x53C4FE0F             | 464  | - | - |
-| 0x973552B0             | 465  | - | `hlp_450` |
+| 0x973552B0             | 465  | Checks if the tutorial "8 Different Yo-kai Tribes" has been seen. | `hlp_450` |
 | 0x98982DAA             | 466  | - | - |
-| 0xBC180173             | 467  | - | `hlp_460` |
+| 0xBC180173             | 467  | Checks if the tutorial "Yo-kai Elements" has been seen. | `hlp_460` |
 | 0x1E0C5F04             | 468  | - | - |
-| 0xE9C6729B             | 469  | - | `hlp_600` |
+| 0xE9C6729B             | 469  | Checks if the tutorial "Use the Yo-kai Pad!" has been seen. | `hlp_600` |
 | 0x5FCAAD30             | 470  | - | - |
-| 0xF0DD43DA             | 471  | - | `hlp_610` |
+| 0xF0DD43DA             | 471  | Checks if the tutorial "Yo-kai Medallium Collection" has been seen. | `hlp_610` |
 | 0x94967E95             | 472  | - | - |
-| 0xDBF01019             | 473  | - | `hlp_620` |
+| 0xDBF01019             | 473  | Checks if the tutorial "Use your Diary to save!" has been seen. | `hlp_620` |
 | 0x12020C3B             | 474  | - | - |
-| 0xC2EB2158             | 475  | - | `hlp_630` |
+| 0xC2EB2158             | 475  | Checks if the tutorial "Collect groups of Yo-kai" has been seen. | `hlp_630` |
 | 0xD95EDF9E             | 476  | - | - |
-| 0x8DAAB79F             | 477  | - | `hlp_640` |
+| 0x8DAAB79F             | 477  | Checks if the tutorial "Record many things in the notebook!" has been seen. | `hlp_640` |
 | 0xC45BEF26             | 478  | - | - |
-| 0x94B186DE             | 479  | - | `hlp_650` |
+| 0x94B186DE             | 479  | Checks if the tutorial "Exchange Yo-kai Medals!" has been seen. | `hlp_650` |
 | 0x0F073C83 (0xF073C83) | 480  | - | - |
-| 0xE3585F91             | 481  | - | `hlp_800` |
+| 0xE3585F91             | 481  | Checks if the tutorial "About Missions" has been seen. | `hlp_800` |
 | 0x0FF5D66D (0xFF5D66D) | 482  | - | - |
-| 0xFA436ED0             | 483  | - | `hlp_810` |
+| 0xFA436ED0             | 483  | Checks if the tutorial "About Attacking - Moves" has been seen. | `hlp_810` |
 | 0xC4A905C8             | 484  | - | - |
-| 0xD16E3D13             | 485  | - | `hlp_820` |
+| 0xD16E3D13             | 485  | Checks if the tutorial "Gather items" has been seen. | `hlp_820` |
 | 0x423D7766             | 486  | - | - |
-| 0xC8750C52             | 487  | - | `hlp_830` |
+| 0xC8750C52             | 487  | Checks if the tutorial "Mission Objectives" has been seen. | `hlp_830` |
 | 0x8961A4C3             | 488  | - | - |
-| 0xB81FF8DD             | 489  | - | `hlp_835` |
+| 0xB81FF8DD             | 489  | Checks if the tutorial "Escape through the sliding doors!" has been seen. | `hlp_835` |
 | 0x41812BB3             | 490  | - | - |
-| 0x87349A95             | 491  | - | `hlp_840` |
+| 0x87349A95             | 491  | Checks if the tutorial "Revive downed allies!" has been seen. | `hlp_840` |
 | 0x9464947B             | 492  | - | - |
-| 0x9E2FABD4             | 493  | - | `hlp_850` |
+| 0x9E2FABD4             | 493  | Checks if the tutorial "Switch to control a Yo-kai Friend!" has been seen. | `hlp_850` |
 | 0x5F3847DE             | 494  | - | - |
-| 0xB502F817             | 495  | - | `hlp_860` |
+| 0xB502F817             | 495  | Checks if the tutorial "Friend Chance!" has been seen. | `hlp_860` |
 | 0xD9AC3570             | 496  | - | - |
-| 0xAC19C956             | 497  | - | `hlp_870` |
+| 0xAC19C956             | 497  | Checks if the tutorial "Good and Bad Inspirits" has been seen. | `hlp_870` |
 | 0x12F0E6D5             | 498  | - | - |
-| 0x2B81D599             | 499  | - | `hlp_880` |
+| 0x2B81D599             | 499  | Checks if the tutorial "Soultimate Moves are powerful!" has been seen. | `hlp_880` |
 | 0xE3A65400             | 500  | - | - |
-| 0x329AE4D8             | 501  | - | `hlp_890` |
+| 0x329AE4D8             | 501  | Checks if the tutorial "Select treasure and Koma Battle!" has been seen. | `hlp_890` |
 | 0x28FA87A5             | 502  | - | - |
-| 0xE29A35A6             | 503  | - | `hlp_900` |
+| 0xE29A35A6             | 503  | Checks if the tutorial "Grab a Great Orb, then Great Change!" has been seen. | `hlp_900` |
 | 0xA982DDD9             | 504  | - | - |
-| 0xFB8104E7             | 505  | - | `hlp_910` |
+| 0xFB8104E7             | 505  | Checks if the tutorial "Treasure Drop Selector" has been seen. | `hlp_910` |
 | 0x62DE0E7C             | 506  | - | - |
-| 0xD0AC5724             | 507  | - | `hlp_920` |
+| 0xD0AC5724             | 507  | Checks if the tutorial "Welcome to the Moon Rabbit Crew!" has been seen. | `hlp_920` |
 | 0xE44A7CD2             | 508  | - | - |
-| 0xB8957DC1             | 509  | - | `hlp_260` |
+| 0xB8957DC1             | 509  | Checks if the tutorial "True Challenge Missions!" has been seen. | `hlp_260` |
 | 0x7DDC6A3E             | 510  | - | - |
-| 0xA18E4C80             | 511  | - | `hlp_270` |
+| 0xA18E4C80             | 511  | Checks if the tutorial "Put on a song to change the mood!" has been seen. | `hlp_270` |
 | 0xB680B99B             | 512  | - | - |
-| 0x2616504F             | 513  | - | `hlp_280` |
+| 0x2616504F             | 513  | Checks if the tutorial "StreetPass in Moon Rabbit Crew" has been seen. | `hlp_280` |
 | 0x47D60B4E             | 514  | - | - |
-| 0x3F0D610E             | 515  | - | `hlp_290` |
+| 0x3F0D610E             | 515  | Checks if the tutorial "Get into the VIP Room with VIP Link!" has been seen. | `hlp_290` |
 | 0x8C8AD8EB             | 516  | - | - |
-| 0xEF0DB070             | 517  | - | `hlp_300` |
+| 0xEF0DB070             | 517  | Checks if the tutorial "Inside the VIP Room!" has been seen. | `hlp_300` |
 | 0x0DF28297 (0xDF28297) | 518  | - | - |
 | 0xF6168131             | 519  | - | `hlp_310` |
 | 0xC6AE5132             | 520  | - | - |
-| 0xD0AB2B47             | 521  | - | `ev16_0100` |
+| 0xD0AB2B47             | 521  | Checks if the story scene ev16_0100 has been seen. | `ev16_0100` |
 | 0xD2ED951E             | 522  | Checks if the story scene mv_photo106/ev16_0200 has been seen. | `ev16_0200` |
-| 0xD32FFF29             | 523  | - | `ev16_0300` |
-| 0xD660E9AC             | 524  | - | `ev16_0400` |
-| 0xD7A2839B             | 525  | - | `ev16_0500` |
-| 0x06AE3C84 (0x6AE3C84) | 526  | - | `ev15_0460` |
+| 0xD32FFF29             | 523  | Checks if the story scene ev16_0300 has been seen. | `ev16_0300` |
+| 0xD660E9AC             | 524  | Checks if the story scene ev16_0400 has been seen. | `ev16_0400` |
+| 0xD7A2839B             | 525  | Checks if the story scene ev16_0500 has been seen. | `ev16_0500` |
+| 0x06AE3C84 (0x6AE3C84) | 526  | Checks if the story scene ev15_0460 has been seen. | `ev15_0460` |
 | 0xD5E43DC2             | 527  | Checks if the story scene mv_photo107/ev16_0600 has been seen. | `ev16_0600` |
-| 0xD42657F5             | 528  | - | `ev16_0700` |
+| 0xD42657F5             | 528  | Checks if the story scene ev16_0700 has been seen. | `ev16_0700` |
 | 0x0F7AC1B6 (0xF7AC1B6) | 529  | Checks if the story scene mv_photo108/ev16_0990 has been seen. | `ev16_0990` |
-| 0x1BF7F8E2             | 530  | - | `ev17_0100` |
-| 0x19B146BB             | 531  | - | `ev17_0200` |
-| 0x64C6B2FE             | 532  | - | `ev17_0250` |
-| 0x18732C8C             | 533  | - | `ev17_0300` |
-| 0x335E7F4F             | 534  | - | `ev17_0330` |
-| 0x1FB50DC5             | 535  | - | `ev15_0470` |
-| 0x6504D8C9             | 536  | - | `ev17_0350` |
-| 0x5732BA4B             | 537  | - | `ev17_0370` |
+| 0x1BF7F8E2             | 530  | Checks if the story scene ev17_0100 has been seen. | `ev17_0100` |
+| 0x19B146BB             | 531  | Checks if the story scene ev17_0200 has been seen. | `ev17_0200` |
+| 0x64C6B2FE             | 532  | Checks if the story scene ev17_0250 has been seen. | `ev17_0250` |
+| 0x18732C8C             | 533  | Checks if the story scene ev17_0300 has been seen. | `ev17_0300` |
+| 0x335E7F4F             | 534  | Checks if the story scene ev17_0330 has been seen. | `ev17_0330` |
+| 0x1FB50DC5             | 535  | Checks if the story scene ev15_0470 has been seen. | `ev15_0470` |
+| 0x6504D8C9             | 536  | Checks if the story scene ev17_0350 has been seen. | `ev17_0350` |
+| 0x5732BA4B             | 537  | Checks if the story scene ev17_0370 has been seen. | `ev17_0370` |
 | 0xC9B197C5             | 538  | Checks if the story scene mv_photo127/ev17_0390 has been seen. | `ev17_0390` |
-| 0x1D3C3A09             | 539  | - | `ev17_0400` |
-| 0x604BCE4C             | 540  | - | `ev17_0450` |
-| 0x1CFE503E             | 541  | - | `ev17_0500` |
-| 0x1EB8EE67             | 542  | - | `ev17_0600` |
-| 0x1F7A8450             | 543  | - | `ev17_0700` |
+| 0x1D3C3A09             | 539  | Checks if the story scene ev17_0400 has been seen. | `ev17_0400` |
+| 0x604BCE4C             | 540  | Checks if the story scene ev17_0450 has been seen. | `ev17_0450` |
+| 0x1CFE503E             | 541  | Checks if the story scene ev17_0500 has been seen. | `ev17_0500` |
+| 0x1EB8EE67             | 542  | Checks if the story scene ev17_0600 has been seen. | `ev17_0600` |
+| 0x1F7A8450             | 543  | Checks if the story scene ev17_0700 has been seen. | `ev17_0700` |
 | 0xC4261213             | 544  | Checks if the story scene mv_photo109/ev17_0990 has been seen. | `ev17_0990` |
-| 0x70849F53             | 546  | - | `ev01_0210` |
-| 0x3FC50994             | 547  | - | `ev01_0260` |
-| 0x2B371663             | 548  | - | `ev15_9100` |
-| 0x28B3C20D             | 549  | - | `ev15_9300` |
+| 0x70849F53             | 546  | Checks if the story scene ev01_0210 has been seen. | `ev01_0210` |
+| 0x3FC50994             | 547  | Checks if the story scene ev01_0260 has been seen. | `ev01_0260` |
+| 0x2B371663             | 548  | Checks if the story scene ev15_9100 has been seen. | `ev15_9100` |
+| 0x28B3C20D             | 549  | Checks if the story scene ev15_9300 has been seen. | `ev15_9300` |
 | 0x6E830800             | 550  | - | - |
 | 0xF78A59BA             | 551  | - | - |
 | 0x808D692C             | 552  | - | - |
