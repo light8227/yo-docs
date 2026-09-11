@@ -54,25 +54,25 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x49EF0603             | 77   | - | - |
 | 0x51F15479             | 78   | - | - |
 | 0xFBC8FDF9             | 79   | - | - |
-| 0xCBB6FF0D             | 80   | - | - |
-| 0x83AAFC54             | 81   | Checks if you've scanned the QR Code giving the Football Gear and a Blue Coin. | - |
-| 0xA887AF97             | 82   | Checks if you've scanned the QR Code giving the Scuba Gear. | - |
-| 0xB19C9ED6             | 83   | Checks if you've scanned the QR Code giving the GI Gear and a Blue Coin. | - |
-| 0xFEDD0811             | 84   | Checks if you've scanned the QR Code giving the Racing Gear and a Blue Coin. | - |
-| 0x3E143B3A             | 85   | - | - |
-| 0x2CA194D4             | 86   | - | - |
+| 0xCBB6FF0D             | 80   | Checks if you can swap into Usapyon B's outfit. | - |
+| 0x83AAFC54             | 81   | Checks if you can swap into Football Usapyon's outfit. | - |
+| 0xA887AF97             | 82   | Checks if you can swap into Marine Usapyon's outfit. | - |
+| 0xB19C9ED6             | 83   | Checks if you can swap into Military Usapyon's outfit. | - |
+| 0xFEDD0811             | 84   | Checks if you can swap into Racing Usapyon's outfit. | - |
+| 0x3E143B3A             | 85   | Checks if you can swap into Jibanyan B's outfit. | - |
+| 0x2CA194D4             | 86   | Checks if you can swap into Komasan B's outfit. | - |
 | 0x30485E4F             | 87   | - | - |
 | 0xA29E50DB             | 89   | - | - |
 | 0x759FD7DA             | 90   | - | - |
 | 0x6C84E69B             | 91   | - | - |
 | 0xCA5C0AD5             | 92   | - | - |
 | 0x923F1A83             | 93   | - | - |
-| 0x62228CBC             | 94   | Checks if you've scanned the QR Code giving two 1-Star Coins and the Enma Medal. | - |
+| 0x62228CBC             | 94   | Checks if you can befriend Lord Enma in "Lord Enma and the Five Trials". | - |
 | 0xB2EB1757             | 95   | Checks if you've scanned the QR Code giving the First Place Flag. | - |
 | 0xA05EB8B9             | 96   | Checks if you've scanned the QR Code giving the Doggy Dumpling. | - |
 | 0x18E2DFDC             | 97   | Checks if you've scanned the QR Code giving the Monkey Dumpling. | - |
 | 0x8535E765             | 98   | Checks if you've scanned the QR Code giving the Pheasant Dumpling. | - |
-| 0xC6DBFE07             | 99   | Checks if you've scanned the QR Code giving a 1-Star Coin and the Emperor’s Scroll. | - |
+| 0xC6DBFE07             | 99   | Checks if you can take on "Pink Emperor!" | - |
 | 0xC346486A             | 100  | - | - |
 | 0x4749D360             | 101  | Checks if you've scanned the QR Code giving a Green Coin and the Dragon King’s Chest. | - |
 | 0x55FC7C8E             | 102  | Checks if you've scanned the QR Code giving an Orange Coin and the Kintaronyan Candy. | - |
@@ -129,7 +129,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x0CA98B84 (0xCA98B84) | 156  | - | - |
 | 0x9C169615             | 157  | - | - |
 | 0x16735FF9             | 158  | - | - |
-| 0x44B7F117             | 159  | - | - |
+| 0x44B7F117             | 159  | Checks if you can take on "Red Palace 21" and "21st Century Dogs" | - |
 | 0x245F00CD             | 160  | - | - |
 | 0x0AD4B5ED (0xAD4B5ED) | 161  | - | - |
 | 0x21C1ECD0             | 181  | - | `ev13_1110` |
@@ -1474,7 +1474,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x22A41C38             | 32   | - | - |
 | 0x00AEB164 (0xAEB164)  | 34   | - | - |
 | 0x0831DB26 (0x831DB26) | 35   | - | - |
-| 0xE6BD7293             | 37   | - | - |
+| 0xE6BD7293             | 37   | Appears to be a general flag checked for cutscene befriends? | - |
 | 0xF5AB271D             | 38   | - | - |
 | 0x05E163F4 (0x5E163F4) | 40   | - | - |
 | 0x9CE8324E             | 41   | - | - |
