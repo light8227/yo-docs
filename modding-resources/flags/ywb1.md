@@ -286,7 +286,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xFD6EF57E             | 399  | Checks if the story scene ev13_9100 has been seen. | `ev13_9100` |
 | 0xFEEA2110             | 400  | Checks if the story scene ev13_9300 has been seen. | `ev13_9300` |
 | 0x65D16866             | 401  | - | - |
-| 0xDD3BD2F2             | 403  | - | `hlp_320` |
+| 0xDD3BD2F2             | 403  | Checks if the tutorial "StreetPass in Moon Rabbit Crew" has been seen. | `hlp_320` |
 | 0x403A239C             | 404  | - | - |
 | 0xF4503F68             | 405  | Checks if the tutorial "Basic Controls" has been seen. | `hlp_010` |
 | 0xF7464BAF             | 406  | - | - |
@@ -328,7 +328,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xBD62C276             | 442  | - | - |
 | 0xEECFDA47             | 443  | Checks if the tutorial "Collect Ultra Orbs to try Ultra Mode!" has been seen. | `hlp_200` |
 | 0xAB858923             | 444  | - | - |
-| 0xF7D4EB06             | 445  | Checks if the tutorial "Take on Bosses with Battle Auras!" has been seen. | `hlp_210` |
+| 0xF7D4EB06             | 445  | Checks if the tutorial "Try a Challenge Mission!" has been seen. | `hlp_210` |
 | 0x60D95A86             | 446  | - | - |
 | 0xDCF9B8C5             | 447  | Checks if the tutorial "Use Soulcery on your Yo-kai!" has been seen. | `hlp_220` |
 | 0xE64D2828             | 448  | - | - |
@@ -390,19 +390,19 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0xA982DDD9             | 504  | - | - |
 | 0xFB8104E7             | 505  | Checks if the tutorial "Treasure Drop Selector" has been seen. | `hlp_910` |
 | 0x62DE0E7C             | 506  | - | - |
-| 0xD0AC5724             | 507  | Checks if the tutorial "Welcome to the Moon Rabbit Crew!" has been seen. | `hlp_920` |
+| 0xD0AC5724             | 507  | Checks if the tutorial "Take on Bosses with Battle Auras!" has been seen. | `hlp_920` |
 | 0xE44A7CD2             | 508  | - | - |
-| 0xB8957DC1             | 509  | Checks if the tutorial "True Challenge Missions!" has been seen. | `hlp_260` |
+| 0xB8957DC1             | 509  | Checks if the tutorial "Welcome to the Moon Rabbit Crew!" has been seen. | `hlp_260` |
 | 0x7DDC6A3E             | 510  | - | - |
-| 0xA18E4C80             | 511  | Checks if the tutorial "Put on a song to change the mood!" has been seen. | `hlp_270` |
+| 0xA18E4C80             | 511  | Checks if the tutorial "True Challenge Missions!" has been seen. | `hlp_270` |
 | 0xB680B99B             | 512  | - | - |
-| 0x2616504F             | 513  | Checks if the tutorial "StreetPass in Moon Rabbit Crew" has been seen. | `hlp_280` |
+| 0x2616504F             | 513  | Checks if the tutorial "Put on a song to change the mood!" has been seen. | `hlp_280` |
 | 0x47D60B4E             | 514  | - | - |
 | 0x3F0D610E             | 515  | Checks if the tutorial "Get into the VIP Room with VIP Link!" has been seen. | `hlp_290` |
 | 0x8C8AD8EB             | 516  | - | - |
 | 0xEF0DB070             | 517  | Checks if the tutorial "Inside the VIP Room!" has been seen. | `hlp_300` |
 | 0x0DF28297 (0xDF28297) | 518  | - | - |
-| 0xF6168131             | 519  | - | `hlp_310` |
+| 0xF6168131             | 519  | Checks if the tutorial "Super Link with Iron Oni Force!" has been seen. | `hlp_310` |
 | 0xC6AE5132             | 520  | - | - |
 | 0xD0AB2B47             | 521  | Checks if the story scene ev16_0100 has been seen. | `ev16_0100` |
 | 0xD2ED951E             | 522  | Checks if the story scene mv_photo106/ev16_0200 has been seen. | `ev16_0200` |
@@ -474,207 +474,207 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x8E7E775F             | 597  | - | - |
 | 0xF97947C9             | 598  | - | - |
 | 0x99BECE2C             | 599  | - | - |
-| 0x86FD0F63             | 1000 | - | `pass_colb_00` |
-| 0xF1FA3FF5             | 1001 | - | `pass_colb_01` |
-| 0x68F36E4F             | 1002 | - | `pass_colb_02` |
-| 0x1FF45ED9             | 1003 | - | `pass_colb_03` |
-| 0x8190CB7A             | 1004 | - | `pass_colb_04` |
-| 0xF697FBEC             | 1005 | - | `pass_colb_05` |
-| 0x6F9EAA56             | 1006 | - | `pass_colb_06` |
-| 0x18999AC0             | 1007 | - | `pass_colb_07` |
-| 0x88268751             | 1008 | - | `pass_colb_08` |
-| 0xFF21B7C7             | 1009 | - | `pass_colb_09` |
-| 0x9FE63E22             | 1010 | - | `pass_colb_10` |
-| 0xE8E10EB4             | 1011 | - | `pass_colb_11` |
-| 0x71E85F0E             | 1012 | - | `pass_colb_12` |
-| 0x06EF6F98 (0x6EF6F98) | 1013 | - | - |
-| 0x988BFA3B             | 1014 | - | - |
-| 0xEF8CCAAD             | 1015 | - | - |
-| 0x55274E2D             | 1016 | - | - |
-| 0xCC2E1F97             | 1017 | - | - |
-| 0xBB292F01             | 1018 | - | - |
-| 0x254DBAA2             | 1019 | - | - |
-| 0x524A8A34             | 1020 | - | - |
-| 0xD4FD3B7C             | 1021 | - | - |
-| 0x4DF46AC6             | 1022 | - | - |
-| 0xC0CF17BE             | 1023 | - | - |
-| 0x59C64604             | 1024 | - | - |
-| 0x2EC17692             | 1025 | - | - |
-| 0xB0A5E331             | 1026 | - | - |
-| 0xC7A2D3A7             | 1027 | - | - |
-| 0xCE60202E             | 1028 | - | - |
-| 0x57697194             | 1029 | - | - |
-| 0x206E4102             | 1030 | - | - |
-| 0xBE0AD4A1             | 1031 | - | - |
-| 0xE37886A1             | 1032 | - | - |
-| 0x7A71D71B             | 1033 | - | - |
-| 0x0D76E78D (0xD76E78D) | 1034 | - | - |
-| 0x9312722E             | 1035 | - | - |
-| 0xE41542B8             | 1036 | - | - |
-| 0x7D1C1302             | 1037 | - | - |
-| 0x0A1B2394 (0xA1B2394) | 1038 | - | - |
-| 0x9AA43E05             | 1039 | - | - |
-| 0xEDA30E93             | 1040 | - | - |
-| 0x8D648776             | 1041 | - | - |
-| 0x42933C8A             | 1042 | - | - |
-| 0xDB9A6D30             | 1043 | - | - |
-| 0xAC9D5DA6             | 1044 | - | - |
-| 0x32F9C805             | 1045 | - | - |
-| 0x45FEF893             | 1046 | - | - |
-| 0xDCF7A929             | 1047 | - | - |
-| 0xB29DD60A             | 1048 | - | - |
-| 0x75FCA82E             | 1052 | - | - |
-| 0xECF5F994             | 1053 | - | - |
-| 0x9BF2C902             | 1054 | - | - |
-| 0x05965CA1 (0x5965CA1) | 1055 | - | - |
-| 0x72916C37             | 1056 | - | - |
-| 0xEB983D8D             | 1057 | - | - |
-| 0x9C9F0D1B             | 1058 | - | - |
-| 0x0C20108A (0xC20108A) | 1059 | - | - |
-| 0x7B27201C             | 1060 | - | - |
-| 0x1BE0A9F9             | 1061 | - | - |
-| 0x6CE7996F             | 1062 | - | - |
-| 0xF5EEC8D5             | 1063 | - | - |
-| 0x82E9F843             | 1064 | - | - |
-| 0x1C8D6DE0             | 1065 | - | - |
-| 0x6B8A5D76             | 1066 | - | - |
-| 0xF2830CCC             | 1067 | - | - |
-| 0x85843C5A             | 1068 | - | - |
-| 0x153B21CB             | 1069 | - | - |
-| 0x623C115D             | 1070 | - | - |
-| 0x30CDFA3A             | 1071 | - | - |
-| 0x47CACAAC             | 1072 | - | - |
-| 0xDEC39B16             | 1073 | - | - |
-| 0xA9C4AB80             | 1074 | - | - |
-| 0x37A03E23             | 1075 | - | - |
-| 0x40A70EB5             | 1076 | - | - |
-| 0xD9AE5F0F             | 1077 | - | - |
-| 0xAEA96F99             | 1078 | - | - |
-| 0x3E167208             | 1079 | - | - |
-| 0x4911429E             | 1080 | - | - |
-| 0x29D6CB7B             | 1081 | - | - |
-| 0x5ED1FBED             | 1082 | - | - |
-| 0xC7D8AA57             | 1083 | - | - |
-| 0xB0DF9AC1             | 1084 | - | - |
-| 0x2EBB0F62             | 1085 | - | - |
-| 0x59BC3FF4             | 1086 | - | - |
-| 0xC0B56E4E             | 1087 | - | - |
-| 0xB7B25ED8             | 1088 | - | - |
-| 0x270D4349             | 1089 | - | - |
-| 0x500A73DF             | 1090 | - | - |
-| 0x66975DBC             | 1091 | - | - |
-| 0x11906D2A             | 1092 | - | - |
-| 0x88993C90             | 1093 | - | - |
-| 0xFF9E0C06             | 1094 | - | - |
-| 0x61FA99A5             | 1095 | - | - |
-| 0x16FDA933             | 1096 | - | - |
-| 0x8FF4F889             | 1097 | - | - |
-| 0xF8F3C81F             | 1098 | - | - |
-| 0x684CD58E             | 1099 | - | - |
-| 0x1F4BE518             | 1100 | - | - |
-| 0x7F8C6CFD             | 1101 | - | - |
-| 0x088B5C6B (0x88B5C6B) | 1102 | - | - |
-| 0x91820DD1             | 1103 | - | - |
-| 0xE6853D47             | 1104 | - | - |
-| 0x78E1A8E4             | 1105 | - | - |
-| 0x0FE69872 (0xFE69872) | 1106 | - | - |
-| 0x96EFC9C8             | 1107 | - | - |
-| 0xE1E8F95E             | 1108 | - | - |
-| 0x7157E4CF             | 1109 | - | - |
-| 0x0650D459 (0x650D459) | 1110 | - | - |
-| 0x54A13F3E             | 1111 | - | - |
-| 0x23A60FA8             | 1112 | - | - |
-| 0xBAAF5E12             | 1113 | - | - |
-| 0xCDA86E84             | 1114 | - | - |
-| 0x53CCFB27             | 1115 | - | - |
-| 0x24CBCBB1             | 1116 | - | - |
-| 0xBDC29A0B             | 1117 | - | - |
-| 0xCAC5AA9D             | 1118 | - | - |
-| 0x5A7AB70C             | 1119 | - | - |
-| 0x2D7D879A             | 1120 | - | - |
-| 0x4DBA0E7F             | 1121 | - | - |
-| 0x3ABD3EE9             | 1122 | - | - |
-| 0xA3B46F53             | 1123 | - | - |
-| 0xD4B35FC5             | 1124 | - | - |
-| 0x4AD7CA66             | 1125 | - | - |
-| 0x3DD0FAF0             | 1126 | - | - |
-| 0xA4D9AB4A             | 1127 | - | - |
-| 0xD3DE9BDC             | 1128 | - | - |
-| 0x4361864D             | 1129 | - | - |
-| 0x3466B6DB             | 1130 | - | - |
-| 0xCA2212B0             | 1131 | - | - |
-| 0xBD252226             | 1132 | - | - |
-| 0x242C739C             | 1133 | - | - |
-| 0x532B430A             | 1134 | - | - |
-| 0xCD4FD6A9             | 1135 | - | - |
-| 0xBA48E63F             | 1136 | - | - |
-| 0x2341B785             | 1137 | - | - |
-| 0x54468713             | 1138 | - | - |
-| 0xC4F99A82             | 1139 | - | - |
-| 0xB3FEAA14             | 1140 | - | - |
-| 0xD33923F1             | 1141 | - | - |
-| 0xA43E1367             | 1142 | - | - |
-| 0x3D3742DD             | 1143 | - | - |
-| 0x4A30724B             | 1144 | - | - |
-| 0xD454E7E8             | 1145 | - | - |
-| 0xA353D77E             | 1146 | - | - |
-| 0x3A5A86C4             | 1147 | - | - |
-| 0x4D5DB652             | 1148 | - | - |
-| 0xDDE2ABC3             | 1149 | - | - |
-| 0xAAE59B55             | 1150 | - | - |
-| 0x0339F28F (0x339F28F) | 1151 | - | - |
-| 0x743EC219             | 1152 | - | - |
-| 0xED3793A3             | 1153 | - | - |
-| 0x9A30A335             | 1154 | - | - |
-| 0x04543696 (0x4543696) | 1155 | - | - |
-| 0x73530600             | 1156 | - | - |
-| 0xEA5A57BA             | 1157 | - | - |
-| 0x9D5D672C             | 1158 | - | - |
-| 0x0DE27ABD (0xDE27ABD) | 1159 | - | - |
-| 0x7AE54A2B             | 1160 | - | - |
-| 0x1A22C3CE             | 1161 | - | - |
-| 0x6D25F358             | 1162 | - | - |
-| 0xF42CA2E2             | 1163 | - | - |
-| 0x832B9274             | 1164 | - | - |
-| 0x1D4F07D7             | 1165 | - | - |
-| 0x6A483741             | 1166 | - | - |
-| 0xF34166FB             | 1167 | - | - |
-| 0x8446566D             | 1168 | - | - |
-| 0x14F94BFC             | 1169 | - | - |
-| 0x63FE7B6A             | 1170 | - | - |
-| 0x310F900D             | 1171 | - | - |
-| 0x4608A09B             | 1172 | - | - |
-| 0xDF01F121             | 1173 | - | - |
-| 0xA806C1B7             | 1174 | - | - |
-| 0x36625414             | 1175 | - | - |
-| 0x41656482             | 1176 | - | - |
-| 0xD86C3538             | 1177 | - | - |
-| 0xAF6B05AE             | 1178 | - | - |
-| 0x3FD4183F             | 1179 | - | - |
-| 0x48D328A9             | 1180 | - | - |
-| 0x2814A14C             | 1181 | - | - |
-| 0x5F1391DA             | 1182 | - | - |
-| 0xC61AC060             | 1183 | - | - |
-| 0xB11DF0F6             | 1184 | - | - |
-| 0x2F796555             | 1185 | - | - |
-| 0x587E55C3             | 1186 | - | - |
-| 0xC1770479             | 1187 | - | - |
-| 0xB67034EF             | 1188 | - | - |
-| 0x26CF297E             | 1189 | - | - |
-| 0x51C819E8             | 1190 | - | - |
-| 0x6755378B             | 1191 | - | - |
-| 0x1052071D             | 1192 | - | - |
-| 0x895B56A7             | 1193 | - | - |
-| 0xFE5C6631             | 1194 | - | - |
-| 0x6038F392             | 1195 | - | - |
-| 0x173FC304             | 1196 | - | - |
-| 0x8E3692BE             | 1197 | - | - |
-| 0xF931A228             | 1198 | - | - |
-| 0x698EBFB9             | 1199 | - | - |
-| 0x1E898F2F             | 1200 | - | - |
-| 0xD7AE6568             | 1201 | - | - |
-| 0x4EA734D2             | 1202 | - | - |
-| 0x7E4E06CA             | 1217 | - | - |
+| 0x86FD0F63             | 1000 | R3DM1NUS | `pass_colb_00` |
+| 0xF1FA3FF5             | 1001 | M1GHTR1GHT | `pass_colb_01` |
+| 0x68F36E4F             | 1002 | Y3LL0GH0ST | `pass_colb_02` |
+| 0x1FF45ED9             | 1003 | B3DAZZL3 | `pass_colb_03` |
+| 0x8190CB7A             | 1004 | 0RANG3ARMR | `pass_colb_04` |
+| 0xF697FBEC             | 1005 | PR0T3CTIV3 | `pass_colb_05` |
+| 0x6F9EAA56             | 1006 | FANCYP3ACH | `pass_colb_06` |
+| 0x18999AC0             | 1007 | MAXCUT3 | `pass_colb_07` |
+| 0x88268751             | 1008 | GR33NH3ART | `pass_colb_08` |
+| 0xFF21B7C7             | 1009 | H3ALINGALL | `pass_colb_09` |
+| 0x9FE63E22             | 1010 | BLU3PRANK | `pass_colb_10` |
+| 0xE8E10EB4             | 1011 | MISCHI3F | `pass_colb_11` |
+| 0x71E85F0E             | 1012 | DARKPURPL3 | `pass_colb_12` |
+| 0x06EF6F98 (0x6EF6F98) | 1013 | 33RI3THING | `pass_colb_13` |
+| 0x988BFA3B             | 1014 | BLU3SCAL3S | `pass_colb_14` |
+| 0xEF8CCAAD             | 1015 | SLITH3RING | `pass_colb_15` |
+| 0x55274E2D             | 1016 | YSTUGYSTUG | - |
+| 0xCC2E1F97             | 1017 | LA3R3KAM | - |
+| 0xBB292F01             | 1018 | N0YPASUASU | - |
+| 0x254DBAA2             | 1019 | 33DYLBB0W | - |
+| 0x524A8A34             | 1020 | SG0DNSTAC | - |
+| 0xD4FD3B7C             | 1021 | YFFULFAG3M | - |
+| 0x4DF46AC6             | 1022 | P3AC3FULLY | - |
+| 0xC0CF17BE             | 1023 | K0YUWMA3IM | - |
+| 0x59C64604             | 1024 | 13K0U2M0T0 | - |
+| 0x2EC17692             | 1025 | U9KIYU60R3 | - |
+| 0xB0A5E331             | 1026 | NUTAWTAS0T | - |
+| 0xC7A2D3A7             | 1027 | NIN98R3HI7 | - |
+| 0xCE60202E             | 1028 | P4PWA36SGU | - |
+| 0x57697194             | 1029 | R9DR3H7VZA | - |
+| 0x206E4102             | 1030 | TI8AKUL2UM | - |
+| 0xBE0AD4A1             | 1031 | BA8JMAQ6AP | - |
+| 0xE37886A1             | 1032 | KINDAY0KAI | - |
+| 0x7A71D71B             | 1033 | Y0Y0Y0KAI | - |
+| 0x0D76E78D (0xD76E78D) | 1034 | UNS33NPAL | - |
+| 0x9312722E             | 1035 | US3URWATCH | - |
+| 0xE41542B8             | 1036 | M3DALB0ND | - |
+| 0x7D1C1302             | 1037 | P3RKYM00D | - |
+| 0x0A1B2394 (0xA1B2394) | 1038 | CARDS4ALL | - |
+| 0x9AA43E05             | 1039 | FUS3W0RK3D | - |
+| 0xEDA30E93             | 1040 | FRI3NDLVMX | - |
+| 0x8D648776             | 1041 | YKWYAYYAY | - |
+| 0x42933C8A             | 1042 | K03YUZ1YRU | - |
+| 0xDB9A6D30             | 1043 | 38BSAA4WGI | - |
+| 0xAC9D5DA6             | 1044 | D37WJIN8MR | - |
+| 0x32F9C805             | 1045 | RU4M3K7SRA | - |
+| 0x45FEF893             | 1046 | SI2FGAT2XP | - |
+| 0xDCF7A929             | 1047 | KA5GZUY3DS | - |
+| 0xB29DD60A             | 1048 | LUVKATI3 | - |
+| 0x75FCA82E             | 1052 | RUNNINGMAN | - |
+| 0xECF5F994             | 1053 | CALMD0WN | - |
+| 0x9BF2C902             | 1054 | PR3CISI0N | - |
+| 0x05965CA1 (0x5965CA1) | 1055 | D33RWAY | - |
+| 0x72916C37             | 1056 | SL33PYTIM3 | - |
+| 0xEB983D8D             | 1057 | DANC3ST3PS | - |
+| 0x9C9F0D1B             | 1058 | TH0UGHTFUL | - |
+| 0x0C20108A (0xC20108A) | 1059 | KN0WURTAIL | - |
+| 0x7B27201C             | 1060 | L3TSM0V3 | - |
+| 0x1BE0A9F9             | 1061 | 3ASYG0ING | - |
+| 0x6CE7996F             | 1062 | FIR3FLI3S | - |
+| 0xF5EEC8D5             | 1063 | ANTIQU3S | - |
+| 0x82E9F843             | 1064 | TIM3FLI3S | - |
+| 0x1C8D6DE0             | 1065 | RURALSPAC3 | - |
+| 0x6B8A5D76             | 1066 | CRACKLING | - |
+| 0xF2830CCC             | 1067 | C0NN3XI0NS | - |
+| 0x85843C5A             | 1068 | LANDS3ND | - |
+| 0x153B21CB             | 1069 | M0UNTAINS | - |
+| 0x623C115D             | 1070 | SUCH3N3RGY | - |
+| 0x30CDFA3A             | 1071 | HILLYM0UND | - |
+| 0x47CACAAC             | 1072 | 3L0NGAT3D | - |
+| 0xDEC39B16             | 1073 | INTH3N0RTH | - |
+| 0xA9C4AB80             | 1074 | PL3NTIFUL | - |
+| 0x37A03E23             | 1075 | CL3ANWAT3R | - |
+| 0x40A70EB5             | 1076 | WAVYS3AS | - |
+| 0xD9AE5F0F             | 1077 | R0CKYLAND | - |
+| 0xAEA96F99             | 1078 | WARMWAT3R | - |
+| 0x3E167208             | 1079 | P3ARTR33S | - |
+| 0x4911429E             | 1080 | CALMSKI3S | - |
+| 0x29D6CB7B             | 1081 | HANDSTANDS | - |
+| 0x5ED1FBED             | 1082 | HAV3AL00K | - |
+| 0xC7D8AA57             | 1083 | J0URN3YS | - |
+| 0xB0DF9AC1             | 1084 | M3TR0P0LIS | - |
+| 0x2EBB0F62             | 1085 | ICANWAIT | - |
+| 0x59BC3FF4             | 1086 | CITYF0LK | - |
+| 0xC0B56E4E             | 1087 | HARB0RT0WN | - |
+| 0xB7B25ED8             | 1088 | F3UDALL0RD | - |
+| 0x270D4349             | 1089 | SUBURBIA | - |
+| 0x500A73DF             | 1090 | PARTT0FIT | - |
+| 0x66975DBC             | 1091 | WAV3S0UND | - |
+| 0x11906D2A             | 1092 | R3LAXATI0N | - |
+| 0x88993C90             | 1093 | 0LDT3MPL3S | - |
+| 0xFF9E0C06             | 1094 | NUMB3R0N3 | - |
+| 0x61FA99A5             | 1095 | B00ND0CKS | - |
+| 0x16FDA933             | 1096 | HIPPI3T0WN | - |
+| 0x8FF4F889             | 1097 | CH33SYJ0K3 | - |
+| 0xF8F3C81F             | 1098 | MANDARINS | - |
+| 0x684CD58E             | 1099 | MYST3RI0US | - |
+| 0x1F4BE518             | 1100 | H0WB0UTDAT | - |
+| 0x7F8C6CFD             | 1101 | TH3L0NG3ST | - |
+| 0x088B5C6B (0x88B5C6B) | 1102 | WANNAM0V3 | - |
+| 0x91820DD1             | 1103 | G00DS3TUP | - |
+| 0xE6853D47             | 1104 | INN0VATI0N | - |
+| 0x78E1A8E4             | 1105 | P3AKVALL3Y | - |
+| 0x0FE69872 (0xFE69872) | 1106 | LADYLIK3 | - |
+| 0x96EFC9C8             | 1107 | S3V3NS4U | - |
+| 0xE1E8F95E             | 1108 | F0UNDY0U | - |
+| 0x7157E4CF             | 1109 | L3TSSH0P | - |
+| 0x0650D459 (0x650D459) | 1110 | MAPP3D0UT | - |
+| 0x54A13F3E             | 1111 | F0LKTAL3S | - |
+| 0x23A60FA8             | 1112 | CHILLF0LK | - |
+| 0xBAAF5E12             | 1113 | W3LC0MING | - |
+| 0xCDA86E84             | 1114 | GRILL3D33L | - |
+| 0x53CCFB27             | 1115 | HARDT0MISS | - |
+| 0x24CBCBB1             | 1116 | LI0NSD3N | - |
+| 0xBDC29A0B             | 1117 | MAST3RFUL | - |
+| 0xCAC5AA9D             | 1118 | THISISIT | - |
+| 0x5A7AB70C             | 1119 | MANTARAY | - |
+| 0x2D7D879A             | 1120 | PR0UDR00F | - |
+| 0x4DBA0E7F             | 1121 | J0K3S0NY0U | - |
+| 0x3ABD3EE9             | 1122 | HIDD3NG0LD | - |
+| 0xA3B46F53             | 1123 | 0CT0BALL | - |
+| 0xD4B35FC5             | 1124 | TR3ASUR3S | - |
+| 0x4AD7CA66             | 1125 | STAYAWHIL3 | - |
+| 0x3DD0FAF0             | 1126 | MUCHT0S33 | - |
+| 0xA4D9AB4A             | 1127 | BICYCL3S | - |
+| 0xD3DE9BDC             | 1128 | B3ANSTALKS | - |
+| 0x4361864D             | 1129 | CLASSICAL | - |
+| 0x3466B6DB             | 1130 | INLANDS3A | - |
+| 0xCA2212B0             | 1131 | H3R0CITY | - |
+| 0xBD252226             | 1132 | 3N3RG3TIC | - |
+| 0x242C739C             | 1133 | FRI3DT0FU | - |
+| 0x532B430A             | 1134 | FISHCAK3 | - |
+| 0xCD4FD6A9             | 1135 | HAV3S0M3 | - |
+| 0xBA48E63F             | 1136 | Z3BRAMAN3 | - |
+| 0x2341B785             | 1137 | L0NGWAIT | - |
+| 0x54468713             | 1138 | M0NTBLANC | - |
+| 0xC4F99A82             | 1139 | DULLBL0W | - |
+| 0xB3FEAA14             | 1140 | 3ARTHW0RM | - |
+| 0xD33923F1             | 1141 | BIRDS0NG | - |
+| 0xA43E1367             | 1142 | MACAR0NI | - |
+| 0x3D3742DD             | 1143 | SALAMAND3R | - |
+| 0x4A30724B             | 1144 | UD0NSAUC3 | - |
+| 0xD454E7E8             | 1145 | FULLTUMMY | - |
+| 0xA353D77E             | 1146 | LAFFYTAFFY | - |
+| 0x3A5A86C4             | 1147 | RIV3RSID3 | - |
+| 0x4D5DB652             | 1148 | M3GASNAILS | - |
+| 0xDDE2ABC3             | 1149 | UNIV3RSAL | - |
+| 0xAAE59B55             | 1150 | P0ND3RING | - |
+| 0x0339F28F (0x339F28F) | 1151 | MUSHR00MS | - |
+| 0x743EC219             | 1152 | BL00MING | - |
+| 0xED3793A3             | 1153 | FR3SHAIR | - |
+| 0x9A30A335             | 1154 | R0ADTRIP | - |
+| 0x04543696 (0x4543696) | 1155 | ISLAB0NITA | - |
+| 0x73530600             | 1156 | DRAG0NFLY | - |
+| 0xEA5A57BA             | 1157 | T3AL3AV3S | - |
+| 0x9D5D672C             | 1158 | MAPL3SYRUP | - |
+| 0x0DE27ABD (0xDE27ABD) | 1159 | SL33PYINN | - |
+| 0x7AE54A2B             | 1160 | 3XCURSI0N | - |
+| 0x1A22C3CE             | 1161 | HAPPYN3SS | - |
+| 0x6D25F358             | 1162 | T0WNSCAP3 | - |
+| 0xF42CA2E2             | 1163 | S3AV0YAG3 | - |
+| 0x832B9274             | 1164 | R0ASTB33F | - |
+| 0x1D4F07D7             | 1165 | CLIFFSID3 | - |
+| 0x6A483741             | 1166 | WH0L3THING | - |
+| 0xF34166FB             | 1167 | CASTL3WALL | - |
+| 0x8446566D             | 1168 | H3R3W3G0 | - |
+| 0x14F94BFC             | 1169 | DRAG0NFANG | - |
+| 0x63FE7B6A             | 1170 | TIG3RPAW | - |
+| 0x310F900D             | 1171 | ISLANDFUN | - |
+| 0x4608A09B             | 1172 | HAMBURG3R | - |
+| 0xDF01F121             | 1173 | B33FST3W | - |
+| 0xA806C1B7             | 1174 | SPAGH3TTI | - |
+| 0x36625414             | 1175 | SNAILSYUM | - |
+| 0x41656482             | 1176 | MAK3M0N3Y | - |
+| 0xD86C3538             | 1177 | NIGHTMAN | - |
+| 0xAF6B05AE             | 1178 | W0ND3RLAND | - |
+| 0x3FD4183F             | 1179 | WHAL3M3AT | - |
+| 0x48D328A9             | 1180 | C0BBSALAD | - |
+| 0x2814A14C             | 1181 | MANGR0V3 | - |
+| 0x5F1391DA             | 1182 | L3NTILS0UP | - |
+| 0xC61AC060             | 1183 | M3ATBALLS | - |
+| 0xB11DF0F6             | 1184 | RUCCULA | - |
+| 0x2F796555             | 1185 | RIC3BALLS | - |
+| 0x587E55C3             | 1186 | B3ANSPR0UT | - |
+| 0xC1770479             | 1187 | IC3C0LD | - |
+| 0xB67034EF             | 1188 | N0RTH3AST | - |
+| 0x26CF297E             | 1189 | 0LDSCH00L | - |
+| 0x51C819E8             | 1190 | MIDC3NT3R | - |
+| 0x6755378B             | 1191 | W3STLANDS | - |
+| 0x1052071D             | 1192 | SANDDUN3S | - |
+| 0x895B56A7             | 1193 | F0LKDANC3 | - |
+| 0xFE5C6631             | 1194 | SURR3ALIST | - |
+| 0x6038F392             | 1195 | HANDS0M3 | - |
+| 0x173FC304             | 1196 | 5656539315 | - |
+| 0x8E3692BE             | 1197 | B0GIUS0GI2 | - |
+| 0xF931A228             | 1198 | 5SAH0R05G3 | - |
+| 0x698EBFB9             | 1199 | Y0PIDAN7FU | - |
+| 0x1E898F2F             | 1200 | H3M3DAPIMU | - |
+| 0xD7AE6568             | 1201 | Checks if you can fight Maginyan. | - |
+| 0x4EA734D2             | 1202 | Checks if you can fight Sir Nyansalot. | - |
+| 0x7E4E06CA             | 1217 | 1P0NA6D3NU | - |
 | 0x96398E8B             | 1500 | Checks if Reuknight has been fused. | `combine_00` |
 | 0xE13EBE1D             | 1501 | Checks if Darumacho has been fused. | `combine_01` |
 | 0x7837EFA7             | 1502 | Checks if Rattelle has been fused. | `combine_02` |
@@ -749,7 +749,7 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9DFDAF36             | 1581 | Checks if the Sprouting Soul has been made. | - |
 | 0xEAFA9FA0             | 1582 | Checks if the Snow Soul has been made. | - |
 | 0x73F3CE1A             | 1583 | Checks if the Squall Soul has been made. | - |
-| 0x04F4FE8C (0x4F4FE8C) | 1584 | - | - |
+| 0x04F4FE8C (0x4F4FE8C) | 1584 | Appears to be an old check for an unused fusion file where you could fuse a Goldy Bones Soul. | - |
 | 0x9A906B2F             | 1585 | Checks if the Unstoppable Soul has been made. | - |
 | 0xED975BB9             | 1586 | Checks if the Steel Soul has been made. | - |
 | 0x749E0A03             | 1587 | Checks if the Steadfast Soul has been made. | - |
@@ -757,41 +757,41 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x93262704             | 1589 | Checks if the Summoner's Soul has been made. | - |
 | 0xE4211792             | 1590 | Checks if the Selfless Soul has been made. | - |
 | 0xB6D0FCF5             | 1591 | Checks if the Superstar Soul has been made. | - |
-| 0xB18AEAF6             | 1595 | - | - |
-| 0x2883BB4C             | 1596 | - | - |
-| 0x5F848BDA             | 1597 | - | - |
-| 0xC1E01E79             | 1598 | - | - |
-| 0xB6E72EEF             | 1599 | - | - |
-| 0x2FEE7F55             | 1600 | - | - |
-| 0x58E94FC3             | 1601 | - | - |
-| 0xC8565252             | 1602 | - | - |
-| 0xBF5162C4             | 1603 | - | - |
-| 0xDF96EB21             | 1604 | - | - |
-| 0xA891DBB7             | 1605 | - | - |
-| 0x31988A0D             | 1606 | - | - |
-| 0x469FBA9B             | 1607 | - | - |
-| 0xD8FB2F38             | 1608 | - | - |
-| 0xAFFC1FAE             | 1609 | - | - |
-| 0x36F54E14             | 1610 | - | - |
-| 0x41F27E82             | 1611 | - | - |
-| 0xD14D6313             | 1612 | - | - |
-| 0xA64A5385             | 1613 | - | - |
-| 0xF4BBB8E2             | 1614 | - | - |
-| 0xB3CC54AF             | 1615 | - | - |
-| 0x2AC50515             | 1616 | - | - |
-| 0x5DC23583             | 1617 | - | - |
-| 0xC3A6A020             | 1618 | - | - |
-| 0xB4A190B6             | 1619 | - | - |
-| 0x2DA8C10C             | 1620 | - | - |
-| 0x5AAFF19A             | 1621 | - | - |
-| 0xCA10EC0B             | 1622 | - | - |
-| 0xBD17DC9D             | 1623 | - | - |
-| 0xDDD05578             | 1624 | - | - |
-| 0xAAD765EE             | 1625 | - | - |
-| 0x33DE3454             | 1626 | - | - |
-| 0x44D904C2             | 1627 | - | - |
-| 0xDABD9161             | 1628 | - | - |
-| 0xADBAA1F7             | 1629 | - | - |
+| 0xB18AEAF6             | 1595 | SE4TQR572X | - |
+| 0x2883BB4C             | 1596 | F8NAMZEV1C | - |
+| 0x5F848BDA             | 1597 | 65JQWZVVVH | - |
+| 0xC1E01E79             | 1598 | MHDFXGRDFI | - |
+| 0xB6E72EEF             | 1599 | 4JUGTP2CRF | - |
+| 0x2FEE7F55             | 1600 | W9555UCOWQ | - |
+| 0x58E94FC3             | 1601 | X3KA8UQPOM | - |
+| 0xC8565252             | 1602 | IXXXNLPDFG | - |
+| 0xBF5162C4             | 1603 | ULSY5EADR4 | - |
+| 0xDF96EB21             | 1604 | TPSRD8LMU1 | - |
+| 0xA891DBB7             | 1605 | IHKDGXFE96 | - |
+| 0x31988A0D             | 1606 | 3VPO68XMVQ | - |
+| 0x469FBA9B             | 1607 | KACV4MZ5IS | - |
+| 0xD8FB2F38             | 1608 | LISN63YWX3 | - |
+| 0xAFFC1FAE             | 1609 | 4HX3DP7PXX | - |
+| 0x36F54E14             | 1610 | KZ8UE2PY95 | - |
+| 0x41F27E82             | 1611 | QPXO5BMDYG | - |
+| 0xD14D6313             | 1612 | JITUS1W2W8 | - |
+| 0xA64A5385             | 1613 | TNPNZ1DSAG | - |
+| 0xF4BBB8E2             | 1614 | 2S64HGFZJJ | - |
+| 0xB3CC54AF             | 1615 | 8MPIA5WB7I | - |
+| 0x2AC50515             | 1616 | F3DMF05QQN | - |
+| 0x5DC23583             | 1617 | MIXEXN42X8 | - |
+| 0xC3A6A020             | 1618 | VSZHRC39HI | - |
+| 0xB4A190B6             | 1619 | Y5QHMW1MJI | - |
+| 0x2DA8C10C             | 1620 | JFUBDO684Y | - |
+| 0x5AAFF19A             | 1621 | DYQCNSTRUU | - |
+| 0xCA10EC0B             | 1622 | VR35AP8M2V | - |
+| 0xBD17DC9D             | 1623 | 1JCQ7XVVAE | - |
+| 0xDDD05578             | 1624 | TXDQKBJ5QQ | - |
+| 0xAAD765EE             | 1625 | MFI4K8G4NG | - |
+| 0x33DE3454             | 1626 | 1JWI6UWIDU | - |
+| 0x44D904C2             | 1627 | 6YVCIPT0I2 | - |
+| 0xDABD9161             | 1628 | 3S6Y3KFBYM | - |
+| 0xADBAA1F7             | 1629 | 4ZNTWMTHDT | - |
 | 0xE708E99F             | 1634 | - | - |
 | 0xE54E57C6             | 1635 | - | - |
 | 0xE48C3DF1             | 1636 | - | - |
@@ -936,10 +936,10 @@ IDs in padded hex for convenience (with non-padded versions in brackets, when th
 | 0x9B866BF1             | 1776 | - | `dl_data_get_126` |
 | 0xEC815B67             | 1777 | - | `dl_data_get_127` |
 | 0x7C3E46F6             | 1778 | - | `dl_data_get_128` |
-| 0x190CFB17             | 1781 | - | - |
-| 0x8005AAAD             | 1782 | - | - |
-| 0xF7029A3B             | 1783 | - | - |
-| 0x69660F98             | 1784 | - | - |
+| 0x190CFB17             | 1781 | Checks for the VIP Room shop's limited-stock items. | `shpV001` |
+| 0x8005AAAD             | 1782 | Checks for the VIP Room shop's limited-stock items. | `shpV002` |
+| 0xF7029A3B             | 1783 | Checks for the VIP Room shop's limited-stock items. | `shpV003` |
+| 0x69660F98             | 1784 | Checks for the VIP Room shop's limited-stock items. | `shpV004` |
 | 0x2B78D49C             | 1791 | - | - |
 | 0xFCFB8975             | 1792 | - | - |
 | 0x7289CC8C             | 1793 | - | - |
