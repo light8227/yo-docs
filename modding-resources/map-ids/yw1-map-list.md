@@ -16,19 +16,19 @@ The list is in alphabetical order.
 |----------|--------|---------|
 | e100g002 |Mt. Wildwood Sacred Tree (Crank-a-kai Cutscene)|"Big" Map (EVENT)|
 | e100g099 |*Unknown (Uptown Springdale???, not in JP ver)*|"Big" Map (EVENT)|
-| e101g001 |Uptown Springdale (???)|"Big" Map (EVENT)|
-| e101g003 |The Fish Place Crosswalk (Jibanyan Cutscene)|"Big" Map (EVENT)|
-| e101g004 |Outside Springdale Elementary (???)|"Big" Map (EVENT)|
-| e101g005 |Uptown Springdale (???)|"Big" Map (EVENT)|
-| e100i011 |Nate's House (Jibanyan Summoning Cutscene)|Interior (EVENT)|
-| e101i031 |Katie's House (Jibanyan Summoning Cutscene)|Interior (EVENT)|
-| e101i581 |Mt. Wildwood Night Time (???, has some interior)|Interior (EVENT)|
-| e102g001 |Mt. Wildwood (Crank-a-kai Cutscene)|"Big" Map (EVENT)|
-| e102g002 |Mt. Wildwood (Ending Cutscene)|"Big" Map (EVENT)|
-| e103g001 |Blossom Heights (???)|"Big" Map (EVENT)|
-| e104d331 |Construction Site Rooftop (Kyubi/Massiface Cutscene)|Dungeon (EVENT)|
-| e104g001 |Springdale Central Station (Wazzat Cutscene)|"Big" Map (EVENT)|
-| e105d411 |Gourd Pond Museum (Mirapo Cutscene) *(Unsure)*|Dungeon (EVENT)|
+| e101g001 |Uptown Springdale: Cutscene (Chapter 1 Initial Pan)|"Big" Map (EVENT)|
+| e101g003 |Uptown Springdale: Cutscene (Jibanyan's Truck Fight)|"Big" Map (EVENT)|
+| e101g004 |Uptown Springdale: Cutscene (Slimamander's Defeat)|"Big" Map (EVENT)|
+| e101g005 |Uptown Springdale: Cutscene|"Big" Map (EVENT)|
+| e100i011 |Adams House - 1F: Cutscene (Jibanyan's Summoning)|Interior (EVENT)|
+| e101i031 |Forester House - 1F: Cutscene (Jibanyan's Summoning)|Interior (EVENT)|
+| e101i581 |Springdale Elementary - Roof: Cutscene (Rooftop Fireworks)|Interior (EVENT)|
+| e102g001 |Mount Wildwood: Cutscene (Freeing Whisper)|"Big" Map (EVENT)|
+| e102g002 |Mount Wildwood: Cutscene (Sealing the Elevator)|"Big" Map (EVENT)|
+| e103g001 |Blossom Heights: Cutscene (???)|"Big" Map (EVENT)|
+| e104d331 |Construction Site - 3F: Cutscene (Massiface Appears)|Dungeon (EVENT)|
+| e104g001 |Downtown Springdale: Cutscene (Wazzats Everywhere)|"Big" Map (EVENT)|
+| e105d411 |Nocturne Hospital - 1F: Cutscene (McKraken's Speech)|Dungeon (EVENT)|
 | t100b01  |Uptown Springdale (Bush)|Battle Background|
 | t100b02  |Mt. Wildwood (Bush)|Battle Background|
 | t100b03  |Catfish Pond|Battle Background|
